@@ -1,0 +1,14 @@
+<svg
+  width="20"
+  height="20"
+  viewBox="0 0 20 20"
+  fill="none"
+  xmlns="http://www.w3.org/2000/svg"
+  class="your-icon-class"
+>
+  <circle cx="3.25" cy="6" r="1.25" fill="currentColor" />
+  <circle cx="16.75" cy="6" r="1.25" fill="currentColor" />
+  <circle cx="5.75" cy="10" r="1.25" fill="currentColor" />
+  <circle cx="14.25" cy="10" r="1.25" fill="currentColor" />
+  <circle cx="10" cy="14" r="1.25" fill="currentColor" />
+</svg>
