@@ -199,7 +199,7 @@ const FooterSection = () => {
                 <Link onClick={() => window.scrollTo(0, 0)} to="/resources">Resources</Link>
               </h4>
               <ul className="space-y-3.5 text-inter-16 text-white/90">
-                <li><Link onClick={() => window.scrollTo(0, 0)} to="/resources">Blog</Link></li>
+                <li><Link onClick={() => window.scrollTo(0, 0)} to="/blog">Blog</Link></li>
                 <li><Link onClick={() => window.scrollTo(0, 0)} to="/resources">Whitepapers</Link></li>
                 <li><Link onClick={() => window.scrollTo(0, 0)} to="/resources">Case Studies</Link></li>
                 <li><Link onClick={() => window.scrollTo(0, 0)} to="/resources">Benchmarks</Link></li>
