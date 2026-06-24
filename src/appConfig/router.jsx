@@ -34,6 +34,8 @@ import IntelligentTestAutomation from "../pages/IntelligentTestAutomation";
 import TestingAISystemsPage from "../pages/TestingAISystemsPage";
 import SystemArchitecturePage from "../pages/SystemArchitecturePage";
 import Contact from "../pages/Contact";
+import BlogPage from "../pages/BlogPage";
+import BlogDetail from "../pages/BlogDetail";
 const router = createBrowserRouter([
   {
     path: "/",
@@ -163,6 +165,14 @@ const router = createBrowserRouter([
     {
       path:"/system-architecture-overview",
       element:<SystemArchitecturePage />
+    },
+    {
+      path:"/blog",
+      element:<BlogPage />
+    },
+    {
+      path:"/blog-details",
+      element:<BlogDetail />
     }
 ]);
 

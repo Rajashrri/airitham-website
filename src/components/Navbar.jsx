@@ -440,7 +440,7 @@ export default function Navbar({
                 <h2 className="text-[#015190] font-[600] text-[24px]"><NavLink to="/resources">Resources</NavLink></h2>
                 <div className="menu mt-6 flex gap-6">
                   <div className="w-[50%]">
-                    <NavLink to="/resources" className="flex gap-3">
+                    <NavLink to="/blog" className="flex gap-3">
                       <div className="w-[39px]">
                         <FileText color="#015190" className="" />
                       </div>
@@ -804,7 +804,7 @@ export default function Navbar({
                     <h2 className="text-[#015190] font-[600] text-[24px]"><NavLink to="/resources">Resources</NavLink></h2>
                     <div className="menu mt-6 ">
 
-                      <NavLink to="/resources" className="flex gap-3">
+                      <NavLink to="/blog" className="flex gap-3">
                         <div className="w-[39px]">
                           <FileText color="#015190" className="" />
                         </div>

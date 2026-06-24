@@ -11,6 +11,8 @@ import FooterSection from "@/components/home/FooterSection";
 
 
 const AboutPage = () => {
+
+  
   return (
     <>
 
