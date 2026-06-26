@@ -8,7 +8,7 @@ const Realtime = ({ data }) => {
 
       {/* Section Heading */}
       <SectionHeading
-        titleClassName="text-[#015190] capitalize"
+        titleClassName="text-[#015190] "
         title={title}
         subtitleClassName="text-dark"
         subtitle={subtitle}

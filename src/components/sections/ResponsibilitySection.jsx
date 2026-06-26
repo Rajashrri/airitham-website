@@ -33,7 +33,7 @@ const ResponsibilitySection = () => {
     <section className="w-full px-5 space-y-8 rounded-[48px] bg-linear-to-b from-[#042539] to-[#000000]
  md:pt-24 pt-[70px] pb-[120px]">
       {/* Title */}
-      <h2 className="font-primary font-medium text-white sm:text-[40px] text-[32px] leading-[140%] tracking-[0.02em] text-center capitalize
+      <h2 className="font-primary font-medium text-white sm:text-[40px] text-[32px] leading-[140%] tracking-[0.02em] text-center 
 ">
         Clear Separation Of Responsibilities
       </h2>
@@ -72,7 +72,7 @@ const ResponsibilitySection = () => {
                   <li
                     key={item}
                     className="flex items-center gap-6 rounded-2xl bg-gradient-to-b from-white/10 to-[#838383]/10
-                      p-5 text-sm text-white/90. font-primary font-medium text-white md:text-[20px] text-[16px] leading-[120%] tracking-[0.02em] capitalize
+                      p-5 text-sm text-white/90. font-primary font-medium text-white md:text-[20px] text-[16px] leading-[120%] tracking-[0.02em] 
                       "
                   >
                     <span className="size-4 rounded-full bg-[#6AC0E6]

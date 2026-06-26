@@ -48,7 +48,7 @@ const TestimonialCarousel = () => {
                 <SwiperSlide key={testimonial.id}>
                   <div className="h-full flex flex-col relative">
                     <div className="rounded-lg  mx-auto px-4 sm:px-0 max-w-[358px] testmonial-cards h-full flex gap-16 flex-col">
-                      <p className="font-primary font-normal text-[16px] leading-[1.4] tracking-[0.02em] text-[#1E1E1E] capitalize">
+                      <p className="font-primary font-normal text-[16px] leading-[1.4] tracking-[0.02em] text-[#1E1E1E] ">
                         {testimonial.quote}
                       </p>
 
@@ -61,11 +61,11 @@ const TestimonialCarousel = () => {
                           />
                         </div>
                         <div className="">
-                          <h4 className="font-primary font-medium text-[16px] leading-[1.4] tracking-[0.02em] capitalize text-[#00273A]">
+                          <h4 className="font-primary font-medium text-[16px] leading-[1.4] tracking-[0.02em] text-[#00273A]">
                             {testimonial.name}
                           </h4>
 
-                          <p className="font-primaryfont-normal whitespace-nowrap text-[16px] leading-[1.2] tracking-[0.02em] capitalize text-[#1E1E1E] mt-2">
+                          <p className="font-primaryfont-normal whitespace-nowrap text-[16px] leading-[1.2] tracking-[0.02em] text-[#1E1E1E] mt-2">
                             {testimonial.title}
                           </p>
                         </div>

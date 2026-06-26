@@ -70,7 +70,7 @@ const ClosedLoopFlow = () => {
 
               {/* Card */}
               <div className="md:w-[360px] w-[100%] space-y-2 rounded-2xl border-light-lg bg-white p-5 shadow-sm">
-                <h3 className="font-primary font-medium text-[20px] leading-[1.2] tracking-[0.02em] text-center capitalize
+                <h3 className="font-primary font-medium text-[20px] leading-[1.2] tracking-[0.02em] text-center
  text-[#1e1e1e">
                   {item.title}
                 </h3>
@@ -78,7 +78,7 @@ const ClosedLoopFlow = () => {
                 {item.desc && (
                   <ul className="mt-3  text-sm text-slate-500">
                     {item.desc.map((d, i) => (
-                      <li className="font-secondary text-[#626161] font-medium text-[14px] leading-[1.4] tracking-[0.02em] text-center capitalize
+                      <li className="font-secondary text-[#626161] font-medium text-[14px] leading-[1.4] tracking-[0.02em] text-center 
 " key={i}>{d}</li>
                     ))}
                   </ul>
@@ -89,7 +89,7 @@ const ClosedLoopFlow = () => {
                     {item.tags.map((tag, i) => (
                       <div
                         key={i}
-                        className="font-primary p-4 font-medium text-[14px] leading-none tracking-[0.02em] capitalize
+                        className="font-primary p-4 font-medium text-[14px] leading-none tracking-[0.02em] 
                           bg-[#42ABDF40]
                           "
                       >

@@ -31,17 +31,14 @@ const ContextIntelligencePage = () => {
       <section>
         <div className="max-w-full px-4 sm:px-0 md:max-w-7xl py-[100px]  mx-auto space-y-4 ">
           <h2 className="text-center font-primary font-medium text-[32px] sm:text-[40px] leading-[1.2] tracking-[0.02em] text-[#00273A]">
-            Revolutionary Context Orchestration
+           Revolutionary context orchestration
           </h2>
 
           <p className="font-secondary text-[16px] md:text-[20px] font-normal leading-[1.4] tracking-[0.02em] text-[#1E1E1E] text-center mx-auto">
-            Our platform doesn’t just process data it understand the intricate
-            relationships, <br className="hidden sm:block" />
-            temporal patterns, and contextual nuances that traditional AI
-            systems miss.
+            Our platform doesn’t just process data it understand the intricate relationships, <br className="hidden sm:block" />
+             Temporal patterns, and contextual nuances that traditional AI systems miss.
             <br className="hidden sm:block" />
-            Experience intelligence that truly comprehends your business
-            context.
+             Experience intelligence that truly comprehends your business context.
           </p>
         </div>
       </section>
@@ -52,17 +49,14 @@ const ContextIntelligencePage = () => {
             {/* LEFT */}
             <div className="flex-1 justify-between  flex flex-col gap-6">
               <h3 className="font-primary text-center sm:text-left mx-auto  sm:w-full text-[40px] sm:text-[64px] text-white leading-[1.2] font-medium">
-                Platform <br /> Architecture
+                Platform <br /> architecture
               </h3>
 
               <p className="font-secondary text-center max-w-full sm:text-left text-[16px] sm:text-[18px] font-medium text-[#FFF9F9] leading-[1.4] sm:max-w-[520px]">
-               Our platform doesn’t just process data, it understands the intricate relationships, temporal patterns, and contextual nuances that traditional AI systems miss. Experience intelligence that truly comprehends your business context.
+              Our platform doesn’t just process data, it understands the intricate relationships, Temporal patterns, and contextual nuances that traditional AI systems miss. Experience intelligence that truly comprehends your business context.
               </p>
               <p className="font-secondary text-center max-w-full sm:text-left text-[16px] sm:text-[18px] font-medium text-[#FFF9F9] leading-[1.4] sm:max-w-[520px]">
-               Built on a multi-layered architecture, it unifies data across systems and maps connections in real time.
-Advanced context modelling interprets intent, detects anomalies, and adapts as your business evolves.
-The result is a self-improving intelligence layer powering smarter automation and resilient performance.
-
+           Built on a multi-layered architecture, it unifies data across systems and maps connections in real time. Advanced context modelling interprets intent, detects anomalies, and adapts as your business evolves. The result is a self-improving intelligence layer powering smarter automation and resilient performance.
               </p>
              
             </div>
@@ -84,7 +78,7 @@ The result is a self-improving intelligence layer powering smarter automation an
           <div className="max-w-7xl px-4 lg:px-0 mx-auto">
             <SectionHeading
               titleClassName="font-primary font-medium text-[32px] sm:text-[40px] leading-[1.2] tracking-[0.02em] text-[#015190] text-center"
-              title="Enterprise Use Cases"
+              title="Enterprise use cases"
             />
 
             <div className="flex flex-wrap  gap-6 py-10 justify-center max-w-[1200px] mx-auto">
@@ -115,8 +109,8 @@ The result is a self-improving intelligence layer powering smarter automation an
             <div className="flex flex-col gap-12  justify-between shrink-0 md:max-w-[50%]">
               <div className="max-w-[542px] text-white">
                 <SectionHeading
-                  title="Developer Integration"
-                  subtitle={`Build intelligent applications with our comprehensive APIs and SDKs. Get started in minutes with our intuitive developer tools.`}
+                  title="Developer integration"
+                  subtitle={`Build intelligent applications with our comprehensive apis and sdks. Get started in minutes with our intuitive developer tools.`}
                   titleClassName="text-center md:text-left sm:text-[40px] text-white"
                   subtitleClassName="text-white text-center md:text-left"
                   wrapperClassName="text-left"

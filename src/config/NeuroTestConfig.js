@@ -1,11 +1,11 @@
 
 export const Neuro_Test_HEADER = {
-  heading: "Neuro Test",
-  subheading:"AIRITHM’s Unified Evaluation Hub for AI Quality",
+  heading: "Neuro test",
+  subheading:"Airithm’s unified evaluation hub for AI quality",
   headclass:"pt-[0px]",
   headingclass:"text-[#fff]",
   paragraph:
-    "Airithm test studio revolutionizes testing with two powerful capabilities <br class='hidden md:block' /> NeuroTest for AI/LLM And CoreTest for enterprise applications",
+    "Airithm test studio revolutionizes testing with two powerful capabilities <br class='hidden md:block' /> Neurotest for AI/LLM and coretest for enterprise applications",
   buttons: [
    {
   text: "Explore Documentation",
@@ -29,7 +29,7 @@ export const Neuro_Test_HEADER = {
 };
 
 export const Core_capabiliti_CONFIG = {
-   title: "Core Capabilities",
+   title: "Core capabilities",
    bodyclass:"bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] text-white",
 //   subtitle:
 //     "The Reflective Memory Module represents a breakthrough in AI self- <br/>awareness and continuous learning.",
@@ -42,7 +42,7 @@ export const Core_capabiliti_CONFIG = {
       gradent:true,
       iconColor: "",
         cardClassName: " w-full sm:w-[365px] border border-[#9d9d9d] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
-      title: "Unified Evaluation Orchestrator",
+      title: "Unified evaluation orchestrator",
       discColor:'#C6C6C6',
       description:
         "Runs multiple frameworks in parallel with intelligent load balancing and result aggregation.",
@@ -57,9 +57,9 @@ export const Core_capabiliti_CONFIG = {
        textColor:"#fff",
        gradent:true,
        discColor:'#C6C6C6',
-      title: "RAG Quality Engine",
+      title: "RAG quality engine",
       description:
-        "Deep context validation via RAGAS & DeepEval with advanced retrieval scoring.",
+        "Deep context validation via ragas & deepeval with advanced retrieval scoring.",
     },
     {
       id: 3,
@@ -70,9 +70,9 @@ export const Core_capabiliti_CONFIG = {
        gradent:true,
        cardClassName: "w-full sm:w-[365px] border border-[#9d9d9d] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] ",
        discColor:'#C6C6C6',
-      title: "Agentic AI Testing",
+      title: "Agentic AI testing",
       description:
-        "End-to-end multi-agent validation via AgentBench and AgentBoard frameworks.",
+        "End-to-end multi-agent validation via agentbench and agentboard frameworks.",
     }
     ,
     {
@@ -84,9 +84,9 @@ export const Core_capabiliti_CONFIG = {
        textColor:"#fff",
        cardClassName: "w-full sm:w-[365px] border border-[#9d9d9d] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]  ",
        discColor:'#C6C6C6',
-      title: "Safety & Robustness Auditing",
+      title: "Safety & robustness auditing",
       description:
-        "Compliance checks via HELM & PromptBench with automated policy enforcement.",
+        "Compliance checks via helm & promptbench with automated policy enforcement.",
     }
     ,
     {
@@ -98,7 +98,7 @@ export const Core_capabiliti_CONFIG = {
        textColor:"#fff",
        cardClassName: "w-full sm:w-[365px] border border-[#9d9d9d] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        discColor:'#C6C6C6',
-      title: "Automated CI/CD Quality Gates",
+      title: "Automated CI/CD quality gates",
       description:
         "Stops regressions before production with intelligent threshold management.",
     }
@@ -112,7 +112,7 @@ export const Core_capabiliti_CONFIG = {
        textColor:"#fff",
        cardClassName: "w-full sm:w-[365px] border border-[#9d9d9d] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]  ",
        discColor:'#C6C6C6',
-      title: "Enterprise Dashboard & Analytics",
+      title: "Enterprise dashboard & analytics",
       description:
         "Centralized performance tracking with real-time insights and reporting.",
     }
@@ -139,7 +139,7 @@ export const Key_feature2_Config = {
 
 
 export const TIMELINE_SECTION_CONFIG = {
-   title: "How It Works",
+   title: "How it works",
   // subtitle:
   //   "Four key components work together to enable seamless context distribution",
  cards: [
@@ -194,34 +194,34 @@ export const benifits_Config ={
    cards: [
    {
     id: 1,
-    title: "Production Safety",
+    title: "Production safety",
     cardClass:' w-full sm:w-[550px] ',
     description:
       "Prevent model regressions before production with automated quality gates and comprehensive testing.",
   },{
     id: 2,
-    title: "Hallucination Detection",
+    title: "Hallucination detection",
         cardClass:' w-full sm:w-[550px] ',
     description:
       "Catch and quantify hallucinations early in the development cycle with advanced validation techniques.",
   },
   {
     id: 3,
-    title: "Multi-Agent Validation",
+    title: "Multi-agent validation",
      cardClass:' w-full sm:w-[550px] ',
     description:
       "Ensure multi-agent tool correctness and planning success with specialized testing frameworks.",
   },
   {
     id: 4,
-    title: "RAG Quality Assurance",
+    title: "RAG quality assurance",
      cardClass:' w-full sm:w-[550px] ',
     description:
       "Validate RAG grounding and source attribution with deep context analysis and retrieval scoring.",
   },
   {
     id: 5,
-    title: "Centralized Governance",
+    title: "Centralized governance",
      cardClass:' w-full sm:w-[550px] ',
     description:
       "Centralize safety and robustness checks for enterprise governance and compliance requirements.",
@@ -230,7 +230,7 @@ export const benifits_Config ={
 }
 
  export const AUTOMATION_CTA_CONFIG  = {
-  heading: "Elevate your AI quality with NeuroTest",
+  heading: "Elevate your AI quality with Neuro test",
   paragraph:
     "The gold standard for production-grade AI governance is here.",
   backgroundImage: "/bg/gradient.png",

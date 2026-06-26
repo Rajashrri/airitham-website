@@ -71,12 +71,12 @@ const Declarative_Context_Protocol = () => {
 
             <section className="py-[100px]">
                    <div className="relative text-center px-4 lg:px-0  z-10">
-              <h1 class="font-primary font-medium leading-[1.2] tracking-[2%] capitalize text-[32px] sm:text-[40px]  capitalize  sm:max-w-[1000px] mx-auto tracking-[0.02em]">
-                Enterprise Governance
+              <h1 class="font-primary font-medium leading-[1.2] tracking-[2%] text-[32px] sm:text-[40px]   sm:max-w-[1000px] mx-auto tracking-[0.02em]">
+                Enterprise governance
               </h1>
 
-              <p class="font-secondary font-medium text-[18px] leading-[1.4] tracking-[2%] text-center capitalize mt-2  sm:max-w-[950px] mx-auto  text-[#838383]">
-               Built for the most demanding compliance requirements with <br /> enterprise-grade security and governance frameworks
+              <p class="font-secondary font-medium text-[18px] leading-[1.4] tracking-[2%] text-center mt-2  sm:max-w-[950px] mx-auto  text-[#838383]">
+              Built for the most demanding compliance requirements with <br /> enterprise-grade security and governance frameworks
               </p>
             </div>
             <div className="max-w-5xl mx-auto lg:mt-[80px] mt-[40px]  px-5 ">
@@ -97,7 +97,7 @@ const Declarative_Context_Protocol = () => {
 
                             </span>
                             <div className='inline-block [text-wrap-style:pretty]'>
-                                <h3 className='text-[#015190] text-[20px] font-primary font-[600] mb-2'>Security Compliant</h3>
+                                <h3 className='text-[#015190] text-[20px] font-primary font-[600] mb-2'>Security compliant</h3>
                                 <p className='text-[16px] font-primary font-[500] text-[#626161] '>Comprehensive security controls and continuous monitoring</p>
                             </div>
                         </div>
@@ -116,7 +116,7 @@ const Declarative_Context_Protocol = () => {
 
                             </span>
                             <div className='inline-block [text-wrap-style:pretty]'>
-                                <h3 className='text-[#015190] text-[20px] font-primary font-[600] mb-2'>GDPR Ready</h3>
+                                <h3 className='text-[#015190] text-[20px] font-primary font-[600] mb-2'>GDPR ready</h3>
                                 <p className='text-[16px] font-primary font-[500] text-[#626161] '>Privacy-by-ready with automated data protection</p>
                             </div>
                         </div>
@@ -135,19 +135,19 @@ const Declarative_Context_Protocol = () => {
 
                             </span>
                             <div className='inline-block [text-wrap-style:pretty]'>
-                                <h3 className='text-[#015190] text-[20px] font-primary font-[600] mb-2'>Zero Trust Architecture</h3>
+                                <h3 className='text-[#015190] text-[20px] font-primary font-[600] mb-2'>Zero trust architecture</h3>
                                 <p className='text-[16px] font-primary font-[500] text-[#626161] '>Never trust always verify with continuous authentication</p>
                             </div>
                         </div>
                         
                     </div>
                     <div className="lg:min-w-[390px] border border-1 border-[#C6C6C6] rounded-[16px] p-[20px]">
-                        <h3 className='text-[#015190] text-[20px] font-primary font-[600]'>Live Network Status</h3>
+                        <h3 className='text-[#015190] text-[20px] font-primary font-[600]'>Live network status</h3>
                         <ul className='mt-8'>
-                            <li className='flex justify-between mb-3'><p className='text-[16px] font-primary font-[500] text-[#626161] '>Active Agents</p> <span className='text-[16px] font-primary font-[500] text-[#015190]'>1,247</span></li>
-                            <li className='flex justify-between mb-3'><p  className='text-[16px] font-primary font-[500] text-[#626161] '>Policy Handshakes</p> <span className='text-[16px] font-primary font-[500] text-[#015190]'>98.7%</span></li>
+                            <li className='flex justify-between mb-3'><p className='text-[16px] font-primary font-[500] text-[#626161] '>Active agents</p> <span className='text-[16px] font-primary font-[500] text-[#015190]'>1,247</span></li>
+                            <li className='flex justify-between mb-3'><p  className='text-[16px] font-primary font-[500] text-[#626161] '>Policy handshakes</p> <span className='text-[16px] font-primary font-[500] text-[#015190]'>98.7%</span></li>
                             <li className='flex justify-between mb-3'><p  className='text-[16px] font-primary font-[500] text-[#626161] '>Security incidents</p> <span className='text-[16px] font-primary font-[500] text-[#015190]'>0</span></li>
-                            <li className='flex justify-between mb-3'><p  className='text-[16px] font-primary font-[500] text-[#626161] '>Compliance Score</p> <span className='text-[16px] font-primary font-[500] text-[#015190]'>100%</span></li>
+                            <li className='flex justify-between mb-3'><p  className='text-[16px] font-primary font-[500] text-[#626161] '>Compliance score</p> <span className='text-[16px] font-primary font-[500] text-[#015190]'>100%</span></li>
                         </ul>
                     </div>
                 </div>

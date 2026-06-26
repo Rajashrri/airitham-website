@@ -11,7 +11,7 @@ export const StatsCard = ({ icon, title, children }) => {
     <div className="w-[390px]  border rounded-2xl p-5 border-[#C6C6C6]">
       {icon}
 
-      <h4 className="font-primary mt-[24px] text-[#015190] capitalize font-[600] text-[20px] leading-none tracking-[0.04em] sm:text-[18px] xs:text-[16px]">
+      <h4 className="font-primary mt-[24px] text-[#015190] font-[600] text-[20px] leading-none tracking-[0.04em] sm:text-[18px] xs:text-[16px]">
         {title}
       </h4>
 
@@ -126,8 +126,8 @@ const TcmPage = () => {
 
       <section>
         <div className="max-w-7xl mx-auto py-[100px] lg:px-0 px-5">
-          <h2 className="text-center text-[#00273A] capitalize tracking-[0.02em] leading-none font-primary font-medium lg:text-[40px] text-[32px]">
-            Temporal Context Memory (TCM)
+          <h2 className="text-center text-[#00273A] tracking-[0.02em] leading-none font-primary font-medium lg:text-[40px] text-[32px]">
+            Temporal context memory (TCM)
           </h2>
 
       <div className="max-w-6xl mt-[40px]  gap-4 md:flex-row flex-col flex mx-auto ">
@@ -139,13 +139,7 @@ const TcmPage = () => {
   />
 
   <p className="tracking-[0.04em] leading-[1.6] lg:text-[18px] text-[16px] font-secondary font-medium text-[#1e1e1e]">
-    Temporal Context Memory (TCM) is a dual-tiered AI memory system integrating
-    short-term/episodic cache and long-term semantic storage. A promotion engine
-    evaluates recency, frequency, and user-pinned indicators to transfer
-    high-value items from fast cache to persistent vector memory. During query
-    resolution, the composer merges both tiers into a policy-scoped contextual
-    view. The system continuously demotes stale data, ensuring efficient,
-    accurate, and evolving memory performance.
+   Temporal context memory (tcm) is a dual-tiered AI memory system integrating short-term/episodic cache and long-term semantic storage. A promotion engine evaluates recency, frequency, and user-pinned indicators to transfer high-value items from fast cache to persistent vector memory. During query resolution, the Composer merges both tiers into a policy-scoped contextual view. The system continuously demotes stale data, ensuring efficient, accurate, and evolving memory performance
   </p>
 
 </div>

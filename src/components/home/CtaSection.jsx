@@ -17,7 +17,7 @@ const CtaSection = () => {
           <div className="overlay-content backdrop-blur-[100px]  sm:mx-0 space-y-6 justify-center flex flex-col items-center sm:p-20 w-full h-[350px] sm:h-auto sm:max-w-full rounded-[40px] border border-white cta-banner-content  relative z-13">
             <SectionHeading
               titleClassName=" text-white"
-              title="Ready to Modernize <br class='sm:hidden' /> Your Enterprise?"
+              title="Ready to modernize <br class='sm:hidden' /> your enterprise?"
             />
 
              <Button
@@ -34,8 +34,7 @@ const CtaSection = () => {
             {/* LEFT SIDE */}
             <div className="w-full  md:max-w-[700px]">
               <h3 className="font-primary font-medium text-center sm:text-left text-white text-[32px] sm:text-[40px] leading-[1.2] tracking-[0.02em] mb-5">
-                Happy testers are 1.4x more likely to adopt advanced automation.
-                Here’s why it matters.
+               Happy testers are 1.4x more likely to adopt advanced automation. Here’s why it matters.
               </h3>
 
               

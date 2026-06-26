@@ -6,7 +6,7 @@ const HowItWorks = () => {
       <div className="w-full relative rounded-[48px] bg-gradient-primary border border-blue-500/40 px-10 py-16">
         
         <h2 className="text-center text-3xl md:text-4xl font-semibold text-white mb-16">
-          How It Works
+          How it works
         </h2>
 
         {/* Steps */}
@@ -20,10 +20,10 @@ const HowItWorks = () => {
                     {item.step}
                   </div>
 
-                  <h3 className="mt-6 mb-2 font-semibold text-[20px] leading-[1.2] text-white capitalize">
+                  <h3 className="mt-6 mb-2 font-semibold text-[20px] leading-[1.2] text-white ">
                     {item.title}
                   </h3>
-                  <p className="text-[14px] leading-[1.4] text-[#D0D0D0] capitalize">
+                  <p className="text-[14px] leading-[1.4] text-[#D0D0D0] ">
                     {item.description}
                   </p>
 

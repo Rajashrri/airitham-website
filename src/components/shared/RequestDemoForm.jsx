@@ -36,7 +36,7 @@ gap-x-6
     leading-[120%]
    
     tracking-[0.02em]
-    capitalize "
+    "
             >
               Full Name*
             </label>
@@ -57,7 +57,7 @@ gap-x-6
     leading-[120%]
    
     tracking-[0.02em]
-    capitalize"
+    "
             >
               Work Email*
             </label>
@@ -78,7 +78,7 @@ gap-x-6
     leading-[120%]
    
     tracking-[0.02em]
-    capitalize"
+    "
             >
               Company*
             </label>
@@ -100,7 +100,7 @@ gap-x-6
     leading-[120%]
    
     tracking-[0.02em]
-    capitalize"
+    "
             >
               Role*
             </label>
@@ -119,7 +119,7 @@ gap-x-6
     leading-[120%]
    
     tracking-[0.02em]
-    capitalize"
+    "
             >
               Industry
             </label>
@@ -138,7 +138,7 @@ gap-x-6
     leading-[120%]
    
     tracking-[0.02em]
-    capitalize"
+    "
             >
               Platform Interest
             </label>
@@ -155,7 +155,7 @@ gap-x-6
     text-[20px]
     leading-[120%]
     tracking-[0.02em]
-    capitalize">
+    ">
     Message (Optional)
   </label>
 
@@ -177,7 +177,7 @@ gap-x-6
         </form>
 
         {/* Footer */}
-        <p className=" mae-gradient-text font-secondary font-medium text-[18px] leading-[1.4] tracking-[0.02em] text-center capitalize">
+        <p className=" mae-gradient-text font-secondary font-medium text-[18px] leading-[1.4] tracking-[0.02em] text-center ">
           We’ll Respond Within 24 Hours To Schedule Your Personalized Demo.
         </p>
       </div>

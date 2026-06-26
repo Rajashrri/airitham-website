@@ -34,8 +34,8 @@ const BlogsSection = () => {
     <section>
       <div className="px-4 pb-[30px] sm:pb-0 sm:px-0 section-wrapper bg-gray-50">
         <SectionHeading
-          titleClassName="text-[#015190] capitalize pt-[36px]"
-          title="insight, ideas, and innovation"
+          titleClassName="text-[#015190] pt-[36px]"
+          title="Insight, ideas, and innovation"
           wrapperClassName="max-w-[274px] sm:max-w-full mx-auto"
         />
 

@@ -1,5 +1,5 @@
 export const AUTOMATION_Testing_CONFIG  = {
-  title: "Two Powerful Testing Capabilities",
+  title: "Two powerful testing capabilities",
   subtitle:
     "Comprehensive testing solutions for both AI and traditional enterprise <br class='lg:block hidden' /> applications with advanced automation",
 
@@ -90,7 +90,7 @@ export const AUTOMATION_Testing_CONFIG  = {
 
 
 export const AUTOMATION_LIFECYCLE_CONFIG  = {
-  title: "Automation <br class=' sm:hidden' /> Lifecycle Stages",
+  title: "Automation <br class=' sm:hidden' /> lifecycle stages",
   subtitle:
     "Complete testing workflow from learning to <br class=' sm:hidden' /> evaluation with intelligent automation",
 
@@ -136,9 +136,9 @@ export const AUTOMATION_LIFECYCLE_CONFIG  = {
 
 
 export const AUTOMATION_HERO_CONFIG  = {
-  heading: "AI Enabled Intelligent <br class='hidden md:block' /> Test Automation Platform",
+  heading: "AI enabled intelligent <br class='hidden md:block' /> test automation platform",
   paragraph:
-    "AIRITHM Test Studio revolutionizes testing with two powerful capabilities- NeuroTest for AI/ <br class='hidden md:block' /> LLM and CoreTest for enterprise applications",
+    "Airithm test studio revolutionizes testing with two powerful capabilities- Neuro test for AI/<br class='hidden md:block' /> LLM and Core test for enterprise applications.",
   backgroundGradient: "linear-gradient(180deg,#00273A 0%,#1E1E1E 55.42%)",
   imageSrc: "/automation/dashboard.png",
   buttons: [
@@ -174,9 +174,9 @@ export const AUTOMATION_HERO_CONFIG  = {
 
 
  export const AUTOMATION_CTA_CONFIG  = {
-  heading: "Ready to Transform your Testing?",
+  heading: "Ready to transform your testing?",
   paragraph:
-    "Experience the power of AI-Enabled intelligent test automation and <br className='lg:block hidden'/> revolutionize your development workflow",
+    "Experience the power of ai-enabled intelligent test automation and <br className='lg:block hidden'/>revolutionize your development workflow",
   backgroundImage: "/bg/gradient.png",
   buttons: [
   {

@@ -32,21 +32,21 @@ const CICDPage = () => {
           <div className="llm-based-feature flex-wrap px-5 gap-10 md:gap-20  pt-[60px] flex justify-center items-center">
             <div className="flex gap-2 items-center">
               <img src="/svg/circle-check-lg.svg" alt="" />
-              <span className="mae-gradient-text font-secondary font-medium text-sm leading-[1.4] tracking-[0.04em] capitalize">
+              <span className="mae-gradient-text font-secondary font-medium text-sm leading-[1.4] tracking-[0.04em] ">
                 Zero-downtime deployments
               </span>
             </div>
 
             <div className="flex gap-2 items-center">
               <img src="/svg/circle-check-lg.svg" alt="" />
-              <span className="mae-gradient-text font-secondary font-medium text-sm leading-[1.4] tracking-[0.04em] capitalize">
+              <span className="mae-gradient-text font-secondary font-medium text-sm leading-[1.4] tracking-[0.04em] ">
                 Enterprise-grade security
               </span>
             </div>
 
             <div className="flex gap-2 items-center">
               <img src="/svg/circle-check-lg.svg" alt="" />
-              <span className="mae-gradient-text font-secondary font-medium text-sm leading-[1.4] tracking-[0.04em] capitalize">
+              <span className="mae-gradient-text font-secondary font-medium text-sm leading-[1.4] tracking-[0.04em] ">
                 {" "}
                 Multi-cloud support
               </span>
@@ -69,7 +69,7 @@ const CICDPage = () => {
                 AUTOMATION_PIPELINE_FEATURES_CONFIG?.subtitle || "Not Provided"
               }
               subtitleClassName="font-secondary max-w-[760px] text-[#626161]"
-              titleClassName="font-primary text-[#00273A] capitalize"
+              titleClassName="font-primary text-[#00273A] "
               title={
                 AUTOMATION_PIPELINE_FEATURES_CONFIG?.title || "Not Provided"
               }

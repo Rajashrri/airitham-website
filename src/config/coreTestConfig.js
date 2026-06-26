@@ -1,11 +1,11 @@
 export const QA_TESTING_USP_CONFIG = {
-     title: "AI-Driven Workflows",
+     title: "Ai-driven workflows",
    bodyclass:false,
   cards: [
     {
       id: 1,
       icon: "Settings",
-      title: "Functional & Regression Testing",
+      title: "Functional & regression testing",
       textColor: "#1E1E1E",
       iconColor: "#015190",
       discColor: "#626161",
@@ -18,10 +18,10 @@ export const QA_TESTING_USP_CONFIG = {
           gradient: ["#FFA68D", "#FD3A84"],
         },
         labels: [
-          "Unit, Integration & End-to-End Testing",
-          "Automated Regression Coverage",
-          "CI/CD Validation",
-          "Real-time Error Detection",
+          "Unit, integration & end-to-end testing",
+          "Automated regression coverage",
+          "CI/CD validation",
+          "Real-time error detection",
         ],
         textGradientColor: "#015190",
         discGradientColor:
@@ -33,7 +33,7 @@ export const QA_TESTING_USP_CONFIG = {
       id: 2,
       icon: "Lock",
       iconColor: "#015190",
-      title: "Security & Compliance Testing",
+      title: "Security & compliance testing",
       textColor: "#1E1E1E",
       discColor: "#626161",
       cardClassName: "border-[#D9D9D9] coretext lg:w-[23%] md:w-[40%] w-[100%]",
@@ -45,10 +45,10 @@ export const QA_TESTING_USP_CONFIG = {
           gradient: ["#FFA68D", "#FD3A84"],
         },
         labels: [
-          "Vulnerability Scanning & Pen Testing",
-          "API Security Validation",
-          "Data Privacy Enforcement",
-          "Encryption & Access Control",
+          "Vulnerability scanning & pen testing",
+          "API security validation",
+          "Data privacy enforcement",
+          "Encryption & access control",
         ],
         textGradientColor: "#015190",
         discGradientColor:
@@ -62,7 +62,7 @@ export const QA_TESTING_USP_CONFIG = {
       id: 3,
       icon: "Smartphone",
       iconColor: "#015190",
-      title: "Usability & Accessibility Testing",
+      title: "Usability & accessibility testing",
       textColor: "#1E1E1E",
       discColor: "#626161",
       cardClassName: "border-[#D9D9D9] coretext lg:w-[23%] md:w-[40%] w-[100%]",
@@ -74,10 +74,10 @@ export const QA_TESTING_USP_CONFIG = {
           gradient: ["#FFA68D", "#FD3A84"],
         },
         labels: [
-          "UI/UX Consistency Checks",
-          "Cross-Browser Compatibility",
-          "WCAG & ADA Validation",
-          "UX Heatmap Insights",
+          "UI/UX consistency checks",
+          "Cross-browser compatibility",
+          "WCAG & ADA validation",
+          "UX heatmap insights",
         ],
         textGradientColor: "#015190",
         discGradientColor:
@@ -89,7 +89,7 @@ export const QA_TESTING_USP_CONFIG = {
       id: 4,
       icon: "Shuffle",
       iconColor: "#015190",
-      title: "Data & Integration Testing",
+      title: "Data & integration testing",
       textColor: "#1E1E1E",
       discColor: "#626161",
       cardClassName: "border-[#D9D9D9] coretext lg:w-[23%] md:w-[40%] w-[100%]",
@@ -101,10 +101,10 @@ export const QA_TESTING_USP_CONFIG = {
           gradient: ["#FFA68D", "#FD3A84"],
         },
         labels: [
-          "Database Validation",
-          "API Contract Testing",
-          "ERP, CRM & Payment Gateway",
-          "Data Flow Consistency",
+          "Database validation",
+          "API contract testing",
+          "ERP, CRM & payment gateway",
+          "Data flow consistency",
         ],
         textGradientColor: "#015190",
         discGradientColor:
@@ -116,10 +116,10 @@ export const QA_TESTING_USP_CONFIG = {
 
 
 export const CORE_TEST_MODULE_CONFIG = {
-   title: "Automation Lifecycle Stages",
+   title: "Automation lifecycle stages",
    bodyclass:"text-white bg-[linear-gradient(180deg,#042539_0%,#000000_100%)]",
   subtitle:
-    "Complete Testing Workflow From Learning to Evaluation",
+    "Complete testing workflow from learning to evaluation",
     // :"An intelligent automation pipeline that dynamically improves with each cycle."
     cards: [
     {
@@ -215,27 +215,27 @@ export const ARCHITECTURE_LAYER_CONFIG = {
     items: [
       {
         id: 1,
-        label: "Learning System",
+        label: "Learning system",
         iconSrc: "/svg/module/graduation-cap.svg",
       },
       {
         id: 2,
-        label: "Knowledge Base\nGeneration System",
+        label: "Knowledge base generation system",
         iconSrc: "/svg/module/book-open-text.svg",
       },
       {
         id: 3,
-        label: "Test Generation\nSubsystem",
+        label: "Test generation subsystem",
         iconSrc: "/svg/module/book-open-check.svg",
       },
       {
         id: 4,
-        label: "Test Execution System",
+        label: "Test execution system",
         iconSrc: "/svg/module/layout-dashboard.svg",
       },
       {
         id: 5,
-        label: "LLM Based\nEvaluation System",
+        label: "LLM based evaluation system",
         iconSrc: "/svg/module/chart-area.svg",
       },
     ],
@@ -243,7 +243,7 @@ export const ARCHITECTURE_LAYER_CONFIG = {
 
   layer2: {
     id: "layer-2",
-    title: "Human Feedback And Pattern Learning Subsystem",
+    title: "Human feedback and pattern learning subsystem",
     points: {
       labels: [
         "Aggregates results",
@@ -257,7 +257,7 @@ export const ARCHITECTURE_LAYER_CONFIG = {
 
   layer3: {
     id: "layer-3",
-    title: "Agentic Network",
+    title: "Agentic network",
     points: {
       labels: [
         "Multi-agent orchestration",
@@ -276,7 +276,7 @@ export  const CORE_TEST_HEADER_CONFIG = {
   heading: "CoreTest",
   headingclass:"text-[#fff]",
   subheading:
-    "Comprehensive Intelligent Testing for Enterprise & Non-AI Applications",
+    "Comprehensive intelligent testing for enterprise & non-ai applications",
   headclass: "",
   paragraph:
     "A unified automation platform that accelerates quality, <br class='hidden sm:block' /> ensures reliability, and delivers continuous validation across mission-critical systems.",
@@ -302,7 +302,7 @@ export  const CORE_TEST_HEADER_CONFIG = {
 };
 
  export const CORE_TEST_CTA_CONFIG  = {
-  heading: "Build Better. Test Smarter. <br /> Accelerate Quality with CoreTest",
+  heading: "Build better. Test smarter. <br /> Accelerate quality with coretest",
   paragraph:
     "Empower your teams with intelligent, end-to-end test automation across every layer of your enterprise stack.",
   backgroundImage: "/bg/gradient.png",

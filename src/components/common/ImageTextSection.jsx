@@ -9,7 +9,7 @@ const ImageTextSection = ({
     <section>
       <div className={`mx-auto py-[80px] space-y-10 ${wrapperClassName}`}>
         {title && (
-          <h2 className="text-center text-[#00273A] capitalize tracking-[0.02em] leading-none font-primary font-medium text-[48px]">
+          <h2 className="text-center text-[#00273A] tracking-[0.02em] leading-none font-primary font-medium text-[48px]">
             {title}
           </h2>
         )}

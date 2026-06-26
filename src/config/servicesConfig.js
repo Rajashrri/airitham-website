@@ -1,6 +1,6 @@
 
 export const REAL_TIME_CONTEXT_HEADER = {
-  heading: "Seamless Context Flow <br/> Across Federated Systems",
+  heading: "Seamless context flow <br/> across federated systems",
    headclass:true,
   paragraph:
     "Enable seamless synchronization of distributed agents, devices and subsystems with secure, <br/> scalable event-driven AI behaviors It's across organizational boundaries.",
@@ -30,7 +30,7 @@ export const REAL_TIME_CONTEXT_HEADER = {
 
 
 export const CORE_MODULE_CONFIG = {
-   title: "What is Context <br class='hidden md:block' />Broadcasting & Federation",
+   title: "What is context <br class='hidden md:block' />broadcasting & federation",
    bodyclass:true,
    headcolor:"#fff",
    
@@ -55,7 +55,7 @@ export const CORE_MODULE_CONFIG = {
        textColor:"#fff",
              cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[340px]",
        discColor:'#C6C6C6',
-      title: "Secure Federation",
+      title: "Secure federation",
       description:
         "Enable secure data sharing across organizational boundaries while maintaining privacy and control",
     },
@@ -74,13 +74,13 @@ export const CORE_MODULE_CONFIG = {
 };
 
 export const TIMELINE_SECTION_CONFIG = {
-   title: "How it Works",
+   title: "How it works",
   subtitle:
     "Four key components work together to enable seamless context distribution",
  cards: [
    {
     id: 1,
-    title: "Signal Generation",
+    title: "Signal generation",
     description:
       "Agents and devices generate context signals based on their current state and environmental changes",
     align: "right",
@@ -111,7 +111,7 @@ export const TIMELINE_SECTION_CONFIG = {
 
 }
 export const KEY_FEATURES_CONFIG = {
-     title: "Key Features",
+     title: "Key features",
   subtitle:
     "Advanced capabilities for enterprise-grade context intelligence",
     bodyclass:"!lg:rounded-t-[100px] bg-[#E9F6FB] rounded-t-[50px] !rounded-b-[0px] border border-[1px] border-[#D9D9D9] mt-[90px]",
@@ -124,7 +124,7 @@ export const KEY_FEATURES_CONFIG = {
       discColor:'#626161 ',
       cardClassName: " md:w-[290px] w-[100%] bg-[#fff] ",
       iconColor: "#015190	",
-      title: "Low-Latency Upadtes",
+      title: "Low-latency upadtes",
       description:
         "Sub-millisecond context propagation ensures real-time responsiveness across your entire network",
     },
@@ -135,7 +135,7 @@ export const KEY_FEATURES_CONFIG = {
         cardClassName: " md:w-[290px] w-[100%]  bg-[#fff]",
    textColor:"#1E1E1E",
       discColor:'#626161 ',
-      title: "Infinite Scalability",
+      title: "Infinite scalability",
       description:
         "Handle millions of agents and devices with our distributed architecture and intelligent load balancing",
     },
@@ -146,7 +146,7 @@ export const KEY_FEATURES_CONFIG = {
         cardClassName: "  md:w-[290px] w-[100%] bg-[#fff]",
        textColor:"#1E1E1E",
       discColor:'#626161 ',
-      title: "End-to-end Encryption",
+      title: "End-to-end encryption",
       description:
         "Military-grade security protocals protect sensitive context data throughout the entire distribution chain",
     },
@@ -157,7 +157,7 @@ export const KEY_FEATURES_CONFIG = {
       iconColor: "#015190	",
       textColor:"#1E1E1E",
       discColor:'#626161 ',
-      title: "Intelligent Rounting",
+      title: "Intelligent rounting",
       description:
         "AI-powered context routing ensures optimal delivery paths and minimal resource consumption",
     },

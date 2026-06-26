@@ -49,14 +49,14 @@ const FeatureCard = ({
       {/* Content */}
       <div className="feature-card-content">
         <h2
-          className="font-primary font-[500] text-[24px] leading-[1.2] capitalize"
+          className="font-primary font-[500] text-[24px] leading-[1.2] "
           style={{ color: textColor || "#1E1E1E" }}
         >
           {title}
         </h2>
 
         <p
-          className="font-secondary text-[18px] leading-[1.4] pt-4 capitalize"
+          className="font-secondary text-[18px] leading-[1.4] pt-4 "
           style={{ color: discColor || "#626161" }}
         >
           {description}

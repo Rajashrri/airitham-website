@@ -1,9 +1,9 @@
 
 
 export const HOME_FEATURED_CONFIG = {
-  title: "The AIRITHM Core",
+  title: "The Airithm core",
   subtitle:
-    "A Unified AI Infrastructure That Powers Intelligent Solutions  With Seamless <br class='hidden md:block' /> Integration, Enterprise Security, And Limitless Scalability",
+    "A unified ai infrastructure that powers intelligent solutions with seamless <br/> integration, enterprise security, and limitless scalability",
   cards: [
     {
       id: 1,
@@ -11,7 +11,7 @@ export const HOME_FEATURED_CONFIG = {
       iconColor: "",
       title: "Unified Infrastructure",
       description:
-        "Integrated AI Services Delivering Enterprise-Grade Reliability And Performance",
+        "Integrated AI services delivering enterprise-grade reliability and performance",
       cardClassName:"shadow-[0px_0px_40px_2px_#4C9ACE80] bg-[#FFFFFF] w-full sm:w-[340px]"
     },
     {
@@ -20,7 +20,7 @@ export const HOME_FEATURED_CONFIG = {
       iconColor: "",
       title: "Enterprise Security",
       description:
-        "Advanced Security Protocols With Full Compliance And Data Governance",
+        "Advanced security protocols with full compliance and data governance",
         cardClassName:"shadow-[0px_0px_40px_2px_#4C9ACE80] bg-[#FFFFFF] w-full sm:w-[340px]"
     },
     {
@@ -29,7 +29,7 @@ export const HOME_FEATURED_CONFIG = {
       iconColor: "",
       title: "Infinite Scalability",
       description:
-        "Dynamic Scaling Capabilities To Meet Growing Enterprise AI Demands",
+        "Dynamic scaling capabilities to meet growing enterprise AI demands",
         cardClassName:"shadow-[0px_0px_40px_2px_#4C9ACE80] bg-[#FFFFFF] w-full sm:w-[340px]"
     },
     {
@@ -38,7 +38,7 @@ export const HOME_FEATURED_CONFIG = {
       iconColor: "",
       title: "High Performance",
       description:
-        "Optimized AI Workflows That Deliver Speed And Accuracy At Scale",
+        "Optimized ai workflows that deliver speed and accuracy at scale",
         cardClassName:"shadow-[0px_0px_40px_2px_#4C9ACE80] bg-[#FFFFFF] w-full sm:w-[340px]"
     },
     {
@@ -47,7 +47,7 @@ export const HOME_FEATURED_CONFIG = {
       iconColor: "",
       title: "Real-Time Insights",
       description:
-        "Actionable Analytics Delivered Instantly Across Enterprise Systems",
+        "Actionable analytics delivered instantly across enterprise systems",
         cardClassName:"shadow-[0px_0px_40px_2px_#4C9ACE80] bg-[#FFFFFF] w-full sm:w-[340px]"
     },
     {
@@ -56,7 +56,7 @@ export const HOME_FEATURED_CONFIG = {
       iconColor: "",
       title: "Cloud-Ready",
       description:
-        "Flexible Deployment Across Public, Private, Or Hybrid Cloud Environments",
+        "Flexible deployment across public, private, or hybrid cloud environments",
         cardClassName:"shadow-[0px_0px_40px_2px_#4C9ACE80] bg-[#FFFFFF] w-full sm:w-[340px]"
     },
   ],
@@ -81,7 +81,7 @@ export const HOME_LOGOS = [
 
 
 export const HOME_CAPABILITY_CONFIG  = {
-  title: "Intelligence In Action",
+  title: "Intelligence in action",
   description:
     "Advanced AI Capabilities Driving Innovation, Automation, And Strategic Intelligence Across Your Enterprise Operations",
   cards: [
@@ -120,18 +120,18 @@ export const HOME_CAPABILITY_CONFIG  = {
   ],
 };
 export const HOME_PLATFORM_CONFIG = {
-  title: "Our Flagship Platforms",
+  title: "Our flagship platforms",
   subtitle:
-    "Powered by AIRITHM Core, Delivering Intelligent Solutions Across <br> the Enterprise - Architected to Scale With Your Business",
+    "Powered by airithm core, delivering intelligent solutions across <br/> the enterprise - architected to scale with your business",
   cards: [
     {
       id: 1,
       icon: "Box",
       iconColor: "#015190",
       badge: "Patent Pending",
-      title: "AI Test Platform",
+      title: "AI test platform",
       description:
-        "Comprehensive AI Model Testing With Automated Quality Assurance, Performance Monitoring, And Compliance Verification",
+        "Comprehensive AI model testing with automated quality assurance, performance monitoring, and compliance verification",
       image: "/home/ai-test-platform.webp",
       ctaText: "Learn More",
       ctaLink: "/ai-automation ",
@@ -143,9 +143,9 @@ export const HOME_PLATFORM_CONFIG = {
       icon: "Layers",
       iconColor: "#2563EB",
       badge: "Patent Pending",
-      title: "Context Intelligence Platform",
+      title: "Context intelligence platform",
       description:
-        "Advanced contextual AI That Understands, Interprets, And Acts On Complex Enterprise Data With Human-Like Comprehension",
+        "Advanced contextual AI that understands, interprets, and acts on complex enterprise data with human-like comprehension",
       image: "/home/context-intelligence-platform.webp",
       ctaText: "Learn More",
       ctaLink: "/context-intelligence-platform",
@@ -158,9 +158,9 @@ export const HOME_PLATFORM_CONFIG = {
       iconColor: "#10B981",
       badge: "Patent Pending",
 
-      title: "Predictive Analytics & Anomaly Detection",
+      title: "Predictive analytics & anomaly detection",
       description:
-        "Advanced AI For Detecting Patterns, Predicting Trends, And Identifying Anomalies In Complex Enterprise Data",
+        "Advanced AI for detecting patterns, predicting trends, and identifying anomalies in complex enterprise data",
       image: "/home/predictive-analytics-anomaly-detection.webp",
       ctaText: "Learn More",
       ctaLink: "#!",
@@ -173,26 +173,26 @@ export const HOME_PLATFORM_CONFIG = {
 export const HOME_ENTERPRISE_CONFIG = {
   title: "Built For <br class='block md:hidden' />  Enterprise Scale",
   subtitle:
-    "AIRITHM Platforms Are Designed From The Ground Up For Enterprise <br hidden md:block /> Environments, With Enterprise-Grade Security, Compliance, And Scalability",
+    "Airithm platforms are designed from the ground up for enterprise environments, with enterprise-grade security, compliance, and scalability",
 
   cards: [
     {
       id: 1,
       icon: "Globe",
-      title: "Global Multi-Region Infrastructure",
+      title: "Global multi-region infrastructure",
       description: "Active deployments across geographically distributed data centers with local data residency controls.",
     },
     {
       id: 2,
       icon: "ShieldCheck",
       title: "Zero-Trust Security Architecture",
-      description: "End-to-End Encryption With Secure Access Controls",
+      description: "End-to-end encryption with secure access controls",
     },
     {
       id: 3,
       icon: "CheckCircle",
-      title: "Auto-Scaling & High Availability",
-      description: "Scalable Infrastructure With Automatic Failover & Monitoring",
+      title: "Auto-scaling & high availability",
+      description: "Scalable infrastructure with automatic failover & monitoring",
     },
   ],
 };
@@ -204,28 +204,28 @@ export const HOME_TESTIMONIAL_CONFIG  = {
       name: "Rohan Mehta",
       // title: "Financial Services Enterprise",
       quote:
-        "Working with AIRITHM was a great decision for our team. Their Core AI testing process was structured and clear, and it gave us confidence before moving forward. We’re glad we partnered with them.",
+        "Working with airithm was a great decision for our team. Their core AI testing process was structured and clear, and it gave us confidence before moving forward. We’re glad we partnered with them.",
     },
     {
       id: 2,
       name: "Daniel Brooks",
       // title: "Global Bank",
       quote:
-        "We assumed our predictive models were stable because they performed well in controlled testing. AIRITHM’s Neuro AI validation revealed subtle reasoning inconsistencies when exposed to real-world data drift.",
+        "We assumed our predictive models were stable because they performed well in controlled testing. Airithm’s neuro AI validation revealed subtle reasoning inconsistencies when exposed to real-world data drift.",
     },
     {
       id: 3,
       name: "Maya Patel",
       // title: "Enterprise SaaS Provider",
       quote:
-        "Before our launch in 202s, we worked with AIRITHM to run testing through their AI Test Platform. The process was smooth, and it helped us feel prepared before going live. Looking back, it was the right decision.",
+        "Before our launch in 202s, we worked with airithm to run testing through their AI test platform. The process was smooth, and it helped us feel prepared before going live. Looking back, it was the right decision.",
     },
     {
       id: 4,
       name: "Ethan Walker",
       // title: "Regional Enterprise Group",
       quote:
-        "We engaged AIRITHM to review our intelligent agent workflows using their Core + Neuro testing framework. The collaboration was straightforward, and the overall process was handled professionally from start to finish.",
+        "We engaged airithm to review our intelligent agent workflows using their core + neuro testing framework. The collaboration was straightforward, and the overall process was handled professionally from start to finish.",
     },
     // {
     //   id: 5,
@@ -306,7 +306,7 @@ export const Home_BLOGS_CONFIG = [
 ];
 
 export const testingCapabilitiesConfig = {
-  title: "Two Powerful Testing Capabilities",
+  title: "Two powerful testing capabilities",
   description:
     "Airithm test studio revolutionizes testing with two powerful capabilities NeuroTest for AI/LLM And CoreTest for enterprise applications",
 

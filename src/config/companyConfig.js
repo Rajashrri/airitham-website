@@ -1,8 +1,8 @@
 export const Comapny_HEADER = {
-  heading: "Pioneering the Future of <br/> Autonomous Intelligence",
+  heading: "Pioneering the future of <br/> autonomous intelligence",
    headclass:"pt-0 text-white",
   paragraph:
-    "AIRITHM builds enterprise-grade platforms that combine autonomous testing capabilities with context-aware intelligence, empowering organizations to ship faster, smarter, and with unparalleled confidence.",
+    "Airithm builds enterprise-grade platforms that combine autonomous testing capabilities with context-aware intelligence, empowering organizations to ship faster, smarter, and with unparalleled confidence.",
 //   backgroundImage: "/bg/gradient.png",
 headingclass:"text-[#fff]",
   buttons: [
@@ -37,7 +37,7 @@ export const KEY_FEATURES_CONFIG = {
       discColor:'#626161 ',
       cardClassName: "w-full sm:w-[400px]",
       iconColor: "",
-      title: "Autonomous Testing",
+      title: "Autonomous testing",
       description:
         "Self-healing tests that adapt to code changes automatically",
     },
@@ -48,7 +48,7 @@ export const KEY_FEATURES_CONFIG = {
         cardClassName: " w-full sm:w-[400px]",
    textColor:"#1E1E1E",
       discColor:'#626161 ',
-      title: "Predictive Analytics",
+      title: "Predictive analytics",
       description:
         "Forecast issues before they impact production systems",
     },
@@ -59,7 +59,7 @@ export const KEY_FEATURES_CONFIG = {
         cardClassName: " w-full sm:w-[400px]",
        textColor:"#1E1E1E",
       discColor:'#626161 ',
-      title: "Context Intelligence",
+      title: "Context intelligence",
       description:
         "Deep understanding of system behavior and dependencies",
     },
@@ -70,7 +70,7 @@ export const KEY_FEATURES_CONFIG = {
       iconColor: "",
       textColor:"#1E1E1E",
       discColor:'#626161 ',
-      title: "Continuous Evolution",
+      title: "Continuous evolution",
       description:
         "Platforms that learn and improve with every execution",
     },
@@ -168,7 +168,7 @@ export const Drive_CONFIG = {
       textColor:"#fff",
       iconColor: "",
         cardClassName: "w-full sm:w-[365px]  bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
-      title: "Innovation First",
+      title: "Innovation first",
       discColor:'#C6C6C6',
       description:
         "We push boundaries and challenge conventions, building solutions that didn’t exist before.",
@@ -180,7 +180,7 @@ export const Drive_CONFIG = {
       cardClassName: "w-full sm:w-[365px] h-[100%]  bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        textColor:"#fff",
        discColor:'#C6C6C6',
-      title: "Customer Obsession",
+      title: "Customer obsession",
       description:
         "Every feature, every decision starts with understanding our customers’ real challenges.",
     },
@@ -191,7 +191,7 @@ export const Drive_CONFIG = {
        textColor:"#fff",
        cardClassName: "w-full sm:w-[365px]  bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        discColor:'#C6C6C6',
-      title: "Trust & Transparency",
+      title: "Trust & transparency",
       description:
         "We build relationships on honesty, clear communication, and delivering on our promises.",
     }, {
@@ -201,7 +201,7 @@ export const Drive_CONFIG = {
        textColor:"#fff",
        cardClassName: "w-full sm:w-[365px]  bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        discColor:'#C6C6C6',
-      title: "Velocity Matters",
+      title: "Velocity matters",
       description:
         "Speed without sacrificing quality we move fast and iterate relentlessly.",
     }, {
@@ -211,7 +211,7 @@ export const Drive_CONFIG = {
        textColor:"#fff",
        cardClassName: "w-full sm:w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        discColor:'#C6C6C6',
-      title: "Research-Driven",
+      title: "Research-driven",
       description:
         "Deep technical research and validation guide every architectural decision we make.",
     }, {
@@ -221,7 +221,7 @@ export const Drive_CONFIG = {
        textColor:"#fff",
        cardClassName: "w-full sm:w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        discColor:'#C6C6C6',
-      title: "Global Impact",
+      title: "Global impact",
       description:
         "We’re building for enterprises worldwide, solving problems at massive scale.",
     }
@@ -230,7 +230,7 @@ export const Drive_CONFIG = {
 };
 
 export const Company_CTA_CONFIG  = {
-  heading: "Build the Future with Us",
+  heading: "Build the future with Us",
   subheading:"Join Our Mission",
   paragraph:
     "We’re looking for exceptional engineers, designers, and thinkers who want <br> to solve hard problems and redefine what’s possible in software quality.",

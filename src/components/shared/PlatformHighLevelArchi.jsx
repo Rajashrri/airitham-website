@@ -23,7 +23,7 @@ export default function PlatformHighLevelArchi() {
             {/* Header */}
             <div className="flex rounded-2xl bg-[#fff]  items-start p-4 border-light-sm justify-between">
               <div className="space-y-2">
-                <h3 className="font-primary font-medium text-[#1E1E1E] text-[20px] leading-[1.2] tracking-[0.02em] capitalize">
+                <h3 className="font-primary font-medium text-[#1E1E1E] text-[20px] leading-[1.2] tracking-[0.02em] ">
                   {layer.title}
                 </h3>
                 <p className="font-secondary font-medium text-[16px] leading-[1.4] tracking-[0.02em] text-[#626161]">

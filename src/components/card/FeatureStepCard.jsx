@@ -21,7 +21,7 @@ const FeatureStepCard = ({ number, title, description }) => {
       <div className="space-y-4">
         <h3
           className="mb-4 font-primary text-[24px] font-medium leading-[100%]
-        tracking-[0.02em] capitalize text-white"
+        tracking-[0.02em] text-white"
         >
           {title}
         </h3>

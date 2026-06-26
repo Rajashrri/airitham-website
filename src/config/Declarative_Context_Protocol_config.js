@@ -1,9 +1,10 @@
 
 export const HEADER = {
-  heading: "Declarative Context Protocol",
+  heading: "Declarative context protocol",
   headclass:true,
   paragraph:
-    "Enterprise-grade governance framework for multiagent AI systems. Policy Driven <br className='lg:block hidden'/> context flow that ensures safety, auditability, and explainable AI operations",
+    "Enterprise-grade governance framework for multiagent AI systems. Policy driven <br className='lg:block hidden'/> context flow that ensures safety, auditability, and explainable AI operations",
+    // "Enterprise-grade governance framework for multiagent AI systems. Policy Driven  context flow that ensures safety, auditability, and explainable AI operations",
 //   backgroundImage: "/bg/gradient.png",
   buttons: [
 
@@ -62,7 +63,7 @@ export const CARD_CONFIG = {
 };
 
 export const KEY_FEATURE_CONFIG = {
-   title: "Key Features",
+   title: "Key features",
    bodyclass:"bg-[linear-gradient(180deg,#042539_0%,#000000_100%)]  text-[#fff] ",
     headclass:true,
     headcolor:"#fff",
@@ -74,7 +75,7 @@ export const KEY_FEATURE_CONFIG = {
       icon: "Server",
       textColor:"#fff",
       iconColor: "",
-      title: "Policy-Driven Security",
+      title: "Policy-driven security",
       discColor:'#C6C6C6',
       description:
         "Declarative security policies that automatically enforce compliance across all AI interactions and data flows.",
@@ -85,7 +86,7 @@ export const KEY_FEATURE_CONFIG = {
       iconColor: "",
        textColor:"#fff",
        discColor:'#C6C6C6',
-      title: "Full Auditability",
+      title: "Full auditability",
       description:
         "Complete audit trails with cryptographic provenance for every context exchange and policy decision.",
     },

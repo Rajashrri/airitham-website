@@ -10,7 +10,7 @@ export default function ArchitectureLayers() {
     <section className=" md:pt-[60px] pt-[100px] rounded-b-[100px] md:pb-[100px] pb-[200px] px-6 bg-white  px-5">
         <SectionHeading
                           titleClassName=" text-[#015190] text-center"
-                          title="System Architecture Overview"
+                          title="System architecture overview"
                           
                           subtitleClassName=" text-[#626161] "
                       />
@@ -32,7 +32,7 @@ export default function ArchitectureLayers() {
 
 
 
-              <p className="text-[16px] capitalize font- leading-[1.4] tracking-[0.04em] font-medium text-[#1E1E1E] ">
+              <p className="text-[16px] font- leading-[1.4] tracking-[0.04em] font-medium text-[#1E1E1E] ">
                 {item.label}
               </p>
 

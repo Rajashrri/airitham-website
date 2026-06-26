@@ -72,7 +72,7 @@ const FeatureCard2 = ({
           )
         }
         <h2
-          className="font-primary font-medium text-[24px]  leading-[1.2] capitalize"
+          className="font-primary font-medium text-[24px]  leading-[1.2] "
           style={{ color: textColor || "#1E1E1E" }}
         >
           {title}
@@ -81,7 +81,7 @@ const FeatureCard2 = ({
 
 
         <p
-          className="font-secondary text-[14px] leading-[1.4] pt-[14px] capitalize"
+          className="font-secondary text-[14px] leading-[1.4] pt-[14px] "
           style={{ color: discColor || "#626161" }}
         >
           {description}
@@ -91,7 +91,7 @@ const FeatureCard2 = ({
       {showLink && href && (
         <a
           href={href}
-          className="text-[#015190] flex gap-2 items-center leading-[1.4] capitalize tracking-[0.02em] font-semibold text-[18px] font-secondary"
+          className="text-[#015190] flex gap-2 items-center leading-[1.4] tracking-[0.02em] font-semibold text-[18px] font-secondary"
         >
           {linkText}
           { linkicon !== "CircleArrowOutUpRight"?

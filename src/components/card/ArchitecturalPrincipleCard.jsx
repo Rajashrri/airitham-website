@@ -17,7 +17,7 @@ const ArchitecturalPrincipleCard = ({ icon, title, description, tags }) => {
       {/* Content */}
       <div className="w-full mt-[24px] space-y-6">
         <div className="space-y-[14px]">
-          <h4 className="font-primary text-white font-medium text-[24px] leading-none tracking-[0.02em] capitalize">
+          <h4 className="font-primary text-white font-medium text-[24px] leading-none tracking-[0.02em] ">
             {title}
           </h4>
 

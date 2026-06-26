@@ -15,7 +15,7 @@ const SideCard = ({ title, icon, iconSrc, iconSize, points }) => {
       </div>
 
       <div className="sidecard-group space-y-2">
-        <h3 className="text-[24px] capitalize font-primary font-medium tracking-[0.02em] leading-[1.2] text-[#1e1e1e]">
+        <h3 className="text-[24px] font-primary font-medium tracking-[0.02em] leading-[1.2] text-[#1e1e1e]">
           {title}
         </h3>
 

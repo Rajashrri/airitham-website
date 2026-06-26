@@ -1,6 +1,6 @@
 
 export const REFLECTIVE_MEMORY_HEADER = {
-  heading: "Reflective Memory",
+  heading: "Reflective memory",
   headclass:"pt-[100px] ",
 paragraph:
   "Self-learning AI that continuously evolves through meta-cognitive <br class='hidden sm:block' /> analysis, autonomous reflection, and intelligent adaptation.",
@@ -31,7 +31,7 @@ paragraph:
 };
 
 export const CORE_MODULE_CONFIG = {
-   title: "Core Concept",
+   title: "Core concept",
    bodyclass:"bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] text-[#fff]",
   subtitle:
     "The Reflective Memory Module represents a breakthrough in AI <br/>self-awareness and continuous learning.",
@@ -42,7 +42,7 @@ export const CORE_MODULE_CONFIG = {
       textColor:"#fff",
       iconColor: "",
         cardClassName: "md:w-[405px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
-      title: "AI self-awareness ",
+      title: "AI self-awareness",
       discColor:'#C6C6C6',
       description:
         "AI systems demonstrate self-awareness and continuously learn to adapt, evolve, and improve performance.",
@@ -93,7 +93,7 @@ export const LOOP_CARD_CONFIG = {
       discColor:'#626161 ',
       cardClassName: " !h-fit md:w-[375px] w-[100%]",
       iconColor: "#015190",
-      title: "Continuous Analysis",
+      title: "Continuous analysis",
       description:
         "Every decision and outcome is automatically captured and analyzed for patterns, effectiveness, and potential improvement",
     },
@@ -104,7 +104,7 @@ export const LOOP_CARD_CONFIG = {
         cardClassName: "  !h-fit md:w-[375px] w-[100%]",
    textColor:"#015190",
       discColor:'#626161 ',
-      title: "Meta-Cognitive Processing",
+      title: "Meta-cognitive processing",
       description:
         "Advanced algorithms evaluate thinking processes themselves, identifying cognitive biases and optimization opportunities.",
     },
@@ -115,7 +115,7 @@ export const LOOP_CARD_CONFIG = {
         cardClassName: "!h-fit  md:w-[375px] w-[100%]",
        textColor:"#015190",
       discColor:'#626161 ',
-      title: "Autonomous Refinement",
+      title: "Autonomous refinement",
       description:
         "Self-directed improvements are implemented without human intervention, ensuring continuous evolution and adaptation.",
     }
@@ -124,10 +124,10 @@ export const LOOP_CARD_CONFIG = {
 };
 
 export const Memory_CONFIG = {
-   title: "Memory Distillation",
+   title: "Memory distillation",
    bodyclass:"bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] text-white",
   subtitle:
-    "The Reflective Memory Module represents a breakthrough in AI<br/> self-awareness and continuous learning.",
+    "The reflective memory module represents a breakthrough in AI <br/> self-awareness and continuous learning.",
     cards: [
     {
       id: 1,
@@ -135,7 +135,7 @@ export const Memory_CONFIG = {
       textColor:"#fff",
       iconColor: "",
         cardClassName: "lg:w-[365px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
-      title: "Insight Extraction",
+      title: "Insight extraction",
       discColor:'#C6C6C6',
       description:
         "Key learnings are identified and extracted from vast amounts of interaction data.",
@@ -147,7 +147,7 @@ export const Memory_CONFIG = {
       cardClassName: "lg:w-[365px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        textColor:"#fff",
        discColor:'#C6C6C6',
-      title: "Knowledge Compression",
+      title: "Knowledge compression",
       description:
         "Complex patterns are distilled into efficient, actionable knowledge representations.",
     },
@@ -158,7 +158,7 @@ export const Memory_CONFIG = {
        textColor:"#fff",
        cardClassName: "lg:w-[365px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        discColor:'#C6C6C6',
-      title: "Memory Integration",
+      title: "Memory integration",
       description:
         "Refined insights are seamlessly integrated into the core knowledge base.",
     }

@@ -8,7 +8,7 @@ const TimeLine = ({ data }) => {
       
       {/* Section Heading */}
       <SectionHeading
-        titleClassName="text-dark capitalize"
+        titleClassName="text-dark "
         title={title}
         subtitleClassName="text-dark"
         subtitle={subtitle}

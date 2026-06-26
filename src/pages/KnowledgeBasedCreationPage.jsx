@@ -39,7 +39,7 @@ const KnowledgeBasedCreationPage = () => {
                 KNOWLEDGE_FEATURES_CONFIG_ONE?.subtitle || "Not Provided"
               }
               subtitleClassName="font-secondary max-w-[760px] text-[#626161]"
-              titleClassName="font-primary text-[#015190] capitalize"
+              titleClassName="font-primary text-[#015190] "
               title={KNOWLEDGE_FEATURES_CONFIG_ONE?.title || "Not Provided"}
               spacing="space-y-4"
             />
@@ -62,7 +62,7 @@ const KnowledgeBasedCreationPage = () => {
           <SectionHeading
             title="How It Works"
             subtitle="Powered by AIRITHM Core, delivering intelligent solutions for every enterprise need."
-            titleClassName="font-primary text-white capitalize text-center"
+            titleClassName="font-primary text-white text-center"
             subtitleClassName="font-secondary max-w-[760px] mx-auto text-[#B5B5B5] text-center"
             spacing="space-y-4"
           />

@@ -1,5 +1,5 @@
 export const HAMN_HEADER = {
-  heading: "Hybrid Attention Memory Network",
+  heading: "Hybrid attention memory network",
   headClass: "pt-[0]",
   headingclass:"text-[#015190]",
   paragraph:
@@ -28,7 +28,7 @@ export const HAMN_HEADER = {
 export const HAMN_HEADER_CHIPS = [
   {
     id: 1,
-    label: "Multi-Source Attention",
+    label: "Multi-source attention",
   },
   {
     id: 2,
@@ -36,7 +36,7 @@ export const HAMN_HEADER_CHIPS = [
   },
   {
     id: 3,
-    label: "Enterprise Ready",
+    label: "Enterprise ready",
   },
 ];
 
@@ -49,7 +49,7 @@ export const HAMN_SECTION_CONFIG = {
 };
 
 export const HAMN_USP_CONFIG = {
-  title: "System Architecture",
+  title: "System architecture",
   subtitle: "Deep dive into HAMN’s layered attention mechanism",
   bodyclass: "bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] text-white",
 
@@ -57,13 +57,13 @@ export const HAMN_USP_CONFIG = {
     {
       id: 1,
       icon: "Layers",
-      title: "Input Layer",
+      title: "Input layer",
       discColor: "rgba(198, 198, 198, 1)",
       textColor: "#fff",
       description:
         "Multi-source data ingestion with preprocessing and tokenization for diverse input types.",
       points: {
-        labels: ["Text Processing", "Structured Data"],
+        labels: ["Text processing", "Structured data"],
         textGradientColor:
           "linear-gradient(#6AC0E6)",
         discGradientColor:
@@ -73,13 +73,13 @@ export const HAMN_USP_CONFIG = {
     {
       id: 2,
       icon: "Brain",
-      title: "Attention Engine",
+      title: "Attention engine",
       textColor: "#fff",
       discColor: "rgba(198, 198, 198, 1)",
       description:
         "Policy-gated multi-head attention with dynamic routing and context prioritization.",
       points: {
-        labels: ["Multi-Head Attention", "Policy Gating"],
+        labels: ["Multi-head attention", "Policy gating"],
         textGradientColor:
           "linear-gradient(#6AC0E6)",
         discGradientColor:
@@ -90,12 +90,12 @@ export const HAMN_USP_CONFIG = {
       id: 3,
       icon: "BarChart3",
       textColor: "#fff",
-      title: "Output Layer",
+      title: "Output layer",
       discColor: "rgba(198, 198, 198, 1)",
       description:
         "Ranked context snippets with relevance scoring and explainability metrics.",
       points: {
-        labels: ["Relevance Scoring", "Context Ranking"],
+        labels: ["Relevance scoring", "Context ranking"],
         textGradientColor:
           "linear-gradient(#6AC0E6)",
         discGradientColor:
@@ -106,7 +106,7 @@ export const HAMN_USP_CONFIG = {
 };
 
 export const ATTENTION_FLOW_CONFIG = {
-  title: "Attention Flow Visualization",
+  title: "Attention flow visualization",
   titleClassName: "text-[#015190]",
   bodyclass:false,
  titleClassName:" text-[#00273A]",
@@ -115,7 +115,7 @@ export const ATTENTION_FLOW_CONFIG = {
   steps: [
     {
       id: "Data",
-      label: "Data Ingestion",
+      label: "Data ingestion",
       icon: {
         name: "Upload",
         size: "32",
@@ -123,7 +123,7 @@ export const ATTENTION_FLOW_CONFIG = {
     },
     {
       id: "routing",
-      label: "Attention Routing",
+      label: "Attention routing",
       icon: {
         name: "Network",
         size: "32",
@@ -131,7 +131,7 @@ export const ATTENTION_FLOW_CONFIG = {
     },
     {
       id: "policy",
-      label: "Policy Gating",
+      label: "Policy gating",
       icon: {
         name: "Funnel",
         size: "32",
@@ -139,7 +139,7 @@ export const ATTENTION_FLOW_CONFIG = {
     },
     {
       id: "ranked",
-      label: "Ranked Output",
+      label: "Ranked output",
       icon: {
         name: "Award",
         size: 32,

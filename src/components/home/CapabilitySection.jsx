@@ -12,7 +12,7 @@ const CapabilitySection = ({ title, cards }) => {
       }}
     >
       <SectionHeading
-        titleClassName=" text-white capitalize "
+        titleClassName=" text-white "
         title={title}
       />
 

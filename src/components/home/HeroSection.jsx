@@ -51,12 +51,12 @@ export default function HeroHeader() {
             onMouseEnter={() => swiperRef.current?.autoplay.stop()}
             onMouseLeave={() => swiperRef.current?.autoplay.start()}>
               <h1 class="font-primary text-[40px] mx-auto  sm:w-fit leading-none sm:text-[58px] mb-[18px] tracking-[0.02em]">
-                Enterprise Intelligence... Reimagined
+                Enterprise intelligence... Reimagined
               </h1>
 
-              <p class="font-secondary font-medium text-[18px] leading-[1.4] tracking-[2%] text-center capitalize  sm:max-w-[750px] mx-auto text-[#C6C6C6]">
-               AIRITHM is building the infrastructure layer for the agentic era with Context Intelligence to run agents reliably, and an AI Test Platform to prove They Are Secure, aligned, and ready for production
-              </p>
+              <p class="font-secondary font-medium text-[18px] leading-[1.4] tracking-[2%] text-center  sm:max-w-[750px] mx-auto text-[#C6C6C6]">
+                Airithm is building the infrastructure layer for the agentic era with context intelligence to run agents reliably, and an AI test platform to prove they are secure, aligned, and ready for production
+                </p>
 
               <div className="flex mx-auto   flex-col-reverse   sm:flex-row justify-center items-stretch gap-4 mt-[30px] max-w-[300px] sm:max-w-full">
                 <div className=" overflow-hidden   rounded-lg  p-0.5">
@@ -95,10 +95,10 @@ export default function HeroHeader() {
             onMouseEnter={() => swiperRef.current?.autoplay.stop()}
             onMouseLeave={() => swiperRef.current?.autoplay.start()}>
               <h1 class="font-primary text-[40px] mx-auto  sm:w-fit leading-none sm:text-[58px] mb-[18px] tracking-[0.02em]">
-              The Intelligence Control Plane <br /> for the Agentic Enterprise 
+              The intelligence control plane <br /> for the agentic enterprise
               </h1>
 
-              <p class="font-secondary font-medium text-[18px] leading-[1.4] tracking-[2%] text-center capitalize  sm:max-w-[750px] mx-auto text-[#C6C6C6]">
+              <p class="font-secondary font-medium text-[18px] leading-[1.4] tracking-[2%] text-center  sm:max-w-[750px] mx-auto text-[#C6C6C6]">
                A unified control plane that governs context, coordinates intelligent systems, and validates behavior across enterprise-scale agentic AI
               </p>
 
@@ -141,11 +141,11 @@ export default function HeroHeader() {
             onMouseEnter={() => swiperRef.current?.autoplay.stop()}
             onMouseLeave={() => swiperRef.current?.autoplay.start()}>
               <h1 class="font-primary text-[40px] mx-auto  sm:w-fit leading-none sm:text-[58px] mb-[18px] tracking-[0.02em]">
-             Agentic Testing for Enterprise <br /> and AI Applications 
+             Agentic testing for enterprise <br /> and AI applications
               </h1>
 
-              <p class="font-secondary font-medium text-[18px] leading-[1.4] tracking-[2%] text-center capitalize  sm:max-w-[750px] mx-auto text-[#C6C6C6]">
-               A patent-pending unified platform that uses intelligent agents to test, evaluate, and validate modern software and AI applications autonomously
+              <p class="font-secondary font-medium text-[18px] leading-[1.4] tracking-[2%] text-center  sm:max-w-[750px] mx-auto text-[#C6C6C6]">
+   A patent-pending unified platform that uses intelligent agents to test, evaluate, and validate modern software and AI applications autonomously
               </p>
 
               <div className="flex mx-auto   flex-col-reverse   sm:flex-row justify-center items-stretch gap-4 mt-[30px] max-w-[300px] sm:max-w-full">
@@ -187,11 +187,11 @@ export default function HeroHeader() {
             onMouseEnter={() => swiperRef.current?.autoplay.stop()}
             onMouseLeave={() => swiperRef.current?.autoplay.start()}>
               <h1 class="font-primary text-[40px] mx-auto  sm:w-fit leading-none sm:text-[58px] mb-[18px] tracking-[0.02em]">
-            Context Intelligence <br />for Reliable Autonomous AI 
+           Context intelligence <br /> for reliable autonomous AI
               </h1>
 
-              <p class="font-secondary font-medium text-[18px] leading-[1.4] tracking-[2%] text-center capitalize  sm:max-w-[750px] mx-auto text-[#C6C6C6]">
-               Built on patent-pending technology for governed memory, continuity, and shared context across enterprise intelligent systems
+              <p class="font-secondary font-medium text-[18px] leading-[1.4] tracking-[2%] text-center  sm:max-w-[750px] mx-auto text-[#C6C6C6]">
+          Built on patent-pending technology for governed memory, continuity, and shared context across enterprise intelligent systems
               </p>
 
               <div className="flex mx-auto   flex-col-reverse   sm:flex-row justify-center items-stretch gap-4 mt-[30px] max-w-[300px] sm:max-w-full">
@@ -233,10 +233,10 @@ export default function HeroHeader() {
             onMouseEnter={() => swiperRef.current?.autoplay.stop()}
             onMouseLeave={() => swiperRef.current?.autoplay.start()}>
               <h1 class="font-primary text-[40px] mx-auto  sm:w-fit leading-none sm:text-[58px] mb-[30px] tracking-[0.02em]">
-                Two Platforms. <br/> One Intelligence Loop. 
+                Two platforms. <br/> one intelligence loop. 
               </h1>
 
-              <p class="font-secondary font-medium text-[18px] leading-[1.4] tracking-[2%] text-center capitalize  sm:max-w-[750px] mx-auto text-[#C6C6C6]">
+              <p class="font-secondary font-medium text-[18px] leading-[1.4] tracking-[2%] text-center  sm:max-w-[750px] mx-auto text-[#C6C6C6]">
                Independently powerful platforms that can exchange governed intelligence signals to continuously improve trust, quality, and reliability
               </p>
 
@@ -279,11 +279,11 @@ export default function HeroHeader() {
             onMouseEnter={() => swiperRef.current?.autoplay.stop()}
             onMouseLeave={() => swiperRef.current?.autoplay.start()}>
               <h1 class="font-primary text-[40px] mx-auto  sm:w-fit leading-none sm:text-[58px] mb-[18px] tracking-[0.02em]">
-               The Enterprise Intelligence Loop
+               The enterprise intelligence loop
               </h1>
 
-              <p class="font-secondary font-medium text-[18px] leading-[1.4] tracking-[2%] text-center capitalize  sm:max-w-[750px] mx-auto text-[#C6C6C6]">
-              A Unified Architecture That Connects Context, Control, And Continuous Validation To Power Governed, Reliable Autonomous AI Across The Agentic Enterprise
+              <p class="font-secondary font-medium text-[18px] leading-[1.4] tracking-[2%] text-center  sm:max-w-[750px] mx-auto text-[#C6C6C6]">
+              A unified architecture that connects context, control, and continuous validation to power governed, reliable autonomous ai across the agentic enterprise
               </p>
 
               <div className="flex mx-auto   flex-col-reverse   sm:flex-row justify-center items-stretch gap-4 mt-[30px] max-w-[300px] sm:max-w-full">

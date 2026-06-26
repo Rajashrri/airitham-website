@@ -14,7 +14,7 @@ export default function ReflectiveMemoryLoop() {
       <div className="memory-loop-top gap-2 flex items-center ">
         {/* Step 1 */}
         <div className="flex items-center gap-6">
-          <h2 className="font-primary text-white font-light text-[20px] leading-[120%] tracking-[0.02em] absolute -translate-x-[110%] capitalize">
+          <h2 className="font-primary text-white font-light text-[20px] leading-[120%] tracking-[0.02em] absolute -translate-x-[110%] ">
             Memory Update
           </h2>
           <div className="size-16 flex items-center justify-center rounded-full bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
@@ -27,7 +27,7 @@ export default function ReflectiveMemoryLoop() {
 
         {/* Step 2 */}
         <div className="flex flex-col relative items-center gap-6">
-          <h2 className="font-primary text-white font-light text-[20px] leading-[120%] tracking-[0.02em] whitespace-nowrap absolute top-[-60%] capitalize">
+          <h2 className="font-primary text-white font-light text-[20px] leading-[120%] tracking-[0.02em] whitespace-nowrap absolute top-[-60%] ">
             Memory Processing
           </h2>
           <div className="size-16 flex items-center justify-center rounded-full bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
@@ -43,7 +43,7 @@ export default function ReflectiveMemoryLoop() {
           <div className="size-16 flex items-center justify-center rounded-full bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
             <UndoDot size={32} color="#fff" />
           </div>
-          <h2 className="font-primary text-white font-light text-[20px] leading-[120%] tracking-[0.02em] absolute translate-x-[110%] capitalize">
+          <h2 className="font-primary text-white font-light text-[20px] leading-[120%] tracking-[0.02em] absolute translate-x-[110%] ">
             Reflection
           </h2>
         </div>
@@ -60,7 +60,7 @@ export default function ReflectiveMemoryLoop() {
         </div>
 
         {/* Text */}
-        <h3 className="font-primary text-white font-light text-[42px] leading-[100%] tracking-[0.02em] text-center capitalize">
+        <h3 className="font-primary text-white font-light text-[42px] leading-[100%] tracking-[0.02em] text-center ">
           Reflective <br /> Memory Loop
         </h3>
 
@@ -77,7 +77,7 @@ export default function ReflectiveMemoryLoop() {
       <div className="memory-loop-top gap-2  flex items-center ">
         {/* Step 1 */}
         <div className="flex items-center gap-6">
-          <h2 className="font-primary text-white font-light text-[20px] leading-[120%] tracking-[0.02em] absolute -translate-x-[110%] capitalize">
+          <h2 className="font-primary text-white font-light text-[20px] leading-[120%] tracking-[0.02em] absolute -translate-x-[110%] ">
             Better Retrieval
           </h2>
           <div className="size-16 flex items-center justify-center rounded-full bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
@@ -90,7 +90,7 @@ export default function ReflectiveMemoryLoop() {
 
         {/* Step 2 */}
         <div className="flex flex-col relative items-center gap-6">
-          <h2 className="font-primary text-white font-light text-[20px] leading-[120%] tracking-[0.02em] whitespace-nowrap absolute bottom-[-60%] capitalize">
+          <h2 className="font-primary text-white font-light text-[20px] leading-[120%] tracking-[0.02em] whitespace-nowrap absolute bottom-[-60%] ">
             Better Reasoning
           </h2>
           <div className="size-16 flex items-center justify-center rounded-full bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
@@ -106,7 +106,7 @@ export default function ReflectiveMemoryLoop() {
           <div className="size-16 flex items-center  justify-center rounded-full bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
             <FlaskRound size={32} color="#fff" />
           </div>
-          <h2 className="font-primary text-white font-light text-[20px] leading-[120%] tracking-[0.02em] absolute translate-x-[110%] capitalize">
+          <h2 className="font-primary text-white font-light text-[20px] leading-[120%] tracking-[0.02em] absolute translate-x-[110%] ">
             Distillation
           </h2>
         </div>
@@ -121,7 +121,7 @@ export default function ReflectiveMemoryLoop() {
 //      <div className="flex flex-col items-end gap-6 relative">
 //   {/* Top item */}
 //   <div className="flex items-center gap-6">
-//     <h2 className="font-primary text-white font-light text-[20px] leading-[120%] tracking-[0.02em] capitalize">
+//     <h2 className="font-primary text-white font-light text-[20px] leading-[120%] tracking-[0.02em] ">
 //       Memory Update
 //     </h2>
 
@@ -142,7 +142,7 @@ export default function ReflectiveMemoryLoop() {
 
 //   {/* Bottom item */}
 //   <div className="flex items-center gap-6">
-//     <h2 className="font-primary text-white font-light text-[20px] leading-[120%] tracking-[0.02em] capitalize">
+//     <h2 className="font-primary text-white font-light text-[20px] leading-[120%] tracking-[0.02em] ">
 //       Better Retrieval
 //     </h2>
 

@@ -94,7 +94,7 @@ const PlatformCard = ({
               {title}
             </h2>
 
-            <p className="font-secondary tracking-[0.02em] capitalize text-[#626161] leading-[1.4]">
+            <p className="font-secondary tracking-[0.02em] text-[#626161] leading-[1.4]">
               {description}
             </p>
           </div>
@@ -102,14 +102,14 @@ const PlatformCard = ({
 
         {/* CTA BUTTON */}
         {/* <Link
-          className="font-primary flex gap-2 rounded-lg w-full sm:w-fit capitalize px-5 py-4 text-white bg-primary-gradient font-bold text-[16px]"
+          className="font-primary flex gap-2 rounded-lg w-full sm:w-fit px-5 py-4 text-white bg-primary-gradient font-bold text-[16px]"
           
           
           iconSize="20px"
           to={ctaLink}
         >{ctaText}<CircleArrowOutUpRight/></Link> */}
         <Button
-          className="font-primary rounded-lg w-full sm:w-fit capitalize px-5 py-4 text-white bg-primary-gradient font-bold text-[16px]"
+          className="font-primary rounded-lg w-full sm:w-fit px-5 py-4 text-white bg-primary-gradient font-bold text-[16px]"
           btnText={ctaText}
           icon={ctaIcon}
           iconSize="20px"

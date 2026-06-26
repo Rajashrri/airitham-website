@@ -46,7 +46,7 @@ const DemoPage = () => {
                 <div className="demo-feature-content text-left space-y-2">
                   <h4
                     className="bg-[#6AC0E6] inline-block bg-clip-text text-transparent
-             font-primary font-medium text-[20px] leading-[1.2] tracking-[0.02em] capitalize"
+             font-primary font-medium text-[20px] leading-[1.2] tracking-[0.02em] "
                   >
                     Agents Analyzing
                   </h4>
@@ -72,7 +72,7 @@ const DemoPage = () => {
                 <div className="demo-feature-content text-left space-y-2">
                   <h4
                     className="bg-[#6AC0E6] inline-block bg-clip-text text-transparent
-                      font-primary font-medium text-[20px] leading-[1.2] tracking-[0.02em] capitalize"
+                      font-primary font-medium text-[20px] leading-[1.2] tracking-[0.02em] "
                   >
                   Executing Tests
                   </h4>
@@ -97,7 +97,7 @@ const DemoPage = () => {
                 <div className="demo-feature-content text-left space-y-2">
                   <h4
                     className="bg-[#6AC0E6] inline-block bg-clip-text text-transparent
-                      font-primary font-medium text-[20px] leading-[1.2] tracking-[0.02em] capitalize"
+                      font-primary font-medium text-[20px] leading-[1.2] tracking-[0.02em] "
                   >
                   Evaluating Results
                   </h4>

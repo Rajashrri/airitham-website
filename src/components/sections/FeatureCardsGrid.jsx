@@ -21,7 +21,7 @@ export default function FeatureCardsGrid() {
           </div>
 
           {/* Title */}
-          <h3 className="font-primary text-left font-medium text-2xl text-white leading-none tracking-[0.02em] capitalize ">
+          <h3 className="font-primary text-left font-medium text-2xl text-white leading-none tracking-[0.02em] ">
             {feature.title}
           </h3>
           <div className="bg-[#D9D9D9] w-full h-[160px]">

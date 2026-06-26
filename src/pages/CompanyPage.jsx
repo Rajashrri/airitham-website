@@ -24,13 +24,13 @@ const { cards: members } = members_CONFIG;
                 iconClassName="text-dark"
             />
             <div className='lg:mt-[100px] mt-[70px] rounded-[50px] lg:py-[150px] py-[100px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)]'>
-                <p className='font-secondary font-semibold text-[18px] text-white text-center mb-[15px]'>Two Platforms. One Vision.</p>
+                <p className='font-secondary font-semibold text-[18px] text-white text-center mb-[15px]'>Two platforms. one vision.</p>
                 <MainBanner data={Comapny_HEADER} />
 
             </div>
             <section className='py-20 px-5 md:px-0 '>
            <SectionHeading
-  title="Building Tomorrow’s Testing Infrastructure"
+  title="Building tomorrow’s testing infrastructure"
   subtitle={`We envision a world where software testing is fully autonomous, context-aware, and predictive where quality assurance evolves from reactive validation to proactive intelligence.
 <br class="hidden md:block" />
 Our dual-platform approach combines the precision of autonomous testing with the insight of context intelligence, creating a unified ecosystem that adapts, learns, and scales with your organization.`}
@@ -50,7 +50,7 @@ Our dual-platform approach combines the precision of autonomous testing with the
             <section className='py-[80px]  px-5 pb-[200px] rounded-t-[50px]  md:rounded-t-[100px] rounded-b-0 bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)]'>
                 {/* <p className='font-secondary font-semibold text-[18px] text-[#fff] text-center mb-[10px]'>Our Platforms</p> */}
                 <SectionHeading
-                    title="Two Complementary Solutions"
+                    title="Two complementary solutions"
                     subtitle='Purpose-built platforms that work independently or together to transform <br class="md:block hidden "/> your testing and intelligence capabilities'
                     titleClassName=" text-[#fff]"
                     subtitleClassName="  text-[#C6C6C6] max-w-[950px]"
@@ -59,7 +59,7 @@ Our dual-platform approach combines the precision of autonomous testing with the
                 <div className="flex flex-wrap justify-center md:flex-nowrap gap-[30px] max-w-[1224px] mx-auto mt-[50px]" >
                     <div className="max-w-[600px] border border-[1px] border-[#505050] rounded-[16px] py-5 px-5 bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] h-full">
                         <FlaskConical className=' text-[#6AC0E6] h-[32px]' />
-                        <h2 className='font-primary mt-[30px] text-[24px] font-[600] text-[white]'>Autonomous Testing Platform</h2>
+                        <h2 className='font-primary mt-[30px] text-[24px] font-[600] text-[white]'>Autonomous testing platform</h2>
                         <h3 className='font-secandary mt-[14px]  bg-[#6AC0E6]
                             font-[600] bg-clip-text text-transparent text-[16px] font-[500]'>airithm.test</h3>
                         <p className='font-seconadry lg:text-[14px] text-[14px] mt-[14px] text-[#C6C6C6]'>Eliminate manual test maintenance with AI-powered autonomous testing. Our platform automatically generates, executes, and maintains test suites that evolve with your codebase.</p>
@@ -88,11 +88,10 @@ Our dual-platform approach combines the precision of autonomous testing with the
                     </div>
                     <div className="max-w-[600px] border border-[1px] border-[#505050] rounded-[16px] py-4 px-5 bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] h-full flex flex-col">
                         <Network className=' text-[#6AC0E6] h-[32px]' />
-                        <h2 className='font-primary mt-[30px] text-[24px] font-[600] text-[white]'>Context Intelligence Platform</h2>
+                        <h2 className='font-primary mt-[30px] text-[24px] font-[600] text-[white]'>Context intelligence platform</h2>
                         <h3 className='font-secandary mt-[14px]  bg-[#6AC0E6]
                             font-[600] bg-clip-text text-transparent text-[16px] font-[500]'>airithm.test</h3>
-                        <p className='font-seconadry lg:text-[14px] text-[14px]  mt-[14px] text-[#C6C6C6]'>Understand the full context of your systems with deep behavioral analysis.
-Our platform maps dependencies, monitors patterns, and provides actionable intelligence for every decision.</p>
+                        <p className='font-seconadry lg:text-[14px] text-[14px]  mt-[14px] text-[#C6C6C6]'>Understand the full context of your systems with deep behavioral analysis. Our platform maps dependencies, monitors patterns, and provides actionable intelligence for every decision.</p>
                        <div className=' mt-auto'>
 
 
@@ -120,8 +119,7 @@ Our platform maps dependencies, monitors patterns, and provides actionable intel
                 </div>
             </section>
             <section className='py-[90px] rounded-t-[50px] md:rounded-t-[100px] lg:px-0 px-5 rounded-b-0  mt-[-100px] bg-[#fff] '>
-                    {/* <p className='font-secondary font-[600] text-[18px] text-[#717171] text-center mb-[10px]'>Our Platforms</p> */}
-                <SectionHeading
+                {/* <SectionHeading
                     title="Engineering the Future"
                     subtitle='Founder'
                     titleClassName="text-[#000]"
@@ -142,17 +140,15 @@ Our platform maps dependencies, monitors patterns, and provides actionable intel
                     <p className='text-[#1E1E1E] text-[16px] font-secondary font-[500]'>Founder & CEO</p>
                     <p className='text-[#1E1E1E] text-[16px] font-secondary font-[500] mt-6'>Sucharitha is a senior engineering and technology leader with over 20 years of experience guiding enterprise-scale AI strategy, operating models, and governance across Fortune 500 companies and highly regulated sectors, including finance, healthcare, travel, and supply chain.</p>
                     <p className='text-[#1E1E1E] text-[16px] font-secondary font-[500] mt-6'>Sucharitha brings a proven ability to align advanced technology initiatives with business priorities, delivering scalable platforms, durable operating frameworks, and measurable enterprise value.</p>
-                    {/* <p className='text-[#1E1E1E] text-[16px] font-secondary font-[500] mt-6'>Sucharitha brings a proven ability to align advanced technology initiatives with business priorities, delivering scalable platforms, durable operating frameworks, and measurable enterprise value.</p> */}
-                </div>
+                 </div>
                     
                 </div>
                  
 
             </section>
-            <section className='py-[90px] rounded-t-[50px] md:rounded-t-[100px] lg:px-0 px-5 rounded-b-0  mt-[-100px] bg-[#fff] '>
-                    {/* <p className='font-secondary font-[600] text-[18px] text-[#717171] text-center mb-[10px]'>Our Platforms</p> */}
-                <SectionHeading
-                    title="Built by Visionaries"
+            <section className='py-[90px] rounded-t-[50px] md:rounded-t-[100px] lg:px-0 px-5 rounded-b-0  mt-[-100px] bg-[#fff] '> */}
+                 <SectionHeading
+                    title="Built by visionaries"
                     subtitle='A team of industry veterans and innovators dedicated to reshaping software quality'
                     titleClassName="text-[#000]"
                     subtitleClassName=" text-[#626161] max-w-[100%]"
@@ -161,7 +157,7 @@ Our platform maps dependencies, monitors patterns, and provides actionable intel
                 {members?.map((item) => (
                     <div
                     key={item.id}
-                    className="col-span-12 md:col-span-3 py-5 px-7 border border-[1px] border-[#D9D9D9] rounded-[24px]"
+                    className="col-span-12 md:col-span-3 py-5 px-7  transition-all duration-300 border border-[1px] border-[#D9D9D9] hover:shadow-[0_0_40px_2px_#42abdf40] rounded-[24px]"
                     >
                         <img src={item.profile} alt="" />
                     <h2 className='font-primary mt-[35px] font-[600] text-[#015190] text-[24px]'>{item.title}</h2>
@@ -187,7 +183,7 @@ Our platform maps dependencies, monitors patterns, and provides actionable intel
 '>
                        {/* <p className='font-secondary font-[500] text-[18px] text-[#fff] text-center mb-[10px]'>Our Values</p> */}
                 <SectionHeading
-                    title="What Drives Us"
+                    title="What drives Us"
                     // subtitle='Purpose-built platforms that work independently or together to transform <br/> your testing and intelligence capabilities'
                     titleClassName="sm:text-[48px] text-[#fff]"
                     subtitleClassName=" sm:text-[16px] text-[#C6C6C6] max-w-[950px]"
@@ -200,7 +196,7 @@ Our platform maps dependencies, monitors patterns, and provides actionable intel
                 <section className='py-[100px] pb-[200px] rounded-t-[50px] rounded-b-0  mt-[-100px] bg-[#fff] px-5 '>
                     {/* <p className='font-secondary font-[600] text-[18px] text-[#626161] text-center mb-[10px]'>Backed Up</p> */}
                 <SectionHeading
-                    title="World-Class Investors"
+                    title="World-class investors"
                     subtitle='Supported by leading venture capital firms and strategic partners who share our vision'
                     titleClassName="sm:text-[40px] text-[#000]"
                     subtitleClassName=" sm:text-[16px] text-[#626161] max-w-[100%]"
@@ -210,34 +206,34 @@ Our platform maps dependencies, monitors patterns, and provides actionable intel
                         <div className="grid grid-cols-12 gap-6">
                             <div className="col-span-12 md:col-span-3 text-center py-8">
                                 <h2 className='text-[#015190] text-[24px] font-primary'>Sequoia</h2>
-                                <p className='text-[#626161] text-[16px]'>Lead Investor</p>
+                                <p className='text-[#626161] text-[16px]'>Lead investor</p>
                             </div>
                             <div className="col-span-12 md:col-span-3 text-center py-8">
                                 <h2 className='text-[#015190] text-[24px] font-primary'>a16z</h2>
-                                <p className='text-[#626161] text-[16px]'>Series A</p>
+                                <p className='text-[#626161] text-[16px]'>Series a</p>
                             </div>
                             <div className="col-span-12 md:col-span-3 text-center py-8">
                                 <h2 className='text-[#015190] text-[24px] font-primary'>Accel</h2>
-                                <p className='text-[#626161] text-[16px]'>Strategic Partner</p>
+                                <p className='text-[#626161] text-[16px]'>Strategic partner</p>
                             </div>
                             <div className="col-span-12 md:col-span-3 text-center py-8">
                                 <h2 className='text-[#015190] text-[24px] font-primary'>Index</h2>
-                                <p className='text-[#626161] text-[16px]'>Growth Stage</p>
+                                <p className='text-[#626161] text-[16px]'>Growth stage</p>
                             </div>
                         </div>
 
                     </div>
                     <div className="col-span-12 md:col-span-4 text-center py-8  border rounded-[16px] border-[#C6C6C6] border-[1px]">
                    <h2 className='text-[#015190] text-[24px] font-primary'>$45M</h2>
-                                <p className='text-[#626161] text-[16px]'>Total Funding Raised</p>
+                                <p className='text-[#626161] text-[16px]'>Total funding raised</p>
                     </div>
                     <div className="col-span-12 md:col-span-4 text-center py-8  border rounded-[16px] border-[#C6C6C6] border-[1px]">
                    <h2 className='text-[#015190] text-[24px] font-primary'>2020</h2>
-                                <p className='text-[#626161] text-[16px]'>Year Founded</p>
+                                <p className='text-[#626161] text-[16px]'>Year founded</p>
                     </div>
                     <div className="col-span-12 md:col-span-4 text-center py-8  border rounded-[16px] border-[#C6C6C6] border-[1px]">
                    <h2 className='text-[#015190] text-[24px] font-primary'>120+</h2>
-                                <p className='text-[#626161] text-[16px]'>Team Members</p>
+                                <p className='text-[#626161] text-[16px]'>Team members</p>
                     </div>
                   
                 </div>

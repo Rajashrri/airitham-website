@@ -43,7 +43,7 @@ const HamnPage = () => {
 
       <section className="py-[100px] max-w-[1100px] mx-auto px-4">
         <SectionHeading
-          title="Attention Flow Visualization"
+          title="Attention flow visualization"
           titleClassName="sm:text-[48px] text-[#015190]"
           subtitleClassName="sm:text-[16px] text-[#626161]"
         />
@@ -150,7 +150,7 @@ const HamnPage = () => {
                 </span>
                 <div className="inline-block">
                   <h3 className="text-[#015190] text-[20px] font-primary font-[600] mb-2">
-                    Attention Visualization
+                    Attention visualization
                   </h3>
                   <p className="text-[16px] font-primary font-[500] text-[#626161] ">
                     Real-time heatmaps showing attention weights across input
@@ -197,7 +197,7 @@ const HamnPage = () => {
                 </span>
                 <div className="inline-block">
                   <h3 className="text-[#015190] text-[20px] font-primary font-[600] mb-2">
-                    Decision Pathways
+                    Decision pathways
                   </h3>
                   <p className="text-[16px] font-primary font-[500] text-[#626161] ">
                     Traceable routing decisions with confidence scores
@@ -243,7 +243,7 @@ const HamnPage = () => {
                 </span>
                 <div className="inline-block">
                   <h3 className="text-[#015190] text-[20px] font-primary font-[600] mb-2">
-                    Audit Trail
+                    Audit trail
                   </h3>
                   <p className="text-[16px] font-primary font-[500] text-[#626161] ">
                     Complete audit logs for enterprise compliance and governance

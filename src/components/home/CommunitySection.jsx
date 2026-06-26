@@ -29,7 +29,9 @@ const CommunitySection = () => {
             </div> */}
 
           <SectionHeading
-            subtitle="Join the new aged technology community. Collaborate with professionals  <br class='hidden sm:block' />globally to share insights, ask questions, and find the answers you need.
+            subtitle="Join the new aged technology community. Collaborate with professionals
+             <br class='hidden sm:block' />
+             globally to share insights, ask questions, and find the answers you need.
  "
             subtitleClassName=" font-secondary text-[#DADADA]"
             titleClassName="font-primary   text-white captialize"

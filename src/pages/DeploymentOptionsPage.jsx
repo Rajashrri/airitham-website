@@ -70,7 +70,7 @@ const DeploymentOptionsPage = () => {
                                       </div>
                                 
                                       <div className="sidecard-group sapce-y-6">
-                                        <h3 className="text-[24px] capitalize font-primary font-[600] tracking-[0.02em] leading-[1.2] text-[#1e1e1e] mb-4">
+                                        <h3 className="text-[24px] font-primary font-[600] tracking-[0.02em] leading-[1.2] text-[#1e1e1e] mb-4">
                                           {item.title}
                                         </h3>
                                         <p className='text-[#626161] text-[18px] font-secondary font-[500]'   dangerouslySetInnerHTML={{ __html: item.dis }}></p>

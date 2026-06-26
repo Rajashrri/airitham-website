@@ -34,7 +34,7 @@ const Integrations = () => {
     <section className='py-[90px] bg-[#fff]'>
           {/* Section Heading */}
               <SectionHeading
-                titleClassName="text-[#015190] capitalize"
+                titleClassName="text-[#015190] "
                 title="Built to Work With Your Stack"
                 subtitleClassName="text-dark"
                 // subtitle="{subtitle}"

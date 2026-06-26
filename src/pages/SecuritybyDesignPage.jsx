@@ -77,7 +77,7 @@ const SecuritybyDesignPage = () => {
                                       </div>
                                 
                                       <div className="sidecard-group sapce-y-6">
-                                        <h3 className="text-[24px] capitalize font-primary font-[600] tracking-[0.02em] leading-[1.2] text-[#1e1e1e] mb-[10px]">
+                                        <h3 className="text-[24px] font-primary font-[600] tracking-[0.02em] leading-[1.2] text-[#1e1e1e] mb-[10px]">
                                           {item.title}
                                         </h3>
                                         <p className='text-[#626161] text-[14px] font-secondary font-[500]'>{item.dis}</p>

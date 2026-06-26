@@ -2,24 +2,24 @@ import { Database, MemoryStick } from "lucide-react";
 
 export const statsCardConfig = [
   {
-    title: "Short-Term Memory",
+    title: "Short-term memory",
     iconPath: '/svg/memory-stick.svg',
     items: [
-      { id: "1", label: "Recent Contexts", value: 12085 },
-      { id: "2", label: "Active Sessions", value: 76 },
+      { id: "1", label: "Recent contexts", value: 12085 },
+      { id: "2", label: "Active sessions", value: 76 },
       { id: "3", label: "Retention", value: 5, suffix: "min" },
     ],
   },
   {
-    title: "Promotion Engine (Center Panel)",
+    title: "Promotion engine (center panel)",
     iconPath: '/svg/grid/arrow-up-down.svg',
     relevanceScore: 87,
   },
   {
-    title: "Long-Term Memory",
+    title: "Long-term memory",
     iconPath: '/svg/database.svg',
     items: [
-      { id: "1", label: "Stored Contexts", value: "2,468"},
+      { id: "1", label: "Stored contexts", value: "2,468"},
       { id: "2", label: "Embeddings", value: 1,suffix:"M+" },
       { id: "3", label: "Retention", value: 1, suffix: "+ yr" },
     ],
@@ -28,7 +28,7 @@ export const statsCardConfig = [
 
 
 export const Query_TIME_CONFIG = {
-   title: "Query-Time Composition",
+   title: "Query-time composition",
    bodyclass:"bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] text-white",
   subtitle:
     "Intelligent merging and composition engine that combines short-term and long-term memory contexts for optimal, responsive generation.",
@@ -40,7 +40,7 @@ export const Query_TIME_CONFIG = {
       discColor:'#C6C6C6 ',
       cardClassName: " h-[100%] lg:w-[375px] w-full bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
       iconColor: "",
-      title: "Context Fusion",
+      title: "Context fusion",
       description:
         "Seamless integration of memory tiers",
     },
@@ -51,7 +51,7 @@ export const Query_TIME_CONFIG = {
         cardClassName: " h-[100%] lg:w-[375px] w-full bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
    textColor:"#fff",
       discColor:'#C6C6C6 ',
-      title: "Smart Ranking",
+      title: "Smart ranking",
       description:
         "Relevance-based prioritization",
     },
@@ -62,7 +62,7 @@ export const Query_TIME_CONFIG = {
         cardClassName: " h-[100%] lg:w-[375px] w-full bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        textColor:"#fff",
       discColor:'#C6C6C6 ',
-      title: "Real-time Processing",
+      title: "Real-time processing",
       description:
         "Sub-millisecond response times",
     },
@@ -74,7 +74,7 @@ export const Query_TIME_CONFIG = {
 
 export const CAPSULE_CONFIG = {
    bodyclass:true,
-    title:"Key Features",
+    title:"Key features",
     headcolor:"#fff",
   
     cards: [
@@ -85,7 +85,7 @@ export const CAPSULE_CONFIG = {
       discColor:'#C6C6C6 ',
       cardClassName: " h-[100%] md:w-[385px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
       iconColor: "",
-      title: "Agent Persona & Role Definition",
+      title: "Agent persona & role definition",
       description:
         "Outlines the AI agent’s identity, tone, and domain alignment (e.g., SupportBot, ResearchAgent).",
     },
@@ -96,7 +96,7 @@ export const CAPSULE_CONFIG = {
         cardClassName: " h-[100%] md:w-[385px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
    textColor:"#fff",
       discColor:'#C6C6C6 ',
-      title: "Tools & Permissions",
+      title: "Tools & permissions",
       description:
         "Lists APIs, actions, and system privileges encapsulated for that agent. Example:/search, /fetch, /summarize.",
     },
@@ -107,7 +107,7 @@ export const CAPSULE_CONFIG = {
         cardClassName: " h-[100%] md:w-[385px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        textColor:"#fff",
       discColor:'#C6C6C6 ',
-      title: "Scoped Memory Window",
+      title: "Scoped memory window",
       description:
         "Shows how recent history (episodic) and long-term knowledge (semantic) are stored and time-bound within the capsule.",
     },

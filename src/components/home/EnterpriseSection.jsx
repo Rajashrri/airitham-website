@@ -40,7 +40,7 @@ const EnterpriseSection = () => {
           <div className="bg-white rounded-[50px] px-4 md:px-0 sm:rounded-[100px] py-[100px] pt-[40px]  z-10 relative   mt-[-100px]">
         <div className="max-w-12xl mx-auto ">
           <SectionHeading
-            title="Secure and Resilient by Design"
+            title="Secure and resilient by design"
             titleClassName="text-[#015190]"
             subtitleClassName=" text-[#757575]"
             subtitle={subtitle}

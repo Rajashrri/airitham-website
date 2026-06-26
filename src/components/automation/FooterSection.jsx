@@ -24,7 +24,7 @@ export const FooterSection = () => {
               <h4 className="font-secondary text-[16px] font-semibold leading-[1.2]">
                 Products
               </h4>
-              <ul className="space-y-3.5 capitalize font-secondary text-[16px]">
+              <ul className="space-y-3.5 font-secondary text-[16px]">
                 <li>neuroTest</li>
                 <li>CoreTest</li>
                 <li>Integration</li>

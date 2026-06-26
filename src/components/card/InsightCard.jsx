@@ -37,10 +37,10 @@ const InsightCard = ({
       <div className="space-y-[24px]">
         {/* Number + Label */}
         <div className="space-y-2">
-          <div className="font-primary font-medium lg:text-[64px] text-[40px] leading-[100%] tracking-[2%] capitalize">
+          <div className="font-primary font-medium lg:text-[64px] text-[40px] leading-[100%] tracking-[2%] ">
             {value}
           </div>
-          <div className="font-inter font-medium text-[14px] leading-[140%] tracking-[4%] capitalize">
+          <div className="font-inter font-medium text-[14px] leading-[140%] tracking-[4%] ">
             {label}
           </div>
         </div>

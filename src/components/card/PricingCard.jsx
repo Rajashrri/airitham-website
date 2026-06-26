@@ -42,7 +42,7 @@ const PricingCard = ({
       {/* Content */}
       <div className="space-y-8">
         <div className="space-y-4">
-          <h3 className="font-primary font-medium text-[30px] leading-none tracking-[0.02em] capitalize">
+          <h3 className="font-primary font-medium text-[30px] leading-none tracking-[0.02em] ">
             {title}
           </h3>
 
@@ -80,7 +80,7 @@ const PricingCard = ({
       <a
         className={`
           w-full rounded-lg py-4 cursor-pointer
-          font-primary font-medium capitalize text-white
+          font-primary font-medium text-white
           text-[20px] leading-[1.2] text-center
           shadow-[0px_2px_4px_0px_#00000029,0px_8px_8px_0px_#00000024,0px_17px_10px_0px_#00000014,0px_30px_12px_0px_#00000005,0px_47px_13px_0px_#00000000]
           ${cta?.bgClass}

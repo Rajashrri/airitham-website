@@ -48,20 +48,20 @@ const NeuroTestPage = () => {
             </section>
             <section className='py-[80px] px-5 max-w-[780px] mx-auto '>
                 <SectionHeading
-                    title="What is NeuroTest?"
-                    subtitle="The single plugin-based, architecture-aware hub that unifies AI testing into one compliant,  governed platform. NeuroTest orchestrates multiple evaluation frameworks to provide   comprehensive quality assurance for your AI systems."
+                    title="What is neurotest?"
+                    subtitle="The single plugin-based, architecture-aware hub that unifies AI testing into one compliant, governed platform. Neurotest orchestrates multiple evaluation frameworks to provide comprehensive quality assurance for your AI systems."
                    
                     titleClassName="  text-[#015190]"
                     subtitleClassName="  text-[#626161]"
                 />
                 <div className="mt-[50px]">
                     <ul className='flex flex-wrap gap-[20px] justify-center'>
-                        <li className=' px-5 py-2 rounded-[100px] border border-[1px] border-[#015190] w-fit text-[#015190]  font-primary text-[16px]'><Brain className='me-3 inline-flex' /><span className="font-[600]">LLM Correctness</span> </li>
-                        <li className=' px-5 py-2 rounded-[100px] border border-[1px] border-[#015190] w-fit text-[#015190]  font-primary text-[16px]'><MemoryStick className='me-3 inline-flex' /><span className="font-[600]">Planning & Memory</span> </li>
-                        <li className=' px-5 py-2 rounded-[100px] border border-[1px] border-[#015190] w-fit text-[#015190]  font-primary text-[16px]'><ShieldCheck className='me-3 inline-flex' /><span className="font-[600]">Safety & Robustness</span> </li>
-                        <li className=' px-5 py-2 rounded-[100px] border border-[1px] border-[#015190] w-fit text-[#015190]  font-primary text-[16px]'><Network className='me-3 inline-flex' /><span className="font-[600]">Multi-agent Tool-use</span> </li>
-                        <li className=' px-5 py-2 rounded-[100px] border border-[1px] border-[#015190] w-fit text-[#015190]  font-primary text-[16px]'><Search className='me-3 inline-flex' /><span className="font-[600]">RAG Retrieval Quality</span> </li>
-                        <li className=' px-5 py-2 rounded-[100px] border border-[1px] border-[#015190] w-fit text-[#015190]  font-primary text-[16px]'><CircleCheck className='me-3 inline-flex' /><span className="font-[600]">Compliance Validation</span> </li>
+                        <li className=' px-5 py-2 rounded-[100px] border border-[1px] border-[#015190] w-fit text-[#015190]  font-primary text-[16px]'><Brain className='me-3 inline-flex' /><span className="font-[600]">LLM correctness</span> </li>
+                        <li className=' px-5 py-2 rounded-[100px] border border-[1px] border-[#015190] w-fit text-[#015190]  font-primary text-[16px]'><MemoryStick className='me-3 inline-flex' /><span className="font-[600]">Planning & memory</span> </li>
+                        <li className=' px-5 py-2 rounded-[100px] border border-[1px] border-[#015190] w-fit text-[#015190]  font-primary text-[16px]'><ShieldCheck className='me-3 inline-flex' /><span className="font-[600]">Safety & robustness</span> </li>
+                        <li className=' px-5 py-2 rounded-[100px] border border-[1px] border-[#015190] w-fit text-[#015190]  font-primary text-[16px]'><Network className='me-3 inline-flex' /><span className="font-[600]">Multi-agent tool-use</span> </li>
+                        <li className=' px-5 py-2 rounded-[100px] border border-[1px] border-[#015190] w-fit text-[#015190]  font-primary text-[16px]'><Search className='me-3 inline-flex' /><span className="font-[600]">RAG retrieval quality</span> </li>
+                        <li className=' px-5 py-2 rounded-[100px] border border-[1px] border-[#015190] w-fit text-[#015190]  font-primary text-[16px]'><CircleCheck className='me-3 inline-flex' /><span className="font-[600]">Compliance validation</span> </li>
                     </ul>
                 </div>
 
@@ -73,7 +73,7 @@ const NeuroTestPage = () => {
                 <div className=" rounded-[50px] px-5  md:rounded-[100px]  py-[80px] bg-[#fff] ">
                     <SectionHeading
                     
-                        title="A Unified Architecture for AI Evaluation"
+                        title="A unified architecture for AI evaluation"
                     
                         titleClassName=" text-[#015190]"
                         subtitleClassName=" text-[#626161]"
@@ -82,24 +82,24 @@ const NeuroTestPage = () => {
                         <div className="grid lg:grid-cols-3 grid-cols-1  gap-4">
                             <div>
                                 <div className="bg-[#fff] py-4 px-6 rounded-[24px]">
-                                    <h3 className='text-[#015190] text-[24px] font-primary mb-[20px] block'>AIRITHM UI</h3>
-                                    <p className='text-[#626161] text-[18px] font-[700] font-secondary'>VUX Dashboard</p>
+                                    <h3 className='text-[#015190] text-[24px] font-primary mb-[20px] block'>Airithm UI</h3>
+                                    <p className='text-[#626161] text-[18px] font-[700] font-secondary'>Vux dashboard</p>
                                 </div>
                                 <div className="bg-[#fff] py-4 px-6 rounded-[24px] mt-[20px]">
-                                    <h3 className='text-[#015190] text-[24px] font-primary mb-[20px] block'>Plugin Ecosystem</h3>
+                                    <h3 className='text-[#015190] text-[24px] font-primary mb-[20px] block'>Plugin ecosystem</h3>
 
                                     <ul className='list-disc pl-5'>
-                                        <li className='text-[#626161] text-[18px] font-secondary font-[700] mb-[10px]'>DeepEval</li>
-                                        <li className='text-[#626161] text-[18px] font-secondary font-[700] mb-[10px]'>RAGAS</li>
-                                        <li className='text-[#626161] text-[18px] font-secondary font-[700] mb-[10px]'>AgentBench</li>
-                                        <li className='text-[#626161] text-[18px] font-secondary font-[700] mb-[10px]'>HELM</li>
-                                        <li className='text-[#626161] text-[18px] font-secondary font-[700] mb-[10px]'>TRLens</li>
+                                        <li className='text-[#626161] text-[18px] font-secondary font-[700] mb-[10px]'>Deepeval</li>
+                                        <li className='text-[#626161] text-[18px] font-secondary font-[700] mb-[10px]'>Ragas</li>
+                                        <li className='text-[#626161] text-[18px] font-secondary font-[700] mb-[10px]'>Agentbench</li>
+                                        <li className='text-[#626161] text-[18px] font-secondary font-[700] mb-[10px]'>Helm</li>
+                                        <li className='text-[#626161] text-[18px] font-secondary font-[700] mb-[10px]'>Trlens</li>
                                     </ul>
                                 </div>
                             </div>
                             <div>
                                 <div className="bg-[#fff] py-4 px-6 rounded-[24px] ">
-                                    <h3 className='text-[#015190] text-[24px] font-primary font-[500] text-center block'>FastAPI Service Layer</h3>
+                                    <h3 className='text-[#015190] text-[24px] font-primary font-[500] text-center block'>FastAPI service layer</h3>
                                 </div>
                                 <div className="hidden top-[10px] left-1/2 sm:block flex-1 w-[2px] h-[70px] bg-[#fff] relative
                                     after:content-[''] 
@@ -116,7 +116,7 @@ const NeuroTestPage = () => {
                                     <span className="absolute right-0 left-[-7px] bottom-0  w-4 h-4 border-r-3 border-b-3 border-[#ffffff] rotate-45" />
                                 </div>
                                 <div className="bg-[#fff] py-4 px-6 rounded-[24px] mt-[20px]">
-                                    <h3 className='text-[#015190] text-[24px] font-primary text-center  block'>Evaluation Suite Loader</h3>
+                                    <h3 className='text-[#015190] text-[24px] font-primary text-center  block'>Evaluation suite loader</h3>
                                 </div>
                                 <div className="hidden top-[10px] left-1/2 sm:block flex-1 w-[2px] h-[70px] bg-[#fff] relative
                                     after:content-[''] 
@@ -133,24 +133,24 @@ const NeuroTestPage = () => {
                                     <span className="absolute right-0 left-[-7px] bottom-0  w-4 h-4 border-r-3 border-b-3 border-[#ffffff] rotate-45" />
                                 </div>
                                 <div className="bg-[#fff] py-4 px-6 rounded-[24px] mt-[20px]">
-                                    <h3 className='text-[#015190] text-[24px] font-primary text-center  block'>Evaluation Orchestrator</h3>
+                                    <h3 className='text-[#015190] text-[24px] font-primary text-center  block'>Evaluation orchestrator</h3>
                                 </div>
                             </div>
                             <div>
                                 <div className="bg-[#fff] py-4 px-6 rounded-[24px] ">
-                                    <h3 className='text-[#015190] text-[24px] font-primary mb-[20px] block'>Data Inputs</h3>
+                                    <h3 className='text-[#015190] text-[24px] font-primary mb-[20px] block'>Data inputs</h3>
 
                                     <ul className='list-disc pl-5'>
-                                        <li className='text-[#626161] text-[18px] font-secondary font-[700] mb-[10px]'>JSONL tests</li>
+                                        <li className='text-[#626161] text-[18px] font-secondary font-[700] mb-[10px]'>Jsonl tests</li>
                                         <li className='text-[#626161] text-[18px] font-secondary font-[700] mb-[10px]'>Agent traces</li>
                                         <li className='text-[#626161] text-[18px] font-secondary font-[700] mb-[10px]'>Synthetic data</li>
                                     </ul>
                                 </div>
                                 <div className="bg-[#fff] py-4 px-6 rounded-[24px] mt-[20px]">
-                                    <h3 className='text-[#015190] text-[24px] font-primary  block'>Data Inputs</h3>
+                                    <h3 className='text-[#015190] text-[24px] font-primary  block'>Data inputs</h3>
                                 </div>
                                 <div className="bg-[#fff] py-4 px-6 rounded-[24px] mt-[20px]">
-                                    <h3 className='text-[#015190] text-[24px] font-primary mb-[20px] block'>Result Storage</h3>
+                                    <h3 className='text-[#015190] text-[24px] font-primary mb-[20px] block'>Result storage</h3>
                                     <p className='text-[#626161] text-[18px] font-[700] font-secondary'>PostgreSQL</p>
                                 </div>
 
@@ -162,7 +162,7 @@ const NeuroTestPage = () => {
             </div>
             <section className='py-[90px] md:rounded-[100px] rounded-[40px] bg-[#E9F6FB]'>
                 <SectionHeading
-                    title="Key Features"
+                    title="Key features"
                     // subtitle='The single, plugin-based, architecture-aware hub that unifies AI testing into one compliant,<br/> governed platform. NeuroTest orchestrates multiple evaluation frameworks to provide <br/> comprehensive quality assurance for your AI systems.'
                     titleClassName="sm:text-[40px] text-[32px] text-[#015190]"
                     subtitleClassName=" sm:text-[16px] text-[#626161]"
@@ -208,7 +208,7 @@ const NeuroTestPage = () => {
             <section className='py-20 bg-[linear-gradient(180deg,#042539_0%,#000000_100%)]
                 rounded-t-[50px] md:rounded-t-[100px]'>
                 <SectionHeading
-                    title="Enterprise Benefits"
+                    title="Enterprise benefits"
                   
                     titleClassName="  text-[#fff]"
                     
@@ -224,8 +224,8 @@ const NeuroTestPage = () => {
                         );
                         transition-shadow duration-300    hover:shadow-[0px_0px_40px_2px_#01519040] shrink-0  w-full sm:w-[365px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]  gap-[80px]  rounded-3xl border border-[1px] border-[#9d9d9d ] p-5 gap-12 flex flex-col ${item.cardClass}`}>
                                 <div class="feature-card-content">
-                                    <h2 class="font-primary  bg-[linear-gradient(#6AC0E6)] bg-clip-text text-transparent font-medium text-[24px] leading-[1.2] capitalize mb-[24px] sm:mb-[24px]" >{item.title}</h2>
-                                    <p class="font-secondary text-[14px] sm:text-[18px] leading-[1.4]  capitalize text-white" >{item.description}</p>
+                                    <h2 class="font-primary  bg-[linear-gradient(#6AC0E6)] bg-clip-text text-transparent font-medium text-[24px] leading-[1.2] mb-[24px] sm:mb-[24px]" >{item.title}</h2>
+                                    <p class="font-secondary text-[14px] sm:text-[18px] leading-[1.4]  text-white" >{item.description}</p>
                                 </div>
                             </div>
 

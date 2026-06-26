@@ -44,7 +44,7 @@ const MetricsSection = () => {
             
              <div className="space-y-4">
                  <h3
-                className="font-primary font-medium  text-[42px] leading-[120%] tracking-[0.02em] capitalize
+                className="font-primary font-medium  text-[42px] leading-[120%] tracking-[0.02em] 
 
                 mae-gradient-text"
               >

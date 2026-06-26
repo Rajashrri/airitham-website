@@ -13,7 +13,7 @@ import MainBanner from "../components/services/MainBanner";
 
 
 export const AI_AUTOMATION_HEADER = {
-  heading: "AI Enabled Intelligent <br class='md:block hidden' />Test Automation Platform",
+  heading: "AI enabled intelligent <br class='md:block hidden' />test automation platform",
    headclass:"pt-0 text-white",
    headingclass:"text-[#fff]",
   paragraph:

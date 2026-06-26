@@ -79,7 +79,7 @@ const FeatureCard = ({
       {/* Content */}
       <div className="feature-card-content space-y-2">
         <h2
-          className="font-primary font-medium text-[24px] leading-[1.2] capitalize"
+          className="font-primary font-medium text-[24px] leading-[1.2] "
           style={{ color: textColor || "#1E1E1E" }}  
         >
           {title}
@@ -97,7 +97,7 @@ const FeatureCard = ({
       {showLink && href && (
         <a
           href={href}
-          className="text-[#015190] flex gap-2 items-center leading-[1.4] capitalize tracking-[0.02em] font-semibold text-[16px] font-secondary"
+          className="text-[#015190] flex gap-2 items-center leading-[1.4] tracking-[0.02em] font-semibold text-[16px] font-secondary"
         >
           {linkText}
          {linkIconType === "gradient" && linkIconSrc ? (

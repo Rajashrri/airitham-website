@@ -1,7 +1,7 @@
 export const Context_HERO_CONFIG = {
-  heading: "Context Intelligence Platform",
+  heading: "Context intelligence platform",
   paragraph:
-    "Enterprise-grade AI orchestration that understands, adapts, and <br class='hidden sm:block' /> evolves with you data context in real-time.",
+    "Enterprise-grade AI orchestration that understands, adapts, and <br class='hidden sm:block' />evolves with you data context in real-time.",
 
   backgroundGradient: "linear-gradient(180deg,#00273A 0%,#1E1E1E 55.42%)",
   // imageSrc: "/automation/dashboard.webp",
@@ -50,7 +50,7 @@ export const CONTEXT_ANALYTICS_CONFIG = {
       id: 1,
       icon: "LineChart", // lucide-react icon
       iconColor: "#015190",
-      title: "Predictive Analytics",
+      title: "Predictive analytics",
       description:
         "Advanced forecasting with context-aware models that understands market dynamics and business cycles",
       state: "active",
@@ -60,7 +60,7 @@ export const CONTEXT_ANALYTICS_CONFIG = {
       id: 2,
       icon: "Users",
       iconColor: "#015190",
-      title: "Personalization Engine",
+      title: "Personalization engine",
       description:
         "Real-time customer experience optimization based on behavioral context and preferences",
          cardClassName :"border-[#D9D9D9] w-full sm:w-[340px]"
@@ -69,7 +69,7 @@ export const CONTEXT_ANALYTICS_CONFIG = {
       id: 3,
       icon: "Bot",
       iconColor: "#015190",
-      title: "Process Automation",
+      title: "Process automation",
       description:
         "Intelligent workflow orchestration that adapts to changing business requirements automatically",
          cardClassName :"border-[#D9D9D9]  w-full sm:w-[340px]"
@@ -78,7 +78,7 @@ export const CONTEXT_ANALYTICS_CONFIG = {
 };
 
 export const CONTEXT_CTA_CONFIG = {
-  heading: "Ready to Transform your Enterprise?",
+  heading: "Ready to transform your enterprise?",
   paragraph:
     "Join leading enterprises already leveraging context intelligence to drive unprecedented business outcomes",
   backgroundImage: "/bg/gradient.png",
@@ -105,14 +105,14 @@ export const CONTEXT_CTA_CONFIG = {
 };
 
 export const WHY_CHOOSE_CIP_CONFIG = {
-  title: "Why Choose CIP",
+  title: "Why choose cip",
 
   cards: [
     {
       id: 1,
       icon: "FastForward", // change to your lucide icon
       iconColor: "#015190",
-      title: "10x Faster Processing",
+      title: "10x faster processing",
       description:
         "Revolutionary parallel processing architecture delivers results 10x faster than traditional AI platforms",
       borderHighlight: "#3B82F6", // optional if you want active border color
@@ -123,7 +123,7 @@ export const WHY_CHOOSE_CIP_CONFIG = {
       id: 2,
       icon: "Brain", // change to your lucide icon
       iconColor: "#015190",
-      title: "Context-Aware Intelligence",
+      title: "Context-aware intelligence",
       description:
         "First platform to truly understand multi-dimensional context relationships in real-time",
          cardClassName:"border-[#D9D9D9] w-full md:w-[46%]"
@@ -132,7 +132,7 @@ export const WHY_CHOOSE_CIP_CONFIG = {
       id: 3,
       icon: "RefreshCw", // change to your lucide icon
       iconColor: "#015190",
-      title: "Self-Evolving Models",
+      title: "Self-evolving models",
       description:
         "AI that learns and adapts automatically without manual retraining or intervention",
          cardClassName:"border-[#D9D9D9] w-full md:w-[46%]"
@@ -141,7 +141,7 @@ export const WHY_CHOOSE_CIP_CONFIG = {
       id: 4,
       icon: "Globe", // change to your lucide icon
       iconColor: "#015190",
-      title: "Enterprise Ready",
+      title: "Enterprise ready",
       description:
         "Built for mission-critical applications with 99.99% uptime and enterprise-grade security",
          cardClassName:"border-[#D9D9D9] w-full md:w-[46%]"
@@ -150,7 +150,7 @@ export const WHY_CHOOSE_CIP_CONFIG = {
 };
 
 export const CONTEXT_CORE_PILLAR_CONFIG = {
-  title: "Core Platform Pillars",
+  title: "Core platform pillars",
   description: "",
   cards: [
     {
@@ -158,7 +158,7 @@ export const CONTEXT_CORE_PILLAR_CONFIG = {
       icon: "Network",
       cardClassName:"bg-[#fff] w-full sm:w-[340px]",
       iconColor: "#015190",
-      title: "Dynamic Context Mapping",
+      title: "Dynamic context mapping",
       description:
         "Real-time relationship discovery & contextual understanding across multi-dimensional data spaces",
     },
@@ -166,7 +166,7 @@ export const CONTEXT_CORE_PILLAR_CONFIG = {
       id: 2,
       icon: "Settings",
       iconColor: "#015190",
-      title: "Adaptive Intelligence",
+      title: "Adaptive intelligence",
        cardClassName:"bg-[#fff] w-full sm:w-[340px]",
       description:
         "Self-evolving algorithms that learn and adapt to changing business contexts automatically",
@@ -175,7 +175,7 @@ export const CONTEXT_CORE_PILLAR_CONFIG = {
       id: 3,
       icon: "Rocket",
       iconColor: "#015190",
-      title: "Quantum Processing",
+      title: "Quantum processing",
        cardClassName:"bg-[#fff] w-full sm:w-[340px]",
       description:
         "Parallel context analysis with quantum inspired computing for unprecedented speed",
@@ -184,7 +184,7 @@ export const CONTEXT_CORE_PILLAR_CONFIG = {
       id: 4,
       icon: "ShieldCheck",
       iconColor: "#015190",
-      title: "Enterprise Security",
+      title: "Enterprise security",
        cardClassName:"bg-[#fff] w-full sm:w-[340px]",
       description:
         "Zero trust architecture with end-to-end encryption and context aware access controls",
@@ -194,7 +194,7 @@ export const CONTEXT_CORE_PILLAR_CONFIG = {
       icon: "Expand",
       iconColor: "#015190",
        cardClassName:"bg-[#fff] w-full sm:w-[340px]",
-      title: "Infinite Scalability",
+      title: "Infinite scalability",
       description:
         "Cloud native architecture that scales seamlessly from startup to enterprise workloads",
     },
@@ -203,7 +203,7 @@ export const CONTEXT_CORE_PILLAR_CONFIG = {
       icon: "Puzzle",
       iconColor: "#015190",
        cardClassName:"bg-[#fff] w-full sm:w-[340px]",
-      title: "Universal Integration",
+      title: "Universal integration",
       description:
         "Native connectors and APIs for seamless integration with existing enterprise systems",
     },

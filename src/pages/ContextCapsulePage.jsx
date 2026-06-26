@@ -16,10 +16,8 @@ const ContextCapsulePage = () => {
           {/* Hero */}
           <div className="cc-hero-content space-y-4">
             <SectionHeading
-              title="Context Capsules"
-              subtitle='Portable, scoped context units with persona, tools, and time-bound
-              memory for <br className="hidden md:block" /> AIRITHM’s Agentic
-              Memory Engine'
+              title="Context capsules"
+              subtitle='Portable, scoped context units with persona, tools, and time-bound memory for<br className="hidden md:block" /> Airithm’s agentic memory engine'
               titleClassName="sm:text-[64px] text-[#015190]"
               subtitleClassName=" sm:text-[16px] text-[#626161]"
             />
@@ -38,8 +36,8 @@ const ContextCapsulePage = () => {
       <section className="py-[90px]">
         <SectionHeading
           titleClassName="font-primary font-medium text-[32px] sm:text-[48px] leading-[1.2] tracking-[0.02em] text-[#00273A] text-center"
-          title="Modular AI Context"
-          subtitle="Each Context Capsule represents a bounded container of memory, knowledge, and configuration for <br /> an AI agent. Like Docker containers for context, they are modular, sharable, and composable."
+          title="Modular AI context"
+          subtitle="Each context capsule represents a bounded container of memory, knowledge, and configuration for </br> an AI agent. Like Docker containers for context, they are modular, sharable, and composable."
           wrapperClassName="space-y-6"
           subtitleClassName=" text-[#626161] sm:text-[16px]"
         />
@@ -57,25 +55,25 @@ const ContextCapsulePage = () => {
     
     <div className="lg:p-6 p-3 border rounded-2xl border-[#D5D5D5]">
       <h2 className="text-center text-[#015190] text-[20px] font-medium">
-      	Persona/ Role Profile Definition
+      Persona/ role profile definition
       </h2>
     </div>
 
     <div className="lg:p-6 p-3 border rounded-2xl border-[#D5D5D5]">
       <h2 className="text-center text-[#015190] text-[20px] font-medium">
-       Tools and System Permissions
+     Tools and system permissions
       </h2>
     </div>
 
     <div className="lg:p-6 p-3 border rounded-2xl border-[#D5D5D5]">
       <h2 className="text-center text-[#015190] text-[20px] font-medium">
-       	Scoped Memory and History
+  Scoped memory and history
       </h2>
     </div>
 
     <div className="lg:p-6 p-3 border rounded-2xl border-[#D5D5D5]">
       <h2 className="text-center text-[#015190] text-[20px] font-medium">
-       	TTL and Expiration Management
+   Ttl and expiration management
       </h2>
     </div>
 

@@ -59,7 +59,7 @@ const PlatformArchitecture = () => {
                 10K+
               </h4>
               <p
-                className="font-secondary text-[#626161] font-medium text-[18px] leading-[1.4] tracking-[0.02em] text-center capitalize
+                className="font-secondary text-[#626161] font-medium text-[18px] leading-[1.4] tracking-[0.02em] text-center 
 "
               >
                 Tests / Hour
@@ -73,7 +73,7 @@ const PlatformArchitecture = () => {
                 <span className="shrink-0">50ms</span>
               </h4>
               <p
-                className="font-secondary text-[#626161] font-medium text-[18px] leading-[1.4] tracking-[0.02em] text-center capitalize
+                className="font-secondary text-[#626161] font-medium text-[18px] leading-[1.4] tracking-[0.02em] text-center 
 "
               >
                 API Latency
@@ -85,7 +85,7 @@ const PlatformArchitecture = () => {
                 99.9%
               </h4>
               <p
-                className="font-secondary text-[#626161] font-medium text-[18px] leading-[1.4] tracking-[0.02em] text-center capitalize
+                className="font-secondary text-[#626161] font-medium text-[18px] leading-[1.4] tracking-[0.02em] text-center 
 "
               >
                 Uptime SLA
@@ -97,7 +97,7 @@ const PlatformArchitecture = () => {
                 12+
               </h4>
               <p
-                className="font-secondary text-[#626161] font-medium text-[18px] leading-[1.4] tracking-[0.02em] text-center capitalize
+                className="font-secondary text-[#626161] font-medium text-[18px] leading-[1.4] tracking-[0.02em] text-center 
 "
               >
                 Global Regions

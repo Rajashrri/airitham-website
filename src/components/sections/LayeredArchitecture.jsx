@@ -28,7 +28,7 @@ const LayeredArchitecture = () => {
                     <span className="rounded-lg size-[50px] flex justify-center items-center bg-[#015190] font-inter font-medium md:text-[24px] text-[22px] leading-[140%] tracking-[0.04em] text-white">
                       {layer.level}
                     </span>
-                    <h3 className="font-primary font-medium md:text-[20px] text-[18px] leading-[120%] tracking-[0.02em] capitalize text-[#1E1E1E]">
+                    <h3 className="font-primary font-medium md:text-[20px] text-[18px] leading-[120%] tracking-[0.02em] text-[#1E1E1E]">
                       {layer.title}
                     </h3>
                   </div>
@@ -61,7 +61,7 @@ const LayeredArchitecture = () => {
                             style={{ width: item.iconSize, height: item.iconSize }}
                           />
                         )}
-                        <span className="font-secondary font-medium lg:text-[18px] text-[16px] leading-[140%] tracking-[0.02em] capitalize text-[#1E1E1E]">
+                        <span className="font-secondary font-medium lg:text-[18px] text-[16px] leading-[140%] tracking-[0.02em] text-[#1E1E1E]">
                           {item.label}
                         </span>
                       </div>

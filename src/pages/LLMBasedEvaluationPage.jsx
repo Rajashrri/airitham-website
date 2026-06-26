@@ -22,21 +22,21 @@ const LLMBasedEvaluationPage = () => {
           <div className="llm-based-feature md:gap-20 gap-5 pt-[60px] flex md:flex-row flex-col justify-center items-center">
             <div className="flex gap-2 items-center">
               <img src="/svg/circle-check-lg.svg" alt="" />
-              <span className="mae-gradient-text font-secondary font-medium text-sm leading-[1.4] tracking-[0.04em] capitalize">
+              <span className="mae-gradient-text font-secondary font-medium text-sm leading-[1.4] tracking-[0.04em] ">
                 No setup required
               </span>
             </div>
 
             <div className="flex gap-2 items-center">
               <img src="/svg/circle-check-lg.svg" alt="" />
-              <span className="mae-gradient-text font-secondary font-medium text-sm leading-[1.4] tracking-[0.04em] capitalize">
+              <span className="mae-gradient-text font-secondary font-medium text-sm leading-[1.4] tracking-[0.04em] ">
                 Enterprise ready
               </span>
             </div>
 
             <div className="flex gap-2 items-center">
               <img src="/svg/circle-check-lg.svg" alt="" />
-              <span className="mae-gradient-text font-secondary font-medium text-sm leading-[1.4] tracking-[0.04em] capitalize">
+              <span className="mae-gradient-text font-secondary font-medium text-sm leading-[1.4] tracking-[0.04em] ">
                 {" "}
                 24/7 support
               </span>
@@ -69,7 +69,7 @@ const LLMBasedEvaluationPage = () => {
                 LLM_BASED_FEATURES_CONFIG_ONE?.subtitle || "Not Provided"
               }
               subtitleClassName="font-secondary max-w-[760px] text-[#626161]"
-              titleClassName="font-primary text-[#015190] capitalize"
+              titleClassName="font-primary text-[#015190] "
               title={LLM_BASED_FEATURES_CONFIG_ONE?.title || "Not Provided"}
               spacing="space-y-4"
             />
@@ -92,7 +92,7 @@ const LLMBasedEvaluationPage = () => {
           <SectionHeading
             title="How It Works"
             subtitle="A streamlined four-step process that transforms your evaluation workflow from manual to automated."
-            titleClassName="font-primary text-white capitalize text-center"
+            titleClassName="font-primary text-white text-center"
             subtitleClassName="font-secondary max-w-[760px] mx-auto text-[#B5B5B5] text-center"
             spacing="space-y-4"
           />

@@ -45,7 +45,7 @@ const SystemArchitecturePage = () => {
             </div>
 
             <div className="system-architecture-bottom pt-60 pb-[244px]">
-              <h2 class="font-primary mb-[52px] font-medium md:text-[40px] text-[32px] leading-[100%] tracking-[0.02em] capitalize text-center text-white">
+              <h2 class="font-primary mb-[52px] font-medium md:text-[40px] text-[32px] leading-[100%] tracking-[0.02em] text-center text-white">
                 Core Modules
               </h2>
               <div className="max-w-7xl px-5 gap-8 flex mx-auto flex-wrap justify-center">
