@@ -93,7 +93,7 @@ const CICDPage = () => {
                 Measurable improvements across your entire development lifecycle."
             subtitleClassName=" font-secondary text-[#626161]"
             titleClassName="font-primary   text-[#015190] captialize"
-            title="Key Benefits"
+            title="Key benefits"
             wrapperClassName=""
             spacing="space-y-4"
           />
@@ -123,7 +123,7 @@ export default CICDPage;
 
 
 export const USP_CONFIG = {
-  title: "Real-World Use Cases",
+  title: "Real-world use cases",
   subtitle: "See how teams across industries leverage our platform to transform their delivery process",
   bodyclass: "bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] text-white mb-[60px]",
   // tags:"How it works",
@@ -133,7 +133,7 @@ export const USP_CONFIG = {
       id: 1,
       icon: "Store",
       iconColor:"#6AC0E6",
-      title: "E-Commerce Platform",
+      title: "E-commerce platform",
       discColor: "#C6C6C6",
       cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[340px] min-h-[258px]",
       textColor: "#fff",
@@ -207,7 +207,7 @@ export const USP_CONFIG = {
       id: 3,
       icon: "Smartphone",
       iconColor:"#6AC0E6",
-      title: "Mobile App Startup",
+      title: "Mobile app startup",
       discColor: "#C6C6C6",
       cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[340px] min-h-[258px]",
       textColor: "#fff",
@@ -259,7 +259,7 @@ export const CICD_DATA = {
     {
       id: 1,
       align: "left",
-      title: "Code Commit & Trigger",
+      title: "Code commit & trigger",
       description:
         "Developers push code to your repository. Your system instantly detects changes and triggers the appropriate pipeline based on branch, tags, or custom rules you've configured.",
       card: (
@@ -269,10 +269,10 @@ export const CICD_DATA = {
         </div>
           <div className="bg-[#FFFFFF1F] rounded-[8px] p-2">
           <p className="text-[14px] gap-1  bg-[#6AC0E6] bg-clip-text text-transparent flex">
-            <img src="/svg/check.svg" alt="" /> Commit Detected: Feature/New-Feature
+            <img src="/svg/check.svg" alt="" /> Commit detected: feature/new-feature
           </p>
           <p className="text-[14px]  gap-1 bg-[#6AC0E6] bg-clip-text text-transparent mt-2 flex">
-               <img src="/svg/check.svg"  alt="" />  Pipeline Triggered Automatically
+               <img src="/svg/check.svg"  alt="" />  Pipeline triggered automatically
           </p>
           </div>
         </>
@@ -281,22 +281,22 @@ export const CICD_DATA = {
     {
       id: 2,
       align: "right",
-      title: "Build & Test",
+      title: "Build & test",
       description:
         "Code is compiled, dependencies are resolved, and comprehensive test suites run in parallel. Unit tests, integration tests, and security scans execute simultaneously for faster feedback.",
       card: (
         <>
         
           <div className="flex justify-between font-primary text-[14px] p-2 rounded-[8px] bg-[#FFFFFF1F]">
-            <span className="text-gray-400">Unit Tests</span>
+            <span className="text-gray-400">Unit tests</span>
             <span className="bg-[#6AC0E6] bg-clip-text text-transparent flex gap-1"><img src="/svg/check.svg"  alt="" />  243 passed</span>
           </div>
           <div className="flex justify-between font-primary text-[14px] p-2 rounded-[8px] mt-2 bg-[#FFFFFF1F]">
-            <span className="text-gray-400">Integration Tests</span>
+            <span className="text-gray-400">Integration tests</span>
             <span className="bg-[#6AC0E6] bg-clip-text text-transparent flex gap-1"> <img src="/svg/check.svg"  alt="" />  87 passed</span>
           </div>
           <div className="flex justify-between font-primary text-[14px] p-2 rounded-[8px] mt-2 bg-[#FFFFFF1F]">
-            <span className="text-gray-400">Security Scan</span>
+            <span className="text-gray-400">Security scan</span>
             <span className="bg-[#6AC0E6] bg-clip-text text-transparent flex gap-1"><img src="/svg/check.svg"  alt="" />  No issues</span>
           </div>
         </>
@@ -305,7 +305,7 @@ export const CICD_DATA = {
     {
       id: 3,
       align: "left",
-      title: "Quality Gates",
+      title: "Quality gates",
       description:
         "Automated quality checks ensure code coverage thresholds, performance benchmarks, and security standards are met before proceeding to deployment stages.",
       card: (
@@ -332,7 +332,7 @@ export const CICD_DATA = {
     {
       id: 4,
       align: "right",
-      title: "Deploy & Monitor",
+      title: "Deploy & monitor",
       description:
         "Automated deployment to staging and production environments with zero-downtime strategies. Real-time monitoring tracks application health and automatically rolls back if issues are detected.",
       card: (
@@ -352,7 +352,7 @@ export const CICD_DATA = {
                                                             text-transparent">In Progress</span></span>
           </div>
           <div className="mt-3 bg-[#FFFFFF1F] p-2 rounded-[8px]">
-            <p className="flex justify-between mb-2 text-[16px] text-gray-400 "><span>Deployment Progress</span> <span className="bg-[#6AC0E6] bg-clip-text text-transparent">75%</span></p>
+            <p className="flex justify-between mb-2 text-[16px] text-gray-400 "><span>Deployment progress</span> <span className="bg-[#6AC0E6] bg-clip-text text-transparent">75%</span></p>
             <div className="w-full h-2 bg-white/10 rounded-full overflow-hidden">
               <div className="h-full bg-[#6AC0E6]  w-[75%]" />
             </div>
@@ -365,7 +365,7 @@ export const CICD_DATA = {
 
 
 export const AUTOMATION_PIPELINE_HEADER = {
-  heading: "CI/CD & DevOps <br class='hidden md:block' /> Integration",
+  heading: "CI/CD & DevOps <br class='hidden md:block' /> integration",
   headclass: false,
   headingclass:"text-[#fff]",
   paragraph:
@@ -392,7 +392,7 @@ export const AUTOMATION_PIPELINE_HEADER = {
 };
 
 export const AUTOMATION_PIPELINE_FEATURES_CONFIG = {
-  title: "What It Does",
+  title: "What it does",
   titleClassName: "text-[#015190]",
   subtitle:
     "Our CI/CD platform seamlessly integrates with your existing development workflow to automate the entire software delivery lifecycle. From code commit to production deployment, we orchestrate testing, building, security scanning, and deployment with intelligent automation that learns from your team's patterns.",
@@ -402,7 +402,7 @@ export const AUTOMATION_PIPELINE_FEATURES_CONFIG = {
       id: 1,
       icon: "GitCommitHorizontal",
       iconColor: "#6AC0E6",
-      title: "Automated Pipelines",
+      title: "Automated pipelines",
       description:
         "Trigger builds, tests, and deployments automatically on every commit. Smart parallel execution reduces wait times by up to 70%.",
       cardClassName: "md:w-[320px] w-[100%] bg-white  border-[#D9D9D9]",
@@ -411,7 +411,7 @@ export const AUTOMATION_PIPELINE_FEATURES_CONFIG = {
       id: 2,
       icon: "ShieldCheck",
       iconColor: "#6AC0E6",
-      title: "Security First",
+      title: "Security first",
       description:
         "Built-in vulnerability scanning, compliance checks, and secret management ensure every deployment meets security standards.",
       cardClassName: "md:w-[320px] w-[100%] bg-white  border-[#D9D9D9]",
@@ -420,7 +420,7 @@ export const AUTOMATION_PIPELINE_FEATURES_CONFIG = {
       id: 3,
       icon: "Clock",
       iconColor: "#6AC0E6",
-      title: "Real-Time Insights",
+      title: "Real-time insights",
       description:
         "Monitor pipeline performance, deployment success rates, and team velocity with comprehensive analytics dashboards.",
       cardClassName: "md:w-[320px] w-[100%] bg-white  border-[#D9D9D9]",
@@ -435,7 +435,7 @@ export const INSIGHTS_DATA = {
       id: "testCoverage",
       iconName: "CircleCheckBig",
       value: "98%",
-      label: "Test Coverage",
+      label: "Test coverage",
       description:
         "Comprehensive automated testing ensures code quality with near-perfect coverage.",
       cardClassName: "md:w-[293px] w-[100%]",
@@ -445,7 +445,7 @@ export const INSIGHTS_DATA = {
       id: "Rocket",
       iconName: "Zap",
       value: "5×",
-      label: "Faster Deployments",
+      label: "Faster deployments",
       description:
         "Reduce deployment time from hours to minutes with intelligent automation.",
       cardClassName: "md:w-[293px] w-[100%]",
@@ -455,7 +455,7 @@ export const INSIGHTS_DATA = {
       id: "costReduction",
       iconName: "CircleDollarSign",
       value: "40%",
-      label: "Cost Reduction",
+      label: "Cost reduction",
       description:
         "Lower infrastructure costs through optimized resource utilization and efficiency.",
       cardClassName: "md:w-[293px] w-[100%]",
@@ -465,7 +465,7 @@ export const INSIGHTS_DATA = {
       id: "riskMitigation",
       iconName: "ShieldCheck",
       value: "99.9%",
-      label: "Risk Mitigation",
+      label: "Risk mitigation",
       description:
         "Automated rollbacks and canary deployments minimize production incidents.",
       cardClassName: "md:w-[293px] w-[100%]",
@@ -476,7 +476,7 @@ export const INSIGHTS_DATA = {
     {
       id: "timeToMarket",
       iconName: "Clock",
-      label: "Time To Market",
+      label: "Time to market",
       description:
         "Ship features 3× faster with automated pipelines and continuous delivery.",
       cardClassName: "md:w-[360px] w-[100%] bg-[#fff]",
@@ -485,7 +485,7 @@ export const INSIGHTS_DATA = {
     {
       id: "teamProductivity",
       iconName: "Users",
-      label: "Team Productivity",
+      label: "Team productivity",
       description:
         "Developers focus on coding while automation handles deployment complexity.",
       cardClassName: "md:w-[360px] w-[100%] bg-[#fff]",
@@ -494,7 +494,7 @@ export const INSIGHTS_DATA = {
     {
       id: "qualityAssurance",
       iconName: "CheckSquare",
-      label: "Quality Assurance",
+      label: "Quality assurance",
       description:
         "Catch bugs early with automated testing at every stage of the pipeline.",
       cardClassName: "md:w-[360px] w-[100%] bg-[#fff]",

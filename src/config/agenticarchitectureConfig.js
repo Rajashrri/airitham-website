@@ -1,5 +1,5 @@
 export const AgenticArchitectureConfig = {
-  heading: "Agentic Architecture",
+  heading: "Agentic architecture",
 //   subheading:"AIRITHM’s Unified Evaluation Hub for AI Quality",
   headclass:"pt-[0px]",
   headingclass:"text-[#fff]",
@@ -26,7 +26,7 @@ export const AgenticArchitectureConfig = {
 
 
 export const CORE_MODULE_CONFIG = {
-   title: "Agent Design",
+   title: "Agent design",
    bodyclass:"bg-[#fff] text-[#00273A] relative z-10 ",
    headcolor:"#00273A",
      paracolor:"#000",
@@ -51,7 +51,7 @@ export const CORE_MODULE_CONFIG = {
       cardClassName: "md:w-[600px] w-[100%] bg-[#fff]",
        textColor:"#000",
        discColor:'#626161',
-      title: "Tool Usage",
+      title: "Tool usage",
       description:
         "Agents leverage advanced testing tools and frameworks, intelligently selecting and orchestrating the most appropriate resources for specific testing scenarios.",
     },
@@ -62,7 +62,7 @@ export const CORE_MODULE_CONFIG = {
        textColor:"#000",
        cardClassName: "md:w-[600px] w-[100%] bg-[#fff]",
        discColor:'#626161',
-      title: "Decision Autonomy",
+      title: "Decision autonomy",
       description:
         "Independent decision-making capabilities enable agents to adapt testing approaches in real time, prioritizing critical paths and optimizing coverage.",
     },
@@ -73,7 +73,7 @@ export const CORE_MODULE_CONFIG = {
        textColor:"#000",
        cardClassName: "md:w-[600px] w-[100%] bg-[#fff]",
        discColor:'#626161',
-      title: "Inter-agent Communication",
+      title: "Inter-agent communication",
       description:
         "Seamless communication protocols allow agents to share insights, coordinate activities, and collectively enhance testing effectiveness through collaborative intelligence.",
     },
@@ -81,7 +81,7 @@ export const CORE_MODULE_CONFIG = {
   ],
 };
 export const CORE_MODULE_CONFIG2 = {
-   title: "Orchestration & Safety",
+   title: "Orchestration & safety",
    bodyclass:true,
    headcolor:"#fff",
      paracolor:"#000",
@@ -96,7 +96,7 @@ export const CORE_MODULE_CONFIG2 = {
       bgColor:"linear-gradient(90deg, rgba(255, 166, 141, 0.15) 0.03%, rgba(253, 58, 132, 0.15) 100%)",
       iconColor: "",
         cardClassName: "md:w-[400px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
-      title: "Task Routing",
+      title: "Task routing",
       discColor:'#D9D9D9',
       description:
         "Intelligent task distribution system that analyzes workload complexity, agent capabilities, and resource availability to optimize task allocation across the agent network. Dynamic load balancing ensures efficient utilization of system resources.",
@@ -108,7 +108,7 @@ export const CORE_MODULE_CONFIG2 = {
       cardClassName: "md:w-[400px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        textColor:"#fff",
        discColor:'#D9D9D9',
-      title: "Failure Handling",
+      title: "Failure handling",
       description:
         "Robust error recovery mechanisms with automated rollback capabilities, graceful degradation strategies, and intelligent retry logic. Comprehensive logging and alerting systems ensure rapid issue identification and resolution.",
     },
@@ -119,7 +119,7 @@ export const CORE_MODULE_CONFIG2 = {
        textColor:"#fff",
        cardClassName: "md:w-[400px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        discColor:'#D9D9D9',
-      title: "Guardrails & Controls",
+      title: "Guardrails & controls",
       description:
         "Multi-layered security framework with behavioral constraints, permission boundaries, and compliance monitoring. Real-time governance ensures agents operate within defined parameters while maintaining operational flexibility.",
     }
@@ -129,9 +129,9 @@ export const CORE_MODULE_CONFIG2 = {
 
 
 export const PLANING_CTA_CONFIG = {
-  heading: "Need Help?",
+  heading: "Need help?",
   paragraph:
-    "Get Assistance with agentic architecture implementation",
+    "Get assistance with agentic architecture implementation",
   backgroundImage: "/bg/gradient.png",
   wrapperClassName:"",
   buttons: [

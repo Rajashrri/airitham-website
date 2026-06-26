@@ -50,7 +50,7 @@ const DeploymentOptionsPage = () => {
     </section>
     <section className=' bg1 py-[190px] mt-[-100px] mb-[-100px]  relative'>
           <SectionHeading
-                            title="Choose Your Deployment Model"
+                            title="Choose your deployment model"
                             subtitle='Select the deployment option that best fits your security requirements, compliance <br/> needs, and operational preferences.'
                             titleClassName="sm:text-[48px]"
                             subtitleClassName=" sm:text-[16px] text-[#626161]"
@@ -110,7 +110,7 @@ const DeploymentOptionsPage = () => {
     </section>
     <section className='py-[90px] md:px-0 px-5 pb-[200px] text-center md:rounded-t-[100px] rounded-t-[50px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)] text-white'>
                  <SectionHeading
-                            title="Deployment Comparison"
+                            title="Deployment comparison"
                             subtitle='Compare security, scalability, control, and maintenance across deployment options'
                             titleClassName="sm:text-[48px]"
                             subtitleClassName=" sm:text-[16px] text-[#FFFFFF]"
@@ -130,27 +130,27 @@ const DeploymentOptionsPage = () => {
 
                             {/* Security Model */}
                             <div className="grid grid-cols-4 gap-6 py-5 border-b border-white/5">
-                                <div className="text-white/80">Security Model</div>
+                                <div className="text-white/80">Security model</div>
                                 <div className="text-center">
                                 <span className="inline-block px-4 font-[12px] py-2 text-xs rounded-full bg-[#FFFFFF1F] text-[#6AC0E6] border border-white/10">
-                                    Shared Responsibility
+                                    Shared responsibility
                                 </span>
                                 </div>
                                 <div className="text-center">
                                 <span className="inline-block px-4 font-[12px] py-2 text-xs rounded-full bg-[#FFFFFF1F] text-[#6AC0E6] border border-white/10">
-                                    Customer Controlled
+                                    Customer controlled
                                 </span>
                                 </div>
                                 <div className="text-center">
                                 <span className="inline-block px-4 font-[12px] py-2 text-xs rounded-full bg-[#FFFFFF1F] text-[#6AC0E6] border border-white/10">
-                                    Full Control
+                                    Full control
                                 </span>
                                 </div>
                             </div>
 
                             {/* Maintenance Effort */}
                             <div className="grid grid-cols-4 gap-6 py-5 border-b border-white/5">
-                                <div className="text-white/80">Maintenance Effort</div>
+                                <div className="text-white/80">Maintenance effort</div>
                                 <div className="text-center text-[#6AC0E6] text-lg"><LucideIcons.Check className='m-auto'/></div>
                                 <div className="text-center text-[#6AC0E6] text-lg"><LucideIcons.Check className='m-auto'/></div>
                                 <div className="text-center text-[#6AC0E6] text-lg"><LucideIcons.Minus className='m-auto'/></div>

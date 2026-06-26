@@ -4,7 +4,7 @@ import PricingCard from "../components/card/PricingCard";
 import CtaSection from "@/components/common/CtaSection";
 import FooterSection from "@/components/home/FooterSection";
 const PRICING_HEADER_CONFIG = {
-  heading: "Flexible Pricing for <br class=' hidden sm:block' /> Autonomous Testing",
+  heading: "Flexible pricing for <br class=' hidden sm:block' /> Autonomous testing",
   paragraph:
     "Plans designed to scale from pilot teams to enterprise-wide autonomy.",
     headingclass:"text-[#fff]",

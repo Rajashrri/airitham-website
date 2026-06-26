@@ -1,5 +1,5 @@
 export const PLATFORM_ARCHITECTURE_HEADER_CONFIG = {
-  heading: "Platform Architecture",
+  heading: "Platform architecture",
   paragraph:
     "Build for scale, safety and enterprise-grade autonomy",
     headclass:false,
@@ -111,7 +111,7 @@ export const PLATFORM_HL_ARCHITECTURE_CONFIG = [
 
 
 export const PLATFORM_ARCHITECTURE_CONFIG = {
-  title: "Deep Dive into Architecture",
+  title: "Deep dive into architecture",
   subtitle: "Explore each architectural component in detail",
   bodyclass:"bg-[#E9F6FB] ",
 
@@ -157,14 +157,14 @@ export const PLATFORM_ARCHITECTURE_CONFIG = {
 
 
 export const PLATFORM_ARCHITECTURAL_PRINCIPLES_CONFIG = {
-  title: "Architectural Principles",
+  title: "Architectural principles",
   subtitle: "Core design principles guiding our platform architecture",
 
   cards: [
     {
       id: 1,
       icon: "/svg/expand.svg",
-      title: "Horizontal Scalability",
+      title: "Horizontal scalability",
       description:
         "Microservices architecture with Kubernetes orchestration enables seamless scaling across thousands of concurrent test executions.",
       tags: ["Containers", "Auto-scaling"],
@@ -172,7 +172,7 @@ export const PLATFORM_ARCHITECTURAL_PRINCIPLES_CONFIG = {
     {
       id: 2,
       icon: "/svg/repeatdark.svg",
-      title: "Fault Tolerance",
+      title: "Fault tolerance",
       description:
         "Circuit breakers, retry mechanisms, and graceful degradation ensure continuous operation even during partial system failures.",
       tags: ["Circuit Breakers", "Self-healing"],
@@ -180,7 +180,7 @@ export const PLATFORM_ARCHITECTURAL_PRINCIPLES_CONFIG = {
     {
       id: 3,
       icon: "/svg/unplug.svg",
-      title: "Pluggable Components",
+      title: "Pluggable components",
       description:
         "Modular design allows seamless integration of new AI models, execution engines, and evaluation frameworks without system-wide changes.",
       tags: ["Microservices", "APIs"],
@@ -188,7 +188,7 @@ export const PLATFORM_ARCHITECTURAL_PRINCIPLES_CONFIG = {
     {
       id: 4,
       icon: "/svg/eye.svg",
-      title: "Full Observability",
+      title: "Full observability",
       description:
         "Comprehensive logging, metrics, and distributed tracing provide complete visibility into system behavior and agent decision-making.",
       tags: ["Tracing", "Metrics"],

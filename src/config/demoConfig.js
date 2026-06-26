@@ -1,5 +1,5 @@
 export const DEMO_HEADER_CONFIG = {
-  heading: "See Autonomous Testing in Action",
+  heading: "See autonomous testing in action",
   headclass: false,
   headingclass:"text-[#fff]",
   paragraph:
@@ -24,7 +24,7 @@ export const DEMO_HEADER_CONFIG = {
 // useBg.js
 
 export const PLATFORM_FEATURES_CONFIG = {
-  title: "What You'll See in the Demo",
+  title: "What you'll see in the demo",
   subtitle:
     "Designed for leaders driving quality transformation at enterprise scale",
 
@@ -34,7 +34,7 @@ export const PLATFORM_FEATURES_CONFIG = {
       icon: "WandSparkles",
       iconColor: "#FFFFFF", // icon white because hasBg is true
       bgColor: "#015190", // background color for icon
-      title: "Autonomous Test Generation",
+      title: "Autonomous test generation",
       description:
         "Watch AI Agents Analyze Your Systems And Generate Comprehensive Test Suites Automatically.",
       cardClassName: "sm:w-[300px] w-[100%]  border-[#D9D9D9]",
@@ -45,7 +45,7 @@ export const PLATFORM_FEATURES_CONFIG = {
       icon: "Network",
       iconColor: "#FFFFFF",
         bgColor: "#015190", // background color for icon
-      title: "Multi-Agent Execution",
+      title: "Multi-agent execution",
       description:
         "See Coordinated Agents Execute Tests Across Multiple Environments Simultaneously.",
       cardClassName: "sm:w-[300px] w-[100%]  border-[#D9D9D9]",
@@ -56,7 +56,7 @@ export const PLATFORM_FEATURES_CONFIG = {
       icon: "Brain",
       iconColor: "#FFFFFF",
       bgColor: "#015190",
-      title: "LLM-Based Evaluation",
+      title: "Llm-based evaluation",
       description:
         "Experience Intelligent Test Result Analysis And Automated Quality Scoring.",
       cardClassName: "sm:w-[300px] w-[100%]  border-[#D9D9D9]",
@@ -67,7 +67,7 @@ export const PLATFORM_FEATURES_CONFIG = {
       icon: "ChartPie",
       iconColor: "#FFFFFF",
         bgColor: "#015190", // background color for icon
-      title: "Analytics & Insights",
+      title: "Analytics & insights",
       description:
         "Explore Enterprise Dashboards With Actionable Quality Intelligence.",
       cardClassName: "sm:w-[300px] w-[100%]  border-[#D9D9D9]",
@@ -88,7 +88,7 @@ export const DEMO_TARGET_AUDIENCE_CONFIG = {
       icon: "ShieldCheck", // Icon name, you can choose an appropriate one based on your icon library
       iconColor: "#FFFFFF", // White icon for contrast
       bgColor: "#015190", // Background color for the icon
-      title: "QA & Quality Engineering Leaders",
+      title: "QA & quality engineering leaders",
       description: "Transform your testing strategy with autonomous agents",
       cardClassName: "sm:w-[300px] w-[100%] lg: border-[#D9D9D9] p-4",
       hasBg: true,
@@ -97,7 +97,7 @@ export const DEMO_TARGET_AUDIENCE_CONFIG = {
       id: 2,
       icon: "WandSparkles", // Choose another relevant icon
       iconColor: "#FFFFFF",
-      title: "Engineering & Platform Leaders",
+      title: "Engineering & platform leaders",
         bgColor: "#015190", // Maintain consistency with the red background
       description: "Scale quality across your development lifecycle",
       cardClassName: "sm:w-[300px] w-[100%] lg: border-[#D9D9D9] p-4",
@@ -108,7 +108,7 @@ export const DEMO_TARGET_AUDIENCE_CONFIG = {
       icon: "Bot", // Use a relevant icon for AI/ML teams
       iconColor: "#FFFFFF",
       bgColor: "#015190", // Maintain consistency with the red background
-      title: "AI/ML Teams",
+      title: "AI/ML teams",
       description: "Ensure ai system reliability and performance",
       cardClassName: "sm:w-[300px] w-[100%] lg: border-[#D9D9D9] p-4",
       hasBg: true,
@@ -118,7 +118,7 @@ export const DEMO_TARGET_AUDIENCE_CONFIG = {
       icon: "Rocket",
       iconColor: "#FFFFFF",
       bgColor: "#015190", // If no background for the icon
-      title: "Product & Delivery Leaders",
+      title: "Product & delivery leaders",
       description: "Accelerate releases with confidence",
       cardClassName: "sm:w-[300px] w-[100%] lg: border-[#D9D9D9] p-4",
       hasBg: true,

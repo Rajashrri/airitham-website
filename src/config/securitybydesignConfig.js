@@ -1,5 +1,5 @@
 export const Security_HEADER = {
-  heading: "Security by Design",
+  heading: "Security by design",
    headclass:"",
    headingclass:"text-[#fff]",
   paragraph:

@@ -1,5 +1,5 @@
 export const Integrations_HEADER = {
-  heading: "Deployment Options",
+  heading: "Deployment options",
 //   subheading:"AIRITHM’s Unified Evaluation Hub for AI Quality",
 headingclass:"text-[#fff]",
   headclass:"pt-[0px]",
@@ -30,7 +30,7 @@ headingclass:"text-[#fff]",
 
 
 export const PLANING_CTA_CONFIG = {
-  heading: "Ready to Deploy?",
+  heading: "Ready to deploy?",
   paragraph:"Get expert guidance on choosing the right deployment model for your<br/> organization.",
   backgroundImage: "/bg/gradient.png",
   wrapperClassName:"",

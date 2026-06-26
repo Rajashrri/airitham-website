@@ -26,7 +26,7 @@ const PlatformArchitecture = () => {
       <section className=" px-5 lg:px-0">
         <div className="pt-20 pb-10">
           <SectionHeading
-            title="High-Level Architecture "
+            title="High-level architecture "
             subtitle="System diagram showing layered architecture with glowing connectors"
             titleClassName="text-[#00273A]"
             subtitleClassName="text-[#626161]"
@@ -49,7 +49,7 @@ const PlatformArchitecture = () => {
         <div className="w-full px-5  py-[100px] mt-[-100px] bg-white lg:rounded-t-[100px] rounded-t-[50px]">
           <SectionHeading
            
-            title="Technical Specifications"
+            title="Technical specifications"
             subtitle="Enterprise-grade infrastructure and performance metrics"
           />
 

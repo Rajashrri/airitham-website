@@ -1,5 +1,5 @@
 export const ABOUT_HEADER_CONFIG = {
-  heading: "About Us",
+  heading: "About us",
   paragraph:
     "Building intelligent systems that understand context and validate <br class='md:block hidden' /> behavior—autonomously.",
     headclass:false,
@@ -9,7 +9,7 @@ export const ABOUT_HEADER_CONFIG = {
 
 
 export const HOW_THEY_WORK_TOGETHER_CONFIG = {
-  title: "How They Work Together",
+  title: "How they work together",
 
   center: {
     title: "Shared Intelligence",
@@ -50,7 +50,7 @@ export const HOW_THEY_WORK_TOGETHER_CONFIG = {
 
 
 export const ABOUT_CTA_CONFIG  = {
-  heading: "Ready to Explore Our Platforms?",
+  heading: "Ready to explore our platforms?",
   paragraph:
     "Discover how our dual-platform approach can transform your systems",
   backgroundImage: "/bg/gradient.png",
@@ -70,7 +70,7 @@ export const ABOUT_CTA_CONFIG  = {
 
 
  export const DUAL_PLATFORM_CONFIG = {
-  title: "A Dual-Platform Intelligence Company",
+  title: "A dual-platform intelligence company",
   subtitle:
     "We build enterprise platforms that address two foundational challenges of modern systems",
 
@@ -79,7 +79,7 @@ export const ABOUT_CTA_CONFIG  = {
       id: 1,
       icon: "TestTubes",
       iconColor: "#015190",
-      title: "Autonomous Testing Platform",
+      title: "Autonomous testing platform",
       description: "Ensuring software and AI systems behave correctly",
       cardClassName: " w-full sm:w-[400px] border-[#D9D9D9]",
     },
@@ -87,7 +87,7 @@ export const ABOUT_CTA_CONFIG  = {
       id: 2,
       icon: "Network",
       iconColor: "#015190",
-      title: "Context Intelligence Platform",
+      title: "Context intelligence platform",
       description:
         "Enabling systems to understand, reason, and retain context over time",
       cardClassName: " w-full sm:w-[400px] border-[#D9D9D9]",

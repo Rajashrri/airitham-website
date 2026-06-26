@@ -96,7 +96,7 @@ const Contact = () => {
       <div className="lg:mt-[100px] mt-[70px] rounded-[50px] lg:py-[90px] py-[100px] bg-[linear-gradient(180deg,#042539_0%,#000000_55.42%)]">
         <div className="max-w-[913px] m-auto px-5">
           <h1 className="md:text-[64px] text-[40px] font-primary text-white text-center  leading-[1.2] tracking-[2%]  font-[600]">
-            Get in Touch. <br /> Redefine What's Possible
+            Get in touch. <br />Redefine what's possible
           </h1>
           <p className="text-[#999999] text-center font-medium leading-[1.4] tracking-[2%] mt-2 md:text-[18px] text-[16px] ">
             Ready to elevate your business with AI? <br /> Contact us today to
@@ -181,8 +181,7 @@ const Contact = () => {
             <div className="flex items-center gap-3">
               <input type="checkbox" className="mt-1 accent-white" />
               <p className="text-[18px] bg-[#6AC0E6] bg-clip-text text-transparent text-sm">
-                I Allow AIRITHM To Contact Me For Scheduling And Marketing, As
-                Per Its Privacy Policy.
+                I allow airithm to contact me for scheduling and marketing, as per its privacy policy.
               </p>
             </div>
             <button
@@ -214,7 +213,7 @@ export default Contact;
 
 export const feedback_USP_CONFIG = {
   title:
-    "USA, India Offices and Global Presence <br> Through Strategic Partners.",
+    "USA, India offices and global presence through strategic partners.",
   // subtitle: "Learn from every test run to continuously improve quality and coverage",
   bodyclass: "py-[90px]",
 

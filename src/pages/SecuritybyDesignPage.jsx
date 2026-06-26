@@ -15,7 +15,7 @@ const SecuritybyDesignPage = () => {
       const type =[
         {
             id:1,
-            title:"Tenant Isolation",
+            title:"Tenant isolation",
             dis:"Complete logical and physical separation between tenants with dedicated resources, network segmentation, and isolated data processing pipelines.",
             points:["Dedicated compute instances", "Network-level isolation", "Separate data stores"],
             icon:"VectorSquare"
@@ -29,7 +29,7 @@ const SecuritybyDesignPage = () => {
         },
         {
             id:3,
-            title:"Role-Based Access",
+            title:"Role-based access",
             dis:"Granular permission system with role-based access control, multi-factor authentication, and principle of least privilege enforcement.",
             points:["Granular permissions", "Multi-factor authentication", "Least privilege principle"],
             icon:"RotateCcw"
@@ -59,7 +59,7 @@ const SecuritybyDesignPage = () => {
             </section>
             <section className='py-[90px] md:px-0 px-5 '>
                   <SectionHeading
-                        title="Security Principles"
+                        title="Security principles"
                         subtitle='Our security framework is built on four fundamental pillars that ensure comprehensive <br/>protection across all system layers.'
                         titleClassName="sm:text-[48px]"
                         subtitleClassName=" sm:text-[16px] text-[#626161]"
@@ -112,7 +112,7 @@ const SecuritybyDesignPage = () => {
             <section className='py-[90px] md:px-0 px-5  mb-[60px] bg-[linear-gradient(360deg,#042539_0%,#000000_100%)] md:rounded-[100px] rounded-[50px]'>
                 <div className="max-w-[1200px] m-auto grid grid-cols-12">
                     <div className="md:col-span-5 col-span-12">
-                        <h2 className='font-primary text-[40px] md:text-left text-center font-[600] text-[#fff]'>Compliance Readiness</h2>
+                        <h2 className='font-primary text-[40px] md:text-left text-center font-[600] text-[#fff]'>Compliance readiness</h2>
                         <p className='text-[#D9D9D9] text-[16px] md:text-left text-center font-primary'>SOC2, GDPR, HIPAA, ISO-aligned architecture ensures your organization meets the most stringent regulatory requirements from day one.</p>
                     </div>
                     <div className="col-span-12">
@@ -123,22 +123,22 @@ const SecuritybyDesignPage = () => {
                                         <img src="/svg/badge.png" className='m-auto' alt="" />
                                         {/* <LucideIcons.Badge color='#6AC0E6'/> */}
                                         <h2 className='text-[24px] mt-3 font-primary text-center text-[#fff] font-[600]'>SOC 2</h2>
-                                        <p className='text-[#D9D9D9] font-secondary text-center mt-1 text-[14px]'>Type II Compliant</p>                                        
+                                        <p className='text-[#D9D9D9] font-secondary text-center mt-1 text-[14px]'>Type II compliant</p>                                        
                                     </div>
                                     <div className="col-span-6 bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] rounded-[16px] border border-[1px] py-6 border-[#D9D9D9]">
                                         <img src="/svg/circle-question-mark.png" className='m-auto' alt="" />
                                         <h2 className='text-[24px] mt-3 font-primary text-center text-[#fff] font-[600]'>GDPR</h2>
-                                        <p className='text-[#D9D9D9] font-secondary text-center mt-1 text-[14px]'>Privacy Ready</p>                                        
+                                        <p className='text-[#D9D9D9] font-secondary text-center mt-1 text-[14px]'>Privacy ready</p>                                        
                                     </div>
                                     <div className="col-span-6 bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] rounded-[16px] border border-[1px] py-6 border-[#D9D9D9]">
                                         <img src="/svg/user-lock.png" className='m-auto' alt="" />
                                         <h2 className='text-[24px] mt-3 font-primary text-center text-[#fff] font-[600]'>HIPAA</h2>
-                                        <p className='text-[#D9D9D9] font-secondary text-center mt-1 text-[14px]'>Healthcare Aligned</p>                                        
+                                        <p className='text-[#D9D9D9] font-secondary text-center mt-1 text-[14px]'>Healthcare aligned</p>                                        
                                     </div>
                                     <div className="col-span-6 bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] rounded-[16px] border border-[1px] py-6 border-[#D9D9D9]">
                                         <img src="/svg/award.png" className='m-auto' alt="" />
                                         <h2 className='text-[24px] mt-3 font-primary text-center text-[#fff] font-[600]'>ISO 27001</h2>
-                                        <p className='text-[#D9D9D9] font-secondary text-center mt-1 text-[14px]'>Security Standards</p>                                        
+                                        <p className='text-[#D9D9D9] font-secondary text-center mt-1 text-[14px]'>Security standards</p>                                        
                                     </div>
                                     <div className="col-span-12">
                                         <Button
@@ -155,14 +155,14 @@ const SecuritybyDesignPage = () => {
 
                             </div>
                             <div className="md:col-span-6 col-span-12  px-6 py-6 border-[#D9D9D9] border border-[1px] rounded-[24px]">
-                                 <h2 className='text-[24px]  font-primary text-left text-[#fff] font-[600]'>Security Features</h2>
+                                 <h2 className='text-[24px]  font-primary text-left text-[#fff] font-[600]'>Security features</h2>
                                  <div className="bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(131,131,131,0.1)_100%)] py-4 px-6 mt-5 flex gap-5 items-center rounded-[16px]">
                                     <div className="">
                                         {/* <img src="/svg/fingerprint-pattern.png" alt="" /> */}
                                         <LucideIcons.FingerprintIcon color='#6AC0E6'/>
                                     </div>
                                     <div className="">
-                                        <h3 className='text-[20px] font-[600] font-primary text-[#fff]'>Zero Trust Architecture</h3>
+                                        <h3 className='text-[20px] font-[600] font-primary text-[#fff]'>Zero trust architecture</h3>
                                         <p className='text-[#999999] font-secondary text-[14px]'>Never trust, always verify</p>
                                     </div>
 
@@ -173,7 +173,7 @@ const SecuritybyDesignPage = () => {
                                         <img src="/svg/eye.svg" alt="" className='h-[24px]' />
                                     </div>
                                     <div className="">
-                                        <h3 className='text-[20px] font-[600] font-primary text-[#fff]'>24/7 Monitoring</h3>
+                                        <h3 className='text-[20px] font-[600] font-primary text-[#fff]'>24/7 monitoring</h3>
                                         <p className='text-[#999999] font-secondary text-[14px]'>Continuous threat detection</p>
                                     </div>
 
@@ -185,7 +185,7 @@ const SecuritybyDesignPage = () => {
                                         <LucideIcons.HardDrive color='#6AC0E6'/>
                                     </div>
                                     <div className="">
-                                        <h3 className='text-[20px] font-[600] font-primary text-[#fff]'>Secure Infrastructure</h3>
+                                        <h3 className='text-[20px] font-[600] font-primary text-[#fff]'>Secure infrastructure</h3>
                                         <p className='text-[#999999] font-secondary text-[14px]'>Hardened cloud environment</p>
                                     </div>
 
@@ -197,7 +197,7 @@ const SecuritybyDesignPage = () => {
                                         <LucideIcons.History color='#6AC0E6'/>
                                     </div>
                                     <div className="">
-                                        <h3 className='text-[20px] font-[600] font-primary text-[#fff]'>Incident Response</h3>
+                                        <h3 className='text-[20px] font-[600] font-primary text-[#fff]'>Incident response</h3>
                                         <p className='text-[#999999] font-secondary text-[14px]'>Automated threat mitigation</p>
                                     </div>
 
