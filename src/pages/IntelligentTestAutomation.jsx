@@ -38,7 +38,7 @@ const IntelligentTestAutomation = () => {
                     subtitle="Our platform combines machine learning with advanced test orchestration to create, execute, and maintain test suites that evolve with your application. Eliminate brittle tests and reduce maintenance overhead by up to 80%."
                     subtitleClassName=" font-secondary text-[#626161]"
                     titleClassName="font-primary  font-[600]  text-[#015190] captialize"
-                    title="Autonomous Testing Infrastructure"
+                    title="Autonomous testing infrastructure"
                     wrapperClassName="max-w-[733px] m-auto"
                     spacing="space-y-4"
                 />
@@ -68,7 +68,7 @@ const IntelligentTestAutomation = () => {
                 <div className="max-w-[1224px] mt-[60px] px-5 m-auto grid grid-cols-12 gap-6">
                     <div className="lg:col-span-6 col-span-12 border py-5 bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] px-5 border-[1px] border-[#D9D9D9] rounded-[16px]">
                         <img src="./svg/store.svg" alt="" />
-                        <h3 className="text-[24px] font-primary font-[600] text-[#fff] mt-[30px]">E-Commerce Platform</h3>
+                        <h3 className="text-[24px] font-primary font-[600] text-[#fff] mt-[30px]">E-commerce platform</h3>
                         <p className="text-[14px] text-[#D9D9D9] font-[500] font-secondary mt-2">A major online retailer automated their entire checkout flow testing across 15 payment gateways and 8 locales. Self-healing tests adapted to frequent UI changes during holiday campaigns, maintaining 99.8% uptime during peak traffic.</p>
                         <div className="mt-8 flex gap-6 flex-wrap">
                             <div >
@@ -90,7 +90,7 @@ const IntelligentTestAutomation = () => {
                     </div>
                     <div className="lg:col-span-6 col-span-12 border py-5 bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] px-5 border-[1px] border-[#D9D9D9] rounded-[16px]">
                         <img src="./svg/landmark.svg" alt="" />
-                        <h3 className="text-[24px] font-primary font-[600] text-[#fff] mt-[30px]">Financial Services</h3>
+                        <h3 className="text-[24px] font-primary font-[600] text-[#fff] mt-[30px]">Financial services</h3>
                         <p className="text-[14px] text-[#D9D9D9] font-[500] font-secondary mt-2">A fintech company deployed comprehensive API and security testing for their mobile banking app. Intelligent test generation covered edge cases that manual QA missed, preventing three critical security vulnerabilities from reaching production.</p>
                         <div className="mt-8 flex gap-6 flex-wrap">
                             <div >
@@ -134,7 +134,7 @@ const IntelligentTestAutomation = () => {
                     </div>
                     <div className="lg:col-span-6 col-span-12 border py-5 bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] px-5 border-[1px] border-[#D9D9D9] rounded-[16px]">
                         <img src="./svg/gamepad-2.svg" alt="" />
-                        <h3 className="text-[24px] font-primary font-[600] text-[#fff] mt-[30px]">Gaming Platform</h3>
+                        <h3 className="text-[24px] font-primary font-[600] text-[#fff] mt-[30px]">Gaming platform</h3>
                         <p className="text-[14px] text-[#D9D9D9] font-[500] font-secondary mt-2">A multiplayer gaming service automated cross-platform testing across PC, console, and mobile. Real-time monitoring detected performance regressions instantly, ensuring smooth gameplay for 5 million concurrent users during launches.</p>
                         <div className="mt-8 flex gap-6 flex-wrap">
                             <div >
@@ -169,7 +169,7 @@ const IntelligentTestAutomation = () => {
 export default IntelligentTestAutomation
 
 export const Pipeline = {
-  title: "Measurable Impact on Your Pipeline",
+  title: "Measurable impact on your pipeline",
   subtitle: "Real metrics from production deployments across enterprise teams",
   bodyclass: false,
   // tags:"Key benefits",
@@ -180,7 +180,7 @@ export const Pipeline = {
       icon: "ShieldCheck",
       bigheading:"94%",
    
-      title: "Test Coverage",
+      title: "Test coverage",
       discColor: "#626161",
       cardClassName:"bg-[#fff] w-full sm:w-[322px] ",
       textColor: "#000",
@@ -210,7 +210,7 @@ export const Pipeline = {
      {
       id: 2,
       icon: "Clock",
-      title: "Faster Execution",
+      title: "Faster execution",
       discColor: "#626161",
       bigheading:"10x",
       cardClassName:"bg-[#fff] w-full sm:w-[322px] ",
@@ -241,7 +241,7 @@ export const Pipeline = {
      {
       id: 3,
       icon: "PiggyBank",
-      title: "Cost Reduction",
+      title: "Cost reduction",
       discColor: "#626161",
        bigheading:"67%",
       cardClassName:"bg-[#fff] w-full sm:w-[322px] ",
@@ -272,7 +272,7 @@ export const Pipeline = {
        {
       id: 4,
       icon: "TriangleAlert",
-      title: "Risk Mitigation",
+      title: "Risk mitigation",
       discColor: "#626161",
        bigheading:"89%",
       cardClassName:"bg-[#fff] w-full sm:w-[322px] ",
@@ -314,7 +314,7 @@ export const USP_CONFIG = {
       id: 1,
       icon: "Plug",
       num:"1",
-      title: "Connect Your Repository",
+      title: "Connect your repository",
       iconColor:"#6AC0E6",
       discColor: "#C6C6C6",
       cardClassName:"mt-12 md:mt-0 bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[390px] ",
@@ -358,7 +358,7 @@ export const USP_CONFIG = {
      {
       id: 2,
       icon: "Settings",
-      title: "Configure Test Strategy",
+      title: "Configure test strategy",
       discColor: "#C6C6C6",
       iconColor:"#6AC0E6",
        num:"2",
@@ -403,7 +403,7 @@ export const USP_CONFIG = {
      {
       id: 3,
       icon: "CirclePlay",
-      title: "Execute & Monitor",
+      title: "Execute & monitor",
       discColor: "#C6C6C6",
       iconColor:"#6AC0E6",
        num:"3",
@@ -452,7 +452,7 @@ export const USP_CONFIG = {
 
 
 export const REFLECTIVE_MEMORY_HEADER = {
-    heading: "Intelligent Test <br/> Automation",
+    heading: "Intelligent test <br/> automation",
     headclass: " text-white",
     headingclass:"text-[#fff]",
     paragraph:
@@ -486,7 +486,7 @@ export const FEATURE_CARDS = [
         iconColor: "#015190",
         // hasBg: true,
         bgColor: "linear-gradient(90deg,#FFA68D,#FD3A84)",
-        title: "Self-Healing Tests",
+        title: "Self-healing tests",
         description: "Automatically adapts to UI changes, locator updates, and application modifications without manual intervention.",
         textColor: "#1E1E1E",
         discColor: "#626161",
@@ -499,7 +499,7 @@ export const FEATURE_CARDS = [
         icon: "Brain",
         // hasBg: false,
          iconColor: "#015190",
-        title: "Intelligent Analysis",
+        title: "Intelligent analysis",
         description: "AI-driven root cause analysis identifies real failures from flaky tests and provides actionable insights instantly.",
         textColor: "#1E1E1E",
         discColor: "#626161",
@@ -513,7 +513,7 @@ export const FEATURE_CARDS = [
          iconColor: "#015190",
         // hasBg: true,
         bgColor: "linear-gradient(180deg,#00273A,#000000)",
-        title: "Parallel Execution",
+        title: "Parallel execution",
         description: "Distribute tests across cloud infrastructure for 10x faster feedback loops and seamless CI/CD integration.",
         textColor: "#1E1E1E",
         discColor: "#626161",

@@ -60,8 +60,8 @@ const KnowledgeBasedCreationPage = () => {
         >
           {/* Heading */}
           <SectionHeading
-            title="How It Works"
-            subtitle="Powered by AIRITHM Core, delivering intelligent solutions for every enterprise need."
+            title="How it works"
+            subtitle="Powered by airithm core, delivering intelligent solutions for every enterprise need."
             titleClassName="font-primary text-white text-center"
             subtitleClassName="font-secondary max-w-[760px] mx-auto text-[#B5B5B5] text-center"
             spacing="space-y-4"
@@ -92,7 +92,7 @@ const KnowledgeBasedCreationPage = () => {
               subtitle="Measurable impact on your organization’s knowledge ecosystem."
               subtitleClassName=" font-secondary text-[#626161]"
               titleClassName="font-primary   text-[#015190] captialize"
-              title="Key Benefits"
+              title="Key benefits"
               wrapperClassName=""
               spacing="space-y-4"
             />
@@ -114,7 +114,7 @@ const KnowledgeBasedCreationPage = () => {
       <section>
         <div className="bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] md:rounded-t-[100px] rounded-t-[50px] relative z-3 pt-[100px] pb-[200px]">
           <SectionHeading
-            title={"Real-World Use Cases"}
+            title={"Real-world use cases"}
             titleClassName="text-white"
             titleSize="sm:text-[40px] text-[30px]"
             subtitle="See how teams across industries leverage our platform to transform their delivery process"

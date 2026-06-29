@@ -122,7 +122,7 @@ const LLMBasedEvaluationPage = () => {
               subtitle="Transform information into a strategic, high-impact asset."
               subtitleClassName=" font-secondary text-[#626161]"
               titleClassName="font-primary   text-[#015190] captialize"
-              title="Key Benefits"
+              title="Key benefits"
               wrapperClassName=""
               spacing="space-y-4"
             />
@@ -144,7 +144,7 @@ const LLMBasedEvaluationPage = () => {
       <section>
         <div className="bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] md:rounded-t-[100px] rounded-t-[50px] relative z-3 pt-[100px] pb-[200px]">
           <SectionHeading
-            title={"Real-World Use Cases"}
+            title={"Real-world use cases"}
             titleClassName="text-white"
             titleSize="sm:text-[40px] text-[32px]"
             subtitle="See how teams across industries leverage our platform to transform their delivery process"

@@ -60,7 +60,7 @@ const BlogFilter = () => {
       <div className="max-w-[1200px] mx-auto">
 
         <SectionHeading
-          title="Latest from Our Blog"
+          title="Latest from Our blog"
           titleClassName="sm:text-[48px] text-[#000]"
         />
 

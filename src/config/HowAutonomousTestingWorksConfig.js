@@ -1,5 +1,5 @@
     export const Memory_HEADER = {
-    heading: "How Autonomous Testing Works",
+    heading: "How autonomous testing works",
     headclass:"",
     headingclass:"text-[#fff]",
     paragraph:
@@ -35,7 +35,7 @@
         {
         id: 1,
         icon: "ListCheck",
-        title: "Planner Agent",
+        title: "Planner agent",
         discColor: "#D9D9D9",
         cardClassName:"md:w-[240px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] p-2",
         textColor: "#fff",
@@ -48,7 +48,7 @@
         {
         id: 2,
         icon: "CodeXml",
-        title: "Generator Agent",
+        title: "Generator agent",
         discColor: "#D9D9D9",
         textColor: "#fff",
         cardClassName:"md:w-[240px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] p-2",
@@ -61,7 +61,7 @@
         {
         id: 3,
         icon: "Rocket",
-        title: "Executor Agent",
+        title: "Executor agent",
         discColor: "#D9D9D9",
         textColor: "#fff",
         cardClassName:"md:w-[240px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] p-2",
@@ -74,7 +74,7 @@
         {
         id: 4,
         icon: "Star",
-        title: "Evaluator Agent",
+        title: "Evaluator agent",
         discColor: "#D9D9D9",
         textColor: "#fff",
         cardClassName:"md:w-[240px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] p-2",
@@ -87,7 +87,7 @@
         {
         id: 5,
         icon: "Database",
-        title: "Memory Agent",
+        title: "Memory agent",
         discColor: "#D9D9D9",
         textColor: "#fff",
         cardClassName:"md:w-[240px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] p-2",
@@ -103,7 +103,7 @@
     };
 
      export const feedback_USP_CONFIG = {
-    title: "Continuous Feedback Loop",
+    title: "Continuous feedback loop",
     subtitle: "Learn from every test run to continuously improve quality and coverage",
     // bodyclass: "py-[90px]",
 
@@ -111,7 +111,7 @@
         {
         id: 1,
         icon: "TriangleAlert",
-        title: "Failure Detection",
+        title: "Failure detection",
         iconColor:"#015190",
         discColor: "#626161",
         cardClassName:"md:w-[360px] w-[100%] bg-[#fff] p-2",
@@ -125,7 +125,7 @@
         {
         id: 2,
         icon: "RefreshCcw",
-        title: "Drift Monitoring",
+        title: "Drift monitoring",
          iconColor:"#015190",
         discColor: "#626161",
         textColor: "#1E1E1E",
@@ -139,7 +139,7 @@
         {
         id: 3,
         icon: "CircleAlert",
-        title: "Feature Learning",
+        title: "Feature learning",
          iconColor:"#015190",
         discColor: "#626161",
         textColor: "#1E1E1E",
@@ -157,7 +157,7 @@
 
     
 export const PLANING_CTA_CONFIG = {
-  heading: "Ready to Experience Autonomous Testing?",
+  heading: "Ready to experience autonomous testing?",
   paragraph:"Join teams that have reduced testing time by 80% with AI-powered automation.",
   backgroundImage: "/bg/gradient.png",
   wrapperClassName:"",

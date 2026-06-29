@@ -38,7 +38,7 @@ const SystemArchitecturePage = () => {
             <div className="system-architecture-top">
               <SectionHeading
                 titleClassName="text-white py-[86px]"
-                title="Context Flow Diagram"
+                title="Context flow diagram"
               />
 
               <img src="/svg/control-flow.png" className="max-w-[830px] m-auto" alt="" />
@@ -46,7 +46,7 @@ const SystemArchitecturePage = () => {
 
             <div className="system-architecture-bottom pt-60 pb-[244px]">
               <h2 class="font-primary mb-[52px] font-medium md:text-[40px] text-[32px] leading-[100%] tracking-[0.02em] text-center text-white">
-                Core Modules
+                Core modules
               </h2>
               <div className="max-w-7xl px-5 gap-8 flex mx-auto flex-wrap justify-center">
                 {SYSTEM_ARCHI_USP_CONFIG_ONE.cards.map((item) => (
@@ -63,7 +63,7 @@ const SystemArchitecturePage = () => {
       <section>
         <div className=" section-overlap space-y-10 mt-[-100px] bg-[linear-gradient(360deg,#042539_0%,#000000_100%)]">
           <SectionHeading
-            title={"Context & Memory Lifecycle"}
+            title={"Context & memory lifecycle"}
             titleClassName="text-white"
           />
 
@@ -74,7 +74,7 @@ const SystemArchitecturePage = () => {
       <section>
         <div className="md:rounded-[100px] px-5 rounded-[50px] py-[100px] space-y-10  bg-white relative z-4 mt-[-100px]  w-full  ">
           <SectionHeading
-            title="Multi-Agent Coordination Diagram"
+            title="Multi-agent coordination diagram"
             titleClassName="text-[#00273A]"
           />
 
@@ -93,7 +93,7 @@ const SystemArchitecturePage = () => {
           <div className="space-y-10">
             <SectionHeading
               titleClassName="text-white"
-              title="Governance & Security Layer"
+              title="Governance & security layer"
             />
 
             <div className="img-wrapper px-5 mx-auto max-w-[640px]">
@@ -115,7 +115,7 @@ const SystemArchitecturePage = () => {
         <div className="py-[100px] border border-b-[#D9D9D9]  bg-white mt-[-100px] md:rounded-[100px] rounded-[50px]">
           <SectionHeading
             titleClassName="text-[#00273A]"
-            title="Integrate in Minutes. <br /> Scale to Billions of Context Events."
+            title="Integrate in minutes. <br /> Scale to billions of context events."
           />
 
 
@@ -130,7 +130,7 @@ const SystemArchitecturePage = () => {
         <div className="pt-[100px] px-5">
           <SectionHeading
 
-          title="Deployment Architecture"
+          title="Deployment architecture"
           
           />
 
@@ -145,7 +145,7 @@ const SystemArchitecturePage = () => {
          <section>
         <div className="bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] rounded-t-[100px] relative z-3 pt-[100px] pb-[200px]">
           <SectionHeading
-            title={"Core Concept"}
+            title={"Core concept"}
             titleClassName="text-white"
             titleSize="sm:text-[40px] text-[32px] "
            

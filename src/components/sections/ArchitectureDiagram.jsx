@@ -2,13 +2,13 @@ import SectionHeading from "../common/SectionHeading";
 
 export default function ArchitectureDiagram() {
   const layers = [
-    "Memory Layer (Episodic + Semantic)",
-    "HAMN Routing Engine",
-    "Capsule Engine",
-    "LLM-Based Execution Layer",
-    "Federated Signals Mesh",
-    "Reflection Loop",
-    "Governance Layer Wrapped Around Entire Structure",
+    "Memory layer (episodic + semantic)",
+    "Hamn routing engine",
+    "Capsule engine",
+    "Llm-based execution layer",
+    "Federated signals mesh",
+    "Reflection loop",
+    "Governance layer wrapped around entire structure",
   ];
 
   return (
@@ -16,7 +16,7 @@ export default function ArchitectureDiagram() {
       <div className="relative w-full space-y-10   mt-[-100px] py-[100px]  bg-white md:rounded-[100px] rounded-[50px] ">
         
         {/* Title */}
-       <SectionHeading title="End-to-End Architecture Diagram" titleClassName="text-[#00273A]" />
+       <SectionHeading title="End-to-end architecture diagram" titleClassName="text-[#00273A]" />
 
        <div className="md:scale-[0.8] scale-1 md:my-[-70px]">
          {/* API Gateway */}
@@ -24,7 +24,7 @@ export default function ArchitectureDiagram() {
           <div className="w-full max-w-[450px] md:py-6 py-4 rounded-3xl bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]
  text-white text-center font-primary font-medium md:text-[36px] text-[24px] leading-[1.2] tracking-[0.02em]
 ">
-            API Gateway
+            API gateway
           </div>
         </div>
 

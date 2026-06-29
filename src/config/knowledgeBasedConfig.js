@@ -25,7 +25,7 @@ export const KNOWLEDGE_EVALUATION_HEADER = {
   ],
 };
 export const KNOWLEDGE_FEATURES_CONFIG_ONE = {
-  title: "What It Does",
+  title: "What it does",
   subtitle:
     "Our AI-powered platform automatically ingests, processes, and organizes your organizational knowledge into intelligent, searchable databases that continuously improve through machine learning.",
 
@@ -34,7 +34,7 @@ export const KNOWLEDGE_FEATURES_CONFIG_ONE = {
       id: 1,
       icon: "Bot",
       iconColor: "#015190", // icon white because hasBg is true
-      title: "Automated Ingestion",
+      title: "Automated ingestion",
       description:
         "Seamlessly captures data from documents, emails, databases, and conversations across your organization.",
       cardClassName: "md:w-[320px] w-[100%] bg-white border-[#D9D9D9]",
@@ -43,7 +43,7 @@ export const KNOWLEDGE_FEATURES_CONFIG_ONE = {
       id: 2,
       icon: "Search",
       iconColor: "#015190",
-      title: "Intelligent Search",
+      title: "Intelligent search",
       description:
         "Natural language queries return contextually relevant answers with source citations and confidence scores.",
       cardClassName: "md:w-[320px] w-[100%] bg-white border-[#D9D9D9]",
@@ -53,7 +53,7 @@ export const KNOWLEDGE_FEATURES_CONFIG_ONE = {
       icon: "ChartSpline",
       iconColor: "#015190",
 
-      title: "Continuous Learning",
+      title: "Continuous learning",
       description:
         "Adapts and improves knowledge accuracy through user feedback and new information patterns.",
       cardClassName: "md:w-[320px] w-[100%] bg-white border-[#D9D9D9]",
@@ -64,25 +64,25 @@ export const KNOWLEDGE_WORKS_CONFIG = {
   steps: [
     {
       step: 1,
-      title: "Data Collection",
+      title: "Data collection",
       description:
         "Connect your data sources, including documents, databases, and communication platforms.",
     },
     {
       step: 2,
-      title: "AI Processing",
+      title: "AI processing",
       description:
         "Advanced NLP algorithms extract, classify, and structure information automatically.",
     },
     {
       step: 3,
-      title: "Knowledge Graph",
+      title: "Knowledge graph",
       description:
         "Creates interconnected knowledge networks with semantic relationships and context.",
     },
     {
       step: 4,
-      title: "Intelligent Access",
+      title: "Intelligent access",
       description:
         "Deploy searchable interfaces with natural language querying and contextual answers.",
     },
@@ -96,7 +96,7 @@ export const KNOWLEDGE_BASED_KEY_BENEFITS = [
     value: "95%",
     percentage: 95,
     title: "Coverage",
-    description: "Knowledge Capture From All Organizational Sources",
+    description: "Knowledge capture from all organizational sources",
     iconWrapperClass: "bg-gradient-to-br from-pink-400 to-orange-400",
   },
   {
@@ -106,7 +106,7 @@ export const KNOWLEDGE_BASED_KEY_BENEFITS = [
     value: "10x",
     percentage: 20, // You can adjust this depending on how you want to represent "10x"
     title: "Speed",
-    description: "Faster Information Retrieval And Decision Making",
+    description: "Faster information retrieval and decision making",
     iconWrapperClass: "bg-gradient-to-br from-pink-400 to-orange-400",
   },
   {
@@ -116,7 +116,7 @@ export const KNOWLEDGE_BASED_KEY_BENEFITS = [
     value: "60%",
     percentage: 70,
     title: "Cost Reduction",
-    description: "Lower Operational Overhead And Training Costs",
+    description: "Lower operational overhead and training costs",
     iconWrapperClass: "bg-gradient-to-br from-pink-400 to-orange-400",
   },
   {
@@ -126,7 +126,7 @@ export const KNOWLEDGE_BASED_KEY_BENEFITS = [
     value: "90%",
     percentage: 99,
     title: "Risk Reduction",
-    description: "Minimized Knowledge Loss And Compliance Gaps",
+    description: "Minimized knowledge loss and compliance gaps",
     iconWrapperClass: "bg-gradient-to-br from-pink-400 to-orange-400",
   },
 ];
@@ -139,7 +139,7 @@ export const KNOWLEDGE_USP_CONFIG = {
     {
       id: 1,
       icon: "Hospital",
-      title: "Healthcare Systems",
+      title: "Healthcare systems",
       textColor: "#fff",
       discColor: "#D9D9D9",
       cardClassName:
@@ -152,7 +152,7 @@ export const KNOWLEDGE_USP_CONFIG = {
     {
       id: 2,
       icon: "GraduationCap",
-      title: "Educational Institutions",
+      title: "Educational institutions",
       textColor: "#fff",
      discColor: "#D9D9D9",
       cardClassName:
@@ -165,7 +165,7 @@ export const KNOWLEDGE_USP_CONFIG = {
     {
       id: 3,
       icon: "Building",
-      title: "Enterprise Organizations",
+      title: "Enterprise organizations",
       textColor: "#fff",
       discColor: "#D9D9D9",
       cardClassName:
@@ -178,7 +178,7 @@ export const KNOWLEDGE_USP_CONFIG = {
 };
 
 export const KNOWLEDGE_CTA_CONFIG = {
-  heading: "Ready to Transform Your Knowledge Management?",
+  heading: "Ready to transform your knowledge management?",
   paragraph:
     "Join hundreds of organizations already leveraging AI-powered knowledge bases to accelerate decision-making and preserve institutional knowledge.",
   backgroundImage: "/bg/gradient.png",

@@ -59,7 +59,7 @@ const ResourcesPage = () => {
             </div>
             <section className='py-[80px] pt-[80px]'>
                   <SectionHeading
-                    title="Multiple Resources for AIRITHM"
+                    title="Multiple resources for airithm"
                     // subtitle='Real-world results achieved using autonomous and agentic testing systems.'
                     titleClassName="sm:text-[48px] text-[#000]"
                     // subtitleClassName=" sm:text-[16px] text-[#626161] max-w-[950px]"
@@ -73,7 +73,7 @@ const ResourcesPage = () => {
             </section>
             <section className='py-[80px]  pb-[200px] rounded-t-[50px] rounded-b-0 bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)]'>
                 <SectionHeading
-                    title="Featured Content"
+                    title="Featured content"
                     // subtitle='Purpose-built platforms that work independently or together to transform <br/> your testing and intelligence capabilities'
                     titleClassName="sm:text-[48px] text-[#fff]"
                     subtitleClassName=" sm:text-[16px] text-[#C6C6C6] max-w-[950px]"
@@ -117,7 +117,7 @@ const ResourcesPage = () => {
             <section className='py-[100px] pt-[150px] mt-[-60px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)] relative z-[-11]'>
 
                 <SectionHeading
-                    title="Enterprise Whitepapers & Research"
+                    title="Enterprise whitepapers & research"
                     subtitle='In-depth research, frameworks, and architectural guidance for enterprise autonomous testing and AI quality engineering.'
                     titleClassName="sm:text-[48px] text-[#fff]"
                     subtitleClassName=" sm:text-[16px] text-[#C6C6C6] max-w-[950px]"
@@ -174,7 +174,7 @@ const ResourcesPage = () => {
             </section>
             <section className='py-[100px]'>
                 <SectionHeading
-                    title="Customer Success Stories"
+                    title="Customer success stories"
                     subtitle='Real-world results achieved using autonomous and agentic testing systems.'
                     titleClassName="sm:text-[48px] text-[#000]"
                     subtitleClassName=" sm:text-[16px] text-[#626161] max-w-[950px]"
@@ -226,7 +226,7 @@ const ResourcesPage = () => {
             </section>
             <section className='py-[80px]  pb-[200px] md:rounded-t-[100px] rounded-t-[50px] rounded-b-0 bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)]'>
                 <SectionHeading
-                    title="Autonomous Testing Benchmarks"
+                    title="Autonomous testing benchmarks"
                     subtitle='Objective performance and accuracy benchmarks comparing autonomous testing <br/> against traditional approaches.'
                     titleClassName="sm:text-[48px] text-[#fff]"
                     subtitleClassName=" sm:text-[16px] text-[#C6C6C6] max-w-[950px]"
@@ -234,9 +234,9 @@ const ResourcesPage = () => {
                 <div className="max-w-[1250px] m-auto mt-[60px] lg:px-0 px-5">
                     <div className="grid grid-cols-12 gap-4 ">
                         <div className=" col-span-12 md:col-span-4 p-5 border border-[1px] border-[#9c9c9c] rounded-[16px] overflow-hidden bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]">
-                            <h2 className='text-[20px] font-primary inline font-[600] text-[#6AC0E6]'>Test Coverage Accuracy</h2>
+                            <h2 className='text-[20px] font-primary inline font-[600] text-[#6AC0E6]'>Test coverage accuracy</h2>
                             <div className=" mt-[40px]">
-                                <p className='flex justify-between'> <span className='text-[#fff]'>Autonomous Testing</span> <span className='bg-[#6AC0E6]
+                                <p className='flex justify-between'> <span className='text-[#fff]'>Autonomous testing</span> <span className='bg-[#6AC0E6]
                                                             bg-clip-text
                                                             text-transparent'>94%</span></p>
                                 <div className="w-full h-3 bg-[#555555] rounded-full mt-1 overflow-hidden">
@@ -248,7 +248,7 @@ const ResourcesPage = () => {
 
                             </div>
                             <div className=" mt-[20px]">
-                                <p className='flex justify-between'> <span className='text-[#fff]'>Scripted Testing</span> <span className='bg-[#6AC0E6]
+                                <p className='flex justify-between'> <span className='text-[#fff]'>Scripted testing</span> <span className='bg-[#6AC0E6]
                                                             bg-clip-text
                                                             text-transparent'>67%</span></p>
                                 <div className="w-full h-3 bg-[#555555] rounded-full mt-1 overflow-hidden">
@@ -274,9 +274,9 @@ const ResourcesPage = () => {
 
 
                         <div className=" col-span-12 md:col-span-4 p-5 border border-[1px] border-[#9c9c9c] rounded-[16px] overflow-hidden bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]">
-                            <h2 className='text-[20px] font-primary inline font-[600] text-[#6AC0E6]'>Defect Detection Rate</h2>
+                            <h2 className='text-[20px] font-primary inline font-[600] text-[#6AC0E6]'>Defect detection rate</h2>
                             <div className=" mt-[40px]">
-                                <p className='flex justify-between'> <span className='text-[#fff]'>Autonomous Testing</span> <span className='bg-[#6AC0E6]
+                                <p className='flex justify-between'> <span className='text-[#fff]'>Autonomous testing</span> <span className='bg-[#6AC0E6]
                                                             bg-clip-text
                                                             text-transparent'>94%</span></p>
                                 <div className="w-full h-3 bg-[#555555] rounded-full mt-1 overflow-hidden">
@@ -288,7 +288,7 @@ const ResourcesPage = () => {
 
                             </div>
                             <div className=" mt-[20px]">
-                                <p className='flex justify-between'> <span className='text-[#fff]'>Manual Testing</span> <span className='bg-[#6AC0E6]
+                                <p className='flex justify-between'> <span className='text-[#fff]'>Manual testing</span> <span className='bg-[#6AC0E6]
                                                             bg-clip-text
                                                             text-transparent'>67%</span></p>
                                 <div className="w-full h-3 bg-[#555555] rounded-full mt-1 overflow-hidden">
@@ -312,9 +312,9 @@ const ResourcesPage = () => {
                         </div>
 
                         <div className=" col-span-12 md:col-span-4 p-5 border border-[1px] border-[#9c9c9c] rounded-[16px] overflow-hidden bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]">
-                            <h2 className='text-[20px] font-primary inline font-[600] text-[#6AC0E6]'>Time to Market</h2>
+                            <h2 className='text-[20px] font-primary inline font-[600] text-[#6AC0E6]'>Time to market</h2>
                             <div className=" mt-[40px]">
-                                <p className='flex justify-between'> <span className='text-[#fff]'>Autonomous Testing</span> <span className='bg-[#6AC0E6]
+                                <p className='flex justify-between'> <span className='text-[#fff]'>Autonomous testing</span> <span className='bg-[#6AC0E6]
                                                             bg-clip-text
                                                             text-transparent'>94%</span></p>
                                 <div className="w-full h-3 bg-[#555555] rounded-full mt-1 overflow-hidden">
@@ -326,7 +326,7 @@ const ResourcesPage = () => {
 
                             </div>
                             <div className=" mt-[20px]">
-                                <p className='flex justify-between'> <span className='text-[#fff]'>Traditional Testing</span> <span className='bg-[#6AC0E6]
+                                <p className='flex justify-between'> <span className='text-[#fff]'>Traditional testing</span> <span className='bg-[#6AC0E6]
                                                             bg-clip-text
                                                             text-transparent'>67%</span></p>
                                 <div className="w-full h-3 bg-[#555555] rounded-full mt-1 overflow-hidden">
@@ -359,7 +359,7 @@ const ResourcesPage = () => {
                 <Webinars/>
             <section className='py-[90px] bg-[#E9F6FB] rounded-t-[100px]'>
                 <SectionHeading
-                    title="Frequently Asked Questions"
+                    title="Frequently asked questions"
                     subtitle='Quick answers to common questions about the platform, technology, and deployment.'
                     titleClassName="sm:text-[48px] text-[#015190]"
                     subtitleClassName=" sm:text-[16px] text-[#626161] max-w-[950px]"

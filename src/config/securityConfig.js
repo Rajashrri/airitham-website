@@ -1,5 +1,5 @@
 export const Security_HEADER = {
-  heading: "Enterprise-Grade Security & <br/> Compliance by Design",
+  heading: "Enterprise-grade security & <br/> compliance by design",
    headclass:"pt-0  text-white",
    headingclass:"text-[#fff]",
   paragraph:
@@ -32,7 +32,7 @@ export const Security_HEADER = {
 
 
 export const CORE_MODULE_CONFIG = {
-   title: "Enterprise Security Capabilities",
+   title: "Enterprise security capabilities",
    bodyclass:"bg-[#fff] text-[#00273A] mt-[-100px] relative z-10 ",
    headcolor:"#015190",
    paracolor:"",
@@ -45,7 +45,7 @@ export const CORE_MODULE_CONFIG = {
       icon: "CircleQuestionMark",
       textColor:"#1E1E1E",
       iconColor: "#015190",
-      title: "Zero-Trust Architecture",
+      title: "Zero-trust architecture",
       discColor:'#626161',
       description:
         "Never trust, always verify. Comprehensive identity and device verification for all access.",
@@ -56,7 +56,7 @@ export const CORE_MODULE_CONFIG = {
       iconColor: "#015190",
        textColor:"#1E1E1E",
        discColor:'#626161',
-      title: "Tenant Isolation",
+      title: "Tenant isolation",
       description:
         "Complete data separation between customers with cryptographic boundaries.",
     },
@@ -66,7 +66,7 @@ export const CORE_MODULE_CONFIG = {
       iconColor: "#015190",
        textColor:"#1E1E1E",
        discColor:'#626161',
-      title: "Secure Agent Execution",
+      title: "Secure agent execution",
       description:
         "Sandboxed AI agents with controlled access and monitored execution environments.",
     },
@@ -76,7 +76,7 @@ export const CORE_MODULE_CONFIG = {
       iconColor: "#015190",
        textColor:"#1E1E1E",
        discColor:'#626161',
-      title: "Encrypted Memory & Logs",
+      title: "Encrypted memory & logs",
       description:
         "End-to-end encryption for all data processing, storage, and audit trails.",
     },
@@ -86,7 +86,7 @@ export const CORE_MODULE_CONFIG = {
       iconColor: "#015190",
        textColor:"#1E1E1E",
        discColor:'#626161',
-      title: "Auditability & Traceability",
+      title: "Auditability & traceability",
       description:
         "Comprehensive logging and monitoring for compliance and security investigations.",
     },
@@ -95,7 +95,7 @@ export const CORE_MODULE_CONFIG = {
       icon: "Brain",
        textColor:"#1E1E1E",
       iconColor: "#015190",
-      title: "Governance-First AI",
+      title: "Governance-first AI",
       discColor:'#626161',
       description:
         "Responsible AI practices with explainability, bias detection, and human oversight.",
@@ -133,7 +133,7 @@ export const SECURITY_FAQ_CONFIG = [
 
 
 export const SECURITY_CTA_CONFIG = {
-  heading: "Security You Can Trust. <br class=' hidden sm:block' /> Autonomy You Can Scale.",
+  heading: "Security you can trust. <br class=' hidden sm:block' /> Autonomy you can scale.",
    paragraph:
     "Ready to implement enterprise-grade <br class=' hidden sm:block' /> autonomous testing with confidence?",
   backgroundImage: "/bg/gradient.png",

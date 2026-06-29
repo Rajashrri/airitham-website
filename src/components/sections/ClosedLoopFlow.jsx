@@ -5,7 +5,7 @@ import { RotateCcw } from "lucide-react";
 const FLOW_STEPS = [
   {
     step: 1,
-    title: "Context Intelligence",
+    title: "Context intelligence",
     desc: [
       "Builds knowledge graphs",
       "Maintains semantic & temporal memory",
@@ -13,7 +13,7 @@ const FLOW_STEPS = [
   },
   {
     step: 2,
-    title: "Autonomous Testing",
+    title: "Autonomous testing",
     desc: [
       "Generates and executes tests",
       "Evaluates outcomes with agents",
@@ -21,12 +21,12 @@ const FLOW_STEPS = [
   },
   {
     step: 3,
-    title: "Evidence & Signals",
+    title: "Evidence & signals",
     tags: ["Failures", "Anomalies", "Drift", "Regressions"],
   },
   {
     step: 4,
-    title: " Context Update",
+    title: " Context update",
     desc: [
       "Graph enrichment",
       "Memory reinforcement",
@@ -45,7 +45,7 @@ const ClosedLoopFlow = () => {
 
         spacing="space-y-4"
 
-        title="Closed-Loop Intelligence Flow"
+        title="Closed-loop intelligence flow"
 
         titleClassName=" text-[#015190]
           "
@@ -112,7 +112,7 @@ const ClosedLoopFlow = () => {
         <div className="md:mt-16 mt-10 py-2 px-4 inline-flex items-center gap-2 rounded-full font-secondary font-medium bg-[#42ABDF40]
  text-[12px] text-[#015190] leading-[1.4] tracking-[0.04em]
 ">
-          <RotateCcw size={20} color="#015190" /> Automated Pipeline Excellence
+          <RotateCcw size={20} color="#015190" /> Automated pipeline excellence
         </div>
       </div>
     </section>
