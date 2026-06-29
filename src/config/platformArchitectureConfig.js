@@ -1,5 +1,5 @@
 export const PLATFORM_ARCHITECTURE_HEADER_CONFIG = {
-  heading: "Platform architecture",
+  heading: "Platform Architecture",
   paragraph:
     "Build for scale, safety and enterprise-grade autonomy",
     headclass:false,

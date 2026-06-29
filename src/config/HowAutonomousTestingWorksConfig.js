@@ -169,14 +169,14 @@ export const PLANING_CTA_CONFIG = {
         icon: "CircleArrowOutUpRight",
         hoverIcon:true,
         iconSize: "20px",
-        href: "",
+        href: "/demo",
         },
     {
       text: "Start Free Trial",
       icon:"CircleArrowOutUpRight",
       className:
         "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-[600] leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
-      href: "",
+    //   href: "#!",
     },
   ],
 };

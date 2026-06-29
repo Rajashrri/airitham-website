@@ -12,7 +12,7 @@ export const LLM_BASED_EVALUATION_HEADER = {
       icon: "Play",
       hoverIcon: false,
       iconSize: "20px",
-      href: "",
+      href: "/platform-architecture",
     },
     {
         text: "Request Demo",
@@ -118,8 +118,8 @@ export const LLM_BASED_KEY_BENEFITS = [
     id: "cost",
     iconName: "DollarSign",
     iconSize: 40,
-    value: "70%",
-    percentage: 70,
+    value: "60%",
+    percentage: 60,
     title: "Cost reduction",
     description: "Lower operational overhead and training costs",
     iconWrapperClass: "bg-gradient-to-br from-pink-400 to-orange-400",
@@ -215,7 +215,7 @@ export const LLM_BASED_CTA_CONFIG = {
       icon: "Play",
       hoverIcon: false,
       iconSize: "20px",
-      href: "",
+      href: "/platform-architecture",
     },
     {
     

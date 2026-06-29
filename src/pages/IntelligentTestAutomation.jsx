@@ -472,7 +472,7 @@ export const REFLECTIVE_MEMORY_HEADER = {
             text: "View Architecture",
             className:
                 "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-[600] leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
-            href: "",
+            href: "/platform-architecture",
             icon: "CircleArrowOutUpRight",
             iconSize: "20px",
         }

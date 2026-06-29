@@ -13,13 +13,13 @@ export const REAL_TIME_CONTEXT_HEADER = {
   icon: "Eye",
   hoverIcon:false,
   iconSize: "20px",
-  href: "",
+  href: "/demo",
 },
 {
   text: "Explore Module",
   className:
     " bg-primary-gradient text-white",
-  href: "",
+  href: "/contact-us",
   icon: "CircleArrowOutUpRight",
   iconSize: "20px",
 }

@@ -53,13 +53,13 @@ const TestimonialCarousel = () => {
                       </p>
 
                       <div className="flex items-center gap-4 mt-auto">
-                        <div className="size-[60px] rounded-full overflow-hidden">
+                        {/* <div className="size-[60px] rounded-full overflow-hidden">
                           <img
                             src={profileImages[0]}
                             alt={testimonial.name}
                             className="w-full h-full object-cover"
                           />
-                        </div>
+                        </div> */}
                         <div className="">
                           <h4 className="font-primary font-medium text-[16px] leading-[1.4] tracking-[0.02em] text-[#00273A]">
                             {testimonial.name}

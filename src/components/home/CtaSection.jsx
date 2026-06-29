@@ -25,6 +25,7 @@ const CtaSection = () => {
               className="py-5 px-6 font-primary min-w-[228px] font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white"
               iconSize="20"
               icon="CircleArrowOutUpRight"
+              href="/contact-us"
             />
 
           

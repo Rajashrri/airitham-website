@@ -13,14 +13,14 @@ export const Security_HEADER = {
   icon: "",
   hoverIcon:true,
   iconSize: "20px",
-  href: "",
+  // href: "",
       icon: "CircleArrowOutUpRight",
 },
 {
   text: "Talk to Security Team",
   className:
     " bg-primary-gradient text-white",
-  href: "",
+  href: "/contact-us",
   icon: "",
   iconSize: "20px",
       icon: "CircleArrowOutUpRight",
@@ -142,7 +142,7 @@ export const SECURITY_CTA_CONFIG = {
     text: "Request Enterprise Demo",
     className: " text-[#015190] bg-white ",
     icon: "CircleArrowOutUpRight",
-    href: "",
+    href: "/demo",
     
     
   },
@@ -151,7 +151,7 @@ export const SECURITY_CTA_CONFIG = {
     icon: "CircleArrowOutUpRight",
           className:
         " bg-primary-gradient text-white",
-    href: "",
+    href: "/contact-us",
   },
   ],
 };

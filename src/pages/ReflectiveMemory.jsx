@@ -31,7 +31,7 @@ const ReflectiveMemory = () => {
       </section>
       <UspServices data={CORE_MODULE_CONFIG} />
       <section className='py-[80px] lg:px-0 px-5'>
-        <h2 className='font-primary lg:text-[48px] text-[32px] font-[600] text-center'>Cognitive feedback loop</h2>
+        <h2 className='font-primary lg:text-[48px] text-[32px] font-[600] text-center'>Cognitive Feedback Loop</h2>
         <div className='flex md:gap-[40px] justify-center flex-wrap' >
           <div className="img  flex max-w-[700px] shadow-[0px_0px_8px_4px_#01519080] rounded-[24px] px-12 py-12 justify-center mt-12">
             <img src='/home/loop.png' alt="" className='md:scale-[0.8]' />
@@ -47,7 +47,7 @@ const ReflectiveMemory = () => {
       </section>
       <section className='py-[150px] pt-[80px] mb-[-80px] px-5 lg:px-0 border border-[1px] border-[#D9D9D9] bg-[#fff] border-b-0 border-l-0 border-r-0  rounded-t-[50px] '>
         <SectionHeading
-          title="Meta-prompts & refinement"
+          title="Meta-Prompts & Refinement"
           subtitle='AIRITHM generates sophisticated meta-prompts that guide its own learning process. <br/> These self-directed instructions enable deeper analysis and more nuanced understanding of complex scenarios.'
           titleClassName="sm:text-[48px]"
           subtitleClassName=" sm:text-[16px] text-[#626161]"
@@ -71,7 +71,7 @@ const ReflectiveMemory = () => {
 
                 </span>
                 <div className='inline-block'>
-                  <h3 className='text-[#015190] lg:text-[20px] text-[17px] font-primary font-[600]'>Llm-based evaluation and scoring</h3>
+                  <h3 className='text-[#015190] lg:text-[20px] text-[17px] font-primary font-[600]'>LLM-Based Evaluation and Scoring</h3>
                 </div>
               </div>
               <div className="flex mb-5 items-center">
@@ -89,7 +89,7 @@ const ReflectiveMemory = () => {
 
                 </span>
                 <div className='inline-block'>
-                  <h3 className='text-[#015190] lg:text-[20px] text-[17px] font-primary font-[600] '>Dynamic prompt <br /> optimization</h3>
+                  <h3 className='text-[#015190] lg:text-[20px] text-[17px] font-primary font-[600] '>Dynamic Prompt <br /> Optimization</h3>
                 </div>
               </div>
               <div className="flex mb-5 items-center">
@@ -107,7 +107,7 @@ const ReflectiveMemory = () => {
 
                 </span>
                 <div className='inline-block'>
-                  <h3 className='text-[#015190] lg:text-[20px] text-[17px] font-primary font-[600] '>Contextual learning <br /> adaptation</h3>
+                  <h3 className='text-[#015190] lg:text-[20px] text-[17px] font-primary font-[600] '>Contextual Learning <br /> Adaptation</h3>
                 </div>
               </div>
 
@@ -122,7 +122,7 @@ const ReflectiveMemory = () => {
       <UspServices data={Memory_CONFIG} />
       <section className="py-[80px] max-w-7xl mx-auto px-5 lg:px-0 " >
         <SectionHeading
-          title="Transparency & governance"
+          title="Transparency & Governance"
           //  subtitle='AIRITHM generates sophisticated meta-prompts that guide its own learning process. <br/> These self-directed instructions enable deeper analysis and more nuanced understanding of complex scenarios.'
           titleClassName="sm:text-[48px]"
           subtitleClassName=" sm:text-[16px] text-[#626161]"
@@ -130,40 +130,40 @@ const ReflectiveMemory = () => {
 
         <div className="mt-[50px] flex gap-[20px] md:flex-row flex-col">
           <div className="md:w-[600px] border border-[1px] border-[#D9D9D9] bg-[#fff] rounded-[16px] p-[20px]">
-            <h3 className='text-[24px] font-secondary font-[500]'>Audit logs</h3>
+            <h3 className='text-[24px] font-secondary font-[500]'>Audit Logs</h3>
             <p className='text-[#626161] text-[20px] font-secondary font-[500]'>Complete transparency with detailed logs of all reflection processes and decisions.</p>
 
             <ul className='md:mt-[20px] mt-[20px]'>
               <li className='flex justify-between mb-3'>
-                <span className='text-[16px] text-[#015190] font-[500] font-primary'>Reflection cycles</span>
+                <span className='text-[16px] text-[#015190] font-[500] font-primary'>Reflection Cycles</span>
                 <span className='text-[16px] text-[#015190] font-[500] font-primary'>2,847</span>
               </li>
               <li className='flex justify-between mb-3'>
-                <span className='text-[16px] text-[#015190] font-[500] font-primary'>Insight generated</span>
+                <span className='text-[16px] text-[#015190] font-[500] font-primary'>Insights Generated</span>
                 <span className='text-[16px] text-[#015190] font-[500] font-primary'>1,923</span>
               </li>
               <li className='flex justify-between mb-3'>
-                <span className='text-[16px] text-[#015190] font-[500] font-primary'>Optimized applied</span>
+                <span className='text-[16px] text-[#015190] font-[500] font-primary'>Optimizations Applied</span>
                 <span className='text-[16px] text-[#015190] font-[500] font-primary'>436</span>
               </li>
             </ul>
 
           </div>
           <div className="md:w-[600px] border border-[1px] border-[#D9D9D9] bg-[#fff] rounded-[16px] p-[20px]">
-            <h3 className='text-[24px] font-secondary font-[500]'>Safety protocols</h3>
+            <h3 className='text-[24px] font-secondary font-[500]'>Safety Protocols</h3>
             <p className='text-[#626161] text-[20px] font-secondary font-[500]'>Built-in safeguards ensure responsible and ethical autonomous learning.</p>
 
             <ul className='md:mt-[20px] mt-[20px] '>
               <li className='flex justify-between mb-3'>
-                <span className='text-[16px] text-[#015190] font-[500] font-primary'>Ethnical boundary enforcement</span>
+                <span className='text-[16px] text-[#015190] font-[500] font-primary'>Ethnical Boundary Enforcement</span>
                 <span className='text-[16px] text-[#015190] font-[500] font-primary'><ShieldCheck /></span>
               </li>
               <li className='flex justify-between mb-3'>
-                <span className='text-[16px] text-[#015190] font-[500] font-primary'>Secure learning environment</span>
+                <span className='text-[16px] text-[#015190] font-[500] font-primary'>Secure Learning Environment</span>
                 <span className='text-[16px] text-[#015190] font-[500] font-primary'><LockOpen /></span>
               </li>
               <li className='flex justify-between mb-3'>
-                <span className='text-[16px] text-[#015190] font-[500] font-primary'>Human oversight integration</span>
+                <span className='text-[16px] text-[#015190] font-[500] font-primary'>Human Oversight Integration</span>
                 <span className='text-[16px] text-[#015190] font-[500] font-primary'><UserRoundPen /></span>
               </li>
             </ul>

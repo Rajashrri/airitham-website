@@ -118,7 +118,7 @@ Our dual-platform approach combines the precision of autonomous testing with the
                     </div>
                 </div>
             </section>
-            <section className='py-[90px] rounded-t-[50px] md:rounded-t-[100px] lg:px-0 px-5 rounded-b-0  mt-[-100px] bg-[#fff] '>
+            <section id='teamsection' className='py-[90px] rounded-t-[50px] md:rounded-t-[100px] lg:px-0 px-5 rounded-b-0  mt-[-100px] bg-[#fff] '>
                 {/* <SectionHeading
                     title="Engineering the Future"
                     subtitle='Founder'

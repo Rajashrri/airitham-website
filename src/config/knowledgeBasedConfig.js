@@ -12,7 +12,7 @@ export const KNOWLEDGE_EVALUATION_HEADER = {
       icon: "Play",
       hoverIcon: false,
       iconSize: "20px",
-      href: "",
+      href: "/platform-architecture",
     },
     {
            text: "Request Demo",

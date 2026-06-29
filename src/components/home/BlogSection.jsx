@@ -79,6 +79,7 @@ const BlogsSection = () => {
               icon="CircleArrowOutUpRight"
               iconSize="20px"
               btnText="View More"
+              href="/blog"
               className="py-5 pl-6 pr-5 bg-primary-gradient rounded-lg text-white shadow-[0px_2px_4px_0px_#00000029,0px_8px_8px_0px_#00000024,0px_17px_10px_0px_#00000014,0px_30px_12px_0px_#00000005,0px_47px_13px_0px_#00000000] font-bold leading-[1.2] font-dm-sans"
             />
           </div>

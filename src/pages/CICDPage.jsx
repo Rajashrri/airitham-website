@@ -378,7 +378,7 @@ export const AUTOMATION_PIPELINE_HEADER = {
       icon: "Play",
       hoverIcon: false,
       iconSize: "20px",
-      href: "",text: "View Architecture", 
+      href: "/platform-architecture",text: "View Architecture", 
     },
     {
       text: "Request Demo",

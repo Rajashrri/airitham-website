@@ -55,7 +55,7 @@ export default function HeroHeader() {
               </h1>
 
               <p class="font-secondary font-medium text-[18px] leading-[1.4] tracking-[2%] text-center  sm:max-w-[750px] mx-auto text-[#C6C6C6]">
-                Airithm is building the infrastructure layer for the agentic era with context intelligence to run agents reliably, and an AI test platform to prove they are secure, aligned, and ready for production
+                Airithm is building the infrastructure layer for the agentic era with context intelligence to run agents reliably and an AI test platform to prove they are secure, aligned, and ready for production
                 </p>
 
               <div className="flex mx-auto   flex-col-reverse   sm:flex-row justify-center items-stretch gap-4 mt-[30px] max-w-[300px] sm:max-w-full">
@@ -66,6 +66,7 @@ export default function HeroHeader() {
                       iconSize="20"
                        icon="CircleArrowOutUpRight"
                       useCommonSvg="true"
+                     
                     />
 
                 </div>
@@ -75,6 +76,7 @@ export default function HeroHeader() {
                   className="text-[16px]     bg-primary-gradient text-white"
                   iconSize="20"
                   icon="CircleArrowOutUpRight"
+                   href="/ai-automation"
                   
                 />
               </div>

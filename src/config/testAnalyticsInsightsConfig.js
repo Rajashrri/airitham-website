@@ -9,7 +9,7 @@ export const TEST_ANALYTICS_INSIGHTS_HEADER_CONFIG = {
       text: "Request Demo",
       className:
         "py-5 px-6 min-w-[228px] font-primary font-[600] text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#015190] bg-white",
-      href: "",
+      href: "/demo",
         icon: "Play",
         hoverIcon:false
 
@@ -19,7 +19,7 @@ export const TEST_ANALYTICS_INSIGHTS_HEADER_CONFIG = {
       text: "View Architecture",
       useCommonSvg:true,
       className: "py-5 min-w-[228px] px-6 font-primary font-[600] text-[16px] leading-[120%] rounded-lg text-white bg-primary-gradient flex items-center gap-2",
-      href: "",
+      href: "/platform-architecture",
         icon: "CircleArrowOutUpRight",
     },
   ],
@@ -107,7 +107,7 @@ export const TEST_ANALYTICS_INSIGHTS_CONFIG = {
       cardClassName: "md:w-[293px] w-[100%]",
       iconWrapperClass: "text-[#015190]",
       flag: {
-        text: "speed",
+        text: "Speed",
         className: "bg-[#42ABDF40] rounded-[100px] py-2 px-3 text-[#015190] font-inter font-medium text-[12px] leading-[140%] tracking-[0.04em]",
       }
     },
@@ -201,13 +201,13 @@ export const TEST_ANALYTICS_CTA_CONFIG = {
       icon: "Play",
       hoverIcon: false,
       iconSize: "20px",
-      href: "",
+      href: "/demo",
     },
     {
       text: "View Architecture",
       className:
         "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-semibold leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
-      href: "",
+      href: "/platform-architecture",
       icon: "CircleArrowOutUpRight",
       iconSize: "20px",
     },

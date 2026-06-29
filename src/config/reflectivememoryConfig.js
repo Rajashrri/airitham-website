@@ -1,6 +1,6 @@
 
 export const REFLECTIVE_MEMORY_HEADER = {
-  heading: "Reflective memory",
+  heading: "Reflective Memory",
   headclass:"pt-[100px] ",
 paragraph:
   "Self-learning AI that continuously evolves through meta-cognitive <br class='hidden sm:block' /> analysis, autonomous reflection, and intelligent adaptation.",
@@ -31,7 +31,7 @@ paragraph:
 };
 
 export const CORE_MODULE_CONFIG = {
-   title: "Core concept",
+   title: "Core Concept",
    bodyclass:"bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] text-[#fff]",
   subtitle:
     "The Reflective Memory Module represents a breakthrough in AI <br/>self-awareness and continuous learning.",
@@ -41,7 +41,7 @@ export const CORE_MODULE_CONFIG = {
       icon: "AudioWaveform",
       textColor:"#fff",
       iconColor: "",
-        cardClassName: "md:w-[405px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
+        cardClassName: "md:w-[500px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
       title: "AI self-awareness",
       discColor:'#C6C6C6',
       description:
@@ -51,7 +51,7 @@ export const CORE_MODULE_CONFIG = {
       id: 2,
       icon: "AudioLines",
       iconColor: "",
-      cardClassName: "md:w-[405px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
+      cardClassName: "md:w-[500px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        textColor:"#fff",
        discColor:'#C6C6C6',
       title: "Meta-cognitive analysis",
@@ -63,7 +63,7 @@ export const CORE_MODULE_CONFIG = {
       icon: "Lightbulb",
       iconColor: "",
        textColor:"#fff",
-       cardClassName: "md:w-[405px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
+       cardClassName: "md:w-[500px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        discColor:'#C6C6C6',
       title: "Improvement identification",
       description:
@@ -74,7 +74,7 @@ export const CORE_MODULE_CONFIG = {
       icon: "Bot",
       iconColor: "",
        textColor:"#fff",
-       cardClassName: "md:w-[405px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
+       cardClassName: "md:w-[500px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        discColor:'#C6C6C6',
       title: "Autonomous refinement",
       description:
@@ -124,7 +124,7 @@ export const LOOP_CARD_CONFIG = {
 };
 
 export const Memory_CONFIG = {
-   title: "Memory distillation",
+   title: "Memory Distillation",
    bodyclass:"bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] text-white",
   subtitle:
     "The reflective memory module represents a breakthrough in AI <br/> self-awareness and continuous learning.",
@@ -135,7 +135,7 @@ export const Memory_CONFIG = {
       textColor:"#fff",
       iconColor: "",
         cardClassName: "lg:w-[365px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
-      title: "Insight extraction",
+      title: "Insight Extraction",
       discColor:'#C6C6C6',
       description:
         "Key learnings are identified and extracted from vast amounts of interaction data.",
@@ -147,7 +147,7 @@ export const Memory_CONFIG = {
       cardClassName: "lg:w-[365px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        textColor:"#fff",
        discColor:'#C6C6C6',
-      title: "Knowledge compression",
+      title: "Knowledge Compression",
       description:
         "Complex patterns are distilled into efficient, actionable knowledge representations.",
     },
@@ -158,7 +158,7 @@ export const Memory_CONFIG = {
        textColor:"#fff",
        cardClassName: "lg:w-[365px] w-[100%] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)]",
        discColor:'#C6C6C6',
-      title: "Memory integration",
+      title: "Memory Integration",
       description:
         "Refined insights are seamlessly integrated into the core knowledge base.",
     }
