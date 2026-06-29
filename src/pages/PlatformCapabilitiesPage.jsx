@@ -40,7 +40,7 @@ const PlatformCapabilitiesPage = () => {
     </section>
     <section className='pt-[90px] relative  '>
              <SectionHeading
-                        title="Feature Deep Dive"
+                        title="Feature deep dive"
                         subtitle='Explore how each capability transforms your testing workflow'
                        
                         titleClassName="  text-[#015190]"
@@ -51,7 +51,7 @@ const PlatformCapabilitiesPage = () => {
 
     <section className='py-[70px] rounded-[50px] bg-[linear-gradient(360deg,#042539_0%,#000000_100%)]'>
            <SectionHeading
-                        title="Autonomous Test Generation"
+                        title="Autonomous test generation"
                         subtitle='AI-powered test creation that understands your application.'
                         titleClassName=" text-[#fff]"
                         subtitleClassName="  text-[#626161]"
@@ -59,7 +59,7 @@ const PlatformCapabilitiesPage = () => {
     </section>
         <section className='py-[70px] pb-[20px]'>
            <SectionHeading
-                        title="What It Does"
+                        title="What it does"
                         subtitle='Our autonomous test generation engine analyzes your application’s structure, user flows, and business logic to automatically create comprehensive test suites. It identifies critical paths, edge cases, and potential failure points without manual intervention.'
                         titleClassName="  text-[#015190] " 
                         subtitleClassName="  text-[#626161] max-w-[819px]"
@@ -68,7 +68,7 @@ const PlatformCapabilitiesPage = () => {
      <RealTime data={TIMELINE_SECTION_CONFIG} />
      <section className='py-[70px] rounded-[50px] bg-[linear-gradient(360deg,#000000_0%,#042539_100%)] mt-[70px]'>
                <SectionHeading
-                        title="Key Benefits"
+                        title="Key benefits"
                         subtitle='Deliver measurable efficiency, speed, and resilience across workflows <br/> with outcomes designed to scale alongside enterprise demands.'
                         titleClassName="sm:text-[48px] text-[#fff]"
                         subtitleClassName=" sm:text-[16px] text-[#626161] max-w-[819px]"
@@ -76,25 +76,25 @@ const PlatformCapabilitiesPage = () => {
                    <div className="max-w-[1360px] px-5 mx-auto mt-[40px] flex flex-wrap gap-6 justify-center">
                     <div className="flex-1 min-w-[250px]  bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] p-4 rounded-2xl border border-[#747474] text-center">
                       <h2 className='mae-gradient-text w-fit mx-auto  text-[48px] font-primary font-[600]'>95%</h2>
-                      <p className='text-[20px] text-white font-secondary'>Coverage Increase</p>
+                      <p className='text-[20px] text-white font-secondary'>Coverage increase</p>
                       <p className='text-[14px] mt-2 text-white font-secondary'>Expand operational visibility with broader, more consistent process reach.</p>
                     </div>
 
                     <div className="flex-1 min-w-[250px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] p-4 rounded-[16px] border border-[#747474] text-center">
                       <h2 className=' mae-gradient-text w-fit mx-auto text-[48px] font-primary font-[600]'>10x</h2>
-                      <p className='text-[20px] text-[#fff] font-secondary'>Faster Creation</p>
+                      <p className='text-[20px] text-[#fff] font-secondary'>Faster creation</p>
                         <p className='text-[14px] mt-2 text-white font-secondary'> Accelerate development cycles without compromising precision or quality.</p>
                     </div>
 
                     <div className="flex-1 min-w-[250px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] p-4 rounded-[16px] border border-[#747474] text-center">
                       <h2 className='mae-gradient-text w-fit mx-auto text-[48px] font-primary font-[600]'>70%</h2>
-                      <p className='text-[20px] text-[#fff] font-secondary'>Cost Reduction</p>
+                      <p className='text-[20px] text-[#fff] font-secondary'>Cost reduction</p>
                         <p className='text-[14px] mt-2 text-white font-secondary'> Optimize resource use to lower operational spend sustainably.</p>
                     </div>
 
                     <div className="flex-1 min-w-[250px] bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] p-4 rounded-[16px] border border-[#747474] text-center">
                       <h2 className='mae-gradient-text w-fit mx-auto text-[48px] font-primary font-[600]'>85%</h2>
-                      <p className='text-[20px] text-[#fff] font-secondary'>Risk Mitigation</p>
+                      <p className='text-[20px] text-[#fff] font-secondary'>Risk mitigation</p>
                         <p className='text-[14px] mt-2 text-white font-secondary'> Strengthen safeguards and reduce exposure through proactive controls.</p>
                     </div>
                   </div>
@@ -102,7 +102,7 @@ const PlatformCapabilitiesPage = () => {
      </section>
      <section className='py-[90px] px-5'>
         <SectionHeading
-                        title="Real-World Use Cases"
+                        title="Real-world use cases"
                        
                         titleClassName=" text-[#015190]"
                         
@@ -110,13 +110,13 @@ const PlatformCapabilitiesPage = () => {
                   <div className="max-w-[1227px] mx-auto mt-[40px] flex flex-wrap gap-5 justify-center">
   <div className="flex-1 min-w-[280px] transition-shadow duration-300
                 hover:shadow-[0px_0px_40px_2px_#01519040] px-5 border-light-sm py-6 shadow-[0px_0px_16px_0px_#0151900D] bg-[#fff] rounded-[16px]">
-    <h2 className='font-[600] font-primary text-[24px]'>E-commerce Platform</h2>
+    <h2 className='font-[600] font-primary text-[24px]'>E-commerce platform</h2>
     <p className='text-[#626161] text-[14px] sm:text-[14px] mt-2'>Automatically generates tests for product catalogs, shopping carts, and checkout flows across multiple payment methods.</p>
   </div>
 
   <div className="flex-1 min-w-[280px] transition-shadow duration-300
                 hover:shadow-[0px_0px_40px_2px_#01519040] px-5 border-light-sm py-6 shadow-[0px_0px_16px_0px_#0151900D] bg-[#fff] rounded-[16px]">
-    <h2 className='font-[600] font-primary text-[24px]'>Banking Application</h2>
+    <h2 className='font-[600] font-primary text-[24px]'>Banking application</h2>
     <p className='text-[#626161] text-[14px] sm:text-[14px] mt-2'>Create comprehensive test suites for account management, transactions, and security features with regulatory compliance.</p>
   </div>
 </div>

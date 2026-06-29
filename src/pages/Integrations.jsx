@@ -35,7 +35,7 @@ const Integrations = () => {
           {/* Section Heading */}
               <SectionHeading
                 titleClassName="text-[#015190] "
-                title="Built to Work With Your Stack"
+                title="Built to work with your stack"
                 subtitleClassName="text-dark"
                 // subtitle="{subtitle}"
                 wrapperClassName="w-full sm:max-w-[909px] mx-auto mb-15"
@@ -45,7 +45,7 @@ const Integrations = () => {
                 <span className='h-[24px] flex justify-center items-center rounded-[4px] w-[24px] '>
                     <GitBranch className='text-[#015190]'/>
                 </span>
-                <h3 className='text-[#1E1E1E] text-[24px] mt-[24px] font-[600] font-primary'>CI/CD Tools</h3>
+                <h3 className='text-[#1E1E1E] text-[24px] mt-[24px] font-[600] font-primary'>CI/CD tools</h3>
                 <p className='text-[#626161] mt-[14px] text-[14px] font-[500] font-secondary'>Integrate seamlessly with your continuous integration and deployment pipeline for automated testing workflows.</p>
 
                 <div className='mt-[30px] md:grid flex flex-wrap grid-cols-12 gap-4'>
@@ -55,7 +55,7 @@ const Integrations = () => {
                     </div>
                     <div className="col-span-6 border border-[1px] w-[100%] border-[#D9D9D9] flex items-center gap-1 rounded-[16px] overflow-hidden py-2 px-2">
                         <img src="/integration/git.png" alt="" />
-                        <span className='text-[20px] font-primary text-[#1E1E1E] font-[500]'>GitHub Actions</span>
+                        <span className='text-[20px] font-primary text-[#1E1E1E] font-[500]'>GitHub actions</span>
                     </div>
                     <div className="col-span-6 border border-[1px] w-[100%] border-[#D9D9D9] flex items-center gap-1 rounded-[16px] overflow-hidden py-2 px-2">
                         <img src="/integration/GitLab.png" alt="" />
@@ -63,7 +63,7 @@ const Integrations = () => {
                     </div>
                     <div className="col-span-6 border border-[1px] w-[100%] border-[#D9D9D9] flex items-center gap-1 rounded-[16px] overflow-hidden py-2 px-2">
                         <img className='me-3's src="/integration/Azure.png" alt="" />
-                        <span className='text-[20px] font-primary text-[#1E1E1E] font-[500]'>Azure DevOps</span>
+                        <span className='text-[20px] font-primary text-[#1E1E1E] font-[500]'>Azure devOps</span>
                     </div>
 
                 </div>
@@ -72,7 +72,7 @@ const Integrations = () => {
                 <span className='h-[24px] flex justify-center items-center rounded-[4px] w-[24px] '>
                     <Cloud className='text-[#015190]'/>
                 </span>
-                <h3 className='text-[#1E1E1E] text-[24px] mt-[24px] font-[600] font-primary'>Cloud Platforms</h3>
+                <h3 className='text-[#1E1E1E] text-[24px] mt-[24px] font-[600] font-primary'>Cloud platforms</h3>
                 <p className='text-[#626161] mt-[14px] text-[14px] font-[500] font-secondary'>Deploy and scale your testing infrastructure across major cloud providers with native integrations.</p>
 
                 <div className='mt-[30px] md:grid flex flex-wrap grid-cols-12 gap-4'>
@@ -99,7 +99,7 @@ const Integrations = () => {
                 <span className='h-[24px] flex justify-center items-center rounded-[4px] w-[24px] '>
                     <TestTubeDiagonal className='text-[#015190]'/>
                 </span>
-                <h3 className='text-[#1E1E1E] text-[24px] mt-[24px] font-[600] font-primary'>Test Frameworks</h3>
+                <h3 className='text-[#1E1E1E] text-[24px] mt-[24px] font-[600] font-primary'>Test frameworks</h3>
                 <p className='text-[#626161] mt-[10px] text-[14px] font-[500] font-secondary'>Connect with popular testing frameworks and tools to leverage existing test suites and methodologies.</p>
 
                 <div className='mt-[30px] md:grid flex flex-wrap grid-cols-12 gap-4'>
@@ -117,7 +117,7 @@ const Integrations = () => {
                     </div>
                     <div className="col-span-6 w-[100%]  border border-[1px] border-[#D9D9D9] flex items-center gap-1 rounded-[16px] overflow-hidden py-2 px-2">
                         <img className='me-3' src="/integration/API Tools.png" alt="" />
-                        <span className='text-[20px] font-primary text-[#1E1E1E] font-[500]'>API Tools</span>
+                        <span className='text-[20px] font-primary text-[#1E1E1E] font-[500]'>API tools</span>
                     </div>
 
                 </div>
@@ -126,13 +126,13 @@ const Integrations = () => {
                 <span className='h-[24px] flex justify-center items-center rounded-[4px] w-[24px] '>
                     <CodeXml className='text-[#015190]'/>
                 </span>
-                <h3 className='text-[#1E1E1E] text-[24px] mt-[24px] font-[600] font-primary'>CI/CD Tools</h3>
+                <h3 className='text-[#1E1E1E] text-[24px] mt-[24px] font-[600] font-primary'>CI/CD tools</h3>
                 <p className='text-[#626161] mt-[14px] text-[14px] font-[500] font-secondary'>Integrate seamlessly with your continuous integration and deployment pipeline for automated testing workflows.</p>
 
                 <div className='mt-[30px] md:grid flex flex-wrap  grid-cols-12 gap-4'>
                     <div className="col-span-6 w-[100%] border border-[1px] border-[#D9D9D9] flex items-center gap-3 rounded-[16px] overflow-hidden py-2 px-2">
                         <img src="/integration/REST APIs.png" alt="" />
-                        <span className='text-[20px] font-primary text-[#1E1E1E] font-[500]'>REST APIs</span>
+                        <span className='text-[20px] font-primary text-[#1E1E1E] font-[500]'>REST apis</span>
                     </div>
                     <div className="col-span-6 w-[100%] border border-[1px] border-[#D9D9D9] flex items-center gap-1 rounded-[16px] overflow-hidden py-2 px-2">
                         <img  className='me-3' src="/integration/SDKs.png" alt="" />

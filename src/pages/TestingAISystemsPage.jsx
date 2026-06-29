@@ -57,7 +57,7 @@ const TestingAISystemsPage = () => {
                     </div>
                     <div className="col-span-12 flex justify-between rounded-[16px] border border-[1px] border-[#D9D9D9] bg-[#FFFFFF0D] p-4">
                        
-                        <h2 className="text-[16px] font-primary font-[500] text-[#fff] ">Accuracy Score</h2>
+                        <h2 className="text-[16px] font-primary font-[500] text-[#fff] ">Accuracy score</h2>
                         <span className="bg-[#6AC0E6]
                         bg-clip-text text-transparent text-[16px] font-secondary">94.2%</span>
 
@@ -71,7 +71,7 @@ const TestingAISystemsPage = () => {
                     </div>
                     <div className="col-span-12 flex justify-between rounded-[16px] border border-[1px] border-[#D9D9D9] bg-[#FFFFFF0D] p-4">
                        
-                        <h2 className="text-[16px] font-primary font-[500] text-[#fff] ">Hallucination Rate</h2>
+                        <h2 className="text-[16px] font-primary font-[500] text-[#fff] ">Hallucination rate</h2>
                         <span className="bg-[#6AC0E6]
                         bg-clip-text text-transparent text-[16px] font-secondary">2.1%</span>
 
@@ -84,7 +84,7 @@ const TestingAISystemsPage = () => {
             <UspServices  data={Testing_USP_CONFIG}/>
             <section className="mt-[-100px] relative z-10 md:rounded-[100px] rounded-[50px] bg-[#fff] py-[90px]">
                    <SectionHeading
-                        title="How Autonomous AI Testing Works"
+                        title="How autonomous AI testing works"
                         subtitle='Intelligent, continuous validation that learns and adapts with your AI systems'
                         titleClassName="sm:text-[48px] text-[#015190]"
                         subtitleClassName=" sm:text-[16px] text-[#626161]"
@@ -106,19 +106,19 @@ const TestingAISystemsPage = () => {
                     <div className="max-w-[1175px] px-5 m-auto grid grid-cols-12 mt-[60px] pt-6 gap-4 bg-[radial-gradient(66.19%_497.1%_at_50%_50%,_#015190_0%,_#015190_50.32%,_#6AC0E6_100%)] rounded-[24px] py-4">
                       <div className="lg:col-span-3 md:col-span-4 col-span-12 px-5 py-3 bg-[#fff] border-1 border-[#D9D9D9] rounded-[16px]">
                         <TriangleAlert className="text-[#015190]"/>
-                        <h3 className="text-[24px] font-primary text-[#1E1E1E] font-[600] mt-5">Hallucination Rate</h3>
+                        <h3 className="text-[24px] font-primary text-[#1E1E1E] font-[600] mt-5">Hallucination rate</h3>
                         <h2 className="text-[36px] text-[#015190] font-primary font-[600] mt-4">2.1%</h2>
                         <p className="text-[#626161] text-[20px] font-secondary"> 0.4% from last week</p>
                       </div>
                           <div className="lg:col-span-3 md:col-span-4 col-span-12 px-5 py-3 bg-[#fff] border-1 border-[#D9D9D9] rounded-[16px]">
                         <ChartSpline className="text-[#015190]"/>
-                        <h3 className="text-[24px] font-primary text-[#1E1E1E] font-[600] mt-5">Drift Index</h3>
+                        <h3 className="text-[24px] font-primary text-[#1E1E1E] font-[600] mt-5">Drift index</h3>
                         <h2 className="text-[36px] text-[#015190] font-primary font-[600] mt-4">0.08</h2>
                         <p className="text-[#626161] text-[20px] font-secondary">Stable over 30 days</p>
                       </div>
                           <div className="lg:col-span-3 md:col-span-4 col-span-12 px-5 py-3 bg-[#fff] border-1 border-[#D9D9D9] rounded-[16px]">
                         <Star className="text-[#015190]"/>
-                        <h3 className="text-[24px] font-primary text-[#1E1E1E] font-[600] mt-5">Quality Score</h3>
+                        <h3 className="text-[24px] font-primary text-[#1E1E1E] font-[600] mt-5">Quality score</h3>
                         <h2 className="text-[36px] text-[#015190] font-primary font-[600] mt-4">94.7</h2>
                         <p className="text-[#626161] text-[20px] font-secondary">+1.2 pts this month</p>
                       </div>
@@ -161,7 +161,7 @@ const TestingAISystemsPage = () => {
             className="w-full rounded-lg h-[500px] w-full bg-[#F7F7F7] border border-[#D9D9D9] p-5"   
           >   
             <h2 className="text-lg font-semibold mb-4 text-[24px] font-primary">
-              Quality Score Trends ({activeRange === "7d" ? "7 Days" : activeRange === "30d" ? "30 Days" : "90 Days"})
+              Quality score trends ({activeRange === "7d" ? "7 Days" : activeRange === "30d" ? "30 Days" : "90 Days"})
             </h2>
             <img src="/home/7days.jpeg" className="h-[100%] w-[100%] object-cover" alt="" />
           </div>
@@ -172,7 +172,7 @@ const TestingAISystemsPage = () => {
             className="w-full rounded-lg h-[500px] w-full bg-[#F7F7F7] border border-[#D9D9D9] p-5"   
           >   
             <h2 className="text-lg font-semibold mb-4 text-[24px] font-primary">
-              Quality Score Trends ({activeRange === "7d" ? "7 Days" : activeRange === "30d" ? "30 Days" : "90 Days"})
+              Quality score trends ({activeRange === "7d" ? "7 Days" : activeRange === "30d" ? "30 Days" : "90 Days"})
             </h2>
                <img src="/home/30days.jpeg" className="h-[100%] w-[100%] object-cover" alt="" />
           </div>
@@ -183,7 +183,7 @@ const TestingAISystemsPage = () => {
             className="w-full rounded-lg h-[500px] w-full bg-[#F7F7F7] border border-[#D9D9D9] p-5"   
           >   
             <h2 className="text-lg font-semibold mb-4 text-[24px] font-primary">
-              Quality Score Trends ({activeRange === "7d" ? "7 Days" : activeRange === "30d" ? "30 Days" : "90 Days"})
+              Quality score trends ({activeRange === "7d" ? "7 Days" : activeRange === "30d" ? "30 Days" : "90 Days"})
             </h2>
                <img src="/home/90days.jpeg" className="h-[100%] w-[100%] object-cover" alt="" />
           </div>
@@ -230,7 +230,7 @@ export const TEST_ANALYTICS_CTA_CONFIG = {
 };
 
 export const Related_Resources = {
-  title: "Related Resources",
+  title: "Related resources",
   subtitle: "Deep dive into AI testing methodologies and best practices",
    bodyclass: "bg-[linear-gradient(360deg,#042539_0%,#000000_100%)] text-white !rounded-b-none md:rounded-t-[100px] rounded-t-[50px] !pb-[200px]",
 
@@ -240,8 +240,8 @@ export const Related_Resources = {
       id: 1,
       icon: "FileText",
       iconColor: "#6AC0E6",
-      title: "LLM Testing Framework",
-      bigheading:"WHITEPAPER",
+      title: "LLM testing framework",
+      bigheading:"Whitepaper",
       bigheadingclass:"!text-[16px] mb-2 text-[#626161]",
       discColor: "#C6C6C6",
       cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[300px]",
@@ -254,8 +254,8 @@ export const Related_Resources = {
       id: 2,
       icon: "ChartBar",
          iconColor: "#6AC0E6",
-      title: "RAG System Evaluation",
-      bigheading:"BENCHMARK",
+      title: "RAG system evaluation",
+      bigheading:"Benchmark",
       bigheadingclass:"!text-[16px] mb-2 text-[#626161]",
       discColor: "#C6C6C6",
       cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[300px]",
@@ -270,8 +270,8 @@ export const Related_Resources = {
       id: 3,
       icon: "Newspaper",
          iconColor: "#6AC0E6",
-      title: "Detecting Hallucinations",
-      bigheading:"BLOG",
+      title: "Detecting hallucinations",
+      bigheading:"Blog",
       bigheadingclass:"!text-[16px] mb-2 text-[#626161]",
       discColor: "#C6C6C6",
       cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[300px]",
@@ -286,17 +286,14 @@ export const Related_Resources = {
       id: 4,
         icon: "Network",
            iconColor: "#6AC0E6",
-      title: "Testing Architecture",
-      bigheading:"ARCHITECTURE",
+      title: "Testing architecture",
+      bigheading:"Architecture",
       bigheadingclass:"!text-[16px] mb-2 text-[#626161]",
       discColor: "#C6C6C6",
       cardClassName:"bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] w-full sm:w-[300px]",
       textColor: "#fff",
       description:
         "Reference architecture for autonomous AI testing",
-     
-        
-    
     },
     
    
@@ -425,7 +422,7 @@ export const Enterprise_Use_Cases = {
     {
       id: 1,
       icon: "Headset",
-      title: "AI Customer Support Validation",
+      title: "AI customer support validation",
       discColor: "#626161",
       cardClassName:"bg-[#fff] w-full sm:w-[600px] min-h-[258px]",
       textColor: "#000",
@@ -469,7 +466,7 @@ export const Enterprise_Use_Cases = {
      {
       id: 2,
       icon: "Brain",
-      title: "AI Decision Support Systems",
+      title: "AI decision support systems",
       discColor: "#626161",
       cardClassName:"bg-[#fff] w-full sm:w-[600px] min-h-[258px]",
       textColor: "#000",
@@ -513,7 +510,7 @@ export const Enterprise_Use_Cases = {
      {
       id: 3,
       icon: "Search",
-      title: "RAG-Powered Search & Knowledge Assistants",
+      title: "Rag-powered search & knowledge assistants",
       discColor: "#626161",
       cardClassName:"bg-[#fff] w-full sm:w-[600px] min-h-[258px]",
       textColor: "#000",
@@ -557,7 +554,7 @@ export const Enterprise_Use_Cases = {
      {
       id: 4,
       icon: "FileCheck",
-      title: "Compliance-Sensitive AI Workflows",
+      title: "Compliance-sensitive AI workflows",
       discColor: "#626161",
       cardClassName:"bg-[#fff] w-full sm:w-[600px] min-h-[258px]",
       textColor: "#000",
@@ -604,7 +601,7 @@ export const Enterprise_Use_Cases = {
 
 
 export const Evaluation_Dimensions_CONFIG = {
-  title: "Evaluation Dimensions",
+  title: "Evaluation dimensions",
   subtitle: "Multi-dimensional scoring that captures every aspect of AI quality",
    bodyclass: "bg-[linear-gradient(360deg,#042539_0%,#000000_100%)] text-white !rounded-b-none md:rounded-t-[100px] rounded-t-[50px] !pb-[200px]",
 
@@ -700,7 +697,7 @@ export const Evaluation_Dimensions_CONFIG = {
      {
       id: 4,
       icon: "Scale",
-      title: "Bias & Fairness",
+      title: "Bias & fairness",
             iconColor:"#6AC0E6",
       bigheading:"95.1%",
       bigheadingclass:"bg-[#6AC0E6] bg-clip-text text-transparent",
@@ -790,7 +787,7 @@ export const Evaluation_Dimensions_CONFIG = {
 
 
 export const Enterprise_Grade_AI_Governance = {
-  title: "Enterprise-Grade AI Governance",
+  title: "Enterprise-grade AI governance",
   subtitle: "Built-in compliance, explainability, and auditability for regulated industries",
   bodyclass: "bg-[linear-gradient(360deg,#042539_0%,#000000_100%)] text-white !rounded-b-none md:rounded-t-[100px] rounded-t-[50px] !pb-[200px]",
 
@@ -798,7 +795,7 @@ export const Enterprise_Grade_AI_Governance = {
     {
       id: 1,
       icon: "FileText",
-      title: "Complete Audit Trails",
+      title: "Complete audit trails",
       textColor: "#fff",
       discColor: "#C6C6C6",
       cardClassName:
@@ -819,7 +816,7 @@ export const Enterprise_Grade_AI_Governance = {
     {
       id: 2,
       icon: "Lightbulb",
-      title: "Explainable Scoring",
+      title: "Explainable scoring",
       textColor: "#fff",
       discColor: "#C6C6C6",
       cardClassName:
@@ -839,7 +836,7 @@ export const Enterprise_Grade_AI_Governance = {
     {
       id: 3,
       icon: "GitMerge",
-      title: "Model & Prompt Versioning",
+      title: "Model & prompt versioning",
       textColor: "#fff",
       discColor: "#C6C6C6",
       cardClassName:
@@ -859,7 +856,7 @@ export const Enterprise_Grade_AI_Governance = {
     {
       id: 4,
       icon: "FileCheck",
-      title: "Regulatory Readiness",
+      title: "Regulatory readiness",
       textColor: "#fff",
       discColor: "#C6C6C6",
       cardClassName:
@@ -880,7 +877,7 @@ export const Enterprise_Grade_AI_Governance = {
 };
 
 export const Testing_USP_CONFIG = {
-  title: "Comprehensive AI System Validation",
+  title: "Comprehensive AI system validation",
   subtitle: "End-to-end validation from input to impact across every dimension that matters",
   bodyclass: "bg-[linear-gradient(360deg,#042539_0%,#000000_100%)] text-white !rounded-b-none rounded-t-[100px] !pb-[200px]",
  
@@ -889,7 +886,7 @@ export const Testing_USP_CONFIG = {
     {
       id: 1,
       icon: "CheckCheck",
-      title: "Functional Correctness",
+      title: "Functional correctness",
       textColor: "#fff",
       discColor: "#C6C6C6",
       cardClassName:
@@ -910,7 +907,7 @@ export const Testing_USP_CONFIG = {
     {
       id: 2,
       icon: "ShieldCheck",
-      title: "Safety & Reliability",
+      title: "Safety & reliability",
       textColor: "#fff",
       discColor: "#C6C6C6",
       cardClassName:
@@ -930,7 +927,7 @@ export const Testing_USP_CONFIG = {
     {
       id: 3,
       icon: "ClockFading",
-      title: "Performance Consistency",
+      title: "Performance consistency",
       textColor: "#fff",
       discColor: "#C6C6C6",
       cardClassName:
@@ -950,7 +947,7 @@ export const Testing_USP_CONFIG = {
     {
       id: 4,
       icon: "FileCheck",
-      title: "Governance & Auditability",
+      title: "Governance & auditability",
       textColor: "#fff",
       discColor: "#C6C6C6",
       cardClassName:
@@ -973,7 +970,7 @@ export const Testing_USP_CONFIG = {
 
 
 export const USP_CONFIG = {
-  title: "Why Traditional Testing Fails for AI Systems",
+  title: "Why traditional testing fails for AI systems",
   subtitle: "AI systems require fundamentally different validation approaches than deterministic software",
   bodyclass: "",
    bggradient:"bg-[radial-gradient(66.19%_497.1%_at_50%_50%,_#015190_0%,_#015190_50.32%,_#6AC0E6_100%)] rounded-[24px]",
@@ -982,7 +979,7 @@ export const USP_CONFIG = {
     {
       id: 1,
       icon: "Dices",
-      title: "Non-Deterministic Outputs",
+      title: "Non-deterministic outputs",
       discColor: "#626161",
       iconColor:"#015190",
       cardClassName:"bg-[#fff] w-full md:w-[23%] ",
@@ -997,7 +994,7 @@ export const USP_CONFIG = {
       id: 2,
       icon: "ChartSpline",
       iconColor:"#015190",
-      title: "Configure Test Strategy",
+      title: "Configure test strategy",
       discColor: "#626161",
       cardClassName:"bg-[#fff] w-full md:w-[23%] ",
       textColor: "#000",
@@ -1008,7 +1005,7 @@ export const USP_CONFIG = {
      {
       id: 3,
       icon: "Database",
-      title: "Data & Prompt Sensitivity",
+      title: "Data & prompt sensitivity",
       discColor: "#626161",
       iconColor:"#015190",
       cardClassName:"bg-[#fff] w-full md:w-[23%] ",
@@ -1020,7 +1017,7 @@ export const USP_CONFIG = {
      {
       id: 4,
       icon: "RefreshCcw",
-      title: "Continuous Evolution",
+      title: "Continuous evolution",
       discColor: "#626161",
       iconColor:"#015190",
       cardClassName:"bg-[#fff] w-full md:w-[23%] ",
@@ -1037,7 +1034,7 @@ export const USP_CONFIG = {
 
 
 export const Testing_HEADER = {
-    heading: "Testing AI Systems<br/> at  Enterprise Scale",
+    heading: "Testing AI systems<br/> at enterprise scale",
     headclass: " text-white",
     headingclass:"text-[#fff]",
     paragraph:

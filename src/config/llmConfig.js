@@ -1,5 +1,5 @@
 export const LLM_BASED_EVALUATION_HEADER = {
-  heading: "LLM Based Evaluation",
+  heading: "LLM based evaluation",
   headclass: "pt-[0px]",
   headingclass:"text-[#fff]",
   paragraph:
@@ -25,7 +25,7 @@ export const LLM_BASED_EVALUATION_HEADER = {
   ],
 };
 export const LLM_BASED_FEATURES_CONFIG_ONE = {
-  title: "What It Does",
+  title: "What it does",
   subtitle:
     "Our LLM-based evaluation system provides comprehensive, automated assessment of AI models and their outputs through advanced natural language understanding and contextual analysis.",
 
@@ -34,7 +34,7 @@ export const LLM_BASED_FEATURES_CONFIG_ONE = {
       id: 1,
       icon: "Search",
       iconColor: "#015190", // icon white because hasBg is true
-      title: "Intelligent Analysis",
+      title: "Intelligent analysis",
       description:
         "Automatically evaluates model outputs for accuracy, relevance, and quality using advanced language models.",
       cardClassName: "md:w-[320px] w-[100%] bg-white  border-[#D9D9D9]",
@@ -43,7 +43,7 @@ export const LLM_BASED_FEATURES_CONFIG_ONE = {
       id: 2,
       icon: "ChartSpline",
       iconColor: "#015190",
-      title: "Performance Metrics",
+      title: "Performance metrics",
       description:
         "Generates detailed performance reports with actionable insights and improvement recommendations.",
       cardClassName: "md:w-[320px] w-[100%] bg-white  border-[#D9D9D9]",
@@ -53,7 +53,7 @@ export const LLM_BASED_FEATURES_CONFIG_ONE = {
       icon: "Settings",
       iconColor: "#015190",
 
-      title: "Continuous Monitoring",
+      title: "Continuous monitoring",
       description:
         "Real-time evaluation and monitoring of model performance across different scenarios and datasets.",
       cardClassName: "md:w-[320px] w-[100%] bg-white  border-[#D9D9D9]",
@@ -62,32 +62,32 @@ export const LLM_BASED_FEATURES_CONFIG_ONE = {
 };
 export const LLM_BASED_WORKS_CONFIG = {
   heading: {
-    title: "How It Works",
+    title: "How it works",
     subtitle:
       "A streamlined four-step process that transforms your evaluation workflow from manual to automated.",
   },
   steps: [
     {
       step: 1,
-      title: "Data Input",
+      title: "Data input",
       description:
         "Upload your model outputs and reference datasets through our secure API or dashboard.",
     },
     {
       step: 2,
-      title: "LLM Processing",
+      title: "LLM processing",
       description:
         "Our evaluation LLM analyzes content for accuracy, coherence, and task-specific criteria.",
     },
     {
       step: 3,
-      title: "Score Generation",
+      title: "Score generation",
       description:
         "Generate comprehensive scores and detailed feedback for each evaluation dimension.",
     },
     {
       step: 4,
-      title: "Report Delivery",
+      title: "Report delivery",
       description:
         "Receive actionable insights and recommendations through detailed evaluation reports.",
     },
@@ -101,7 +101,7 @@ export const LLM_BASED_KEY_BENEFITS = [
     value: "95%",
     percentage: 95,
     title: "Coverage",
-    description: "Knowledge Capture From All Organizational Sources",
+    description: "Knowledge capture from all organizational sources",
     iconWrapperClass: "bg-gradient-to-br from-pink-400 to-orange-400",
   },
   {
@@ -111,7 +111,7 @@ export const LLM_BASED_KEY_BENEFITS = [
     value: "10x",
     percentage: 10, // You can adjust this depending on how you want to represent "10x"
     title: "Speed",
-    description: "Faster Information Retrieval And Decision Making",
+    description: "Faster information retrieval and decision making",
     iconWrapperClass: "bg-gradient-to-br from-pink-400 to-orange-400",
   },
   {
@@ -120,8 +120,8 @@ export const LLM_BASED_KEY_BENEFITS = [
     iconSize: 40,
     value: "70%",
     percentage: 70,
-    title: "Cost Reduction",
-    description: "Lower Operational Overhead And Training Costs",
+    title: "Cost reduction",
+    description: "Lower operational overhead and training costs",
     iconWrapperClass: "bg-gradient-to-br from-pink-400 to-orange-400",
   },
   {
@@ -130,8 +130,8 @@ export const LLM_BASED_KEY_BENEFITS = [
     iconSize: 40,
     value: "99%",
     percentage: 99,
-    title: "Risk Reduction",
-    description: "Minimized Knowledge Loss And Compliance Gaps",
+    title: "Risk reduction",
+    description: "Minimized knowledge loss and compliance gaps",
     iconWrapperClass: "bg-gradient-to-br from-pink-400 to-orange-400",
   },
 ];
@@ -147,7 +147,7 @@ export const LLM_BASED_USP_CONFIG = {
     {
       id: 1,
       icon: "MessageCircle",
-      title: "Customer Support",
+      title: "Customer support",
       textColor: "#fff",
       discColor: "#C6C6C6",
       cardClassName:
@@ -166,7 +166,7 @@ export const LLM_BASED_USP_CONFIG = {
     {
       id: 2,
       icon: "FileText",
-      title: "Content Generation",
+      title: "Content generation",
       textColor: "#fff",
       discColor: "#C6C6C6",
       cardClassName:
@@ -184,7 +184,7 @@ export const LLM_BASED_USP_CONFIG = {
     {
       id: 3,
       icon: "CodeXml",
-      title: "Code Review",
+      title: "Code review",
       textColor: "#fff",
       discColor: "#C6C6C6",
       cardClassName:
@@ -203,7 +203,7 @@ export const LLM_BASED_USP_CONFIG = {
 };
 
 export const LLM_BASED_CTA_CONFIG = {
-  heading: "Ready to Transform Your Evaluation Process?",
+  heading: "Ready to transform your evaluation process?",
   paragraph:
     "Join leading AI teams who trust our platform for comprehensive, <br /> automated model evaluation.",
   backgroundImage: "/bg/gradient.png",

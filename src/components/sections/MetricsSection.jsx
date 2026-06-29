@@ -3,25 +3,25 @@ import React from "react";
 export const METRICS_CONFIG = [
   {
     value: "99.99%",
-    label: "Context Uptime",
+    label: "Context uptime",
     iconSrc: "/svg/system-architecture/hourglass.svg",
     iconSize: 32,
   },
   {
     value: "<50ms",
-    label: "retrieval latency",
+    label: "Retrieval latency",
     iconSrc: "/svg/system-architecture/timer.svg",
     iconSize: 32,
   },
   {
     value: "10M+",
-    label: "context events/day",
+    label: "Context events/day",
      iconSrc: "/svg/system-architecture/calendar.svg",
     iconSize: 32,
   },
   {
     value: "24/7",
-    label: "observability & monitoring",
+    label: "Observability & monitoring",
      iconSrc: "/svg/system-architecture/camera.svg",
     iconSize: 32,
   },

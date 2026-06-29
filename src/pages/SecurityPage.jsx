@@ -113,7 +113,7 @@ const SecurityPage = () => {
             </div> */}
             <div className=" rounded-t-[50px] mt-[-50px] pb-[200px] py-[80px] pb-[100px] bg-[linear-gradient(360deg,#000000_0%,#042539_100%)]">
                 <SectionHeading
-                    title="Defense-in-Depth Security Architecture"
+                    title="Defense-in-depth security architecture"
                     subtitle='Multi-layered security controls across platform, infrastructure, and operational layers ensure <br/> comprehensive protection.'
                     titleClassName="sm:text-[48px] text-[#fff]"
                     subtitleClassName=" sm:text-[16px] text-[#C6C6C6] max-w-[950px]"
@@ -121,7 +121,7 @@ const SecurityPage = () => {
                 <div className='max-w-[1080px] m-auto mt-[60px]  md:px-0 px-5'>
                     <div className="grid grid-cols-12 justify-center gap-8 w-[100%]">
                         <div className="md:col-span-7 col-span-12 border border-[1px] border-[#D9D9D9] py-6 px-6 rounded-[24px]">
-                            <h3 className='text-[24px] font-primary text-[#fff] font-[600]'>Platform Security Layers</h3>
+                            <h3 className='text-[24px] font-primary text-[#fff] font-[600]'>Platform security layers</h3>
                             <div className='flex gap-4 mt-6 bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)] p-4 rounded-[16px]'>
                                 <div className="mt-1">
                                     <span className='bg-[#42ABDF40] rounded-[4px] h-[40px] w-[40px] flex justify-center items-center'>
@@ -134,7 +134,7 @@ const SecurityPage = () => {
 
                                 </div>
                                 <div className="">
-                                    <h3 className='text-[20px] font-primary text-[#fff] font-[600]'>UI Layer Security</h3>
+                                    <h3 className='text-[20px] font-primary text-[#fff] font-[600]'>UI layer security</h3>
                                     <p className='text-[#999999] text-[16px]'>Role-based access controls, session management, and secure authentication flows.</p>
 
                                 </div>
@@ -147,7 +147,7 @@ const SecurityPage = () => {
 
                                 </div>
                                 <div className="">
-                                    <h3 className='text-[20px] font-primary text-[#fff] font-[600]'>API Security</h3>
+                                    <h3 className='text-[20px] font-primary text-[#fff] font-[600]'>API security</h3>
                                     <p className='text-[#999999] text-[16px]'>OAuth 2.0, rate limiting, input validation, and comprehensive API audit trails.</p>
 
                                 </div>
@@ -161,7 +161,7 @@ const SecurityPage = () => {
 
                                 </div>
                                 <div className="">
-                                    <h3 className='text-[20px] font-primary text-[#fff] font-[600]'>Agent Isolation</h3>
+                                    <h3 className='text-[20px] font-primary text-[#fff] font-[600]'>Agent isolation</h3>
                                     <p className='text-[#999999] text-[16px]'>Sandboxed execution environments with strict resource and network controls.</p>
 
                                 </div>
@@ -170,17 +170,17 @@ const SecurityPage = () => {
                         </div>
                         <div className="md:col-span-5 col-span-12 ">
                             <div className="border border-[1px] border-[#D9D9D9] py-6 px-6 rounded-[24px] bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]">
-                                <h3 className='text-[20px] inline text-[#6AC0E6]'>Zero-Trust Access</h3>
+                                <h3 className='text-[20px] inline text-[#6AC0E6]'>Zero-trust access</h3>
                                 <ul className='mt-[40px]'>
-                                    <li className='text-[16px] text-[#D9D9D9] flex justify-between font-[500] font-secondary mb-2'>Identity Verification <Check className='text-[#015190]' /></li>
-                                    <li className='text-[16px] text-[#D9D9D9] flex justify-between font-[500] font-secondary mb-2'>Device Authentication <Check className='text-[#015190]' /></li>
-                                    <li className='text-[16px] text-[#D9D9D9] flex justify-between font-[500] font-secondary mb-2'>Least Privilege <Check className='text-[#015190]' /></li>
+                                    <li className='text-[16px] text-[#D9D9D9] flex justify-between font-[500] font-secondary mb-2'>Identity verification <Check className='text-[#015190]' /></li>
+                                    <li className='text-[16px] text-[#D9D9D9] flex justify-between font-[500] font-secondary mb-2'>Device authentication <Check className='text-[#015190]' /></li>
+                                    <li className='text-[16px] text-[#D9D9D9] flex justify-between font-[500] font-secondary mb-2'>Least privilege <Check className='text-[#015190]' /></li>
                                 </ul>
                             </div>
                             <div className="border mt-9 border-[1px] border-[#D9D9D9] py-6 px-6 rounded-[24px] bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]">
-                                <h3 className='text-[20px] text-[#6AC0E6] inline font-[600]'>Encryption Standard</h3>
+                                <h3 className='text-[20px] text-[#6AC0E6] inline font-[600]'>Encryption standard</h3>
                                 <ul className='mt-[40px]'>
-                                    <li className='text-[16px] text-[#D9D9D9] flex justify-between font-[500] font-secondary mb-2'>Stored Contexts <span className='bg-[#6AC0E6] bg-clip-text text-transparent'>2,468</span></li>
+                                    <li className='text-[16px] text-[#D9D9D9] flex justify-between font-[500] font-secondary mb-2'>Stored contexts <span className='bg-[#6AC0E6] bg-clip-text text-transparent'>2,468</span></li>
                                     <li className='text-[16px] text-[#D9D9D9] flex justify-between font-[500] font-secondary mb-2'>Embeddings<span className='bg-[#6AC0E6] bg-clip-text text-transparent'>1M+</span></li>
                                     <li className='text-[16px] text-[#D9D9D9] flex justify-between font-[500] font-secondary mb-2'>Retention<span className='bg-[#6AC0E6] bg-clip-text text-transparent'>1+ yr</span></li>
                                 </ul>
@@ -196,7 +196,7 @@ const SecurityPage = () => {
             <section className='bg-[linear-gradient(360deg,#000000_0%,#042539_100%)] mt-[-100px] py-[80px] pt-[220px] pb-[200px] relative z-[9] '>
 
                 <SectionHeading
-                    title="Built for Regulated Industries"
+                    title="Built for regulated industries"
                     subtitle='Designed from the ground up to meet the stringent security and compliance requirements of healthcare, finance, and government sectors.'
                     titleClassName="sm:text-[48px] text-[#fff]"
                     subtitleClassName=" sm:text-[16px] text-[#D9D9D9] max-w-[587px]"
@@ -205,15 +205,15 @@ const SecurityPage = () => {
                 <div className="max-w-[1080px] m-auto mt-[60px]">
                     <div className="grid grid-cols-12 gap-8">
                         <div className="lg:col-span-4 border-[#ffffff3e] border p-4 rounded-[24px] col-span-12 text-center">
-                            <h2 className='bg-[#6AC0E6] bg-clip-text text-transparent text-[24px] font-[600] font-primary'>Deployment Options</h2>
+                            <h2 className='bg-[#6AC0E6] bg-clip-text text-transparent text-[24px] font-[600] font-primary'>Deployment options</h2>
                             <p className='text-[#999999] max-w-[270px] m-auto mt-3 text-[14px] sm:text-[18px] font-seconadry font-[500]'>Cloud, On-Premises, Hybrid, Air-Gapped</p>
                         </div>
                         <div className="lg:col-span-4 border-[#ffffff3e] border p-4 rounded-[24px] col-span-12 text-center">
-                            <h2 className='bg-[#6AC0E6] bg-clip-text text-transparent text-[24px] font-[600] font-primary'>Third-Party Audits</h2>
+                            <h2 className='bg-[#6AC0E6] bg-clip-text text-transparent text-[24px] font-[600] font-primary'>Third-party audits</h2>
                             <p className='text-[#999999] max-w-[270px] m-auto mt-3 text-[14px] sm:text-[18px] font-seconadry font-[500]'>Independent security assessments available</p>
                         </div>
                         <div className="lg:col-span-4 border-[#ffffff3e] border p-4 rounded-[24px] col-span-12 text-center">
-                            <h2 className='bg-[#6AC0E6] bg-clip-text text-transparent text-[24px] font-[600] font-primary'>Security Questionnaires</h2>
+                            <h2 className='bg-[#6AC0E6] bg-clip-text text-transparent text-[24px] font-[600] font-primary'>Security questionnaires</h2>
                             <p className='text-[#999999] max-w-[270px] m-auto mt-3 text-[14px] sm:text-[18px] font-seconadry font-[500]'>Pre-completed vendor assessments</p>
                         </div>
                         <div className='flex gap-5 md:flex-row flex-col px-5 mt-10 justify-center col-span-12'>

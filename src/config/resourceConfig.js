@@ -1,5 +1,5 @@
 export const Resource_HEADER = {
-  heading: "Resources for AIRITHM",
+  heading: "Resources for airithm",
    headclass:"pt-0 text-white",
    headingclass:"text-[#fff]",
   paragraph:
@@ -181,7 +181,7 @@ export const Research_Config=[
     {
         id:1,
         tags:["QA Leaders","Architects"],
-        title:"Autonomous Testing Architecture for Enterprise",
+        title:"Autonomous testing architecture for enterprise",
         disc:"Comprehensive guide to implementing autonomous testing systems in enterprise environments with CI/CD integration",
         location:"Research",
         time:"24 min read",
@@ -192,7 +192,7 @@ export const Research_Config=[
         id:2,
         img:"/resource/img2.png",
           tags:["QA Leaders","AI Teams"],
-        title:"AI Quality Engineering Framework",
+        title:"AI quality engineering framework",
         disc:"Strategic framework for implementing AI-driven quality assurance processes and autonomous test generation.",
         location:"Research",
         time:"24 min read",
@@ -203,7 +203,7 @@ export const Research_Config=[
         id:3,
         img:"/resource/img3.png",
         tags:["QA Leaders","Architects"],
-        title:"ROI Analysis: Autonomous vs Traditional Testing",
+        title:"ROI analysis: autonomous vs traditional testing",
         disc:"Detailed cost-benefit analysis comparing autonomous testing systems with traditional manual and scripted approaches.",
         location:"Research",
         time:"24 min read",
@@ -217,7 +217,7 @@ export const Stories_config=[
     {
         id:1,
         tag:"Financial Services",
-        list:["90% Coverage Increase","80% Cost Reduction", "300% Release Velocity"],
+        list:["90% Coverage increase","80% Cost reduction", "300% Release velocity"],
         title:"Reduced testing cycles from 6 weeks to 3 days",
         disc:"Major bank implemented autonomous testing for critical payment systems.",
 
@@ -228,7 +228,7 @@ export const Stories_config=[
         id:2,
         img:"/resource/img2.png",
         tag:"E-commerce",
-          list:["85% Coverage Increase","70% Cost Reduction", "250% Release Velocity"],
+          list:["85% Coverage increase","70% Cost reduction", "250% Release velocity"],
         title:"Eliminated 90% of regression bugs in production",
         disc:"Global retailer deployed AI-driven testing across 15 markets.",
 
@@ -239,7 +239,7 @@ export const Stories_config=[
         id:3,
         img:"/resource/img3.png",
         tag:"Healthcare",
-        list:["99% Coverage Increase","85% Cost Reduction", "180% Release Velocity"],
+        list:["99% Coverage increase","85% Cost reduction", "180% Release velocity"],
         title:"Achieved 99.9% uptime for critical patient systems",
         disc:"Healthcare provider ensured reliability of mission-critical applications.",
       
@@ -252,31 +252,31 @@ export const Stories_config=[
 export const FAQ_CONFIG = [
   {
     id: 1,
-    question: "What Is Autonomous Testing?",
+    question: "What is autonomous testing?",
     answer:
       "Autonomous Testing is an AI-driven approach that automatically generates, executes, and maintains test cases without human intervention. Unlike traditional test automation that requires manual script creation, autonomous systems use machine learning to understand application behavior and dynamically create comprehensive test coverage.",
   },
   {
     id: 2,
-    question: "How Is This Different From Test Automation?",
+    question: "How is this different from test automation?",
     answer:
       "Traditional automation relies on manually written scripts, whereas autonomous testing adapts automatically to changes using AI and self-healing mechanisms.",
   },
   {
     id: 3,
-    question: "How Are AI Systems Evaluated?",
+    question: "How are AI systems evaluated?",
     answer:
       "AI systems are evaluated using benchmarks, validation pipelines, accuracy metrics, and real-world performance testing.",
   },
   {
     id: 4,
-    question: "Is Customer Data Isolated?",
+    question: "Is customer data isolated?",
     answer:
       "Yes, customer data is securely isolated using strict access controls and enterprise-grade security practices.",
   },
   {
     id: 5,
-    question: "What Deployment Options Are Supported?",
+    question: "What deployment options are supported?",
     answer:
       "We support cloud, on-premise, and hybrid deployment models.",
   },

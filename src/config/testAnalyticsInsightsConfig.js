@@ -1,5 +1,5 @@
 export const TEST_ANALYTICS_INSIGHTS_HEADER_CONFIG = {
-  heading: "Test Analytics & Insights",
+  heading: "Test analytics & insights",
   headingclass:"text-[#fff]",
   paragraph:
     "Transform your testing data into actionable intelligence with real-time analytics and predictive insights..",
@@ -30,25 +30,25 @@ export const TEST_ANALYTICS_INSIGHTS_HEADER_CONFIG = {
 export  const ANALYTICS_TABS_CONFIG = [
   {
     id: "realtime-analytics",
-    label: "Real-Time Analytics",
+    label: "Real-time Analytics",
     iconSrc: "/svg/chart-line.svg",
     iconSize: 22,
   },
   {
     id: "automated-reporting",
-    label: "Automated Reporting",
+    label: "Automated reporting",
     iconSrc: "/svg/shield-check.svg",
     iconSize: 22,
   },
   {
     id: "ml-powered-insights",
-    label: "ML-Powered Insights",
+    label: "Ml-powered insights",
     iconSrc: "/svg/braindark.svg",
     iconSize: 20,
   },
   {
     id: "risk-prediction",
-    label: "Risk Prediction",
+    label: "Risk prediction",
     iconSrc: "/svg/repeat-2.svg",
     iconSize: 22,
   },
@@ -59,25 +59,25 @@ export  const ANALYTICS_TABS_CONFIG = [
 export const TEST_ANALYTICS_STEPS_CONFIG = [
   {
     step: "1",
-    title: "Data Collection",
+    title: "Data collection",
     description:
       "Automatically ingests test data from multiple sources including CI/CD pipelines, test frameworks, and monitoring tools.",
   },
   {
     step: "2",
-    title: "Data Processing",
+    title: "Data processing",
     description:
       "Processes and normalizes data using advanced algorithms to identify patterns, trends, and anomalies across test suites.",
   },
   {
     step: "3",
-    title: "Insight Generation",
+    title: "Insight generation",
     description:
       "Applies machine learning models to generate actionable insights, predictions, and recommendations for optimization.",
   },
   {
     step: "4",
-    title: "Reporting & Alerts",
+    title: "Reporting & alerts",
     description:
       "Delivers real-time dashboards, automated reports, and intelligent alerts to keep teams informed and proactive.",
   },
@@ -149,7 +149,7 @@ export const TEST_ANALYTICS_USP_CONFIG = {
     {
       id: 1,
       icon: "MessageCircle",
-      title: "CI/CD Pipeline Optimization",
+      title: "CI/CD pipeline optimization",
       textColor: "#fff",
       discColor: "#C6C6C6",
       cardClassName:
@@ -162,7 +162,7 @@ export const TEST_ANALYTICS_USP_CONFIG = {
     {
       id: 2,
       icon: "FileText",
-      title: "Predictive Quality Assurance",
+      title: "Predictive quality assurance",
       textColor: "#fff",
       discColor: "#C6C6C6",
       cardClassName:
@@ -175,7 +175,7 @@ export const TEST_ANALYTICS_USP_CONFIG = {
     {
       id: 3,
       icon: "CodeXml",
-      title: "Resource Allocation",
+      title: "Resource allocation",
       textColor: "#fff",
       discColor: "#C6C6C6",
       cardClassName:
@@ -189,7 +189,7 @@ export const TEST_ANALYTICS_USP_CONFIG = {
 
 
 export const TEST_ANALYTICS_CTA_CONFIG = {
-  heading: "Ready to Transform Your Enterprise",
+  heading: "Ready to transform your enterprise",
   paragraph:
     "Join hundreds of engineering teams who trust our platform to deliver better software faster with data-driven insights.",
   backgroundImage: "/bg/gradient.png",

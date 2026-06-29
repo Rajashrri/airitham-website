@@ -15,21 +15,21 @@ const MemoryPage = () => {
     const type =[
         {
             id:1,
-            title:"Vector Memory",
+            title:"Vector memory",
             dis:"Semantic recall powered by high-dimensional embeddings. Retrieve contextually similar information based on meaning rather than exact matches.",
             points:["Semantic similarity search", "Fast retrieval at scale", "Context-aware matching"],
             icon:"VectorSquare"
         },
         {
             id:2,
-            title:"Graph Memory",
+            title:"Graph memory",
             dis:"Relationships & flows mapped as interconnected knowledge graphs. Understand how concepts, entities, and events relate to each other.",
             points:["Entity relationship mapping", "Multi-hop reasoning", " Flow visualization"],
             icon:"Waypoints"
         },
         {
             id:3,
-            title:"Temporal Memory",
+            title:"Temporal memory",
             dis:"Historical learning that tracks changes over time. Capture evolution, trends, and temporal patterns in your data and interactions.",
             points:["Time-series tracking", "Pattern evolution", "Historical context"],
             icon:"RotateCcw"
@@ -50,7 +50,7 @@ const MemoryPage = () => {
        <section className='py-[90px]'>
         <div className="max-w-[1240px] m-auto px-4 sm:px-6">
   <SectionHeading
-    title="Memory Types"
+    title="Memory types"
     subtitle="Three distinct approaches to intelligent context retention."
     titleClassName="sm:text-[48px]"
     subtitleClassName="sm:text-[16px] text-[#626161]"
@@ -100,7 +100,7 @@ const MemoryPage = () => {
         <section className='py-[90px] px-5 rounded-[50px] md:rounded-[100px] bg-[linear-gradient(360deg,#042539_0%,#000000_100%)]'>
             <div className='max-w-[1240px] m-auto '>
                 <SectionHeading
-                    title="Why Graph-RAG?"
+                    title="Why graph-rag?"
                     subtitle='Transform how your AI systems understand, remember, and reason about information.'
                     titleClassName=" text-[#fff]"
                     subtitleClassName="  text-[#D9D9D9]"
@@ -115,7 +115,7 @@ const MemoryPage = () => {
       <LucideIcons.ShieldCheck className="text-[#6AC0E6]" />
     </div>
     <h3 className="text-[#fff] text-[24px] font-primary font-[600] mb-[14px] mt-6">
-      Reduced Hallucinations
+      Reduced hallucinations
     </h3>
    <div>
      <p className="text-[14px] font-secondary text-[#D9D9D9]">
@@ -132,7 +132,7 @@ const MemoryPage = () => {
       <LucideIcons.Route className="text-[#6AC0E6]" />
     </div>
     <h3 className="text-[#fff] text-[24px] font-primary font-[600] mb-[14px] mt-6">
-      Complete Traceability
+      Complete traceability
     </h3>
     <p className="text-[14px] font-secondary text-[#D9D9D9]">
       Follow the reasoning path from question to answer.
@@ -146,7 +146,7 @@ const MemoryPage = () => {
       <LucideIcons.Link className="text-[#6AC0E6]" />
     </div>
     <h3 className="text-[#fff] text-[24px] font-primary font-[600] mb-[14px] mt-6">
-      Context Continuity
+      Context continuity
     </h3>
     <p className="font-[14px] font-secondary text-[#D9D9D9]">
       Maintain coherent understanding across conversations and sessions.
@@ -171,7 +171,7 @@ const MemoryPage = () => {
       <LucideIcons.Zap className="text-[#fff]" />
     </div>
     <h3 className="text-[24px] mt-6 leading-[1.2] text-[#1E1E1E] font-primary font-[600]">
-      Fast Retrieval
+      Fast retrieval
     </h3>
     <p className="text-[#626161] text-[14px] font-secondary font-[500] mt-2">
       Sub-second query <br /> response times
@@ -194,7 +194,7 @@ const MemoryPage = () => {
     <div className="rounded-[4px] m-auto bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)] h-[50px] w-[50px] flex justify-center items-center">
       <LucideIcons.Layers2 className="text-[#fff]" />
     </div>
-    <h3 className="text-[24px] leading-[1.2] mt-6 text-[#1E1E1E] font-primary font-[600]">Multi-Modal</h3>
+    <h3 className="text-[24px] leading-[1.2] mt-6 text-[#1E1E1E] font-primary font-[600]">Multi-modal</h3>
     <p className="text-[#626161] text-[14px] font-secondary font-[500] mt-2">
       Text, images, and <br /> structured data
     </p>

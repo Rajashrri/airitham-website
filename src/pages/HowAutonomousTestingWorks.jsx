@@ -14,45 +14,45 @@ const HowAutonomousTestingWorks = () => {
     const steps = [
   {
     title: "Observe",
-    description: "System Behavior Monitoring",
+    description: "System behavior monitoring",
     icon: "Eye",
   },
   {
     title: "Generate",
-    description: "Intelligent Test Creation",
+    description: "Intelligent test creation",
         icon: "WandSparkles",
   },
   {
     title: "Execute",
-    description: "Across Environments",
+    description: "Across environments",
         icon: "Play",
   },
   {
     title: "Evaluate",
-    description: "LLM-Powered Scoring",
+    description: "Llm-powered scoring",
        icon: "ChartSpline",
   },
   {
     title: "Optimize",
-    description: "Memory-Driven Learning",
+    description: "Memory-driven learning",
        icon: "Brain",
   },
 ];
  const steps2 = [
   {
-    title: "Test Execution",
+    title: "Test execution",
     icon: "FlaskConical",
   },
   {
-    title: "Results Analysis",
+    title: "Results analysis",
         icon: "ChartColumnBig",
   },
   {
-    title: "Learning & Adaptation",
+    title: "Learning & adaptation",
         icon: "GraduationCap",
   },
   {
-    title: "Strategy Refinement",
+    title: "Strategy refinement",
        icon: "RefreshCcw",
   },
 ];
@@ -113,7 +113,7 @@ const HowAutonomousTestingWorks = () => {
 
             <section className='py-[90px] px-0 px-5 text-center md:rounded-[100px] rounded-[50px] bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] text-white'>
                            <SectionHeading
-                    title="Agent Roles"
+                    title="Agent roles"
                     subtitle='Specialized AI agents working in harmony'
                     titleClassName="sm:text-[48px]"
                     subtitleClassName=" sm:text-[16px] text-[#D9D9D9]"

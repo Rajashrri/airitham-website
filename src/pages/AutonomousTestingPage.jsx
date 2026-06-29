@@ -23,21 +23,21 @@ const AutonomousTestingPage = () => {
                 <MainBanner data={at_HEADER} />
                 <div className="max-w-[676px] grid lg:gap-6 gap-12 grid-cols-12 m-auto bg-[#FFFFFF1A] border border-[1px] border-[#FFFFFF1A] py-8 px-5 rounded-[24px] mt-[60px]">
                     <div className="lg:col-span-6 col-span-12 px-5">
-                        <h3 className="text-[20px] font-primary bg-[linear-gradient(#6AC0E6)] bg-clip-text text-transparent font-[600]">Legacy Testing</h3>
+                        <h3 className="text-[20px] font-primary bg-[linear-gradient(#6AC0E6)] bg-clip-text text-transparent font-[600]">Legacy testing</h3>
 
                         <ul className="mt-5">
-                            <li className="flex gap-5  mb-[14px]"><img className="size-6" src="/svg/code-xml.svg" alt="" /><span className="text-[#D9D9D9] font-[16px] font-[600] font-secondary">Manual Scripts</span></li>
-                            <li className="flex gap-5  mb-[14px]"><img className="size-6" src="/svg/wrench.svg" alt="" /><span className="text-[#D9D9D9] font-[16px] font-[600] font-secondary">Constant Maintenance</span></li>
-                            <li className="flex gap-5 "><img className="size-6" src="/svg/clock.svg" alt="" /><span className="text-[#D9D9D9] font-[16px] font-[600] font-secondary">Time Intensive</span></li>
+                            <li className="flex gap-5  mb-[14px]"><img className="size-6" src="/svg/code-xml.svg" alt="" /><span className="text-[#D9D9D9] font-[16px] font-[600] font-secondary">Manual scripts</span></li>
+                            <li className="flex gap-5  mb-[14px]"><img className="size-6" src="/svg/wrench.svg" alt="" /><span className="text-[#D9D9D9] font-[16px] font-[600] font-secondary">Constant maintenance</span></li>
+                            <li className="flex gap-5 "><img className="size-6" src="/svg/clock.svg" alt="" /><span className="text-[#D9D9D9] font-[16px] font-[600] font-secondary">Time intensive</span></li>
                         </ul>
                     </div>
                     <div className="lg:col-span-6 col-span-12 px-5">
-                        <h3 className="text-[20px] font-primary bg-[linear-gradient(#6AC0E6)] bg-clip-text text-transparent font-[600]">Autonomous Testing</h3>
+                        <h3 className="text-[20px] font-primary bg-[linear-gradient(#6AC0E6)] bg-clip-text text-transparent font-[600]">Autonomous testing</h3>
 
                         <ul className="mt-5">
-                            <li className="flex gap-5  mb-[14px]"><img className="size-6" src="/svg/brain.svg" alt="" /><span className="text-[#D9D9D9] font-[16px] font-[600] font-secondary">AI-Powered</span></li>
-                            <li className="flex gap-5  mb-[14px]"><img className="size-6" src="/svg/wand-sparkles.svg" alt="" /><span className="text-[#D9D9D9] font-[16px] font-[600] font-secondary">Self-Healing</span></li>
-                            <li className="flex gap-5  "><img className="size-6" src="/svg/rocket.svg" alt="" /><span className="text-[#D9D9D9] font-[16px] font-[600] font-secondary">Continuous Learning</span></li>
+                            <li className="flex gap-5  mb-[14px]"><img className="size-6" src="/svg/brain.svg" alt="" /><span className="text-[#D9D9D9] font-[16px] font-[600] font-secondary">AI-powered</span></li>
+                            <li className="flex gap-5  mb-[14px]"><img className="size-6" src="/svg/wand-sparkles.svg" alt="" /><span className="text-[#D9D9D9] font-[16px] font-[600] font-secondary">Self-healing</span></li>
+                            <li className="flex gap-5  "><img className="size-6" src="/svg/rocket.svg" alt="" /><span className="text-[#D9D9D9] font-[16px] font-[600] font-secondary">Continuous learning</span></li>
                         </ul>
                     </div>
                 </div>
@@ -46,7 +46,7 @@ const AutonomousTestingPage = () => {
             <div className="py-[80px] pb-[150px] lg:px-0 px-6">
                 <SectionHeading
                     titleClassName=" text-[#00273A] text-center"
-                    title="Quick Comparison Summary"
+                    title="Quick comparison summary"
                     subtitle="Executive overview for decision makers"
                     
                     subtitleClassName=" text-[#626161] "
@@ -54,7 +54,7 @@ const AutonomousTestingPage = () => {
 
                 <div className="max-w-7xl flex flex-wrap mx-auto gap-[40px] justify-center max-w-[1080px] m-auto mt-12 ">
                     <div className="max-w-[500px] w-full border border-[#D9D9D9] rounded-[16px] p-4 shadow-[0px_12px_12px_0px_#01519017]">
-                        <h3 className="text-[#1E1E1E] text-[24px] mb-[1px] font-primary">Autonomous Testing</h3>
+                        <h3 className="text-[#1E1E1E] text-[24px] mb-[1px] font-primary">Autonomous testing</h3>
                         <p className="text-[#626161] text-[16px]">Next-generation testing approach</p>
 
                         <ul className="mt-[30px]">
@@ -65,7 +65,7 @@ const AutonomousTestingPage = () => {
                         </ul>
                     </div>
                     <div className=" max-w-[500px] w-full border border-[#D9D9D9] shadow-[0px_12px_12px_0px_#01519017] rounded-[16px] p-4 px-5">
-                        <h3 className="text-[#1E1E1E] text-[24px] mb-[1px] font-primary">Traditional Testing</h3>
+                        <h3 className="text-[#1E1E1E] text-[24px] mb-[1px] font-primary">Traditional testing</h3>
                         <p className="text-[#626161] text-[16px]">Legacy script-based approach</p>
 
                         <ul className="mt-[30px]">
@@ -80,7 +80,7 @@ const AutonomousTestingPage = () => {
             <div className="mt-[-50px] px-5 lg:rounded-t-[100px] rounded-t-[50px] pb-[200px] py-[100px] bg-[linear-gradient(360deg,#042539_0%,#000000_100%)]">
                 <SectionHeading
                     titleClassName=" text-[#fff] "
-                    title="Side-by-Side Feature Comparison"
+                    title="Side-by-side feature comparison"
                     subtitle="Detailed technical comparison"
                     
                     subtitleClassName=" text-[#fff] "
@@ -91,10 +91,10 @@ const AutonomousTestingPage = () => {
                             <tr class=" p-2 sm:px-6 sm:py-5">
                                 <th class="p-2 sm:px-6 sm:py-5 font-[20px] font-[600] text-[#6AC0E6] ">Feature</th>
                                 <th class="p-2 sm:px-6 sm:py-5 font-[20px] font-[600]  text-[#6AC0E6]  text-center">
-                                    Traditional Testing
+                                    traditional testing
                                 </th>
                                 <th class="p-2 sm:px-6 sm:py-5 font-[20px] font-[600]  text-[#6AC0E6]  text-center">
-                                    Autonomous Testing
+                                    autonomous testing
                                 </th>
                             </tr>
                         </thead>
@@ -102,27 +102,27 @@ const AutonomousTestingPage = () => {
                         <tbody class="text-white/90">
 
                             <tr class="">
-                                <td class="p-2 sm:px-6 sm:py-5 font-medium">Test Creation</td>
+                                <td class="p-2 sm:px-6 sm:py-5 font-medium">Test creation</td>
                                 <td class="p-2 sm:px-6 sm:py-5 text-center">
                                     <img src="/svg/check.svg" alt="" className="m-auto" />
-                                    <div class="text-xs sm:text-[16px] mt-1">AI-Generated</div>
+                                    <div class="text-xs sm:text-[16px] mt-1">Ai-generated</div>
                                 </td>
                                 <td class="p-2 sm:px-6 sm:py-5 text-center">
                                     <img src="/svg/x.svg" alt="" className="m-auto" />
-                                    <div class="text-xs sm:text-[16px] mt-1">Manual Scripts</div>
+                                    <div class="text-xs sm:text-[16px] mt-1">Manual scripts</div>
                                 </td>
                             </tr>
 
 
                             <tr class="">
-                                <td class="p-2 sm:px-6 sm:py-5 font-medium">Maintenance Effort</td>
+                                <td class="p-2 sm:px-6 sm:py-5 font-medium">Maintenance effort</td>
                                 <td class="p-2 sm:px-6 sm:py-5 text-center">
                                     <img src="/svg/check.svg" alt="" className="m-auto" />
-                                    <div class="text-xs sm:text-[16px] mt-1">Self-Healing</div>
+                                    <div class="text-xs sm:text-[16px] mt-1">Self-healing</div>
                                 </td>
                                 <td class="p-2 sm:px-6 sm:py-5 text-center">
                                     <img src="/svg/x.svg" className="m-auto" alt="" />
-                                    <div class="text-xs sm:text-[16px] mt-1">High Manual Effort</div>
+                                    <div class="text-xs sm:text-[16px] mt-1">High manual effort</div>
                                 </td>
                             </tr>
 
@@ -131,7 +131,7 @@ const AutonomousTestingPage = () => {
                                 <td class="p-3 sm:px-6 sm:py-5 font-medium">Scalability</td>
                                 <td class="p-3 sm:px-6 sm:py-5 text-center">
                                     <img src="/svg/check.svg" alt="" className="m-auto" />
-                                    <div class="text-xs sm:text-[16px] mt-1">Infinite Scale</div>
+                                    <div class="text-xs sm:text-[16px] mt-1">Infinite scale</div>
                                 </td>
                                 <td class="p-3 sm:px-6 sm:py-5 text-center">
                                     <img src="/svg/minus.svg" alt="" className="m-auto" />
@@ -141,27 +141,27 @@ const AutonomousTestingPage = () => {
 
 
                             <tr class="">
-                                <td class="p-3 sm:px-6 sm:py-5 font-medium">AI & LLM Support</td>
+                                <td class="p-3 sm:px-6 sm:py-5 font-medium">AI & LLM support</td>
                                 <td class="p-3 sm:px-6 sm:py-5 text-center">
                                     <img src="/svg/check.svg" alt="" className="m-auto" />
-                                    <div class="text-xs sm:text-[16px] mt-1">Native Integration</div>
+                                    <div class="text-xs sm:text-[16px] mt-1">Native integration</div>
                                 </td>
                                 <td class="p-3 sm:px-6 sm:py-5 text-center">
                                     <img src="/svg/x.svg" className="m-auto" alt="" />
-                                    <div class="text-xs sm:text-[16px] mt-1">Not Available</div>
+                                    <div class="text-xs sm:text-[16px] mt-1">Not available</div>
                                 </td>
                             </tr>
 
 
                             <tr class="">
-                                <td class="p-3 sm:px-6 sm:py-5 font-medium">Time To Value</td>
+                                <td class="p-3 sm:px-6 sm:py-5 font-medium">Time to value</td>
                                 <td class="p-3 sm:px-6 sm:py-5 text-center">
                                     <img  src="/svg/check.svg" alt="" className="m-auto" />
                                     <div class="text-xs sm:text-[16px] mt-1">Immediate</div>
                                 </td>
                                 <td class="p-2 sm:px-6 sm:py-5 text-center">
                                     <img src="/svg/x.svg" className="m-auto" alt="" />
-                                    <div class="text-xs sm:text-[16px] mt-1">Weeks/Months</div>
+                                    <div class="text-xs sm:text-[16px] mt-1">Weeks/months</div>
                                 </td>
                             </tr>
                         </tbody>
@@ -171,7 +171,7 @@ const AutonomousTestingPage = () => {
             <div className="lg:rounded-[100px] rounded-[50px] px-5 mt-[-100px] py-[80px] bg-[#fff]">
                 <SectionHeading
                     titleClassName="font-primary font-medium text-[32px] sm:text-[40px] leading-[1.2] tracking-[0.02em] text-[#00273A] text-center"
-                    title="How Each Approach Works"
+                    title="How each approach works"
                     subtitle="Process visualization and workflow comparison"
                     
                     subtitleClassName=" text-[#626161] "
@@ -179,7 +179,7 @@ const AutonomousTestingPage = () => {
                 <div className="max-w-[941px] shadow-[0px_0px_8px_4px_#01519080] rounded-[24px] pt-[40px]  space-y-12 m-auto mt-[60px] mx-auto lg:gap-0 gap-6 grid grid-cols-12">
                     <div className="lg:col-span-6 col-span-12 flex flex-col  text-center">
                         <h3 className="text-[#015190]  text-[24px] font-[600] font-primary">
-                            Traditional Testing Flow
+                            Traditional testing flow
                         </h3>
                         <div >
                             <div className="relative mt-[40px] px-[30px] py-[20px] rounded-[16px] w-fit m-auto border border-[1px] border-[#D9D9D9] flex flex-col justify-center items-center
@@ -210,7 +210,7 @@ const AutonomousTestingPage = () => {
                         </div>
                     </div>
                      <div className="lg:col-span-6  col-span-12 flex flex-col text-center">
-                        <h3 className="text-[#015190] text-[24px] font-[600] font-primary">Autonomous Testing Flow</h3>
+                        <h3 className="text-[#015190] text-[24px] font-[600] font-primary">Autonomous testing flow</h3>
                         <div>
                             <div className="relative mt-[40px] px-[30px] py-[20px] rounded-[16px] w-fit m-auto border border-[1px] border-[#D9D9D9] flex flex-col justify-center items-center
                                             before:content-[''] before:absolute before:left-[50%] before:bottom-[-50px] before:translate-x-[-50%] before:w-[2px] before:h-[40px] before:bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
@@ -245,7 +245,7 @@ const AutonomousTestingPage = () => {
             <div className=" lg:rounded-t-[100px] rounded-t-[50px] pb-[200px] px-5 lg:px-0 py-[100px] bg-[linear-gradient(360deg,#042539_0%,#000000_100%)]">
                 <SectionHeading
                     titleClassName=" text-[#FFFFFF] "
-                    title="Where Traditional Testing Breaks Down"
+                    title="Where traditional testing breaks down"
                     subtitle="Honest technical analysis of legacy limitations"
                    
                     subtitleClassName=" text-[#FFFFFF] "
@@ -253,7 +253,7 @@ const AutonomousTestingPage = () => {
                 <div className="max-w-[824px] m-auto grid justify-center grid-cols-12 gap-[30px]  mt-[60px]">
                     <div className="lg:col-span-6 col-span-12 py-4 px-7 rounded-[16px] border border-[1px] border-[#999999] bg-gradient-to-b from-[rgba(255,255,255,0.1)] to-[rgba(153,153,153,0.1)]">
                         <img src="/svg/wrench.svg" alt="" className="h-[32px]"/>
-                        <h3 className="text-[#FFFFFF] text-[24px] font-primary mt-5">Maintenance Overhead</h3>
+                        <h3 className="text-[#FFFFFF] text-[24px] font-primary mt-5">Maintenance overhead</h3>
                         <ul className="list-disc pl-5 marker:text-[#6AC0E6] mt-[20px]">
                             <li className="text-[16px] font-secondary mb-[8px]  bg-[linear-gradient(#6AC0E6)] bg-clip-text text-transparent">Constant script updates</li>
                             <li className="text-[16px] font-secondary mb-[8px] bg-[linear-gradient(#6AC0E6)] bg-clip-text text-transparent">UI changes break tests</li>
@@ -275,7 +275,7 @@ const AutonomousTestingPage = () => {
                     </div>
                     <div className="lg:col-span-6 col-span-12 py-4 px-7 rounded-[16px] border border-[1px] border-[#999999] bg-gradient-to-b from-[rgba(255,255,255,0.1)] to-[rgba(153,153,153,0.1)]">
                         <img src="/svg/chart-linedark.svg" alt="" className="h-[32px]"/>
-                        <h3 className="text-[#FFFFFF] text-[24px] font-primary mt-5">Scaling Challenges</h3>
+                        <h3 className="text-[#FFFFFF] text-[24px] font-primary mt-5">Scaling challenges</h3>
                         <ul className="list-disc pl-5 marker:text-[#6AC0E6] mt-[20px]">
                             <li className="text-[16px] font-secondary mb-[8px]  bg-[linear-gradient(#6AC0E6)] bg-clip-text text-transparent">Linear cost growth</li>
                             <li className="text-[16px] font-secondary mb-[8px] bg-[linear-gradient(#6AC0E6)] bg-clip-text text-transparent">Team dependency</li>
@@ -286,7 +286,7 @@ const AutonomousTestingPage = () => {
                     </div>
                     <div className="lg:col-span-6 col-span-12 py-4 px-7 rounded-[16px] border border-[1px] border-[#999999] bg-gradient-to-b from-[rgba(255,255,255,0.1)] to-[rgba(153,153,153,0.1)]">
                         <img src="/svg/grid/bot.svg" alt="" className="h-[32px]"/>
-                        <h3 className="text-[#FFFFFF] text-[24px] font-primary mt-5">AI Limitations</h3>
+                        <h3 className="text-[#FFFFFF] text-[24px] font-primary mt-5">AI limitations</h3>
                         <ul className="list-disc pl-5 marker:text-[#6AC0E6] mt-[20px]">
                             <li className="text-[16px] font-secondary mb-[8px]  bg-[linear-gradient(#6AC0E6)] bg-clip-text text-transparent">No learning capability</li>
                             <li className="text-[16px] font-secondary mb-[8px] bg-[linear-gradient(#6AC0E6)] bg-clip-text text-transparent">Static rule-based</li>
@@ -300,7 +300,7 @@ const AutonomousTestingPage = () => {
              <section className='py-[80px] p-5 mt-[-100px] bg-[#fff]
                             lg:rounded-t-[100px] rounded-t-[50px]'>
                             <SectionHeading
-                                title="Where Autonomous Testing Excels"
+                                title="Where autonomous testing excels"
                                 subtitle='Key advantages of the autonomous approach'
                                 titleClassName=" text-[#00273A]"
                                 subtitleClassName="  text-[#626161]"

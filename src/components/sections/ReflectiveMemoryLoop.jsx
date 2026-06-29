@@ -15,7 +15,7 @@ export default function ReflectiveMemoryLoop() {
         {/* Step 1 */}
         <div className="flex items-center gap-6">
           <h2 className="font-primary text-white font-light text-[20px] leading-[120%] tracking-[0.02em] absolute -translate-x-[110%] ">
-            Memory Update
+            Memory update
           </h2>
           <div className="size-16 flex items-center justify-center rounded-full bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
             <DatabaseIcon size={32} color="#fff" />
@@ -28,7 +28,7 @@ export default function ReflectiveMemoryLoop() {
         {/* Step 2 */}
         <div className="flex flex-col relative items-center gap-6">
           <h2 className="font-primary text-white font-light text-[20px] leading-[120%] tracking-[0.02em] whitespace-nowrap absolute top-[-60%] ">
-            Memory Processing
+            Memory processing
           </h2>
           <div className="size-16 flex items-center justify-center rounded-full bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
             <Bot size={32} color="#fff" />
@@ -61,7 +61,7 @@ export default function ReflectiveMemoryLoop() {
 
         {/* Text */}
         <h3 className="font-primary text-white font-light text-[42px] leading-[100%] tracking-[0.02em] text-center ">
-          Reflective <br /> Memory Loop
+          Reflective <br /> memory loop
         </h3>
 
         {/* Right Arrow */}
@@ -78,7 +78,7 @@ export default function ReflectiveMemoryLoop() {
         {/* Step 1 */}
         <div className="flex items-center gap-6">
           <h2 className="font-primary text-white font-light text-[20px] leading-[120%] tracking-[0.02em] absolute -translate-x-[110%] ">
-            Better Retrieval
+            Better retrieval
           </h2>
           <div className="size-16 flex items-center justify-center rounded-full bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
             <SearchCheck size={32} color="#fff" />
@@ -91,7 +91,7 @@ export default function ReflectiveMemoryLoop() {
         {/* Step 2 */}
         <div className="flex flex-col relative items-center gap-6">
           <h2 className="font-primary text-white font-light text-[20px] leading-[120%] tracking-[0.02em] whitespace-nowrap absolute bottom-[-60%] ">
-            Better Reasoning
+            Better reasoning
           </h2>
           <div className="size-16 flex items-center justify-center rounded-full bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
             <Brain size={32} color="#fff" />

@@ -1,5 +1,5 @@
 export const SYSTEM_ARCHI_HEADER_CONFIG = {
-  heading: "System Architecture Overview",
+  heading: "System architecture overview",
   headclass: "pt-0 text-white",
   headingclass:"text-[#fff]",
   paragraph:
@@ -28,7 +28,7 @@ export const SYSTEM_ARCHI_USP_CONFIG_ONE = {
       id: 1,
       icon: "Clock",
       iconSrc: "/svg/system-architecture/clock.svg",
-      title: "Temporal Context Memory",
+      title: "Temporal context memory",
       textColor: "#fff",
       discColor: "#FFFFFF",
       cardClassName:
@@ -48,7 +48,7 @@ export const SYSTEM_ARCHI_USP_CONFIG_ONE = {
       id: 2,
       icon: "Brain",
       iconSrc: "/svg/system-architecture/brain-cog.svg",
-      title: "Hybrid Attention Memory Network",
+      title: "Hybrid attention memory network",
       textColor: "#fff",
       discColor: "#FFFFFF",
       cardClassName:
@@ -68,7 +68,7 @@ export const SYSTEM_ARCHI_USP_CONFIG_ONE = {
       id: 3,
       icon: "Box",
       iconSrc: "/svg/system-architecture/package.svg",
-      title: "Context Capsules",
+      title: "Context capsules",
       textColor: "#fff",
       discColor: "#FFFFFF",
       cardClassName:
@@ -88,7 +88,7 @@ export const SYSTEM_ARCHI_USP_CONFIG_ONE = {
       id: 4,
       icon: "Network",
       iconSrc: "/svg/system-architecture/git-pull-request.svg",
-      title: "Real-time Context ",
+      title: "Real-time context ",
       textColor: "#fff",
       discColor: "#FFFFFF",
       cardClassName:
@@ -108,7 +108,7 @@ export const SYSTEM_ARCHI_USP_CONFIG_ONE = {
       id: 5,
       icon: "RefreshCcw",
       iconSrc: "/svg/system-architecture/undo-dot.svg",
-      title: "Reflective Memory",
+      title: "Reflective memory",
       textColor: "#fff",
       discColor: "#FFFFFF",
       cardClassName:
@@ -128,7 +128,7 @@ export const SYSTEM_ARCHI_USP_CONFIG_ONE = {
       id: 6,
       icon: "Eye",
       iconSrc: "/svg/system-architecture/eye.svg",
-      title: "DCP-X Protocol & Governance",
+      title: "DCP-X protocol & governance",
       textColor: "#fff",
       discColor: "#FFFFFF",
       cardClassName:
@@ -168,7 +168,7 @@ export const SYSTEM_ARCHI_USP_CONFIG_TWO = {
     {
       id: 2,
       icon: "FileText",
-      title: "Product Teams",
+      title: "Product teams",
       textColor: "#fff",
         iconSrc: "/svg/system-architecture/users-round.svg",
         iconSize:"64",
@@ -185,7 +185,7 @@ export const SYSTEM_ARCHI_USP_CONFIG_TWO = {
       icon: "CodeXml",
        iconSrc: "/svg/system-architecture/atom.svg",
        iconSize:"64",
-      title: "AI Agents",
+      title: "AI agents",
       textColor: "#fff",
       discColor: "#C6C6C6",
       cardClassName:
@@ -214,7 +214,7 @@ export const SYSTEM_ARCHI_USP_CONFIG_TWO = {
 
 
 export const SYSTEM_ARCHI_CTA_CONFIG = {
-  heading: "Bring Contextual Intelligence <br /> to Your Ecosystem.",
+  heading: "Bring contextual intelligence <br/> to your ecosystem.",
   paragraph:
     "Join leading AI teams who trust our platform for comprehensive, <br /> automated model evaluation.",
   backgroundImage: "/bg/gradient.png",

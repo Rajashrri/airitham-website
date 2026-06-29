@@ -1,5 +1,5 @@
 export const Pc_HEADER = {
-  heading: "Platform Capabilities",
+  heading: "Platform capabilities",
 //   subheading:"Autonomous intelligence across the testing lifecycle.",
   headclass:"pt-[0px]",
   headingclass:"text-[#fff]",
@@ -34,7 +34,7 @@ export const pc_USP_CONFIG = {
     {
       id: 1,
       icon: "Bot",
-      title: "Autonomous Test Generation",
+      title: "Autonomous test generation",
       discColor: "#626161",
       textColor: "#000",
       description:
@@ -49,7 +49,7 @@ export const pc_USP_CONFIG = {
      {
       id: 2,
       icon: "Play",
-      title: "Intelligent Test Execution",
+      title: "Intelligent test execution",
       discColor: "#626161",
       textColor: "#000",
       description:
@@ -64,7 +64,7 @@ export const pc_USP_CONFIG = {
      {
       id: 3,
       icon: "Brain",
-      title: "LLM-Based Evaluation",
+      title: "Llm-based evaluation",
       discColor: "#626161",
       textColor: "#000",
       description:
@@ -79,7 +79,7 @@ export const pc_USP_CONFIG = {
      {
       id: 4,
       icon: "ShieldHalf",
-      title: "Self-Healing Tests",
+      title: "Self-healing tests",
       discColor: "#626161",
       textColor: "#000",
       description:
@@ -94,7 +94,7 @@ export const pc_USP_CONFIG = {
      {
       id: 5,
       icon: "GraduationCap",
-      title: "Continuous Learning Engine",
+      title: "Continuous learning engine",
       discColor: "#626161",
       textColor: "#000",
       description:
@@ -109,7 +109,7 @@ export const pc_USP_CONFIG = {
      {
       id: 6,
       icon: "ChartSpline",
-      title: "Test Analytics & Insights",
+      title: "Test analytics & insights",
       discColor: "#626161",
       textColor: "#000",
       description:

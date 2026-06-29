@@ -29,7 +29,7 @@ headingclass:"text-[#fff]",
 };
 
 export const PLANING_CTA_CONFIG = {
-  heading: "Ready to Build Smarter AI?",
+  heading: "Ready to build smarter AI?",
   paragraph:"Integrate Graph-RAG into your testing infrastructure and unlock the full <br  class=' hidden md:block'  /> potential of relationship-aware intelligence.",
   backgroundImage: "/bg/gradient.png",
   wrapperClassName:"",

@@ -36,7 +36,7 @@ const TestAnalyticsInsightsPage = () => {
             </div>  
             <div className="lg:col-span-1 col-span-2 flex flex-col justify-center">
                <h2 className="font-primary mb-5 text-[#015190] font-medium md:text-[40px] text-[30px] leading-[1.2] tracking-[0.02em] text-center ">
-                  What It Does
+                 What it does
                 </h2>
                <p className="font-secondary text-center max-w-[800px] mx-auto text-[#626161] font-[medium] lg:text-[18px] text-[14px] leading-[1.4] tracking-[0.04em] ">
                 Our advanced analytics platform transforms raw testing data into
@@ -90,7 +90,7 @@ const TestAnalyticsInsightsPage = () => {
 // Experience the full autonomous testing lifecycle from agent generation to <br /> enterprise insights.       "
             subtitleClassName=" font-secondary text-[#626161]"
             titleClassName="font-primary   text-[#015190] captialize"
-            title="Key Benefits"
+            title="Key benefits"
             wrapperClassName=""
             spacing="space-y-4"
           />
@@ -108,7 +108,7 @@ const TestAnalyticsInsightsPage = () => {
          <section>
         <div className="bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] md:rounded-t-[100px] rounded-t-[50px] relative z-3 pt-[100px] pb-[200px]">
           <SectionHeading
-            title={"Real-World Use"}
+            title={"Real-world use"}
             titleClassName="text-white"
             titleSize="sm:text-[48px] text-[32px]"
             // subtitle="See how teams across industries leverage our platform to transform their delivery process"

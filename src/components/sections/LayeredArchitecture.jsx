@@ -9,7 +9,7 @@ const LayeredArchitecture = () => {
     <section className="w-full bg-white py-20">
       <div className="mx-auto  max-w-7xl px-5 ">
 
-        <SectionHeading title="Layered Intelligence Architecture" titleClassName=" font-medium    text-[#015190]
+        <SectionHeading title="Layered intelligence architecture" titleClassName=" font-medium    text-[#015190]
 " titleSize=" text-[32px]  sm:text-[40px]" subtitle={"Each layer operates independently, but shares signals through governed interfaces."} subtitleClassName="   text-[#626161] text-center
 " spacing="space-y-4" />
 

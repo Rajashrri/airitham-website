@@ -3,26 +3,26 @@ import * as LucideIcons from "lucide-react";
 
 const DATA = [
   {
-    title: "Context Intelligence",
+    title: "Context intelligence",
     iconSrc: "/svg/brain.svg",
     iconSize:"32",
     items: [
-      "Meaning & Semantics",
-      "Knowledge Graphs",
-      "Memory & Reasoning",
+      "Meaning & semantics",
+      "Knowledge graphs",
+      "Memory & reasoning",
       "Relationships",
       "Understanding",
     ],
   },
   {
-    title: "Autonomous Testing",
+    title: "Autonomous testing",
    iconSrc: "/svg/test-tube-diagonal.svg",
     iconSize:"32",
     items: [
-      "Behavior & Execution",
-      "Test Agents",
-      "Validation & Scoring",
-      "Coverage & Risk",
+      "Behavior & execution",
+      "Test agents",
+      "Validation & scoring",
+      "Coverage & risk",
       "Proof",
     ],
   },
@@ -35,7 +35,7 @@ const ResponsibilitySection = () => {
       {/* Title */}
       <h2 className="font-primary font-medium text-white sm:text-[40px] text-[32px] leading-[140%] tracking-[0.02em] text-center 
 ">
-        Clear Separation Of Responsibilities
+       Clear separation of responsibilities
       </h2>
 
       {/* Cards */}

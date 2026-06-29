@@ -1,5 +1,5 @@
 export const at_HEADER = {
-  heading: "Autonomous Testing vs Traditional Testing",
+  heading: "Autonomous testing vs traditional testing",
    headclass:"pt-0 text-white max-w-[800px] m-auto",
    headingclass:"text-[#fff]",
   paragraph:
@@ -34,35 +34,35 @@ export const benifits_Config ={
   {
     id: 3,
         img:"/svg/braindark.svg",
-    title: "Adaptive Test Generation",
+    title: "Adaptive test generation",
     description:
       "AI creates and evolves tests automatically based on application behavior and user patterns.",
   },
   {
     id: 4,
         img:"/svg/wand-sparklesdark.svg",
-    title: "Agentic Execution",
+    title: "Agentic execution",
     description:
       "Intelligent agents that understand context and adapt to changes in real-time.",
   },
   {
     id: 5,
         img:"/svg/graduation-cap.svg",
-    title: "Continuous Learning",
+    title: "Continuous learning",
     description:
       "System improves over time, learning from failures and optimizing test coverage.",
   },
   {
     id: 1,
     img:"/svg/message-circle-more.svg",
-    title: "LLM-Based Evaluation",
+    title: "Llm-based evaluation",
     cardClass:' w-full sm:w-[550px] ',
     description:
       "Natural language understanding for more intuitive and comprehensive test validation.",
   },{
     id: 2,
         img:"/svg/user-round.svg",
-    title: "Reduced Human Effort",
+    title: "Reduced human effort",
         cardClass:' w-full sm:w-[550px] ',
     description:
       "Minimal manual intervention required, freeing teams to focus on strategic initiatives.",

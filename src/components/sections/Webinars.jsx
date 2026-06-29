@@ -45,7 +45,7 @@ const Webinars = () => {
       <section className="py-[80px] mt-[-100px] pb-[100px] md:rounded-t-[100px] rounded-t-[50px] bg-[#fff]">
 
         <SectionHeading
-          title="Webinars & Events"
+          title="Webinars & events"
           subtitle="Live and on-demand sessions with experts in autonomous testing and agentic AI."
           titleClassName="sm:text-[48px] text-[#000]"
           subtitleClassName="sm:text-[16px] text-[#626161] max-w-[950px]"
