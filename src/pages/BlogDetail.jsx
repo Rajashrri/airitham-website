@@ -17,7 +17,6 @@ const BlogDetail = () => {
   const { slug } = useParams();
   const [blog, setBlog] = useState(null);
   const [relatedBlogs, setRelatedBlogs] = useState([]);
-
   const [active, setActive] = useState("All");
 
   useEffect(() => {

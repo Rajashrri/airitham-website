@@ -4,7 +4,6 @@ import Navbar from "@/components/Navbar.jsx";
 import FooterSection from "@/components/home/FooterSection";
 import MainBanner from "../components/services/MainBanner";
 import Button from "../components/ui/Button";
-
 const BlogPage = () => {
   const [active, setActive] = useState("All");
 
