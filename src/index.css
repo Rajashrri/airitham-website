@@ -456,6 +456,7 @@
 
 .blogdetails .share ul li {}
 
+.blogdetails .share ul li button,
 .blogdetails .share ul li a {
   /* padding: 9px; */
   display: flex;
