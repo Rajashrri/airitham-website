@@ -23,6 +23,49 @@ const BlogDetail = () => {
     fetchBlog();
   }, [slug]);
 
+  // 👇 YAHAN ADD KARO
+  const updateMeta = (name, content) => {
+    let element = document.querySelector(`meta[name="${name}"]`);
+
+    if (!element) {
+      element = document.createElement("meta");
+      element.setAttribute("name", name);
+      document.head.appendChild(element);
+    }
+
+    element.setAttribute("content", content || "");
+  };
+
+  const updateMetaProperty = (property, content) => {
+    let element = document.querySelector(`meta[property="${property}"]`);
+
+    if (!element) {
+      element = document.createElement("meta");
+      element.setAttribute("property", property);
+      document.head.appendChild(element);
+    }
+
+    element.setAttribute("content", content || "");
+  };
+
+  // 👇 SEO useEffect
+  useEffect(() => {
+    if (!blog) return;
+
+document.title = `${blog?.meta_title || blog?.name } | Blog Details | AIRITHM`;
+    updateMeta("description", blog.meta_description || blog.short_description);
+    updateMeta("keywords", blog.meta_keywords);
+
+    updateMetaProperty("og:title", blog.meta_title || blog.name);
+    updateMetaProperty(
+      "og:description",
+      blog.meta_description || blog.short_description
+    );
+    updateMetaProperty("og:image", blog.main_image);
+    updateMetaProperty("og:url", window.location.href);
+    updateMetaProperty("og:type", "article");
+
+  }, [blog]);
   const fetchBlog = async () => {
     try {
       const res = await getBlogDetailsApi(slug);
