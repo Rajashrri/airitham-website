@@ -499,7 +499,7 @@
 .blogdetails .heading {
   display: flex;
 }
-.blogbody h1{
+.blogdetails h1{
   color: var(--primary-accent, #015190);
 font-family: var(--font-primary);
 font-size: 40px;
