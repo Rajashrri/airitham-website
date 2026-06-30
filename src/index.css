@@ -434,6 +434,12 @@
   margin-bottom: 0px;
   margin-top: 24px;
 }
+.para {
+  display: -webkit-box;
+  -webkit-line-clamp: 3; /* show only 3 lines */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
 
 .blogdetails {}
 
