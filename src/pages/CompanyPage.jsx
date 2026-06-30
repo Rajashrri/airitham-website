@@ -1,4 +1,5 @@
-import React from 'react'
+import { useEffect, useState } from "react";
+import { getTeamMembersApi } from "@/utils/frontApi"; // path apne project ke hisab se
 import Navbar from "@/components/Navbar.jsx";
 import MainBanner from '../components/services/MainBanner';
 import FooterSection from "@/components/home/FooterSection"; 
@@ -14,8 +15,27 @@ import CtaSection from "../components/common/CtaSection"
 
 const CompanyPage = () => {
     const { cards } = KEY_FEATURES_CONFIG;
-const { cards: members } = members_CONFIG;
-    return (
+  const [members, setMembers] = useState([]);
+
+  useEffect(() => {
+    fetchMembers();
+  }, []);
+
+const fetchMembers = async () => {
+  try {
+    const res = await getTeamMembersApi();
+
+    console.log(res.data);
+
+    if (res.data.success) {
+      setMembers(res.data.data);
+    }
+  } catch (err) {
+    console.log(err);
+  }
+};
+
+return (
         <>
             <Navbar
                 wrapperClassName="fixed top-0 left-0"
@@ -154,26 +174,25 @@ Our dual-platform approach combines the precision of autonomous testing with the
                     subtitleClassName=" text-[#626161] max-w-[100%]"
                 />
               <div className="grid grid-cols-12 justify-center gap-6 mt-[60px] max-w-[1110px] mx-auto">
-                {members?.map((item) => (
-                    <div
-                    key={item.id}
-                    className="col-span-12 md:col-span-3 py-5 px-7  transition-all duration-300 border border-[1px] border-[#D9D9D9] hover:shadow-[0_0_40px_2px_#42abdf40] rounded-[24px]"
-                    >
-                        <img src={item.profile} alt="" />
-                    <h2 className='font-primary mt-[35px] font-[600] text-[#015190] text-[24px]'>{item.title}</h2>
-                    <h3 className='text-[#1E1E1E] text-[18px] font-secondary font-[500]'>{item.designation}</h3>
-                    {/* <p className='text-[#626161] text-[18px] mt-[20px] font-secondary font-[300] '>{item.discription}</p> */}
+               {members?.map((item) => (
+  <div
+    key={item._id}
+    className="col-span-12 md:col-span-3 py-5 px-7  transition-all duration-300 border border-[1px] border-[#D9D9D9] hover:shadow-[0_0_40px_2px_#42abdf40] rounded-[24px]"
+  >
+    <img
+      src={item.image}
+      alt={item.name}
+    />
 
-                    {/* <div className='flex gap-[15px] mt-[30px]'>
-                        <span className='bg-[#D9D9D9] h-[40px] w-[40px] rounded-[4px] flex justify-center items-center'>
-                            <Linkedin className='h-[24px] text-[#015190]'/>
-                        </span>
-                        <span className='bg-[#D9D9D9] h-[40px] w-[40px] rounded-[4px] flex justify-center items-center'>
-                            <X className='h-[24px] text-[#015190]'/>
-                        </span>
-                    </div> */}
-                    </div>
-                ))}
+    <h2 className="font-primary mt-[35px] font-[600] text-[#015190] text-[24px]">
+      {item.name}
+    </h2>
+
+    <h3 className="text-[#1E1E1E] text-[18px] font-secondary font-[500]">
+      {item.designation}
+    </h3>
+  </div>
+))}
                 </div>
                  
 

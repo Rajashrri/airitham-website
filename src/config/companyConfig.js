@@ -83,7 +83,7 @@ export const members_CONFIG = {
     cards:[
         {
             id:1,
-            title:"Alex Morrison",
+            title:"Alex Morrisonggg",
             designation:"CEO & Co-Founder",
             discription:"Former VP Engineering at TestCorp, 15+ years in QA automation",
             linkdin:"",

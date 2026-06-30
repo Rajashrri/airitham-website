@@ -47,6 +47,10 @@ export const careerApi = (data) => {
   );
 };
 
+export const getTeamMembersApi = () => {
+  return frontApi.get("/team-members");
+};
+
 // =============================
 // OPTIONAL ERROR HANDLER
 // =============================
