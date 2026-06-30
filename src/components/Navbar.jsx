@@ -221,7 +221,7 @@ export default function Navbar({
               <h2 className="text-[#015190] font-[600] text-[24px]"><NavLink to="/ai-automation">AI Test Platform</NavLink></h2>
               <div className="menu mt-4 flex">
                 <div className="w-[50%]">
-                  <h2 className="text-[#015190] font-[600] text-[20px] mb-4"><NavLink to="/core-test">aiRM.CoreQ</NavLink></h2>
+                  <h2 className="text-[#015190] font-[600] text-[20px] mb-4"><NavLink to="/core-test">CoreQ</NavLink></h2>
                   <NavLink to="/intelligent-test-automation" className="flex gap-3">
                     <div className="w-[16px]">
                       <Atom color="#015190" width="16px" className="mt-[0px]" />
@@ -252,7 +252,7 @@ export default function Navbar({
 
                 </div>
                 <div className="w-[50%]">
-                  <h2 className="text-[#015190] font-[600] text-[20px] mb-4"><NavLink to="/neuro-test">aiRM.EvalQ</NavLink></h2>
+                  <h2 className="text-[#015190] font-[600] text-[20px] mb-4"><NavLink to="/neuro-test">EvalQ</NavLink></h2>
                   <NavLink to="/testing-ai-systems-at-interprise-scale" className="flex gap-3">
                     <div className="w-[16px]">
                       <Building color="#015190" width="16px" className="mt-[0px]" />
@@ -278,7 +278,7 @@ export default function Navbar({
 
             </div>
             <div className="col-span-1 px-6 py-9 border border-y-[1px] border-x-[#D9D9D9] border-y-[#fff]">
-              <h2 className="text-[#015190] font-[600] text-[24px]"><NavLink to="/context-intelligence-platform">aiRM.LumiQ</NavLink></h2>
+              <h2 className="text-[#015190] font-[600] text-[24px]"><NavLink to="/context-intelligence-platform">LumiQ</NavLink></h2>
               <div className="menu mt-4 ">
 
                 <NavLink to="/real-time-context" className="flex gap-3">
@@ -566,7 +566,7 @@ export default function Navbar({
                   <h2 className="text-[#015190] font-[600] text-[24px] pt-3 pb-0 mt-2"><NavLink to="/ai-automation">AI Test Platform</NavLink></h2>
                   <div className="menu mt-2">
                     <h2 className="text-[#015190] font-[600] text-[20px] mb-4">
-                      <NavLink to="/core-test">aiRM.CoreQ</NavLink>
+                      <NavLink to="/core-test">CoreQ</NavLink>
                     </h2>
                     <NavLink to="/intelligent-test-automation" className="flex gap-3">
                       <div className="w-[16px]">
@@ -598,7 +598,7 @@ export default function Navbar({
 
 
                     <h2 className="text-[#015190] font-[600] text-[20px] mb-4 mt-6">
-                      <NavLink to="/neuro-test">aiRM.EvalQ</NavLink>
+                      <NavLink to="/neuro-test">EvalQ</NavLink>
                     </h2>
                     <NavLink to="/testing-ai-systems-at-interprise-scale" className="flex gap-3">
                       <div className="w-[16px]">
@@ -621,7 +621,7 @@ export default function Navbar({
 
 
 
-                <h2 className="text-[#015190] font-[600] text-[24px] pt-3 pb-0 mt-6"><NavLink to="/context-intelligence-platform">aiRM.LumiQ</NavLink></h2>
+                <h2 className="text-[#015190] font-[600] text-[24px] pt-3 pb-0 mt-6"><NavLink to="/context-intelligence-platform">LumiQ</NavLink></h2>
 
                     <NavLink to="/real-time-context" className="flex gap-3 mt-4">
                       <div className="w-[16px]">

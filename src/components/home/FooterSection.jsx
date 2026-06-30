@@ -27,7 +27,7 @@ const FooterSection = () => {
             <div className="flex  flex-col gap-4 ">
               <h3 className="text-inter-20 font-semibold leading-[1.2]">  <Link onClick={() => window.scrollTo(0, 0)} to="/ai-automation">AI Test Platform</Link></h3>
               <h4 className="text-inter-18  font-semibold leading-[1.2]">
-                <Link onClick={() => window.scrollTo(0, 0)} to="/core-test">aiRM.CoreQ</Link>
+                <Link onClick={() => window.scrollTo(0, 0)} to="/core-test">CoreQ</Link>
               </h4>
               <ul className="space-y-3.5 text-inter-16">
                 <li> <Link onClick={() => window.scrollTo(0, 0)} to="/intelligent-test-automation" className="flex gap-3">
@@ -54,7 +54,7 @@ const FooterSection = () => {
         
               </ul>
                <h4 className="text-inter-18 mt-3 font-semibold leading-[1.2]">
-               <Link onClick={() => window.scrollTo(0, 0)} to="/neuro-test">aiRM.EvalQ</Link>
+               <Link onClick={() => window.scrollTo(0, 0)} to="/neuro-test">EvalQ</Link>
               </h4>
               <ul className="space-y-3.5 text-inter-16">
                 <li>
@@ -79,7 +79,7 @@ const FooterSection = () => {
             {/* Column 2 */}
             <div className="flex flex-col gap-4 ">
               <h4 className="text-inter-20 font-semibold leading-[1.2]">
-               <Link onClick={() => window.scrollTo(0, 0)} to="/context-intelligence-platform">aiRM.LumiQ</Link>
+               <Link onClick={() => window.scrollTo(0, 0)} to="/context-intelligence-platform">LumiQ</Link>
               </h4>
               <ul className="space-y-3.5 text-inter-16">
                 <li>       <Link onClick={() => window.scrollTo(0, 0)} to="/real-time-context" className="flex gap-3">
