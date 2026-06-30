@@ -284,7 +284,7 @@ document.title = `${blog?.meta_title || blog?.name } | Blog Details | AIRITHM`;
                     {item.name}
                   </h3>
 
-                  <p className="font-secondary text-[#757575] para text-[16px] leading-relaxed mb-[32px]">
+                  <p className="font-secondary text-[#757575]  text-[16px] leading-relaxed mb-[32px]">
                     {item.short_description}
                   </p>
 

@@ -108,7 +108,7 @@ const BlogPage = () => {
                   {blog.name}
                 </h3>
 
-                <p className="font-secondary text-[#757575] text-[16px] leading-relaxed mb-[32px]">
+                <p className="font-secondary text-[#757575] para text-[16px] leading-relaxed mb-[32px]">
                   {blog.short_description}
                 </p>
 
