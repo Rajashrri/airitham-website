@@ -1,8 +1,17 @@
 import React from "react";
 import Button from "@/components/ui/Button";
-import { SectionIcon } from "lucide-react";
+import { Link } from "react-router-dom";
+import { CircleArrowOutUpRight, SectionIcon } from "lucide-react";
 import SectionHeading from "@/components/common/SectionHeading";
+import { useNavigate } from "react-router-dom";
 const CommunitySection = () => {
+    const navigate = useNavigate();
+
+  const goToContactSection = () => {
+   navigate("/company", {
+  state: { scrollTo: "teamsection" },
+});
+  };
   return (
     <section>
       <div
@@ -47,12 +56,21 @@ const CommunitySection = () => {
               icon="CircleArrowOutUpRight"
               // href="/company#teamsection"
             />
-            <Button
+            <button  onClick={goToContactSection}  class="group hover:cursor-pointer py-5 pl-6 pr-5  font-semibold font-primary  leading-[1.2] tracking-[0%] rounded-lg flex gap-2.5 whitespace-nowrap items-center justify-center py-5 px-6 w-full min-w-[228px] font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#015190] bg-white">Meet the community
+             <CircleArrowOutUpRight    className={`shrink-0 transition-transform duration-300 
+             group-hover:rotate-45
+          `}  style={{
+            width:  "20px",
+            height:"20px",
+          }}/>
+        
+            </button>
+            {/* <Button
               btnText="Meet the community"
               className="py-5 px-6 w-full min-w-[228px] font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#015190] bg-white"
               iconSize="20"
               icon="CircleArrowOutUpRight"
-            />
+            /> */}
 
            
           </div>

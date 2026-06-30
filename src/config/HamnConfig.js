@@ -1,6 +1,6 @@
 export const HAMN_HEADER = {
   heading: "Hybrid attention memory network",
-  headClass: "pt-[0]",
+  headClass: "pt-[0]  ",
   headingclass:"text-[#015190]",
   paragraph:
     "Revolutionary AI routing engine with policy-gated multi-head attention mechanism. Explainable, enterprise-grade artificial intelligence for complex decision making.",

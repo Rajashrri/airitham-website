@@ -15,7 +15,7 @@ const SectionHeading = ({
     <div className={`text-center px-[20px] lg:px-[0px] ${spacing} ${wrapperClassName}`}>
       {title && (
         <h2
-          className={`font-primary font-medium leading-[1.2] tracking-[2%] ${titleSize} ${titleClassName}`}
+          className={`font-primary font-medium leading-[1.2] capitalize tracking-[2%] ${titleSize} ${titleClassName}`}
           dangerouslySetInnerHTML={{ __html: title }}
         />
       )}

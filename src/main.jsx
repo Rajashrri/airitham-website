@@ -3,21 +3,12 @@ import { createRoot } from "react-dom/client";
 import "@/index.css";
 import { RouterProvider } from "react-router-dom";
 import router from "@/appConfig/router.jsx";
-import { ReactLenis, useLenis } from "lenis/react";
-
-const RouterWrapper = ({ children }) => {
-  return (
-    <>
-      <ReactLenis root />
-      {children}
-    </>
-  );
-};
+import { ReactLenis } from "lenis/react";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <RouterWrapper>
+    <ReactLenis root>
       <RouterProvider router={router} />
-    </RouterWrapper>
+    </ReactLenis>
   </StrictMode>
 );

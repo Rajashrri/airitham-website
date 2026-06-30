@@ -24,8 +24,8 @@ const HamnPage = () => {
       <Navbar
         
       />
-      <section className="px-5 lg:px-0">
-        <div className="pt-[100px] lg:mt-[104px] mt-[50px]">
+      <section className="px-5 rounded-[50px] lg:px-0 bg-[#E9F6FB]">
+        <div className="pt-[100px] pb-[100px] lg:mt-[104px] mt-[50px]">
           <div className="flex gap-4 flex-wrap pb-5 justify-center">
             {HAMN_HEADER_CHIPS.map((item, index) => (
               <Chip key={item.id ?? index} {...item} />

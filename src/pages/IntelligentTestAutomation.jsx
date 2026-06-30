@@ -68,7 +68,7 @@ const IntelligentTestAutomation = () => {
                 <div className="max-w-[1224px] mt-[60px] px-5 m-auto grid grid-cols-12 gap-6">
                     <div className="lg:col-span-6 col-span-12 border py-5 bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] px-5 border-[1px] border-[#D9D9D9] rounded-[16px]">
                         <img src="./svg/store.svg" alt="" />
-                        <h3 className="text-[24px] font-primary font-[600] text-[#fff] mt-[30px]">E-commerce platform</h3>
+                        <h3 className="text-[24px] font-primary font-[600] text-[#fff] mt-[30px]">E-commerce Platform</h3>
                         <p className="text-[14px] text-[#D9D9D9] font-[500] font-secondary mt-2">A major online retailer automated their entire checkout flow testing across 15 payment gateways and 8 locales. Self-healing tests adapted to frequent UI changes during holiday campaigns, maintaining 99.8% uptime during peak traffic.</p>
                         <div className="mt-8 flex gap-6 flex-wrap">
                             <div >
@@ -90,7 +90,7 @@ const IntelligentTestAutomation = () => {
                     </div>
                     <div className="lg:col-span-6 col-span-12 border py-5 bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] px-5 border-[1px] border-[#D9D9D9] rounded-[16px]">
                         <img src="./svg/landmark.svg" alt="" />
-                        <h3 className="text-[24px] font-primary font-[600] text-[#fff] mt-[30px]">Financial services</h3>
+                        <h3 className="text-[24px] font-primary font-[600] text-[#fff] mt-[30px]">Financial Services</h3>
                         <p className="text-[14px] text-[#D9D9D9] font-[500] font-secondary mt-2">A fintech company deployed comprehensive API and security testing for their mobile banking app. Intelligent test generation covered edge cases that manual QA missed, preventing three critical security vulnerabilities from reaching production.</p>
                         <div className="mt-8 flex gap-6 flex-wrap">
                             <div >
@@ -134,7 +134,7 @@ const IntelligentTestAutomation = () => {
                     </div>
                     <div className="lg:col-span-6 col-span-12 border py-5 bg-[linear-gradient(180deg,rgba(255,255,255,0.1)_0%,rgba(153,153,153,0.1)_100%)] px-5 border-[1px] border-[#D9D9D9] rounded-[16px]">
                         <img src="./svg/gamepad-2.svg" alt="" />
-                        <h3 className="text-[24px] font-primary font-[600] text-[#fff] mt-[30px]">Gaming platform</h3>
+                        <h3 className="text-[24px] font-primary font-[600] text-[#fff] mt-[30px]">Gaming Platform</h3>
                         <p className="text-[14px] text-[#D9D9D9] font-[500] font-secondary mt-2">A multiplayer gaming service automated cross-platform testing across PC, console, and mobile. Real-time monitoring detected performance regressions instantly, ensuring smooth gameplay for 5 million concurrent users during launches.</p>
                         <div className="mt-8 flex gap-6 flex-wrap">
                             <div >

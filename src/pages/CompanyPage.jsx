@@ -11,9 +11,24 @@ import { Check, FlaskConical, Link, Linkedin, Network, Twitter, X } from 'lucide
 import Button from '../components/ui/Button';
 import CtaSection from "../components/common/CtaSection"
 // import { Link } from 'react-router-dom';
+import { useLocation } from "react-router-dom";
 
+const CompanyPage = ({locomotiveScroll }) => {
 
-const CompanyPage = () => {
+    const location = useLocation();
+
+  useEffect(() => {
+    if (location.state?.scrollTo) {
+      setTimeout(() => {
+        const el = document.getElementById(location.state.scrollTo);
+        el?.scrollIntoView({
+          behavior: "smooth",
+          block: "start",
+        });
+      }, 500);
+    }
+  }, [location]);
+
     const { cards } = KEY_FEATURES_CONFIG;
   const [members, setMembers] = useState([]);
 
@@ -50,13 +65,13 @@ return (
             </div>
             <section className='py-20 px-5 md:px-0 '>
            <SectionHeading
-  title="Building tomorrow’s testing infrastructure"
-  subtitle={`We envision a world where software testing is fully autonomous, context-aware, and predictive where quality assurance evolves from reactive validation to proactive intelligence.
-<br class="hidden md:block" />
-Our dual-platform approach combines the precision of autonomous testing with the insight of context intelligence, creating a unified ecosystem that adapts, learns, and scales with your organization.`}
- 
-  subtitleClassName="text-[#626161] max-w-[950px]"
-/>
+                    title="Building tomorrow’s testing infrastructure"
+                    subtitle={`We envision a world where software testing is fully autonomous, context-aware, and predictive where quality assurance evolves from reactive validation to proactive intelligence.
+                    <br class="hidden md:block" />
+                    Our dual-platform approach combines the precision of autonomous testing with the insight of context intelligence, creating a unified ecosystem that adapts, learns, and scales with your organization.`}
+                    
+                    subtitleClassName="text-[#626161] max-w-[950px]"
+                    />
 
 
                 <div className="flex mt-5 flex-wrap  gap-6 pt-10 justify-center max-w-[1200px] mx-auto">

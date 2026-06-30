@@ -79,7 +79,7 @@ const FeatureCard = ({
       {/* Content */}
       <div className="feature-card-content space-y-2">
         <h2
-          className="font-primary font-medium text-[24px] leading-[1.2] "
+          className="font-primary font-medium text-[24px] leading-[1.2] capitalize "
           style={{ color: textColor || "#1E1E1E" }}  
         >
           {title}
