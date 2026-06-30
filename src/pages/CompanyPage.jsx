@@ -197,6 +197,7 @@ return (
     <img
       src={item.image}
       alt={item.name}
+      className="h-[100px] w-[100px] object-cover rounded-[50%]"
     />
 
     <h2 className="font-primary mt-[35px] font-[600] text-[#015190] text-[24px]">
