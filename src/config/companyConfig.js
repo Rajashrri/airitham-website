@@ -1,5 +1,5 @@
 export const Comapny_HEADER = {
-  heading: "Pioneering The Future of <br/> Autonomous Intelligence",
+  heading: "Pioneering the Future of <br/> Autonomous Intelligence",
    headclass:"pt-0 text-white",
   paragraph:
     "Airithm builds enterprise-grade platforms that combine autonomous testing capabilities with context-aware intelligence, empowering organizations to ship faster, smarter, and with unparalleled confidence.",
@@ -249,7 +249,7 @@ export const Company_CTA_CONFIG  = {
       text: "View Architecture",
       className:
         "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-semibold leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
-      // href: "/platform-architecture",
+      href: "/platform-architecture",
       icon: "CircleArrowOutUpRight",
       iconSize: "20px",
     },

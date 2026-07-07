@@ -59,7 +59,7 @@ return (
                 iconClassName="text-dark"
             />
             <div className='lg:mt-[100px] mt-[70px] rounded-[50px] lg:py-[150px] py-[100px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)]'>
-                <p className='font-secondary font-semibold text-[18px] text-white text-center mb-[15px]'>Two platforms. one vision.</p>
+                <p className='font-secondary font-semibold text-[18px] text-white text-center mb-[15px]'>Two Platforms. One Vision.</p>
                 <MainBanner data={Comapny_HEADER} />
 
             </div>

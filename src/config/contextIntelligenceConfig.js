@@ -105,7 +105,7 @@ export const CONTEXT_CTA_CONFIG = {
 };
 
 export const WHY_CHOOSE_CIP_CONFIG = {
-  title: "Why choose cip",
+  title: "Why choose CIP",
 
   cards: [
     {

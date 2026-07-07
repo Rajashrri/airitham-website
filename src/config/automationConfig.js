@@ -184,7 +184,7 @@ export const AUTOMATION_HERO_CONFIG  = {
     className: "border-2",
      icon: "CircleArrowOutUpRight",
     iconSize: "20px",
-    href: "",
+    href: "/demo",
     // hoverIcon:false
   },
   {

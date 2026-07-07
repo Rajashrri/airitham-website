@@ -76,7 +76,7 @@ export const CORE_MODULE_CONFIG = {
 };
 
 export const TIMELINE_SECTION_CONFIG = {
-   title: "How it works",
+   title: "How It Works",
   subtitle:
     "Four key components work together to enable seamless context distribution",
  cards: [

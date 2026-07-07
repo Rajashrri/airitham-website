@@ -227,7 +227,7 @@ export const SYSTEM_ARCHI_CTA_CONFIG = {
       hoverIcon: false,
             icon: "CircleArrowOutUpRight",
       iconSize: "20px",
-      href: "",
+      href: "/contact-us",
     },
     {
       text: "Request Demo",

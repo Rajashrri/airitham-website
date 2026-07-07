@@ -1,5 +1,5 @@
 export const QA_TESTING_USP_CONFIG = {
-     title: "Ai-driven workflows",
+     title: "AI-driven workflows",
    bodyclass:false,
   cards: [
     {
@@ -9,7 +9,7 @@ export const QA_TESTING_USP_CONFIG = {
       textColor: "#1E1E1E",
       iconColor: "#015190",
       discColor: "#626161",
-      cardClassName: "border-[#D9D9D9] coretext lg:w-[23%] md:w-[40%] w-[100%]",
+      cardClassName: "border-[#D9D9D9] coretext lg:w-[23%] md:w-[38%] w-[100%]",
       description:
         "Ensure flawless performance across all user journeys with intelligent, automated, and repeatable testing.",
       points: {
@@ -36,7 +36,7 @@ export const QA_TESTING_USP_CONFIG = {
       title: "Security & compliance testing",
       textColor: "#1E1E1E",
       discColor: "#626161",
-      cardClassName: "border-[#D9D9D9] coretext lg:w-[23%] md:w-[40%] w-[100%]",
+      cardClassName: "border-[#D9D9D9] coretext lg:w-[23%] md:w-[38%] w-[100%]",
       description:
         "Validate application safety, protect sensitive data, and meet industry-grade standards.",
       points: {
@@ -65,7 +65,7 @@ export const QA_TESTING_USP_CONFIG = {
       title: "Usability & accessibility testing",
       textColor: "#1E1E1E",
       discColor: "#626161",
-      cardClassName: "border-[#D9D9D9] coretext lg:w-[23%] md:w-[40%] w-[100%]",
+      cardClassName: "border-[#D9D9D9] coretext lg:w-[23%] md:w-[38%] w-[100%]",
       description:
         "Deliver outstanding user experiences across devices with automated UX validation.",
       points: {
@@ -92,7 +92,7 @@ export const QA_TESTING_USP_CONFIG = {
       title: "Data & integration testing",
       textColor: "#1E1E1E",
       discColor: "#626161",
-      cardClassName: "border-[#D9D9D9] coretext lg:w-[23%] md:w-[40%] w-[100%]",
+      cardClassName: "border-[#D9D9D9] coretext lg:w-[23%] md:w-[38%] w-[100%]",
       description:
         "Ensure every integration point is accurate, reliable, and fully synchronized.",
       points: {

@@ -170,7 +170,7 @@ const SecurityPage = () => {
                         </div>
                         <div className="md:col-span-5 col-span-12 ">
                             <div className="border border-[1px] border-[#D9D9D9] py-6 px-6 rounded-[24px] bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]">
-                                <h3 className='text-[20px] inline text-[#6AC0E6]'>Zero-trust Access</h3>
+                                <h3 className='text-[20px] inline text-[#6AC0E6]'>Zero-Trust Access</h3>
                                 <ul className='mt-[40px]'>
                                     <li className='text-[16px] text-[#D9D9D9] flex justify-between font-[500] font-secondary mb-2'>Identity Verification <Check className='text-[#015190]' /></li>
                                     <li className='text-[16px] text-[#D9D9D9] flex justify-between font-[500] font-secondary mb-2'>Device Authentication <Check className='text-[#015190]' /></li>
@@ -178,7 +178,7 @@ const SecurityPage = () => {
                                 </ul>
                             </div>
                             <div className="border mt-9 border-[1px] border-[#D9D9D9] py-6 px-6 rounded-[24px] bg-[linear-gradient(90deg,rgba(255,166,141,0.12)_0.03%,rgba(253,58,132,0.12)_100%)]">
-                                <h3 className='text-[20px] text-[#6AC0E6] inline font-[600]'>Encryption standard</h3>
+                                <h3 className='text-[20px] text-[#6AC0E6] inline font-[600]'>Encryption Standard</h3>
                                 <ul className='mt-[40px]'>
                                     <li className='text-[16px] text-[#D9D9D9] flex justify-between font-[500] font-secondary mb-2'>Stored Contexts <span className='bg-[#6AC0E6] bg-clip-text text-transparent'>2,468</span></li>
                                     <li className='text-[16px] text-[#D9D9D9] flex justify-between font-[500] font-secondary mb-2'>Embeddings<span className='bg-[#6AC0E6] bg-clip-text text-transparent'>1M+</span></li>

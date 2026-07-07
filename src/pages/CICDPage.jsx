@@ -126,7 +126,7 @@ export const USP_CONFIG = {
   title: "Real-world use cases",
   subtitle: "See how teams across industries leverage our platform to transform their delivery process",
   bodyclass: "bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] text-white mb-[60px]",
-  // tags:"How it works",
+  // tags:"How It Works",
 
   cards: [
     {

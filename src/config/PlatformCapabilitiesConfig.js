@@ -64,7 +64,7 @@ export const pc_USP_CONFIG = {
      {
       id: 3,
       icon: "Brain",
-      title: "Llm-based evaluation",
+      title: "LLM-based evaluation",
       discColor: "#626161",
       textColor: "#000",
       description:
@@ -142,7 +142,7 @@ export const pc_USP_CONFIG = {
 };
 
 export const TIMELINE_SECTION_CONFIG = {
-   title: "How it Works",
+   title: "How It Works",
  cards: [
    {
     id: 1,

@@ -1,5 +1,5 @@
 export const HAMN_HEADER = {
-  heading: "Hybrid attention memory network",
+  heading: "Hybrid Attention Memory Network",
   headClass: "pt-[0]  ",
   headingclass:"text-[#015190]",
   paragraph:

@@ -139,7 +139,7 @@ export const Key_feature2_Config = {
 
 
 export const TIMELINE_SECTION_CONFIG = {
-   title: "How it works",
+   title: "How It Works",
   // subtitle:
   //   "Four key components work together to enable seamless context distribution",
  cards: [
@@ -256,7 +256,7 @@ export const benifits_Config ={
     className: " bg-primary-gradient   text-[#fff] ",
     icon: "CircleArrowOutUpRight",
     iconSize: "20px",
-    href: "",
+    href: "/contact-us",
   }
   
 ]

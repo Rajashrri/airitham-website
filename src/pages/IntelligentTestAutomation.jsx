@@ -307,7 +307,7 @@ export const USP_CONFIG = {
   title: "Simple Three-Step Process",
   subtitle: "From integration to execution, our platform streamlines your entire testing workflow",
   bodyclass: "bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] text-white md:rounded-[100px] rounded-[50px]",
-  // tags:"How it works",
+  // tags:"How It Works",
 
   cards: [
     {
@@ -466,7 +466,7 @@ export const REFLECTIVE_MEMORY_HEADER = {
             icon: "CircleArrowOutUpRight",
             hoverIcon: true,
             iconSize: "20px",
-            href: "",
+            href: "/demo",
         },
         {
             text: "View Architecture",

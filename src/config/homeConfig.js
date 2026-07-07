@@ -144,7 +144,7 @@ export const HOME_PLATFORM_CONFIG = {
       icon: "Layers",
       iconColor: "#2563EB",
       badge: "Patent Pending",
-      title: "Context intelligence platform",
+      title: "Context Intelligence Platform",
       description:
         "Advanced contextual AI that understands, interprets, and acts on complex enterprise data with human-like comprehension",
       image: "/home/context-intelligence-platform.webp",
@@ -159,7 +159,7 @@ export const HOME_PLATFORM_CONFIG = {
       iconColor: "#10B981",
       badge: "Patent Pending",
 
-      title: "Predictive analytics & anomaly detection",
+      title: "Predictive Analytics & Anomaly Detection",
       description:
         "Advanced AI for detecting patterns, predicting trends, and identifying anomalies in complex enterprise data",
       image: "/home/predictive-analytics-anomaly-detection.webp",

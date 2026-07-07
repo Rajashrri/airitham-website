@@ -150,7 +150,7 @@ const HamnPage = () => {
                 </span>
                 <div className="inline-block">
                   <h3 className="text-[#015190] text-[20px] font-primary font-[600] mb-2">
-                    Attention visualization
+                    Attention Visualization
                   </h3>
                   <p className="text-[16px] font-primary font-[500] text-[#626161] ">
                     Real-time heatmaps showing attention weights across input
@@ -197,7 +197,7 @@ const HamnPage = () => {
                 </span>
                 <div className="inline-block">
                   <h3 className="text-[#015190] text-[20px] font-primary font-[600] mb-2">
-                    Decision pathways
+                    Decision Pathways
                   </h3>
                   <p className="text-[16px] font-primary font-[500] text-[#626161] ">
                     Traceable routing decisions with confidence scores
@@ -243,7 +243,7 @@ const HamnPage = () => {
                 </span>
                 <div className="inline-block">
                   <h3 className="text-[#015190] text-[20px] font-primary font-[600] mb-2">
-                    Audit trail
+                    Audit Trail
                   </h3>
                   <p className="text-[16px] font-primary font-[500] text-[#626161] ">
                     Complete audit logs for enterprise compliance and governance

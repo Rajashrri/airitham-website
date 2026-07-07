@@ -27,13 +27,13 @@ export const AI_AUTOMATION_HEADER = {
   icon: "CircleArrowOutUpRight",
   hoverIcon:true,
   iconSize: "20px",
-  href: "",
+  href: "/demo",
 },
 {
   text: "Start Free Trial",
   className:
     "  bg-primary-gradient text-white",
-  href: "",
+  href: "/contact-us",
   icon: "CircleArrowOutUpRight",
   iconSize: "20px",
 }

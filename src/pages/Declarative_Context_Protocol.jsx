@@ -72,7 +72,7 @@ const Declarative_Context_Protocol = () => {
             <section className="py-[100px]">
                    <div className="relative text-center px-4 lg:px-0  z-10">
               <h1 class="font-primary font-medium leading-[1.2] tracking-[2%] text-[32px] sm:text-[40px]   sm:max-w-[1000px] mx-auto tracking-[0.02em]">
-                Enterprise governance
+                Enterprise Governance
               </h1>
 
               <p class="font-secondary font-medium text-[18px] leading-[1.4] tracking-[2%] text-center mt-2  sm:max-w-[950px] mx-auto  text-[#838383]">
@@ -142,7 +142,7 @@ const Declarative_Context_Protocol = () => {
                         
                     </div>
                     <div className="lg:min-w-[390px] border border-1 border-[#C6C6C6] rounded-[16px] p-[20px]">
-                        <h3 className='text-[#015190] text-[20px] font-primary font-[600]'>Live network status</h3>
+                        <h3 className='text-[#015190] text-[20px] font-primary font-[600]'>Live Network Status</h3>
                         <ul className='mt-8'>
                             <li className='flex justify-between mb-3'><p className='text-[16px] font-primary font-[500] text-[#626161] '>Active agents</p> <span className='text-[16px] font-primary font-[500] text-[#015190]'>1,247</span></li>
                             <li className='flex justify-between mb-3'><p  className='text-[16px] font-primary font-[500] text-[#626161] '>Policy handshakes</p> <span className='text-[16px] font-primary font-[500] text-[#015190]'>98.7%</span></li>

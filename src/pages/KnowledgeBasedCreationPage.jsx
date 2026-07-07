@@ -60,7 +60,7 @@ const KnowledgeBasedCreationPage = () => {
         >
           {/* Heading */}
           <SectionHeading
-            title="How it works"
+            title="How It Works"
             subtitle="Powered by airithm core, delivering intelligent solutions for every enterprise need."
             titleClassName="font-primary text-white text-center"
             subtitleClassName="font-secondary max-w-[760px] mx-auto text-[#B5B5B5] text-center"

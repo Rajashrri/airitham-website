@@ -6,7 +6,7 @@ const HowItWorks = () => {
       <div className="w-full relative rounded-[48px] bg-gradient-primary border border-blue-500/40 px-10 py-16">
         
         <h2 className="text-center text-3xl md:text-4xl font-semibold text-white mb-16">
-          How it works
+          How It Works
         </h2>
 
         {/* Steps */}

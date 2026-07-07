@@ -59,25 +59,25 @@ export  const ANALYTICS_TABS_CONFIG = [
 export const TEST_ANALYTICS_STEPS_CONFIG = [
   {
     step: "1",
-    title: "Data collection",
+    title: "Data Collection",
     description:
       "Automatically ingests test data from multiple sources including CI/CD pipelines, test frameworks, and monitoring tools.",
   },
   {
     step: "2",
-    title: "Data processing",
+    title: "Data Processing",
     description:
       "Processes and normalizes data using advanced algorithms to identify patterns, trends, and anomalies across test suites.",
   },
   {
     step: "3",
-    title: "Insight generation",
+    title: "Insight Generation",
     description:
       "Applies machine learning models to generate actionable insights, predictions, and recommendations for optimization.",
   },
   {
     step: "4",
-    title: "Reporting & alerts",
+    title: "Reporting & Alerts",
     description:
       "Delivers real-time dashboards, automated reports, and intelligent alerts to keep teams informed and proactive.",
   },

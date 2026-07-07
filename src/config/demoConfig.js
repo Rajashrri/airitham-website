@@ -1,5 +1,5 @@
 export const DEMO_HEADER_CONFIG = {
-  heading: "See autonomous testing in action",
+  heading: "See Autonomous Testing in Action",
   headclass: false,
   headingclass:"text-[#fff]",
   paragraph:
@@ -9,13 +9,13 @@ export const DEMO_HEADER_CONFIG = {
       text: "Schedule Architecture Review",
       className:
         "py-5 px-6 min-w-[228px] font-primary font-medium text-[16px]  leading-[1.2] tracking-[0%] rounded-lg text-[#015190] bg-white",
-      href: "",
+      href: "/platform-architecture",
           icon: "CircleArrowOutUpRight",
     },
     {
       text: "Request Demo",
       className: "py-5 min-w-[228px] px-6 font-primary font-medium text-[16px] leading-[120%] rounded-lg text-white bg-primary-gradient flex items-center gap-2",
-      href: "",
+      href: "/demo",
           icon: "CircleArrowOutUpRight",
     },
   ],
@@ -56,7 +56,7 @@ export const PLATFORM_FEATURES_CONFIG = {
       icon: "Brain",
       iconColor: "#FFFFFF",
       bgColor: "#015190",
-      title: "Llm-based evaluation",
+      title: "LLM-based evaluation",
       description:
         "Experience Intelligent Test Result Analysis And Automated Quality Scoring.",
       cardClassName: "sm:w-[300px] w-[100%]  border-[#D9D9D9]",

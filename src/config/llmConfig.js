@@ -62,7 +62,7 @@ export const LLM_BASED_FEATURES_CONFIG_ONE = {
 };
 export const LLM_BASED_WORKS_CONFIG = {
   heading: {
-    title: "How it works",
+    title: "How It Works",
     subtitle:
       "A streamlined four-step process that transforms your evaluation workflow from manual to automated.",
   },

@@ -16,7 +16,7 @@ export const features = [
     col: "lg:col-span-2",
   },
   {
-    title: "Llm-based Evaluation",
+    title: "LLM-based Evaluation",
     desc: "Advanced language model evaluation for complex testing scenarios and edge cases.",
     icon: "Brain",
     iconSize: 24,

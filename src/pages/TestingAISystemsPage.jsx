@@ -415,7 +415,7 @@ export const Enterprise_Use_Cases = {
   title: "Enterprise Use Cases",
   subtitle: "Validate AI systems across mission-critical business applications",
   bodyclass: "bg-[#fff] text-black mt-[-90px] !px-5 ",
-  // tags:"How it works",
+  // tags:"How It Works",
     bggradient:"bg-[radial-gradient(66.19%_497.1%_at_50%_50%,_#015190_0%,_#015190_50.32%,_#6AC0E6_100%)] rounded-[24px] px-5 py-5 max-w-auto lg:max-w-[1270px] ",
 
   cards: [
@@ -970,9 +970,10 @@ export const Testing_USP_CONFIG = {
 
 
 export const USP_CONFIG = {
-  title: "Why traditional testing fails for AI systems",
+  title: "Why Traditional Testing Fails for AI Systems",
+  titleClassName:"normal-case",
   subtitle: "AI systems require fundamentally different validation approaches than deterministic software",
-  bodyclass: "",
+  bodyclass: "normal-case text-[#015190]",
    bggradient:"bg-[radial-gradient(66.19%_497.1%_at_50%_50%,_#015190_0%,_#015190_50.32%,_#6AC0E6_100%)] rounded-[24px]",
 
   cards: [
