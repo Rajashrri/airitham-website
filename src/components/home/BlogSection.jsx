@@ -39,7 +39,7 @@ const BlogsSection = () => {
           wrapperClassName="max-w-[274px] sm:max-w-full mx-auto"
         />
 
-        <div className="relative pt-12">
+        <div className="relative pt-12 px-4">
           <Swiper
             modules={[Pagination]}
             spaceBetween={24}
