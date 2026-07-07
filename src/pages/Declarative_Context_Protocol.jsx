@@ -97,7 +97,7 @@ const Declarative_Context_Protocol = () => {
 
                             </span>
                             <div className='inline-block [text-wrap-style:pretty]'>
-                                <h3 className='text-[#015190] text-[20px] font-primary font-[600] mb-2'>Security compliant</h3>
+                                <h3 className='text-[#015190] text-[20px] font-primary font-[600] mb-2'>Security Compliant</h3>
                                 <p className='text-[16px] font-primary font-[500] text-[#626161] '>Comprehensive security controls and continuous monitoring</p>
                             </div>
                         </div>
@@ -116,7 +116,7 @@ const Declarative_Context_Protocol = () => {
 
                             </span>
                             <div className='inline-block [text-wrap-style:pretty]'>
-                                <h3 className='text-[#015190] text-[20px] font-primary font-[600] mb-2'>GDPR ready</h3>
+                                <h3 className='text-[#015190] text-[20px] font-primary font-[600] mb-2'>GDPR Ready</h3>
                                 <p className='text-[16px] font-primary font-[500] text-[#626161] '>Privacy-by-ready with automated data protection</p>
                             </div>
                         </div>
@@ -135,7 +135,7 @@ const Declarative_Context_Protocol = () => {
 
                             </span>
                             <div className='inline-block [text-wrap-style:pretty]'>
-                                <h3 className='text-[#015190] text-[20px] font-primary font-[600] mb-2'>Zero trust architecture</h3>
+                                <h3 className='text-[#015190] text-[20px] font-primary font-[600] mb-2'>Zero Trust Architecture</h3>
                                 <p className='text-[16px] font-primary font-[500] text-[#626161] '>Never trust always verify with continuous authentication</p>
                             </div>
                         </div>

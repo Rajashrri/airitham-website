@@ -28,7 +28,7 @@ export default function AttentionHeatmapCard() {
   return (
     <div className="max-w-[488px] w-full bg-white rounded-3xl border border-gray-300 p-5 ">
       <h2 className="text-[20px] leading-none tarcking-[0.04em]  font-primary font-medium text-[#015190]">
-        Attention heatmap
+        Attention Heatmap
       </h2>
 
       {/* Bars */}

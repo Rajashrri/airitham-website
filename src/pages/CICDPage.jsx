@@ -365,7 +365,7 @@ export const CICD_DATA = {
 
 
 export const AUTOMATION_PIPELINE_HEADER = {
-  heading: "CI/CD & DevOps <br class='hidden md:block' /> integration",
+  heading: "CI/CD & DevOps <br class='hidden md:block' /> Integration",
   headclass: false,
   headingclass:"text-[#fff]",
   paragraph:

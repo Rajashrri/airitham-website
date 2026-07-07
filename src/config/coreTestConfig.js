@@ -276,7 +276,7 @@ export  const CORE_TEST_HEADER_CONFIG = {
   heading: "CoreTest",
   headingclass:"text-[#fff]",
   subheading:
-    "Comprehensive intelligent testing for enterprise & non-ai applications",
+    "Comprehensive Intelligent Testing for Enterprise & Non-Ai Applications",
   headclass: "",
   paragraph:
     "A unified automation platform that accelerates quality, <br class='hidden sm:block' /> ensures reliability, and delivers continuous validation across mission-critical systems.",
@@ -312,7 +312,7 @@ export  const CORE_TEST_HEADER_CONFIG = {
     className: " text-[#015190] bg-white ",
     icon: "Play",
     iconSize: "20px",
-    href: "",
+    href: "/demo",
     hoverIcon:false
   },
   {
@@ -321,7 +321,7 @@ export  const CORE_TEST_HEADER_CONFIG = {
         " bg-primary-gradient text-white",
     icon: "CircleArrowOutUpRight",
     iconSize: "20px",
-    href: "",
+    // href: "",
   },
 ]
  }

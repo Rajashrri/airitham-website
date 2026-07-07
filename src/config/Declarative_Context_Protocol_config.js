@@ -1,6 +1,6 @@
 
 export const HEADER = {
-  heading: "Declarative context protocol",
+  heading: "Declarative Context Protocol",
   headclass:true,
   paragraph:
     "Enterprise-grade governance framework for multiagent AI systems. Policy driven <br className='lg:block hidden'/> context flow that ensures safety, auditability, and explainable AI operations",

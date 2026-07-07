@@ -4,7 +4,7 @@ import PricingCard from "../components/card/PricingCard";
 import CtaSection from "@/components/common/CtaSection";
 import FooterSection from "@/components/home/FooterSection";
 const PRICING_HEADER_CONFIG = {
-  heading: "Flexible pricing for <br class=' hidden sm:block' /> Autonomous testing",
+  heading: "Flexible Pricing for <br class=' hidden sm:block' /> Autonomous Testing",
   paragraph:
     "Plans designed to scale from pilot teams to enterprise-wide autonomy.",
     headingclass:"text-[#fff]",
@@ -23,14 +23,14 @@ export const PLANING_CTA_CONFIG = {
       className:
         " text-[#015190] bg-white ",
             icon: "CircleArrowOutUpRight",
-      href: "",
+      href: "/platform-architecture",
     },
     {
       text: "Contact Sales",
       className:
         " bg-primary-gradient text-white",
             icon: "CircleArrowOutUpRight",
-      href: "",
+      href: "/contact-us",
     },
   ],
 };

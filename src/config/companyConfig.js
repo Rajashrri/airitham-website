@@ -1,5 +1,5 @@
 export const Comapny_HEADER = {
-  heading: "Pioneering the future of <br/> autonomous intelligence",
+  heading: "Pioneering The Future of <br/> Autonomous Intelligence",
    headclass:"pt-0 text-white",
   paragraph:
     "Airithm builds enterprise-grade platforms that combine autonomous testing capabilities with context-aware intelligence, empowering organizations to ship faster, smarter, and with unparalleled confidence.",
@@ -230,7 +230,7 @@ export const Drive_CONFIG = {
 };
 
 export const Company_CTA_CONFIG  = {
-  heading: "Build the future with Us",
+  heading: "Build the future with us",
   subheading:"Join Our Mission",
   paragraph:
     "We’re looking for exceptional engineers, designers, and thinkers who want <br> to solve hard problems and redefine what’s possible in software quality.",
@@ -243,13 +243,13 @@ export const Company_CTA_CONFIG  = {
       icon: "Play",
       hoverIcon: false,
       iconSize: "20px",
-      href: "",
+      href: "/demo",
     },
     {
       text: "View Architecture",
       className:
         "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-semibold leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
-      href: "",
+      // href: "/platform-architecture",
       icon: "CircleArrowOutUpRight",
       iconSize: "20px",
     },

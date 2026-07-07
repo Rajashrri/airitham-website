@@ -216,7 +216,7 @@ export const TEST_ANALYTICS_CTA_CONFIG = {
       icon: "Play",
       hoverIcon: false,
       iconSize: "20px",
-      href: "",
+      href: "/contact-us",
     },
     {
       text: "Request AI Testing Demo ",
@@ -1034,7 +1034,7 @@ export const USP_CONFIG = {
 
 
 export const Testing_HEADER = {
-    heading: "Testing AI systems<br/> at enterprise scale",
+    heading: "Testing AI Systems<br/> at Enterprise Scale",
     headclass: " text-white",
     headingclass:"text-[#fff]",
     paragraph:

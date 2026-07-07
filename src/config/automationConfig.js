@@ -136,7 +136,7 @@ export const AUTOMATION_LIFECYCLE_CONFIG  = {
 
 
 export const AUTOMATION_HERO_CONFIG  = {
-  heading: "AI enabled intelligent <br class='hidden md:block' /> test automation platform",
+  heading: "AI Enabled intelligent <br class='hidden md:block' /> test automation platform",
   paragraph:
     "Airithm test studio revolutionizes testing with two powerful capabilities- Neuro test for AI/<br class='hidden md:block' /> LLM and Core test for enterprise applications.",
   backgroundGradient: "linear-gradient(180deg,#00273A 0%,#1E1E1E 55.42%)",

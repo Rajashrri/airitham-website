@@ -1,5 +1,5 @@
 export const Integrations_HEADER = {
-  heading: "Deployment options",
+  heading: "Deployment Options",
 //   subheading:"AIRITHM’s Unified Evaluation Hub for AI Quality",
 headingclass:"text-[#fff]",
   headclass:"pt-[0px]",

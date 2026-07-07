@@ -126,6 +126,7 @@ const PlatformCapabilitiesPage = () => {
                       <Button
                                             icon="CircleArrowOutUpRight"
                                             iconSize="20px" btnText="View Architecture"
+                                            href="/platform-architecture"
                                           
                                             className=" shadow-[0px_30px_12px_0px_#00000005]  bg-white text-[#015190]"
                                         />
@@ -135,6 +136,7 @@ const PlatformCapabilitiesPage = () => {
                                             icon="CircleArrowOutUpRight"
                                             iconSize="20px"
                                              btnText="Request Demo"
+                                             href="/demo"
                                             className="  bg-primary-gradient text-white"
                                         />
 

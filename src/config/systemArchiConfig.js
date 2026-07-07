@@ -1,5 +1,5 @@
 export const SYSTEM_ARCHI_HEADER_CONFIG = {
-  heading: "System architecture overview",
+  heading: "System Architecture Overview",
   headclass: "pt-0 text-white",
   headingclass:"text-[#fff]",
   paragraph:
@@ -233,7 +233,7 @@ export const SYSTEM_ARCHI_CTA_CONFIG = {
       text: "Request Demo",
       className:
         "text-[16px]  min-w-[228px] py-5 px-4 font-primary font-semibold leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white",
-      href: "",
+      href: "/demo",
       icon: "Play",
       iconSize: "20px",
     },

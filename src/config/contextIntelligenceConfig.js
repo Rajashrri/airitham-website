@@ -1,5 +1,5 @@
 export const Context_HERO_CONFIG = {
-  heading: "Context intelligence platform",
+  heading: "Context Intelligence Platform",
   paragraph:
     "Enterprise-grade AI orchestration that understands, adapts, and <br class='hidden sm:block' />evolves with you data context in real-time.",
 
@@ -96,7 +96,7 @@ export const CONTEXT_CTA_CONFIG = {
   text: "Request Demo",
   className:
     "px-6 text-[#015190] bg-white min-w-[228px] leading-[1.2] font-primary font-medium rounded-lg py-5 text-[16px]",
-  href: "",
+  href: "/demo",
   icon: "CircleArrowOutUpRight",
   iconSize: "20px",
 }

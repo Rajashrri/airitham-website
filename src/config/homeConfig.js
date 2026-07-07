@@ -82,8 +82,9 @@ export const HOME_LOGOS = [
 
 export const HOME_CAPABILITY_CONFIG  = {
   title: "Intelligence in action",
+  subtitleClassName:"text-[#fff]",
   description:
-    "Advanced AI Capabilities Driving Innovation, Automation, And Strategic Intelligence Across Your Enterprise Operations",
+    "Transforming business challenges into intelligent, <br/> AI-driven solutions that automate, predict, and accelerate growth.",
   cards: [
     {
       id: 1,
@@ -129,7 +130,7 @@ export const HOME_PLATFORM_CONFIG = {
       icon: "Box",
       iconColor: "#015190",
       badge: "Patent Pending",
-      title: "AI test platform",
+      title: "Test Automation Platform",
       description:
         "Comprehensive AI model testing with automated quality assurance, performance monitoring, and compliance verification",
       image: "/home/ai-test-platform.webp",
@@ -179,7 +180,7 @@ export const HOME_ENTERPRISE_CONFIG = {
     {
       id: 1,
       icon: "Globe",
-      title: "Global multi-region infrastructure",
+      title: "Global Multi-Region Infrastructure",
       description: "Active deployments across geographically distributed data centers with local data residency controls.",
     },
     {
@@ -191,7 +192,7 @@ export const HOME_ENTERPRISE_CONFIG = {
     {
       id: 3,
       icon: "CheckCircle",
-      title: "Auto-scaling & high availability",
+      title: "Auto-Scaling & High Availability",
       description: "Scalable infrastructure with automatic failover & monitoring",
     },
   ],

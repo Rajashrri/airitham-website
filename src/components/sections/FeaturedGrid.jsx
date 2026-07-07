@@ -3,45 +3,45 @@ import { ArrowUpRight } from "lucide-react";
 
 export const features = [
   {
-    title: "Autonomous test generation",
+    title: "Autonomous Test Generation",
     desc: "Automatically creates comprehensive test suites using AI-powered analysis of your application.",
     icon: "Bot",
     iconSize: 24,
   },
   {
-    title: "Intelligent test execution",
+    title: "Intelligent Test Execution",
     desc: "Smart test orchestration with dynamic prioritization and parallel execution capabilities.",
     icon: "Play",
     iconSize: 24,
     col: "lg:col-span-2",
   },
   {
-    title: "Llm-based evaluation",
+    title: "Llm-based Evaluation",
     desc: "Advanced language model evaluation for complex testing scenarios and edge cases.",
     icon: "Brain",
     iconSize: 24,
   },
   {
-    title: "Self-healing tests",
+    title: "Self-healing Tests",
     desc: "Automatically adapt and repair test scripts when application changes are detected.",
     icon: "Shield",
     iconSize: 24,
   },
   {
-    title: "Continuous learning engine",
+    title: "Continuous Learning Engine",
     desc: "Machine learning algorithms that improve testing accuracy and efficiency over time.",
     icon: "GraduationCap",
     iconSize: 24,
   },
   {
-    title: "Test analytics & insights",
+    title: "Test Analytics & Insights",
     desc: "Comprehensive reporting and analytics to optimize your testing strategy and outcomes.",
     icon: "BarChart3",
     iconSize: 24,
     col: "lg:col-span-2",
   },
   {
-    title: "CI/CD & DevOps integration",
+    title: "CI/CD & DevOps Integration",
     desc: "Seamless integration with your existing development and deployment pipelines.",
     icon: "GitBranch",
     iconSize: 24,

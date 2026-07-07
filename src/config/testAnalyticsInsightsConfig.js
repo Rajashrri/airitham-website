@@ -1,5 +1,5 @@
 export const TEST_ANALYTICS_INSIGHTS_HEADER_CONFIG = {
-  heading: "Test analytics & insights",
+  heading: "Test Analytics & Insights",
   headingclass:"text-[#fff]",
   paragraph:
     "Transform your testing data into actionable intelligence with real-time analytics and predictive insights..",

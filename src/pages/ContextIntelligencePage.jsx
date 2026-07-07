@@ -31,7 +31,7 @@ const ContextIntelligencePage = () => {
       <section>
         <div className="max-w-full px-4 sm:px-0 md:max-w-7xl py-[100px]  mx-auto space-y-4 ">
           <h2 className="text-center font-primary font-medium text-[32px] sm:text-[40px] leading-[1.2] tracking-[0.02em] text-[#00273A]">
-           Revolutionary context orchestration
+           Revolutionary Context Orchestration
           </h2>
 
           <p className="font-secondary text-[16px] md:text-[20px] font-normal leading-[1.4] tracking-[0.02em] text-[#1E1E1E] text-center mx-auto">
@@ -49,7 +49,7 @@ const ContextIntelligencePage = () => {
             {/* LEFT */}
             <div className="flex-1 justify-between  flex flex-col gap-6">
               <h3 className="font-primary text-center sm:text-left mx-auto  sm:w-full text-[40px] sm:text-[64px] text-white leading-[1.2] font-medium">
-                Platform <br /> architecture
+                Platform <br /> Architecture
               </h3>
 
               <p className="font-secondary text-center max-w-full sm:text-left text-[16px] sm:text-[18px] font-medium text-[#FFF9F9] leading-[1.4] sm:max-w-[520px]">

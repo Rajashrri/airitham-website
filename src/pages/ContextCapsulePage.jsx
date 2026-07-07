@@ -73,7 +73,7 @@ const ContextCapsulePage = () => {
 
     <div className="lg:p-6 p-3 border rounded-2xl border-[#D5D5D5]">
       <h2 className="text-center text-[#015190] text-[20px] font-medium">
-   Ttl and expiration management
+   TTL and expiration management
       </h2>
     </div>
 

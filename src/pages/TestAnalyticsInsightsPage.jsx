@@ -36,7 +36,7 @@ const TestAnalyticsInsightsPage = () => {
             </div>  
             <div className="lg:col-span-1 col-span-2 flex flex-col justify-center">
                <h2 className="font-primary mb-5 text-[#015190] font-medium md:text-[40px] text-[30px] leading-[1.2] tracking-[0.02em] text-center ">
-                 What it does
+                 What it Does
                 </h2>
                <p className="font-secondary text-center max-w-[800px] mx-auto text-[#626161] font-[medium] lg:text-[18px] text-[14px] leading-[1.4] tracking-[0.04em] ">
                 Our advanced analytics platform transforms raw testing data into

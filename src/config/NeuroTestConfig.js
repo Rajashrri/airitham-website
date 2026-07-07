@@ -1,7 +1,7 @@
 
 export const Neuro_Test_HEADER = {
-  heading: "Neuro test",
-  subheading:"Airithm’s unified evaluation hub for AI quality",
+  heading: "Neuro Test",
+  subheading:"Airithm’s Unified Evaluation Hub for AI Quality",
   headclass:"pt-[0px]",
   headingclass:"text-[#fff]",
   paragraph:
@@ -230,7 +230,7 @@ export const benifits_Config ={
 }
 
  export const AUTOMATION_CTA_CONFIG  = {
-  heading: "Elevate your AI quality with Neuro test",
+  heading: "Elevate your AI quality with Neuro Test",
   paragraph:
     "The gold standard for production-grade AI governance is here.",
   backgroundImage: "/bg/gradient.png",

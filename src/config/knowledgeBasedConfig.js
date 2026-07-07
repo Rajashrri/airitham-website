@@ -190,7 +190,7 @@ export const KNOWLEDGE_CTA_CONFIG = {
       icon: "Play",
       hoverIcon: false,
       iconSize: "20px",
-      href: "",
+      href: "/platform-architecture",
     },
     {
        text: "Request Demo",

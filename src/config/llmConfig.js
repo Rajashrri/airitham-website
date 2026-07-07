@@ -1,5 +1,5 @@
 export const LLM_BASED_EVALUATION_HEADER = {
-  heading: "LLM based evaluation",
+  heading: "LLM Based Evaluation",
   headclass: "pt-[0px]",
   headingclass:"text-[#fff]",
   paragraph:
@@ -120,7 +120,7 @@ export const LLM_BASED_KEY_BENEFITS = [
     iconSize: 40,
     value: "60%",
     percentage: 60,
-    title: "Cost reduction",
+    title: "Cost Reduction",
     description: "Lower operational overhead and training costs",
     iconWrapperClass: "bg-gradient-to-br from-pink-400 to-orange-400",
   },
@@ -130,7 +130,7 @@ export const LLM_BASED_KEY_BENEFITS = [
     iconSize: 40,
     value: "99%",
     percentage: 99,
-    title: "Risk reduction",
+    title: "Risk Reduction",
     description: "Minimized knowledge loss and compliance gaps",
     iconWrapperClass: "bg-gradient-to-br from-pink-400 to-orange-400",
   },

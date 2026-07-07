@@ -4,7 +4,7 @@ import FeatureCard from "@/components/card/FeaturedCard.jsx";
 
 
 const UspServices = ({ data ,spacing = "" }) => {
-  const { title, subtitle, cards, bodyclass, headcolor, linkText, showLink, href , linkicon, bggradient} = data;
+  const { title, subtitle, cards, bodyclass, titleClassName, headcolor, linkText, showLink, href , linkicon, bggradient} = data;
     
 
   return (
@@ -22,7 +22,7 @@ const UspServices = ({ data ,spacing = "" }) => {
               subtitle={subtitle}
               spacing={spacing}
               titleClassName={`${
-                bodyclass ? ` text-[${headcolor}]` : "text-[#015190]"
+                bodyclass ? ` text-[${headcolor}] ${titleClassName} ` : "text-[#015190] "
               } `}
               subtitleClassName={`${
                 bodyclass ? `text-[${headcolor}]` : "text-black"

@@ -452,7 +452,7 @@ export const USP_CONFIG = {
 
 
 export const REFLECTIVE_MEMORY_HEADER = {
-    heading: "Intelligent test <br/> automation",
+    heading: "Intelligent Test <br/> Automation",
     headclass: " text-white",
     headingclass:"text-[#fff]",
     paragraph:

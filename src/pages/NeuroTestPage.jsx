@@ -48,7 +48,7 @@ const NeuroTestPage = () => {
             </section>
             <section className='py-[80px] px-5 max-w-[780px] mx-auto '>
                 <SectionHeading
-                    title="What is neurotest?"
+                    title="What is Neuro Test?"
                     subtitle="The single plugin-based, architecture-aware hub that unifies AI testing into one compliant, governed platform. Neurotest orchestrates multiple evaluation frameworks to provide comprehensive quality assurance for your AI systems."
                    
                     titleClassName="  text-[#015190]"
@@ -73,9 +73,9 @@ const NeuroTestPage = () => {
                 <div className=" rounded-[50px] px-5  md:rounded-[100px]  py-[80px] bg-[#fff] ">
                     <SectionHeading
                     
-                        title="A unified architecture for AI evaluation"
+                        title="A Unified Architecture for AI Evaluation"
                     
-                        titleClassName=" text-[#015190]"
+                        titleClassName=" text-[#015190] normal-case"
                         subtitleClassName=" text-[#626161]"
                     />
                     <div className="max-w-[1190px] mt-[60px] m-auto px-5 py-5 lg:p-5 bg-[radial-gradient(66.19%_497.1%_at_50%_50%,_#015190_0%,_#015190_50.32%,_#6AC0E6_100%)] rounded-[24px] ">

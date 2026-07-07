@@ -1,5 +1,5 @@
 export const Resource_HEADER = {
-  heading: "Resources for airithm",
+  heading: "Resources for Airithm",
    headclass:"pt-0 text-white",
    headingclass:"text-[#fff]",
   paragraph:

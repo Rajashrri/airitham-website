@@ -1,5 +1,5 @@
 export const Pc_HEADER = {
-  heading: "Platform capabilities",
+  heading: "Platform Capabilities",
 //   subheading:"Autonomous intelligence across the testing lifecycle.",
   headclass:"pt-[0px]",
   headingclass:"text-[#fff]",
@@ -11,14 +11,14 @@ export const Pc_HEADER = {
       text: "View Documentation",
       className:
         " text-[#015190] bg-white",
-      href: "",
+      // href: "",
       hoverIcon:false,
         icon: "Eye",
     },
     {
       text: "Explore Architecture",
       className: " text-white bg-primary-gradient ",
-      href: "",
+      href: "/platform-architecture",
         icon: "CircleArrowOutUpRight",
     },
   ],

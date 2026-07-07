@@ -51,7 +51,7 @@ export default function HeroHeader() {
             onMouseEnter={() => swiperRef.current?.autoplay.stop()}
             onMouseLeave={() => swiperRef.current?.autoplay.start()}>
               <h1 class="font-primary text-[40px] mx-auto  sm:w-fit leading-none sm:text-[58px] mb-[18px] tracking-[0.02em]">
-                Enterprise intelligence... Reimagined
+                Enterprise Intelligence... Reimagined
               </h1>
 
               <p class="font-secondary font-medium text-[18px] leading-[1.4] tracking-[2%] text-center  sm:max-w-[750px] mx-auto text-[#C6C6C6]">
@@ -97,7 +97,7 @@ export default function HeroHeader() {
             onMouseEnter={() => swiperRef.current?.autoplay.stop()}
             onMouseLeave={() => swiperRef.current?.autoplay.start()}>
               <h1 class="font-primary text-[40px] mx-auto  sm:w-fit leading-none sm:text-[58px] mb-[18px] tracking-[0.02em]">
-              The intelligence control plane <br /> for the agentic enterprise
+              The Intelligence Control Plane <br /> for the Agentic Enterprise
               </h1>
 
               <p class="font-secondary font-medium text-[18px] leading-[1.4] tracking-[2%] text-center  sm:max-w-[750px] mx-auto text-[#C6C6C6]">
@@ -143,7 +143,7 @@ export default function HeroHeader() {
             onMouseEnter={() => swiperRef.current?.autoplay.stop()}
             onMouseLeave={() => swiperRef.current?.autoplay.start()}>
               <h1 class="font-primary text-[40px] mx-auto  sm:w-fit leading-none sm:text-[58px] mb-[18px] tracking-[0.02em]">
-             Agentic testing for enterprise <br /> and AI applications
+             Agentic Testing for Enterprise <br /> and AI Applications
               </h1>
 
               <p class="font-secondary font-medium text-[18px] leading-[1.4] tracking-[2%] text-center  sm:max-w-[750px] mx-auto text-[#C6C6C6]">
@@ -189,7 +189,7 @@ export default function HeroHeader() {
             onMouseEnter={() => swiperRef.current?.autoplay.stop()}
             onMouseLeave={() => swiperRef.current?.autoplay.start()}>
               <h1 class="font-primary text-[40px] mx-auto  sm:w-fit leading-none sm:text-[58px] mb-[18px] tracking-[0.02em]">
-           Context intelligence <br /> for reliable autonomous AI
+           Context Intelligence <br /> for Reliable Autonomous AI
               </h1>
 
               <p class="font-secondary font-medium text-[18px] leading-[1.4] tracking-[2%] text-center  sm:max-w-[750px] mx-auto text-[#C6C6C6]">
@@ -235,7 +235,7 @@ export default function HeroHeader() {
             onMouseEnter={() => swiperRef.current?.autoplay.stop()}
             onMouseLeave={() => swiperRef.current?.autoplay.start()}>
               <h1 class="font-primary text-[40px] mx-auto  sm:w-fit leading-none sm:text-[58px] mb-[30px] tracking-[0.02em]">
-                Two platforms. <br/> one intelligence loop. 
+                Two Platforms. <br/> One Intelligence Loop. 
               </h1>
 
               <p class="font-secondary font-medium text-[18px] leading-[1.4] tracking-[2%] text-center  sm:max-w-[750px] mx-auto text-[#C6C6C6]">
@@ -281,7 +281,7 @@ export default function HeroHeader() {
             onMouseEnter={() => swiperRef.current?.autoplay.stop()}
             onMouseLeave={() => swiperRef.current?.autoplay.start()}>
               <h1 class="font-primary text-[40px] mx-auto  sm:w-fit leading-none sm:text-[58px] mb-[18px] tracking-[0.02em]">
-               The enterprise intelligence loop
+               The Enterprise Intelligence Loop
               </h1>
 
               <p class="font-secondary font-medium text-[18px] leading-[1.4] tracking-[2%] text-center  sm:max-w-[750px] mx-auto text-[#C6C6C6]">

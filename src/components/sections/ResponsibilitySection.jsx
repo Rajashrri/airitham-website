@@ -35,7 +35,7 @@ const ResponsibilitySection = () => {
       {/* Title */}
       <h2 className="font-primary font-medium text-white sm:text-[40px] text-[32px] leading-[140%] tracking-[0.02em] text-center 
 ">
-       Clear separation of responsibilities
+       Clear Separation of Responsibilities
       </h2>
 
       {/* Cards */}

@@ -1,5 +1,5 @@
     export const Memory_HEADER = {
-    heading: "How autonomous testing works",
+    heading: "How Autonomous Testing Works",
     headclass:"",
     headingclass:"text-[#fff]",
     paragraph:

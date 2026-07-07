@@ -30,9 +30,11 @@ export const REAL_TIME_CONTEXT_HEADER = {
 
 
 export const CORE_MODULE_CONFIG = {
-   title: "What is context <br class='hidden md:block' />broadcasting & federation",
+   title: "What is Context <br class='hidden md:block' />Broadcasting & Federation",
    bodyclass:true,
    headcolor:"#fff",
+   titleClassName:"normal-case",
+   
    
   subtitle:
     "A revolutionary approach to real-time context distribution that enables AI agents, devices, and subsystems to maintain synchronized awareness while preserving organizational autonomy and security",
