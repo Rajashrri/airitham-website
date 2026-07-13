@@ -52,7 +52,7 @@ const MemoryPage = () => {
   <SectionHeading
     title="Memory types"
     subtitle="Three distinct approaches to intelligent context retention."
-    titleClassName="sm:text-[48px]"
+    titleClassName="sm:text-[48px] text-[#015190]"
     subtitleClassName="sm:text-[16px] text-[#626161]"
   />
 
@@ -161,7 +161,7 @@ const MemoryPage = () => {
               <SectionHeading
                 title="Technical Advantages"
                 // subtitle='Three distinct memory types working together seamlessly'
-                titleClassName="sm:text-[48px]"
+                titleClassName="sm:text-[48px] text-[#015190]"
                 // subtitleClassName=" sm:text-[16px] text-[#626161]"
             />
           <div className="max-w-[1128px] m-auto mt-[80px] flex flex-wrap justify-center gap-4 gap-y-10">

@@ -82,7 +82,7 @@ const TestingAISystemsPage = () => {
             </section>
             <UspServices data={USP_CONFIG}/>
             <UspServices  data={Testing_USP_CONFIG}/>
-            <section className="mt-[-100px] relative z-10 md:rounded-[100px] rounded-[50px] bg-[#fff] py-[90px]">
+            <section className="mt-[-100px] relative z-10 md:rounded-[100px] rounded-[26px] bg-[#fff] py-[90px]">
                    <SectionHeading
                         title="How autonomous AI testing works"
                         subtitle='Intelligent, continuous validation that learns and adapts with your AI systems'
@@ -414,9 +414,9 @@ const steps = [
 export const Enterprise_Use_Cases = {
   title: "Enterprise Use Cases",
   subtitle: "Validate AI systems across mission-critical business applications",
-  bodyclass: "bg-[#fff] text-black mt-[-90px] !px-5 ",
-  // tags:"How It Works",
-    bggradient:"bg-[radial-gradient(66.19%_497.1%_at_50%_50%,_#015190_0%,_#015190_50.32%,_#6AC0E6_100%)] rounded-[24px] px-5 py-5 max-w-auto lg:max-w-[1270px] ",
+  bodyclass: "bg-[#fff] mt-[-90px] !px-5 ",
+  titleClassName:"te text-[#015190]",
+  bggradient:"bg-[radial-gradient(66.19%_497.1%_at_50%_50%,_#015190_0%,_#015190_50.32%,_#6AC0E6_100%)] rounded-[24px] px-5 py-5 max-w-auto lg:max-w-[1270px] ",
 
   cards: [
     {
@@ -879,7 +879,7 @@ export const Enterprise_Grade_AI_Governance = {
 export const Testing_USP_CONFIG = {
   title: "Comprehensive AI system validation",
   subtitle: "End-to-end validation from input to impact across every dimension that matters",
-  bodyclass: "bg-[linear-gradient(360deg,#042539_0%,#000000_100%)] text-white !rounded-b-none rounded-t-[100px] !pb-[200px]",
+  bodyclass: "bg-[linear-gradient(360deg,#042539_0%,#000000_100%)] text-white !rounded-b-none lg:rounded-t-[100px]  rounded-t-[24px] !pb-[200px]",
  
 
   cards: [
@@ -971,9 +971,9 @@ export const Testing_USP_CONFIG = {
 
 export const USP_CONFIG = {
   title: "Why Traditional Testing Fails for AI Systems",
-  titleClassName:"normal-case",
+  titleClassName:"normal-case text-[#015190]",
   subtitle: "AI systems require fundamentally different validation approaches than deterministic software",
-  bodyclass: "normal-case text-[#015190]",
+  bodyclass: "normal-case ",
    bggradient:"bg-[radial-gradient(66.19%_497.1%_at_50%_50%,_#015190_0%,_#015190_50.32%,_#6AC0E6_100%)] rounded-[24px]",
 
   cards: [

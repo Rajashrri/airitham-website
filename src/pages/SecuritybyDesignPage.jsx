@@ -61,7 +61,7 @@ const SecuritybyDesignPage = () => {
                   <SectionHeading
                         title="Security principles"
                         subtitle='Our security framework is built on four fundamental pillars that ensure comprehensive <br/>protection across all system layers.'
-                        titleClassName="sm:text-[48px]"
+                        titleClassName="sm:text-[48px] text-[#015190]"
                         subtitleClassName=" sm:text-[16px] text-[#626161]"
                     />
                     <div className="max-w-[1221px] m-auto flex flex-wrap gap-8 mt-16">
@@ -69,7 +69,7 @@ const SecuritybyDesignPage = () => {
                             type.map((item,index, id)=>{
                                     const Icon = LucideIcons?.[item.icon];
                                     return(
-                                           <div id={index} className="w-[590px] rounded-2xl bg-[#fff] shadow-[0px_26px_16px_0px_#0151900D]  gap-[24px] p-5 px-6 flex flex-col items-start">
+                                           <div id={index} className="w-[590px] rounded-2xl bg-[#fff] shadow-[0px_26px_16px_0px_#0151900D] border border-[1px] border-[#D9D9D9]  gap-[24px] p-5 px-6 flex flex-col items-start">
                                       
                                       <div className="">
                                           

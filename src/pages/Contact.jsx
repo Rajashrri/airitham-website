@@ -93,10 +93,10 @@ const Contact = () => {
         linkClassName="text-dark"
         iconClassName="text-dark"
       />
-      <div className="lg:mt-[100px] mt-[70px] rounded-[50px] lg:py-[90px] py-[100px] bg-[linear-gradient(180deg,#042539_0%,#000000_55.42%)]">
+      <div className="lg:mt-[100px] mt-[100px] rounded-[50px] lg:py-[90px] py-[100px] bg-[linear-gradient(180deg,#042539_0%,#000000_55.42%)]">
         <div className="max-w-[913px] m-auto px-5">
           <h1 className="md:text-[64px] text-[40px] font-primary text-white text-center  leading-[1.2] tracking-[2%]  font-[600]">
-            Get in touch. <br />Redefine what's possible
+            Get in touch.<br />Redefine what's possible
           </h1>
           <p className="text-[#999999] text-center font-medium leading-[1.4] tracking-[2%] mt-2 md:text-[18px] text-[16px] ">
             Ready to elevate your business with AI? <br /> Contact us today to
@@ -212,10 +212,10 @@ const Contact = () => {
 export default Contact;
 
 export const feedback_USP_CONFIG = {
-  title:
-    "USA, India offices and global presence through strategic partners.",
-  // subtitle: "Learn from every test run to continuously improve quality and coverage",
+  title: "USA, India offices and global presence through strategic partners.",
   bodyclass: "py-[90px]",
+  // titleClassName="text-[#015190]",
+      titleClassName:"text-[#015190]",
 
   cards: [
     {

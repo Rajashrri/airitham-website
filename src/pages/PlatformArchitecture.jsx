@@ -28,12 +28,12 @@ const PlatformArchitecture = () => {
           <SectionHeading
             title="High-level architecture "
             subtitle="System diagram showing layered architecture with glowing connectors"
-            titleClassName="text-[#00273A]"
+            titleClassName="text-[#015190]"
             subtitleClassName="text-[#626161]"
             
           />
 
-          <div className="high-level-architecture max-w-7xl md:scale-[0.7] mx-auto md:-mt-[160px] md:-mb-[160px]">
+          <div className="high-level-architecture max-w-7xl md:scale-[0.7] mx-auto md:-mt-[160px] mt-[60px] md:-mb-[160px]">
             <PlatformHighLevelArchi />
           </div>
         </div>

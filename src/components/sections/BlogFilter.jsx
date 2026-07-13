@@ -61,7 +61,7 @@ const BlogFilter = () => {
 
         <SectionHeading
           title="Latest from Our blog"
-          titleClassName="sm:text-[48px] text-[#000]"
+          titleClassName="sm:text-[48px] text-[#015190]"
         />
 
         {/* Category Filter */}

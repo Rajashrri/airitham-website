@@ -30,7 +30,7 @@ export default function PlatformHighLevelArchi() {
               </div>
 
               {/* Layer Icon */}
-              <div className="size-12 flex items-center justify-center rounded-md bg-[#DEF4FF]">
+              <div className="size-12 flex items-center justify-center rounded-md lg:bg-[#DEF4FF] md:bg-none ">
                 <img
                   src={layer.layerIcon.src}
                   className={`w-[${layer.layerIcon.size}px] h-[${layer.layerIcon.size}px]`}

@@ -58,7 +58,7 @@ return (
                 linkClassName="text-dark"
                 iconClassName="text-dark"
             />
-            <div className='lg:mt-[100px] mt-[70px] rounded-[50px] lg:py-[150px] py-[100px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)]'>
+            <div className='lg:mt-[100px] mt-[100px] rounded-[50px] lg:py-[150px] py-[100px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)]'>
                 <p className='font-secondary font-semibold text-[18px] text-white text-center mb-[15px]'>Two Platforms. One Vision.</p>
                 <MainBanner data={Comapny_HEADER} />
 
@@ -70,6 +70,7 @@ return (
                     <br class="hidden md:block" />
                     Our dual-platform approach combines the precision of autonomous testing with the insight of context intelligence, creating a unified ecosystem that adapts, learns, and scales with your organization.`}
                     
+                    titleClassName="text-[#015190]"
                     subtitleClassName="text-[#626161] max-w-[950px]"
                     />
 
@@ -185,7 +186,7 @@ return (
                  <SectionHeading
                     title="Built by visionaries"
                     subtitle='A team of industry veterans and innovators dedicated to reshaping software quality'
-                    titleClassName="text-[#000]"
+                    titleClassName="text-[#015190]"
                     subtitleClassName=" text-[#626161] max-w-[100%]"
                 />
               <div className="grid grid-cols-12 justify-center gap-6 mt-[60px] max-w-[1110px] mx-auto">
@@ -233,7 +234,7 @@ return (
                 <SectionHeading
                     title="World-class investors"
                     subtitle='Supported by leading venture capital firms and strategic partners who share our vision'
-                    titleClassName="sm:text-[40px] text-[#000]"
+                    titleClassName="sm:text-[40px] text-[#015190]"
                     subtitleClassName=" sm:text-[16px] text-[#626161] max-w-[100%]"
                 />
                 <div className="grid grid-cols-12 gap-6 mt-[60px] max-w-[880px] lg:px-0 mx-auto">

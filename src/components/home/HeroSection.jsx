@@ -242,7 +242,7 @@ export default function HeroHeader() {
                Independently powerful platforms that can exchange governed intelligence signals to continuously improve trust, quality, and reliability
               </p>
 
-              <div className="flex mx-auto   flex-col-reverse   sm:flex-row justify-center items-stretch gap-4 mt-[30px] max-w-[300px] sm:max-w-full">
+              <div className="flex mx-auto flex-col-reverse sm:flex-row justify-center items-stretch gap-4 mt-[30px] max-w-[100%]">
                 <div className="overflow-hidden   rounded-lg  p-0.5">
                   <Button
                       btnText="Explore the Architecture"

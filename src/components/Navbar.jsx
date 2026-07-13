@@ -918,7 +918,7 @@ export default function Navbar({
                   <Button
                     btnText="Start Now"
                     href="/demo"
-                    className="bg-white text-[#015190] px-6 py-4 rounded-lg"
+                    className="bg-white text-[#015190] px-6 py-4 rounded-lg !w-[100%]"
                     useCommonSvg
                   />
                 </div>

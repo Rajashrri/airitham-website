@@ -67,7 +67,7 @@ const TcmPage = () => {
 
             <SectionHeading 
             title={"ContextVault"}
-            titleClassName="text-[40px] font-600 sm:text-[64px] break-all"
+            titleClassName="text-[40px] font-600 sm:text-[64px] text-[#015190] break-all"
             subtitle={
                 
                   'Advanced memory architecture featuring dual-tier storage with intelligent promotion and query-time <br className="hidden md:block " /> composition for enhanced contextual understanding and retrieval performance.'
@@ -133,12 +133,12 @@ const TcmPage = () => {
       <div className="max-w-6xl mt-[40px]  gap-4 md:flex-row flex-col flex mx-auto ">
   
   <img
-    className="h-full w-[300px] object-cover rounded-3xl"
+    className="h-full lg:w-[300px] w-[100%] object-cover rounded-3xl"
     src="/home/tcm.webp"
     alt=""
   />
 
-  <p className="tracking-[0.04em] leading-[1.6] lg:text-[18px] text-[16px] font-secondary font-medium text-[#1e1e1e]">
+  <p className="tracking-[0.04em] lg:text-left text-center leading-[1.6] lg:text-[18px] text-[16px] font-secondary font-medium text-[#1e1e1e]">
    Temporal context memory (tcm) is a dual-tiered AI memory system integrating short-term/episodic cache and long-term semantic storage. A promotion engine evaluates recency, frequency, and user-pinned indicators to transfer high-value items from fast cache to persistent vector memory. During query resolution, the Composer merges both tiers into a policy-scoped contextual view. The system continuously demotes stale data, ensuring efficient, accurate, and evolving memory performance
   </p>
 

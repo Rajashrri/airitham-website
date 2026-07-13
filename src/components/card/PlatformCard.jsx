@@ -28,7 +28,7 @@ const PlatformCard = ({
 
         {/* Floating Badge (not clipped) */}
         <div
-          className={`w-10 h-10 flex [shadow_0px_4px_4px_0px_#00000040] justify-center items-center rounded-full bg-white shadow absolute -translate-y-1/2 top-0 ${
+          className={`w-10 h-10 flex [shadow_0_15px_33px_0_#0031494a] justify-center items-center rounded-full bg-white shadow absolute -translate-y-1/2 top-0 ${
             isRightAligned ? "right-0" : "left-0"
           }`}
         >

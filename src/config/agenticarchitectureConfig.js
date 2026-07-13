@@ -28,7 +28,7 @@ export const AgenticArchitectureConfig = {
 export const CORE_MODULE_CONFIG = {
    title: "Agent design",
    bodyclass:"bg-[#fff] text-[#00273A] relative z-10 ",
-   headcolor:"#00273A",
+   headcolor:"#015190",
      paracolor:"#000",
   // subtitle:
   //   "",

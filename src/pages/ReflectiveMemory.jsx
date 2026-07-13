@@ -49,7 +49,7 @@ const ReflectiveMemory = () => {
         <SectionHeading
           title="Meta-Prompts & Refinement"
           subtitle='AIRITHM generates sophisticated meta-prompts that guide its own learning process. <br/> These self-directed instructions enable deeper analysis and more nuanced understanding of complex scenarios.'
-          titleClassName="sm:text-[48px]"
+          titleClassName="sm:text-[48px] text-[#015190]"
           subtitleClassName=" sm:text-[16px] text-[#626161]"
         />
 

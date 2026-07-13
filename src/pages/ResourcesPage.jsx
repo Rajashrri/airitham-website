@@ -53,7 +53,7 @@ const ResourcesPage = () => {
                 linkClassName="text-dark"
                 iconClassName="text-dark"
             />
-            <div className='md:mt-[100px] mt-[80px] rounded-[50px] py-[150px] pb-[60px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)]'>
+            <div className='md:mt-[100px] mt-[100px] rounded-[50px] py-[150px] pb-[60px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)]'>
                 <MainBanner data={Resource_HEADER} />
                 <img src="/slider/atom.gif" alt="Atom Animation" className='m-auto mt-[30px]' />
             </div>
@@ -61,7 +61,7 @@ const ResourcesPage = () => {
                   <SectionHeading
                     title="Multiple resources for airithm"
                     // subtitle='Real-world results achieved using autonomous and agentic testing systems.'
-                    titleClassName="sm:text-[48px] text-[#000]"
+                    titleClassName="sm:text-[48px] text-[#015190]"
                     // subtitleClassName=" sm:text-[16px] text-[#626161] max-w-[950px]"
                 />
                 <div className="flex flex-wrap px-5  gap-6 mt-8 justify-center max-w-[1200px] mx-auto">
@@ -131,7 +131,7 @@ const ResourcesPage = () => {
 ">
 
                                     <div className='py-5 pt-2 px-5 background: linear-gradient(180deg, rgba(255, 255, 255, 0.1) 0%, rgba(153, 153, 153, 0.1) 100%);'>
-                                        <h4 className='bg-[#42ABDF40]
+                                        <h4 className='bg-[#42ABDF40] rounded-[4px] overflow-hidden
 
                             w-fit   px-[10px] my-3 h-[48px] w-[48px] flex justify-center  items-center '>
                                             <span className='font-secondary text-[12px]   text-[#FD3A84]'>    
@@ -176,7 +176,7 @@ const ResourcesPage = () => {
                 <SectionHeading
                     title="Customer success stories"
                     subtitle='Real-world results achieved using autonomous and agentic testing systems.'
-                    titleClassName="sm:text-[48px] text-[#000]"
+                    titleClassName="sm:text-[48px] text-[#015190]"
                     subtitleClassName=" sm:text-[16px] text-[#626161] max-w-[950px]"
                 />
                 <div className="grid lg:px-0 px-5 grid-cols-12 md:gap-4 gap-6 max-w-[1224px] mx-auto mt-[50px]">
@@ -357,7 +357,7 @@ const ResourcesPage = () => {
             </section>
 
                 <Webinars/>
-            <section className='py-[90px] bg-[#E9F6FB] rounded-t-[100px]'>
+            <section className='py-[90px] bg-[#E9F6FB] lg:rounded-t-[100px] rounded-t-[24px]'>
                 <SectionHeading
                     title="Frequently asked questions"
                     subtitle='Quick answers to common questions about the platform, technology, and deployment.'
@@ -373,15 +373,15 @@ const ResourcesPage = () => {
                             {/* Header */}
                             <button
                                 onClick={() => toggle(index)}
-                                className="w-full flex justify-between items-center px-6 py-4 text-left"
+                                className="w-full flex justify-between items-start px-6 py-4 text-left"
                             >
-                                <h3 className="font-primary text-[#015190] font-[600] text-[20px]   ">
+                                <h3 className="font-primary w-[95%] text-[#015190] font-[600] text-[20px]   ">
                                     {item.question}
                                 </h3>
 
                                 <ChevronDown
                                     size={24}
-                                    className={`transition-transform duration-300 text-[#015190] ${activeIndex === index ? "rotate-180" : ""
+                                    className={`transition-transform duration-300 mt-[5px] text-[#015190] ${activeIndex === index ? "rotate-180" : ""
                                         }`}
                                 />
                             </button>

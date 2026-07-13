@@ -21,7 +21,7 @@ const SecurityPage = () => {
                 
                
             />
-            <div className='md:mt-[100px] mt-[70px] rounded-t-[50px] py-[150px] pb-[150px] bg-[#000]'>
+            <div className='md:mt-[100px] mt-[100px] rounded-t-[50px] py-[150px] pb-[150px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)]'>
                 {/* <p className='font-secondary font-[600] text-[18px] text-[#fff] text-center mb-[15px]'>Two Platforms. One Vision.</p> */}
                 <MainBanner data={Security_HEADER} />
                 <div className=" mt-[40px]">
@@ -193,7 +193,7 @@ const SecurityPage = () => {
             </div>
 
             <UspServices data={CORE_MODULE_CONFIG} />
-            <section className='bg-[linear-gradient(360deg,#000000_0%,#042539_100%)] mt-[-100px] py-[80px] pt-[220px] pb-[200px] relative z-[9] '>
+            <section className='bg-[linear-gradient(360deg,#000000_0%,#042539_100%)] mt-[-100px] py-[80px] px-6 pt-[220px] pb-[200px] relative z-[9] '>
 
                 <SectionHeading
                     title="Built for regulated industries"
@@ -243,7 +243,7 @@ const SecurityPage = () => {
             <section className="py-20 bg-white relative z-[10] mt-[-100px] rounded-t-[50px] md:rounded-t-[100px] md:px-0 px-5">
         <SectionHeading
           title="Security FAQs"
-          titleClassName="normal-case"
+          titleClassName="normal-case text-[#015190]"
         
         />
         <div className="max-w-[800px] m-auto mt-[60px] " >

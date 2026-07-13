@@ -18,7 +18,7 @@ const AutonomousTestingPage = () => {
                 linkClassName="text-dark"
                 iconClassName="text-dark"
             />
-            <div className='lg:mt-[100px] mt-[70px] rounded-[50px] lg:py-[150px] py-[90px] lg:px-0 px-4 bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)]'>
+            <div className='lg:mt-[100px] mt-[100px] rounded-[50px] lg:py-[150px] py-[90px] lg:px-0 px-4 bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)]'>
                 {/* <p className='font-secondary font-[600] text-[18px] text-[#fff] text-center mb-[15px]'>Two Platforms. One Vision.</p> */}
                 <MainBanner data={at_HEADER} />
                 <div className="max-w-[676px] grid lg:gap-6 gap-12 grid-cols-12 m-auto bg-[#FFFFFF1A] border border-[1px] border-[#FFFFFF1A] py-8 px-5 rounded-[24px] mt-[60px]">
@@ -183,22 +183,22 @@ const AutonomousTestingPage = () => {
                         </h3>
                         <div >
                             <div className="relative mt-[40px] px-[30px] py-[20px] rounded-[16px] w-fit m-auto border border-[1px] border-[#D9D9D9] flex flex-col justify-center items-center
-                                            before:content-[''] before:absolute before:left-[50%] before:bottom-[-50px] before:translate-x-[-50%] before:w-[2px] before:h-[40px] before:bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
+                                            before:content-[''] before:absolute before:left-[50%] before:bottom-[-50px] before:translate-x-[-50%] before:w-[12px] svgarroe before:h-[40px] ">
                                 <span className="absolute top-[-13px] text-[#fff] bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)] rounded-[50%] w-[24px] h-[24px] m-auto" >1</span>
                                 <h3 className="text-[16px] font-secondary text-[#626161] font-[500]">Manual requirement analysis</h3>
                             </div>
                              <div className="relative mt-[70px] px-[30px] py-[20px] rounded-[16px] w-fit m-auto border border-[1px] border-[#D9D9D9] flex flex-col justify-center items-center
-                                            before:content-[''] before:absolute before:left-[50%] before:bottom-[-50px] before:translate-x-[-50%] before:w-[2px] before:h-[40px] before:bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
+                                            before:content-[''] before:absolute before:left-[50%] before:bottom-[-50px] before:translate-x-[-50%] before:w-[12px] svgarroe before:h-[40px] ">
                                 <span className="absolute top-[-13px] text-[#fff] bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)] rounded-[50%] w-[24px] h-[24px] m-auto" >2</span>
                                 <h3 className="text-[16px] font-secondary text-[#626161] font-[500]">Script creation & coding</h3>
                             </div>
                              <div className="relative mt-[70px] px-[30px] py-[20px] rounded-[16px] w-fit m-auto border border-[1px] border-[#D9D9D9] flex flex-col justify-center items-center
-                                            before:content-[''] before:absolute before:left-[50%] before:bottom-[-50px] before:translate-x-[-50%] before:w-[2px] before:h-[40px] before:bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
+                                            before:content-[''] before:absolute before:left-[50%] before:bottom-[-50px] before:translate-x-[-50%] before:w-[12px] svgarroe before:h-[40px] ">
                                 <span className="absolute top-[-13px] text-[#fff] bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)] rounded-[50%] w-[24px] h-[24px] m-auto" >3</span>
                                 <h3 className="text-[16px] font-secondary text-[#626161] font-[500]">Test execution</h3>
                             </div>
                              <div className="relative mt-[70px] px-[30px] py-[20px] rounded-[16px] w-fit m-auto border border-[1px] border-[#D9D9D9] flex flex-col justify-center items-center
-                                            before:content-[''] before:absolute before:left-[50%] before:bottom-[-50px] before:translate-x-[-50%] before:w-[2px] before:h-[40px] before:bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
+                                            before:content-[''] before:absolute before:left-[50%] before:bottom-[-50px] before:translate-x-[-50%] before:w-[12px] svgarroe before:h-[40px] ">
                                 <span className="absolute top-[-13px] text-[#fff] bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)] rounded-[50%] w-[24px] h-[24px] m-auto" >4</span>
                                 <h3 className="text-[16px] font-secondary text-[#626161] font-[500]">Script breakage & debugging</h3>
                             </div>
@@ -211,24 +211,24 @@ const AutonomousTestingPage = () => {
                     </div>
                      <div className="lg:col-span-6  col-span-12 flex flex-col text-center">
                         <h3 className="text-[#015190] text-[24px] font-[600] font-primary">Autonomous testing flow</h3>
-                        <div>
+                        <div className="lg:pb-0 pb-7">
                             <div className="relative mt-[40px] px-[30px] py-[20px] rounded-[16px] w-fit m-auto border border-[1px] border-[#D9D9D9] flex flex-col justify-center items-center
-                                            before:content-[''] before:absolute before:left-[50%] before:bottom-[-50px] before:translate-x-[-50%] before:w-[2px] before:h-[40px] before:bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
+                                            before:content-[''] before:absolute before:left-[50%] before:bottom-[-50px] before:translate-x-[-50%] before:w-[12px] svgarroe before:h-[40px] ">
                                 <span className="absolute top-[-13px] text-[#fff] bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)] rounded-[50%] w-[24px] h-[24px] m-auto" >1</span>
                                 <h3 className="text-[16px] font-secondary text-[#626161] font-[500]">AI system learning</h3>
                             </div>
                              <div className="relative mt-[70px] px-[30px] py-[20px] rounded-[16px] w-fit m-auto border border-[1px] border-[#D9D9D9] flex flex-col justify-center items-center
-                                            before:content-[''] before:absolute before:left-[50%] before:bottom-[-50px] before:translate-x-[-50%] before:w-[2px] before:h-[40px] before:bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
+                                            before:content-[''] before:absolute before:left-[50%] before:bottom-[-50px] before:translate-x-[-50%] before:w-[12px] svgarroe before:h-[40px] ">
                                 <span className="absolute top-[-13px] text-[#fff] bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)] rounded-[50%] w-[24px] h-[24px] m-auto" >2</span>
                                 <h3 className="text-[16px] font-secondary text-[#626161] font-[500]">Automated test generation</h3>
                             </div>
                              <div className="relative mt-[70px] px-[30px] py-[20px] rounded-[16px] w-fit m-auto border border-[1px] border-[#D9D9D9] flex flex-col justify-center items-center
-                                            before:content-[''] before:absolute before:left-[50%] before:bottom-[-50px] before:translate-x-[-50%] before:w-[2px] before:h-[40px] before:bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
+                                            before:content-[''] before:absolute before:left-[50%] before:bottom-[-50px] before:translate-x-[-50%] before:w-[12px] svgarroe before:h-[40px] ">
                                 <span className="absolute top-[-13px] text-[#fff] bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)] rounded-[50%] w-[24px] h-[24px] m-auto" >3</span>
                                 <h3 className="text-[16px] font-secondary text-[#626161] font-[500]">Intelligent agent execution</h3>
                             </div>
                              <div className="relative mt-[70px] px-[30px] py-[20px] rounded-[16px] w-fit m-auto border border-[1px] border-[#D9D9D9] flex flex-col justify-center items-center
-                                            before:content-[''] before:absolute before:left-[50%] before:bottom-[-50px] before:translate-x-[-50%] before:w-[2px] before:h-[40px] before:bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
+                                            before:content-[''] before:absolute before:left-[50%] before:bottom-[-50px] before:translate-x-[-50%] before:w-[12px] svgarroe before:h-[40px] ">
                                 <span className="absolute top-[-13px] text-[#fff] bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)] rounded-[50%] w-[24px] h-[24px] m-auto" >4</span>
                                 <h3 className="text-[16px] font-secondary text-[#626161] font-[500]">LLM-based evaluation</h3>
                             </div>

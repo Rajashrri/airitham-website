@@ -12,7 +12,7 @@ export const HOME_FEATURED_CONFIG = {
       title: "Unified Infrastructure",
       description:
         "Integrated AI services delivering enterprise-grade reliability and performance",
-      cardClassName:"shadow-[0px_0px_40px_2px_#4C9ACE80] bg-[#FFFFFF] w-full sm:w-[340px]"
+      cardClassName:"hover:shadow-[0px_0px_40px_2px_#4C9ACE80] bg-[#FFFFFF] w-full sm:w-[340px]"
     },
     {
       id: 2,
@@ -21,7 +21,7 @@ export const HOME_FEATURED_CONFIG = {
       title: "Enterprise Security",
       description:
         "Advanced security protocols with full compliance and data governance",
-        cardClassName:"shadow-[0px_0px_40px_2px_#4C9ACE80] bg-[#FFFFFF] w-full sm:w-[340px]"
+        cardClassName:"hover:shadow-[0px_0px_40px_2px_#4C9ACE80] bg-[#FFFFFF] w-full sm:w-[340px]"
     },
     {
       id: 3,
@@ -30,7 +30,7 @@ export const HOME_FEATURED_CONFIG = {
       title: "Infinite Scalability",
       description:
         "Dynamic scaling capabilities to meet growing enterprise AI demands",
-        cardClassName:"shadow-[0px_0px_40px_2px_#4C9ACE80] bg-[#FFFFFF] w-full sm:w-[340px]"
+        cardClassName:"hover:shadow-[0px_0px_40px_2px_#4C9ACE80] bg-[#FFFFFF] w-full sm:w-[340px]"
     },
     {
       id: 4,
@@ -39,7 +39,7 @@ export const HOME_FEATURED_CONFIG = {
       title: "High Performance",
       description:
         "Optimized ai workflows that deliver speed and accuracy at scale",
-        cardClassName:"shadow-[0px_0px_40px_2px_#4C9ACE80] bg-[#FFFFFF] w-full sm:w-[340px]"
+        cardClassName:"hover:shadow-[0px_0px_40px_2px_#4C9ACE80] bg-[#FFFFFF] w-full sm:w-[340px]"
     },
     {
       id: 5,
@@ -48,7 +48,7 @@ export const HOME_FEATURED_CONFIG = {
       title: "Real-Time Insights",
       description:
         "Actionable analytics delivered instantly across enterprise systems",
-        cardClassName:"shadow-[0px_0px_40px_2px_#4C9ACE80] bg-[#FFFFFF] w-full sm:w-[340px]"
+        cardClassName:"hover:shadow-[0px_0px_40px_2px_#4C9ACE80] bg-[#FFFFFF] w-full sm:w-[340px]"
     },
     {
       id: 6,
@@ -57,7 +57,7 @@ export const HOME_FEATURED_CONFIG = {
       title: "Cloud-Ready",
       description:
         "Flexible deployment across public, private, or hybrid cloud environments",
-        cardClassName:"shadow-[0px_0px_40px_2px_#4C9ACE80] bg-[#FFFFFF] w-full sm:w-[340px]"
+        cardClassName:"hover:shadow-[0px_0px_40px_2px_#4C9ACE80] bg-[#FFFFFF] w-full sm:w-[340px]"
     },
   ],
 };

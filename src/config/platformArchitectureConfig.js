@@ -114,6 +114,7 @@ export const PLATFORM_ARCHITECTURE_CONFIG = {
   title: "Deep dive into architecture",
   subtitle: "Explore each architectural component in detail",
   bodyclass:"bg-[#E9F6FB] ",
+  titleClassName:"text-[#015190]",
 
 
   cards: [

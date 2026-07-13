@@ -11,7 +11,7 @@ const ContextCapsulePage = () => {
       <Navbar
       
       />
-      <section className="bg-[#E9F6FB] rounded-[100px]">
+      <section className="bg-[#E9F6FB] lg:rounded-[100px] rounded-[24px]">
         <div className="max-w-7xl lg:pt-[100px] pt-[60px] mt-[104px]  mx-auto">
           {/* Hero */}
           <div className="cc-hero-content space-y-4">
@@ -47,7 +47,7 @@ const ContextCapsulePage = () => {
   
   {/* Left box */}
   <div className="bg-[#D9D9D9] w-full lg:max-w-[452px] overflow-hidden min-h-[300px]  rounded-2xl self-stretch ">
-    <img src="/home/modular-context.webp" className="h-full object-cover" alt="" />
+    <img src="/home/modular-context.webp" className="h-full w-full object-cover" alt="" />
   </div>
 
   {/* Right boxes */}

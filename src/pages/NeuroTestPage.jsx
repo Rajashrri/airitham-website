@@ -160,7 +160,7 @@ const NeuroTestPage = () => {
                 </div>
 
             </div>
-            <section className='py-[90px] md:rounded-[100px] rounded-[40px] bg-[#E9F6FB]'>
+            <section className='py-[90px] px-6 md:rounded-[100px] rounded-[40px] bg-[#E9F6FB]'>
                 <SectionHeading
                     title="Key features"
                     // subtitle='The single, plugin-based, architecture-aware hub that unifies AI testing into one compliant,<br/> governed platform. NeuroTest orchestrates multiple evaluation frameworks to provide <br/> comprehensive quality assurance for your AI systems.'

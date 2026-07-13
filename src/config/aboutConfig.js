@@ -10,6 +10,7 @@ export const ABOUT_HEADER_CONFIG = {
 
 export const HOW_THEY_WORK_TOGETHER_CONFIG = {
   title: "How they work together",
+  titleClassName:"text-[#015190]",
 
   center: {
     title: "Shared Intelligence",

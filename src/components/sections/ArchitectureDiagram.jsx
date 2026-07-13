@@ -16,9 +16,9 @@ export default function ArchitectureDiagram() {
       <div className="relative w-full space-y-10   mt-[-100px] py-[100px]  bg-white md:rounded-[100px] rounded-[50px] ">
         
         {/* Title */}
-       <SectionHeading title="End-to-end architecture diagram" titleClassName="text-[#00273A]" />
+       <SectionHeading title="End-to-end architecture diagram" titleClassName="text-[#015190]" />
 
-       <div className="md:scale-[0.8] scale-1 md:my-[-70px]">
+       <div className="transform scale-80 md:my-[-70px]">
          {/* API Gateway */}
         <div className="flex justify-center mb-4 px-5">
           <div className="w-full max-w-[450px] md:py-6 py-4 rounded-3xl bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]

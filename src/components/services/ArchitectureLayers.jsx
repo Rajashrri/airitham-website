@@ -48,7 +48,7 @@ export default function ArchitectureLayers() {
 
 
 
-          <div className="relative border border-[#015190] rounded-3xl space-y-4 px-10 py-12 text-center">
+          <div className="relative border border-[#015190] rounded-3xl space-y-4 lg:px-10 px-5 py-12 text-center">
           <h2 className=" text-[24px] md:text-[40px] text-[#1e1e1e] font-primary font-medium  ">
             {layer2.title}
           </h2>
@@ -64,7 +64,7 @@ export default function ArchitectureLayers() {
                   alt="tick"
                   className="w-5 h-5"
                 />
-               <span className="font-secondary shrink-0 font-normal text-[16px] sm:text-[20px] leading-none tracking-[0.04em]">{point}</span>
+               <span className="font-secondary  shrink-0 font-normal text-[16px] sm:text-[20px] leading-none tracking-[0.04em] lg:w-[100%] w-[90%] ">{point}</span>
               </div>
             ))}
           </div>
@@ -75,7 +75,7 @@ export default function ArchitectureLayers() {
 
 
 
-        <div className="border border-[#015190] rounded-3xl px-10 space-y-4 py-12 text-center">
+        <div className="border border-[#015190] rounded-3xl lg:px-10 px-5 space-y-4 py-12 text-center">
 
           <h2 className=" text-[24px] md:text-[40px] text-[#1e1e1e] font-primary font-medium ">
             {layer3.title}
@@ -94,7 +94,7 @@ export default function ArchitectureLayers() {
                 />
 
 
-                <span className="font-secondary shrink-0 font-normal text-[16px] sm:text-[20px] leading-none tracking-[0.04em]">{point}</span>
+                <span className="font-secondary shrink-0 font-normal text-[16px] sm:text-[20px] leading-none tracking-[0.04em] lg:w-[100%] w-[90%]">{point}</span>
               </div>
             ))}
           </div>

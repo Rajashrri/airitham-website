@@ -7,7 +7,7 @@ const GRADIENT_BG =
   "bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]";
 
 const PlatformSynergy = () => {
-  const { title, center, cards } = HOW_THEY_WORK_TOGETHER_CONFIG;
+  const { title, center, cards,titleClassName } = HOW_THEY_WORK_TOGETHER_CONFIG;
 
   const CenterIcon = LucideIcons?.[center.icon];
 
@@ -15,7 +15,7 @@ const PlatformSynergy = () => {
     <section>
       <div className="bg-white rounded-[50px] px-5 md:px-0 sm:rounded-[100px] py-[100px] z-10 relative mt-[-100px]">
         <div className="max-w-7xl mx-auto">
-          <SectionHeading title={title} />
+          <SectionHeading title={title} titleClassName={titleClassName}  />
 
           <div className="flex flex-col md:flex-row gap-10 items-center justify-center rounded-2xl py-10">
             {/* Section A */}

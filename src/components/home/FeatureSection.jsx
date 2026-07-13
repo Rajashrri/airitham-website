@@ -6,7 +6,7 @@ const FeatureSection = () => {
   const { title, subtitle, cards } = HOME_FEATURED_CONFIG;
 
   return (
-    <section className="core-features-section pb-[90px] pt-[180px] rounded-b-[100px] bg-[#E9F6FB] mt-[-90px]  px-6 sm:px-0  ">
+    <section className="core-features-section pb-[90px] pt-[180px] lg:rounded-b-[100px] rounded-b-[24px] bg-[#E9F6FB] mt-[-90px]  px-6 sm:px-0  ">
 
 
       <SectionHeading

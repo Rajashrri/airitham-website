@@ -4,7 +4,7 @@ import FeatureCard2 from "@/components/card/FeaturedCard2.jsx";
 
 
 const UspServices2 = ({ data ,spacing = "" }) => {
-  const { title, subtitle, cards, bodyclass, headcolor, linkText, showLink, href , linkicon, tags , num, bigheading, bigheadingclass, bggradient} = data;
+  const { title, subtitle, cards, bodyclass, headcolor, linkText,titleClassName, subtitleClassName, showLink, href , linkicon, tags , num, bigheading, bigheadingclass, bggradient} = data;
     
 
   return (
@@ -49,10 +49,10 @@ const UspServices2 = ({ data ,spacing = "" }) => {
               subtitle={subtitle}
               spacing={spacing}
               titleClassName={`${
-                bodyclass ? ` text-[${headcolor}]` : "text-[#015190]"
+                bodyclass ? ` text-[${headcolor}] ${titleClassName}` : "text-[#015190]"
               } `}
               subtitleClassName={`${
-                bodyclass ? `text-[${headcolor}]` : "text-black"
+                bodyclass ? `text-[${headcolor}] ${subtitleClassName}` : "text-black"
               }`}
               wrapperClassName="w-full  mx-auto"
             />

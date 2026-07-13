@@ -10,11 +10,11 @@ import {
 
 export default function ReflectiveMemoryLoop() {
   return (
-    <div className="w-fit  mx-auto flex flex-col justify-center items-center  h-[600px] md:scale-[0.7] md:my-[-70px]">
+    <div className="md:w-fit px-5  md:overflow-visible overflow-scroll   mx-auto flex flex-col justify-center items-center  h-[600px] md:scale-[0.7] md:my-[-70px]">
       <div className="memory-loop-top gap-2 flex items-center ">
         {/* Step 1 */}
-        <div className="flex items-center gap-6">
-          <h2 className="font-primary text-white font-light text-[20px] leading-[120%] tracking-[0.02em] absolute -translate-x-[110%] ">
+        <div className="flex items-center gap-6 relative">
+          <h2 className="font-primary text-white font-light text-[20px] leading-[120%] tracking-[0.02em] absolute md:-translate-x-[110%] -translate-x-[0%] md:-translate-y-[0%] -translate-y-[70px]">
             Memory update
           </h2>
           <div className="size-16 flex items-center justify-center rounded-full bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
@@ -39,7 +39,7 @@ export default function ReflectiveMemoryLoop() {
         <img src="/svg/system-architecture/arrow.png" alt="arrow" />
 
         {/* Step 3 */}
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-6 relative">
           <div className="size-16 flex items-center justify-center rounded-full bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
             <UndoDot size={32} color="#fff" />
           </div>
@@ -49,7 +49,7 @@ export default function ReflectiveMemoryLoop() {
         </div>
       </div>
 
-      <div className="memory-loop-middle  h-[200px] flex items-center justify-between w-full mx-auto px-2 overflow-hidden relative">
+      <div className="memory-loop-middle  h-[200px] flex items-center justify-between w-full mx-auto px-2  relative">
         {/* Left Arrow */}
         <div className="w-[40px] h-full flex  justify-center">
           <img
@@ -65,7 +65,7 @@ export default function ReflectiveMemoryLoop() {
         </h3>
 
         {/* Right Arrow */}
-        <div className="w-[60px] h-full  flex items-center justify-center">
+        <div className="w-[60px] h-full  flex md:items-center sm:items-end md:justify-center justify-end  md:relative absolute md:right-0 -right-[40%] md:w-fit w-full">
           <img
             src="/svg/demo.png"
             alt="arrow"
@@ -76,8 +76,8 @@ export default function ReflectiveMemoryLoop() {
 
       <div className="memory-loop-top gap-2  flex items-center ">
         {/* Step 1 */}
-        <div className="flex items-center gap-6">
-          <h2 className="font-primary text-white font-light text-[20px] leading-[120%] tracking-[0.02em] absolute -translate-x-[110%] ">
+        <div className="flex items-center gap-6 relative">
+          <h2 className="font-primary text-white font-light text-[20px] leading-[120%] tracking-[0.02em] absolute md:-translate-x-[110%] -translate-x-[0%] md:translate-y-[0%] translate-y-[130%] ">
             Better retrieval
           </h2>
           <div className="size-16 flex items-center justify-center rounded-full bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
@@ -102,7 +102,7 @@ export default function ReflectiveMemoryLoop() {
         <img src="/svg/system-architecture/arrow.png" alt="arrow" />
 
         {/* Step 3 */}
-        <div className="flex items-center gap-6">
+        <div className="flex items-center gap-6 relative">
           <div className="size-16 flex items-center  justify-center rounded-full bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)]">
             <FlaskRound size={32} color="#fff" />
           </div>
@@ -120,7 +120,7 @@ export default function ReflectiveMemoryLoop() {
 //     <div className="w-fit  mx-auto flex flex-col justify-center items-center  h-[600px]">
 //      <div className="flex flex-col items-end gap-6 relative">
 //   {/* Top item */}
-//   <div className="flex items-center gap-6">
+//   <div className="flex items-center gap-6 relative">
 //     <h2 className="font-primary text-white font-light text-[20px] leading-[120%] tracking-[0.02em] ">
 //       Memory Update
 //     </h2>
@@ -141,7 +141,7 @@ export default function ReflectiveMemoryLoop() {
 //   </div>
 
 //   {/* Bottom item */}
-//   <div className="flex items-center gap-6">
+//   <div className="flex items-center gap-6 relative">
 //     <h2 className="font-primary text-white font-light text-[20px] leading-[120%] tracking-[0.02em] ">
 //       Better Retrieval
 //     </h2>

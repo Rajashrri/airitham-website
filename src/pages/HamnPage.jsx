@@ -25,7 +25,7 @@ const HamnPage = () => {
         
       />
       <section className="px-5 rounded-[50px] lg:px-0 bg-[#E9F6FB]">
-        <div className="pt-[100px] pb-[100px] lg:mt-[104px] mt-[50px]">
+        <div className="pt-[100px] pb-[100px] lg:mt-[104px] mt-[100px]">
           <div className="flex gap-4 flex-wrap pb-5 justify-center">
             {HAMN_HEADER_CHIPS.map((item, index) => (
               <Chip key={item.id ?? index} {...item} />
@@ -48,7 +48,7 @@ const HamnPage = () => {
           subtitleClassName="sm:text-[16px] text-[#626161]"
         />
 
-        <div className="mt-16 flex p-9 shadow-[0px_0px_8px_4px_#01519080] rounded-[24px]  justify-between gap-0 flex-wrap sm:flex-nowrap">
+        <div className="mt-16 flex p-9 shadow-[0px_0px_8px_4px_#01519080] rounded-[24px]  justify-between gap-y-[20px] flex-wrap sm:flex-nowrap">
           {steps.map((step, index) => {
             const Icon = icons[step.icon.name];
 
@@ -88,7 +88,7 @@ const HamnPage = () => {
         </div>
       </section>
 
-      <section className="md:py-[100px] py-[70px] px-4 sm:px-0 bg-[#E9F6FB] rounded-t-[100px]">
+      <section className="md:py-[100px] py-[70px] px-4 sm:px-0 bg-[#E9F6FB] lg:rounded-t-[100px] rounded-t-[24px]">
         <div className="relative text-center px-4 lg:px-0  z-10">
           <h1 class="font-primary lg:text-[48px] text-[#015190] text-[40px]  font-medium  sm:w-fit leading-none sm:text-[48px] sm:max-w-[1000px] mx-auto tracking-[0.02em]">
             Explainable AI

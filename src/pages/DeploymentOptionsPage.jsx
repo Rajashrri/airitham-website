@@ -52,17 +52,17 @@ const DeploymentOptionsPage = () => {
           <SectionHeading
                             title="Choose your deployment model"
                             subtitle='Select the deployment option that best fits your security requirements, compliance <br/> needs, and operational preferences.'
-                            titleClassName="sm:text-[48px]"
+                            titleClassName="sm:text-[48px] text-[#015190]"
                             subtitleClassName=" sm:text-[16px] text-[#626161]"
                         />
-        <div className="max-w-[1248px] m-auto flex mt-[50px] flex-wrap md:px-0 px-5 gap-6 relative z-100">
+        <div className="max-w-[1248px] m-auto flex mt-[50px] flex-wrap md:px-0 px-5 lg:gap-6 gap-1 relative z-100">
 
               {
                             type.map((item,index, id)=>{
                                     const Icon = LucideIcons?.[item.icon];
                                     return(
                                            <div id={index} className="md:w-[400px] border border-[1px] border-[#bfbfbf]  w-[100%] transition-shadow duration-300
-  hover:shadow-[0px_0px_40px_2px_#01519040] rounded-2xl bg-[#fff]   gap-10 p-5 md:px-6 px-0 flex flex-col items-start">
+  hover:shadow-[0px_0px_40px_2px_#01519040] rounded-2xl bg-[#fff]   gap-10 p-5 md:px-6 flex flex-col items-start">
                                       
                                       <div className="">
                                           
@@ -96,7 +96,7 @@ const DeploymentOptionsPage = () => {
                                             iconSize="20px"
                                             // href=""
                                             btnText="Learn More"
-                                            className="text-[16px]  w-[100%] shadow-[0px_30px_12px_0px_#00000005] mt-0 py-5 px-4 font-primary font-[600] leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white"
+                                            className="text-[16px]  w-[100%] shadow-[0px_30px_12px_0px_#00000005] mt-0 py-5 lg:px-4 px-2 font-primary font-[600] leading-[1.2] tracking-[0%] rounded-lg bg-primary-gradient text-white"
                                         />
                                     </div>
 
@@ -109,7 +109,7 @@ const DeploymentOptionsPage = () => {
         </div>
 
     </section>
-    <section className='py-[90px] md:px-0 px-5 pb-[200px] text-center md:rounded-t-[100px] rounded-t-[50px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)] text-white'>
+    <section className='py-[90px] md:px-0 px-2 pb-[200px] text-center md:rounded-t-[100px] rounded-t-[50px] bg-[linear-gradient(180deg,#00273A_0%,#1E1E1E_55.42%)] text-white'>
                  <SectionHeading
                             title="Deployment comparison"
                             subtitle='Compare security, scalability, control, and maintenance across deployment options'
@@ -122,63 +122,63 @@ const DeploymentOptionsPage = () => {
                  
 
                             {/* Header */}
-                            <div className="grid grid-cols-4 gap-6 py-6 border-b border-white/10">
-                                <div className="bg-[#6AC0E6] bg-clip-text text-transparent font-medium text-[20px] ">Feature</div>
-                                <div className="bg-[#6AC0E6] bg-clip-text text-transparent font-medium  text-[20px] text-center">Cloud</div>
-                                <div className="bg-[#6AC0E6] bg-clip-text text-transparent font-medium text-[20px]  text-center">Hybrid</div>
-                                <div className="bg-[#6AC0E6] bg-clip-text text-transparent font-medium  text-[20px] text-center">On-Premise</div>
+                            <div className="grid grid-cols-4 lg:gap-6 gap-1 py-6 border-b border-white/10">
+                                <div className="bg-[#6AC0E6] bg-clip-text text-transparent font-medium lg:text-[20px] text-[15px] ">Feature</div>
+                                <div className="bg-[#6AC0E6] bg-clip-text text-transparent font-medium  lg:text-[20px] text-[15px] text-center">Cloud</div>
+                                <div className="bg-[#6AC0E6] bg-clip-text text-transparent font-medium lg:text-[20px] text-[15px]  text-center">Hybrid</div>
+                                <div className="bg-[#6AC0E6] bg-clip-text text-transparent font-medium  lg:text-[20px] text-[15px] text-center">On-Premise</div>
                             </div>
 
                             {/* Security Model */}
-                            <div className="grid grid-cols-4 gap-6 py-5 border-b border-white/5">
-                                <div className="text-white/80">Security model</div>
+                            <div className="grid grid-cols-4 lg:gap-6 gap-1 py-5 border-b border-white/5">
+                                <div className="text-white/80 md:text-[18px] text-[12px]">Security model</div>
                                 <div className="text-center">
-                                <span className="inline-block px-4 font-[12px] py-2 text-xs rounded-full bg-[#FFFFFF1F] text-[#6AC0E6] border border-white/10">
+                                <span className="inline-block lg:px-4 px-2 lg:text-[12px] text-[10px] py-2 text-xs rounded-full bg-[#FFFFFF1F] text-[#6AC0E6] border border-white/10">
                                     Shared responsibility
                                 </span>
                                 </div>
                                 <div className="text-center">
-                                <span className="inline-block px-4 font-[12px] py-2 text-xs rounded-full bg-[#FFFFFF1F] text-[#6AC0E6] border border-white/10">
+                                <span className="inline-block lg:px-4 px-2 lg:text-[12px] text-[10px] py-2 text-xs rounded-full bg-[#FFFFFF1F] text-[#6AC0E6] border border-white/10">
                                     Customer controlled
                                 </span>
                                 </div>
                                 <div className="text-center">
-                                <span className="inline-block px-4 font-[12px] py-2 text-xs rounded-full bg-[#FFFFFF1F] text-[#6AC0E6] border border-white/10">
+                                <span className="inline-block lg:px-4 px-2 lg:text-[12px] text-[10px] py-2 text-xs rounded-full bg-[#FFFFFF1F] text-[#6AC0E6] border border-white/10">
                                     Full control
                                 </span>
                                 </div>
                             </div>
 
                             {/* Maintenance Effort */}
-                            <div className="grid grid-cols-4 gap-6 py-5 border-b border-white/5">
-                                <div className="text-white/80">Maintenance effort</div>
-                                <div className="text-center text-[#6AC0E6] text-lg"><LucideIcons.Check className='m-auto'/></div>
-                                <div className="text-center text-[#6AC0E6] text-lg"><LucideIcons.Check className='m-auto'/></div>
-                                <div className="text-center text-[#6AC0E6] text-lg"><LucideIcons.Minus className='m-auto'/></div>
+                            <div className="grid grid-cols-4 lg:gap-6 gap-1 py-5 border-b border-white/5">
+                                <div className="text-white/80 md:text-[18px] text-[12px]">Maintenance effort</div>
+                                <div className="text-center text-[#6AC0E6] text-lg "><LucideIcons.Check className='m-auto'/></div>
+                                <div className="text-center text-[#6AC0E6] text-lg "><LucideIcons.Check className='m-auto'/></div>
+                                <div className="text-center text-[#6AC0E6] text-lg "><LucideIcons.Minus className='m-auto'/></div>
                             </div>
 
                             {/* Scalability */}
-                            <div className="grid grid-cols-4 gap-6 py-5 border-b border-white/5">
-                                <div className="text-white/80">Scalability</div>
-                                <div className="text-center text-[#6AC0E6] text-lg"><LucideIcons.Minus className='m-auto'/></div>
-                                <div className="text-center text-[#6AC0E6] text-lg"><LucideIcons.Check className='m-auto'/></div>
-                                <div className="text-center text-[#6AC0E6] text-lg"><LucideIcons.Check className='m-auto'/></div>
+                            <div className="grid grid-cols-4 lg:gap-6 gap-1 py-5 border-b border-white/5">
+                                <div className="text-white/80 md:text-[18px] text-[12px]">Scalability</div>
+                                <div className="text-center text-[#6AC0E6] text-lg "><LucideIcons.Minus className='m-auto'/></div>
+                                <div className="text-center text-[#6AC0E6] text-lg "><LucideIcons.Check className='m-auto'/></div>
+                                <div className="text-center text-[#6AC0E6] text-lg "><LucideIcons.Check className='m-auto'/></div>
                             </div>
 
                             {/* Maintenance */}
-                            <div className="grid grid-cols-4 gap-6 py-5 border-b border-white/5">
-                                <div className="text-white/80">Maintenance</div>
-                                <div className="text-center text-white/80">Fully Managed</div>
-                                <div className="text-center text-white/80">Shared</div>
-                                <div className="text-center text-white/80">Customer Managed</div>
+                            <div className="grid grid-cols-4 lg:gap-6 gap-1 py-5 border-b border-white/5">
+                                <div className="text-white/80 md:text-[18px] text-[12px]">Maintenance</div>
+                                <div className="text-center text-white/80 md:text-[18px] text-[12px]">Fully Managed</div>
+                                <div className="text-center text-white/80 md:text-[18px] text-[12px]">Shared</div>
+                                <div className="text-center text-white/80 md:text-[18px] text-[12px]">Customer Managed</div>
                             </div>
 
                             {/* Compliance */}
-                            <div className="grid grid-cols-4 gap-6 py-5">
-                                <div className="text-white/80">Compliance</div>
-                                <div className="text-center text-white/80">SOC 2, GDPR</div>
-                                <div className="text-center text-white/80">Custom + Standard</div>
-                                <div className="text-center text-white/80">Full Custom</div>
+                            <div className="grid grid-cols-4 lg:gap-6 gap-1 py-5">
+                                <div className="text-white/80 md:text-[18px] text-[12px]">Compliance</div>
+                                <div className="text-center text-white/80 md:text-[18px] text-[12px]">SOC 2, GDPR</div>
+                                <div className="text-center text-white/80 md:text-[18px] text-[12px]">Custom + Standard</div>
+                                <div className="text-center text-white/80 md:text-[18px] text-[12px]">Full Custom</div>
                             </div>
 
                           

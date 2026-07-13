@@ -38,12 +38,12 @@ const Declarative_Context_Protocol = () => {
             iconClassName="text-dark"
           />
           <MainBanner  data={HEADER} />
-          <div className="flex mt-1 lg:px-0 pt-2 flex-wrap  gap-6 lg:pt-2 justify-center max-w-[1200px] mx-auto mb-[50px]">
+          <div className="flex mt-1 lg:px-0 pt-2 px-6 flex-wrap  gap-6 lg:pt-2 justify-center max-w-[1200px] mx-auto mb-[50px]">
             {cards.map((card) => (
                 <FeatureCard key={card.id} {...card} />
             ))}
             </div>
-               <div className="flex justify-center gap-4 mb-[90px]">
+               <div className="flex justify-center lg:flex-row  flex-col gap-4 mb-[90px]  px-6">
                  <div className="bg-[#015190] overflow-hidden   rounded-lg  p-0.5">
                    <Button
                         icon="Eye"
@@ -115,7 +115,7 @@ const Declarative_Context_Protocol = () => {
                             </svg>
 
                             </span>
-                            <div className='inline-block [text-wrap-style:pretty]'>
+                            <div className='inline-block [text-wrap-style:pretty] lg:w-[100%] w-[70%]'>
                                 <h3 className='text-[#015190] text-[20px] font-primary font-[600] mb-2'>GDPR Ready</h3>
                                 <p className='text-[16px] font-primary font-[500] text-[#626161] '>Privacy-by-ready with automated data protection</p>
                             </div>

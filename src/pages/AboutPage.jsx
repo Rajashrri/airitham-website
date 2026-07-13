@@ -37,7 +37,7 @@ const AboutPage = () => {
           title={DUAL_PLATFORM_CONFIG?.title ?? ""}
           subtitle={DUAL_PLATFORM_CONFIG?.subtitle ?? ""}
           subtitleClassName="text-[#626161]"
-          titleClassName="text-[#00273A]"
+          titleClassName="text-[#015190]"
           wrapperClassName="space-y-2.5"
         />
 

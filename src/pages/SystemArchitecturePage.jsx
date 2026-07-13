@@ -35,16 +35,16 @@ const SystemArchitecturePage = () => {
             className="bg-[linear-gradient(360deg,#042539_0%,#000000_100%)] rounded-t-[100px]
 "
           >
-            <div className="system-architecture-top">
+            <div className="system-architecture-top px-6">
               <SectionHeading
                 titleClassName="text-white py-[86px]"
                 title="Context flow diagram"
               />
 
-              <img src="/svg/control-flow.png" className="max-w-[830px] m-auto" alt="" />
+              <img src="/svg/control-flow.png" className="lg:max-w-[830px] max-w-[100%] object-contain w-[100%] m-auto" alt="" />
             </div>
 
-            <div className="system-architecture-bottom pt-60 pb-[244px]">
+            <div className="system-architecture-bottom pt-[70px] pb-[244px]">
               <h2 class="font-primary mb-[52px] font-medium md:text-[40px] text-[32px] leading-[100%] tracking-[0.02em] text-center text-white">
                 Core Modules
               </h2>
@@ -61,13 +61,13 @@ const SystemArchitecturePage = () => {
       <ArchitectureDiagram />
 
       <section>
-        <div className=" section-overlap space-y-10 mt-[-100px] bg-[linear-gradient(360deg,#042539_0%,#000000_100%)]">
+        <div className=" section-overlap space-y-10 px-5 mt-[-100px] bg-[linear-gradient(360deg,#042539_0%,#000000_100%)]">
           <SectionHeading
             title={"Context & memory lifecycle"}
             titleClassName="text-white"
           />
 
-          <img src="/svg/control-flow.png" className="max-w-[830px] m-auto" alt="" />
+          <img src="/svg/control-flow.png" className="lg:max-w-[830px] w-[100%] m-auto" alt="" />
         </div>
       </section>
 
@@ -75,12 +75,12 @@ const SystemArchitecturePage = () => {
         <div className="md:rounded-[100px] px-5 rounded-[50px] py-[100px] space-y-10  bg-white relative z-4 mt-[-100px]  w-full  ">
           <SectionHeading
             title="Multi-agent coordination diagram"
-            titleClassName="text-[#00273A]"
+            titleClassName="text-[#015190]"
           />
 
           <div className="image-wrapper  max-w-[600px] shadow-[0px_0px_8px_4px_#01519080] rounded-[24px] overflow-hidden p-6  mx-auto">
             <img
-              className="max-w-[410px] m-auto object-contain "
+              className="md:max-w-[410px] w-[100%] m-auto object-contain "
               src="/topics/multi-agent-diagram.png"
               alt=""
             />
@@ -98,7 +98,7 @@ const SystemArchitecturePage = () => {
 
             <div className="img-wrapper px-5 mx-auto max-w-[640px]">
               <img
-                className="max-w-[420px] m-auto"
+                className="md:max-w-[420px] w-[100%] m-auto"
                 src="/topics/goverance-layer-diagram.png"
                 alt=""
               />
@@ -131,19 +131,20 @@ const SystemArchitecturePage = () => {
           <SectionHeading
 
           title="Deployment architecture"
+          titleClassName="text-[#015190]"
           
           />
 
 
           <div className="wrapper-img  mb-[90px] mt-[30px] max-w-[500px] mx-auto shadow-[0px_0px_8px_4px_#01519080] rounded-[24px]">
-            <img src="/topics/deployment-diagram.png" className="max-w-[400px] m-auto" alt="" />
+            <img src="/topics/deployment-diagram.png" className="md:max-w-[400px] m-auto" alt="" />
           </div>
         </div>
       </section>
 
 
          <section>
-        <div className="bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] rounded-t-[100px] relative z-3 pt-[100px] pb-[200px]">
+        <div className="bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] md:rounded-t-[100px] rounded-t-[26px] relative z-3 pt-[100px] pb-[200px]">
           <SectionHeading
             title={"Core concept"}
             titleClassName="text-white"

@@ -29,7 +29,7 @@ const AgenticArchitecturePage = () => {
         <div className='max-w-[1232px] m-auto'>
             <SectionHeading
           title="Related topics"
-          titleClassName="sm:text-[48px]"
+          titleClassName="sm:text-[48px] text-[#015190]"
         />
         <div className="grid px-5 grid-cols-12 gap-6 mt-[40px]">
           <div className="md:col-span-4 col-span-12 rounded-[8px] md:p-6 p-3 shadow-[0px_3px_6px_0px_#0151901A]">
