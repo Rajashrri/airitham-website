@@ -36,7 +36,7 @@ const FeatureCard = ({
    <div
   className={`core-feature-card transition-shadow duration-300
   hover:shadow-[0px_0px_40px_2px_#01519040]
-  shrink-0  !h-[-webkit-fill-available]
+  shrink-0  h-full
    rounded-lg sm:rounded-3xl border border-[#D9D9D9] space-y-5  p-4 flex flex-col
    ${cardClassName ? cardClassName : "w-full sm:w-[340px] "} `}
 >
