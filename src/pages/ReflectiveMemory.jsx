@@ -31,9 +31,9 @@ const ReflectiveMemory = () => {
       </section>
       <UspServices data={CORE_MODULE_CONFIG} />
       <section className='py-[80px] lg:px-0 px-5'>
-        <h2 className='font-primary lg:text-[48px] text-[32px] font-[600] text-center'>Cognitive Feedback Loop</h2>
+        <h2 className='font-primary lg:text-[48px] text-[32px] font-[600] text-center text-[#015190]'>Cognitive Feedback Loop</h2>
         <div className='flex md:gap-[40px] justify-center flex-wrap' >
-          <div className="img  flex max-w-[700px] shadow-[0px_0px_8px_4px_#01519080] rounded-[24px] px-12 py-12 justify-center mt-12">
+          <div className="img  flex max-w-[700px] shadow-[0px_0px_8px_4px_#01519080] rounded-[24px] bg-[#fff] px-12 py-12 justify-center mt-12">
             <img src='/home/loop.png' alt="" className='md:scale-[0.8]' />
           </div>
           <div className="flex mt-5 flex-wrap  gap-6 pt-10 justify-center flex-col ">
@@ -113,7 +113,7 @@ const ReflectiveMemory = () => {
 
             </div>
             <div className="imgbox h-[270px] overflow-hidden lg:w-[434px] w-[100%] bg-[#D9D9D9] rounded-[24px] m-auto">
-              <img src="./home/meta-prompts.webp" alt="" />
+              <img src="./home/meta-prompts.webp" alt="" className='h-full object-cover item-center' />
             </div>
           </div>
         </div>
@@ -124,7 +124,7 @@ const ReflectiveMemory = () => {
         <SectionHeading
           title="Transparency & Governance"
           //  subtitle='AIRITHM generates sophisticated meta-prompts that guide its own learning process. <br/> These self-directed instructions enable deeper analysis and more nuanced understanding of complex scenarios.'
-          titleClassName="sm:text-[48px]"
+          titleClassName="sm:text-[48px] text-[#015190]"
           subtitleClassName=" sm:text-[16px] text-[#626161]"
         />
 

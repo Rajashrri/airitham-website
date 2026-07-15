@@ -82,7 +82,7 @@ const TestingAISystemsPage = () => {
             </section>
             <UspServices data={USP_CONFIG}/>
             <UspServices  data={Testing_USP_CONFIG}/>
-            <section className="mt-[-100px] relative z-10 md:rounded-[100px] rounded-[26px] bg-[#fff] py-[90px]">
+            <section className="mt-[-100px] relative z-10 lg:rounded-[100px] rounded-[26px] bg-[#fff] py-[90px]">
                    <SectionHeading
                         title="How autonomous AI testing works"
                         subtitle='Intelligent, continuous validation that learns and adapts with your AI systems'
@@ -95,7 +95,7 @@ const TestingAISystemsPage = () => {
              <UspServices2  data={Evaluation_Dimensions_CONFIG}/>
              <UspServices2  data={Enterprise_Use_Cases}/>
              <UspServices  data={Enterprise_Grade_AI_Governance}/>
-             <section className="py-[90px] px-5 bg-[#fff] relative z-11 mt-[-100px] rounded-[100px]">
+             <section className="py-[90px] px-5 bg-[#fff] relative z-11 mt-[-100px] md:rounded-[100px] rounded-[26px]">
                   <SectionHeading
                         title="How Autonomous AI Testing Works"
                         subtitle='Intelligent, continuous validation that learns and adapts with your AI systems'
@@ -603,7 +603,7 @@ export const Enterprise_Use_Cases = {
 export const Evaluation_Dimensions_CONFIG = {
   title: "Evaluation dimensions",
   subtitle: "Multi-dimensional scoring that captures every aspect of AI quality",
-   bodyclass: "bg-[linear-gradient(360deg,#042539_0%,#000000_100%)] text-white !rounded-b-none md:rounded-t-[100px] rounded-t-[50px] !pb-[200px]",
+   bodyclass: "bg-[linear-gradient(360deg,#042539_0%,#000000_100%)] text-white !rounded-b-none md:rounded-t-[100px] rounded-t-[26px] !pb-[200px]",
 
 
   cards: [
@@ -879,7 +879,7 @@ export const Enterprise_Grade_AI_Governance = {
 export const Testing_USP_CONFIG = {
   title: "Comprehensive AI system validation",
   subtitle: "End-to-end validation from input to impact across every dimension that matters",
-  bodyclass: "bg-[linear-gradient(360deg,#042539_0%,#000000_100%)] text-white !rounded-b-none lg:rounded-t-[100px]  rounded-t-[24px] !pb-[200px]",
+  bodyclass: "bg-[linear-gradient(360deg,#042539_0%,#000000_100%)] text-white !rounded-b-none lg:rounded-t-[100px]  rounded-t-[26px] !pb-[200px]",
  
 
   cards: [

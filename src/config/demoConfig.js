@@ -25,6 +25,7 @@ export const DEMO_HEADER_CONFIG = {
 
 export const PLATFORM_FEATURES_CONFIG = {
   title: "What you'll see in the demo",
+ titleClassName:"text-[#015190]",
   subtitle:
     "Designed for leaders driving quality transformation at enterprise scale",
 

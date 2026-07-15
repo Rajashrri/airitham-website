@@ -69,7 +69,7 @@ const CICDPage = () => {
                 AUTOMATION_PIPELINE_FEATURES_CONFIG?.subtitle || "Not Provided"
               }
               subtitleClassName="font-secondary max-w-[760px] text-[#626161]"
-              titleClassName="font-primary text-[#00273A] "
+              titleClassName="font-primary text-[#015190] "
               title={
                 AUTOMATION_PIPELINE_FEATURES_CONFIG?.title || "Not Provided"
               }

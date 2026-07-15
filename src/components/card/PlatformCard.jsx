@@ -24,7 +24,7 @@ const PlatformCard = ({
     >
 
     
-      <div className="w-full lg:w-1/2 h-full   relative shadow-[0px_60px_60px_0px_#0031494A] bg-white rounded-[40px]">
+      <div className="w-full lg:w-1/2 h-full   relative shadow-[0px_20px_60px_0px_#0031494A] bg-white rounded-[40px]">
 
         {/* Floating Badge (not clipped) */}
         <div

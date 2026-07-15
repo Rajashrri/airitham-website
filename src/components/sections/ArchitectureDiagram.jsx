@@ -13,7 +13,7 @@ export default function ArchitectureDiagram() {
 
   return (
    
-      <div className="relative w-full space-y-10   mt-[-100px] py-[100px]  bg-white md:rounded-[100px] rounded-[50px] ">
+      <div className="relative w-full space-y-10   mt-[-100px] py-[100px]  bg-white md:rounded-[100px] rounded-[26px] ">
         
         {/* Title */}
        <SectionHeading title="End-to-end architecture diagram" titleClassName="text-[#015190]" />

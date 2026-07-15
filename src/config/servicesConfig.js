@@ -114,6 +114,7 @@ export const TIMELINE_SECTION_CONFIG = {
 }
 export const KEY_FEATURES_CONFIG = {
      title: "Key features",
+     titleClassName:"text-[#015190]",
   subtitle:
     "Advanced capabilities for enterprise-grade context intelligence",
     bodyclass:"!lg:rounded-t-[100px] bg-[#E9F6FB] rounded-t-[50px] !rounded-b-[0px] border border-[1px] border-[#D9D9D9] mt-[90px]",

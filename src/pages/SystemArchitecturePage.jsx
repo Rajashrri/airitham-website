@@ -112,9 +112,9 @@ const SystemArchitecturePage = () => {
       </section>
 
       <section>
-        <div className="py-[100px] border border-b-[#D9D9D9]  bg-white mt-[-100px] md:rounded-[100px] rounded-[50px]">
+        <div className="py-[100px] border border-b-[#D9D9D9]  bg-white mt-[-100px] md:rounded-[100px] rounded-[26px]">
           <SectionHeading
-            titleClassName="text-[#00273A] normal-case"
+            titleClassName="text-[#015190] normal-case"
             title="Integrate in minutes. <br /> Scale to billions of context events."
           />
 

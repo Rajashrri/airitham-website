@@ -45,7 +45,7 @@ const AutonomousTestingPage = () => {
             </div>
             <div className="py-[80px] pb-[150px] lg:px-0 px-6">
                 <SectionHeading
-                    titleClassName=" text-[#00273A] text-center"
+                    titleClassName=" text-[#015190] text-center"
                     title="Quick comparison summary"
                     subtitle="Executive overview for decision makers"
                     
@@ -170,7 +170,7 @@ const AutonomousTestingPage = () => {
             </div>
             <div className="lg:rounded-[100px] rounded-[50px] px-5 mt-[-100px] py-[80px] bg-[#fff]">
                 <SectionHeading
-                    titleClassName="font-primary font-medium text-[32px] sm:text-[40px] leading-[1.2] tracking-[0.02em] text-[#00273A] text-center"
+                    titleClassName="font-primary font-medium text-[32px] sm:text-[40px] leading-[1.2] tracking-[0.02em] text-[#015190] text-center"
                     title="How each approach works"
                     subtitle="Process visualization and workflow comparison"
                     
@@ -302,7 +302,7 @@ const AutonomousTestingPage = () => {
                             <SectionHeading
                                 title="Where autonomous testing excels"
                                 subtitle='Key advantages of the autonomous approach'
-                                titleClassName=" text-[#00273A]"
+                                titleClassName=" text-[#015190]"
                                 subtitleClassName="  text-[#626161]"
                             />
             

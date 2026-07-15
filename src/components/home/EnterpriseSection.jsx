@@ -10,7 +10,7 @@ const EnterpriseSection = () => {
   return (
     <>
     <section className="">
-      <div className="bg-white rounded-[50px] px-4 md:px-0 sm:rounded-[100px] py-[100px]  z-10 relative   mt-[-100px]">
+      <div className="bg-white md:rounded-[50px] rounded-[26px] px-4 md:px-0 sm:rounded-[100px] py-[100px]  z-10 relative   mt-[-100px]">
         <div className="max-w-12xl mx-auto ">
           <SectionHeading
             title={title}

@@ -92,7 +92,7 @@ export const AUTOMATION_Testing_CONFIG  = {
 export const AUTOMATION_LIFECYCLE_CONFIG  = {
   title: "Automation <br class=' sm:hidden' /> lifecycle stages",
   subtitle:
-    "Complete testing workflow from learning to <br class=' sm:hidden' /> evaluation with intelligent automation",
+    "Complete testing workflow from learning to evaluation with intelligent automation",
 
   cards: [
     {

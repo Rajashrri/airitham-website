@@ -12,7 +12,7 @@ const TestimonialCarousel = () => {
 
   return (
     <section>
-      <div className="rounded-[50px] sm:rounded-[100px]  section-wrapper  bg-white relative z-10 mt-[-100px]  w-full">
+      <div className="rounded-[26px] sm:rounded-[100px]  section-wrapper  bg-white relative z-10 mt-[-100px]  w-full">
         <SectionHeading
           titleClassName="pt-9 text-[#015190]   "
           title="What Our Clients Say"

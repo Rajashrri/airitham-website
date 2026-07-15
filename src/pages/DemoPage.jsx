@@ -124,7 +124,7 @@ const DemoPage = () => {
     Experience the full autonomous testing lifecycle from agent generation to enterprise insights.
  "
                 subtitleClassName=" font-secondary text-[#626161]"
-                titleClassName="font-primary   text-[#00273A] captialize"
+                titleClassName="font-primary   text-[#015190] captialize"
                 title={PLATFORM_FEATURES_CONFIG?.title || "Not Provided"}
                 wrapperClassName=""
                 spacing="space-y-4"
@@ -154,7 +154,7 @@ const DemoPage = () => {
     Experience the full autonomous testing lifecycle from agent generation to enterprise insights.
  "
                 subtitleClassName=" font-secondary text-[#626161]"
-                titleClassName="font-primary   text-[#00273A] captialize"
+                titleClassName="font-primary   text-[#015190] captialize"
                 title={PLATFORM_FEATURES_CONFIG?.title || "Not Provided"}
                 wrapperClassName=""
                 spacing="space-y-4"

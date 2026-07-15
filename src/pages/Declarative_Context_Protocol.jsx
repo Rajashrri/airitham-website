@@ -71,7 +71,7 @@ const Declarative_Context_Protocol = () => {
 
             <section className="py-[100px]">
                    <div className="relative text-center px-4 lg:px-0  z-10">
-              <h1 class="font-primary font-medium leading-[1.2] tracking-[2%] text-[32px] sm:text-[40px]   sm:max-w-[1000px] mx-auto tracking-[0.02em]">
+              <h1 class="font-primary text-[#015190] font-medium  leading-[1.2] tracking-[2%] text-[32px] sm:text-[40px]   sm:max-w-[1000px] mx-auto tracking-[0.02em]">
                 Enterprise Governance
               </h1>
 
