@@ -30,7 +30,7 @@ const ContextIntelligencePage = () => {
 
       <section>
         <div className="max-w-full px-4 sm:px-0 md:max-w-7xl py-[100px]  mx-auto space-y-4 ">
-          <h2 className="text-center font-primary font-medium text-[32px] sm:text-[40px] leading-[1.2] tracking-[0.02em] text-[#00273A]">
+          <h2 className="text-center font-primary font-medium text-[32px] sm:text-[40px] leading-[1.2] tracking-[0.02em] text-[#015190]">
            Revolutionary Context Orchestration
           </h2>
 

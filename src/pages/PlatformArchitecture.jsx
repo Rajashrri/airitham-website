@@ -48,7 +48,7 @@ const PlatformArchitecture = () => {
       <section className="">
         <div className="w-full px-5  py-[100px] mt-[-100px] bg-white lg:rounded-t-[100px] rounded-t-[50px]">
           <SectionHeading
-           
+           titleClassName="text-[#015190]"
             title="Technical specifications"
             subtitle="Enterprise-grade infrastructure and performance metrics"
           />
