@@ -35,7 +35,7 @@ const CtaSection = ({
           )}
 
           {buttons.length > 0 && (
-            <div className="flex max-w-[316px] sm:max-w-full w-full flex-col-reverse sm:flex-row justify-center items-stretch gap-6 btn-group">
+            <div className="flex max-w-[316px] sm:max-w-full w-full flex-col sm:flex-row justify-center items-stretch gap-6 btn-group">
               {buttons.map((btn, index) => {
                 const Wrapper = btn.wrapperClass ? "div" : React.Fragment;
 
