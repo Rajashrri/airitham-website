@@ -252,7 +252,7 @@ document.title = `${blog?.meta_title || blog?.name } | Blog Details | AIRITHM`;
               </figure>
               <div dangerouslySetInnerHTML={{ __html: blog?.details }} />
             </div>
-            <h1 className="mb-[40px] mt-[82px] text-[#015190] text-[40px] font-primary font-[600]">
+            <h1 className=" mt-[82px] text-[#015190] text-[40px] font-primary font-[600] mb-[40px] block">
               Related Blogs
             </h1>
 
