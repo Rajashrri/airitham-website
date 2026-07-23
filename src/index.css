@@ -566,4 +566,7 @@ letter-spacing: 0.64px;
   .blogdetails .share{
     width: 100%;
   }
+  .blogdetails .heading .kds{
+    width: 100%;
+  }
 }
