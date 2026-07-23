@@ -566,7 +566,7 @@ letter-spacing: 0.64px;
         margin-top: 26px;
   }
   .blogdetails .heading .kds .tags span:first-child{
-    order: -1;
+    /* order: -1; */
   }
   .blogdetails .heading,
   .blogdetails .heading .kds .tags{

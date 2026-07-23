@@ -107,7 +107,7 @@ document.title = `${blog?.meta_title || blog?.name } | Blog Details | AIRITHM`;
               <div className="kds">
                 <h1 className="text-[#015190]">{blog?.name} </h1>
                 <div className="tags">
-                  {blog?.category_id?.name}{" "}
+                       <span>{blog?.category_id?.name}{" "}</span>
                   <span>
                     Published on :{" "}
                     {new Date(blog?.date).toLocaleDateString("en-US", {
