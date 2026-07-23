@@ -105,7 +105,7 @@ document.title = `${blog?.meta_title || blog?.name } | Blog Details | AIRITHM`;
           <div className="blogdetails">
             <div className="heading">
               <div className="kds">
-                <h1 className="text-[#015190]">{blog?.name} </h1>
+                <h1 className="text-[#015190] mb-[16px]">{blog?.name} </h1>
                 <div className="tags">
                        <span>{blog?.category_id?.name}{" "}</span>
                   <span>
