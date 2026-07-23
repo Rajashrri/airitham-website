@@ -510,7 +510,7 @@ line-height: 120%; /* 28.8px */
 letter-spacing: 0.48px;
 text-transform: capitalize;
 margin-top: 24px;
-margin-bottom: 0;
+margin-bottom: 16px;
 }
 .blogbody h3{
   color: var(--primary-accent, #015190);
