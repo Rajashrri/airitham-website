@@ -193,7 +193,7 @@ return (
                {members?.map((item) => (
   <div
     key={item._id}
-    className="col-span-12 md:col-span-3 py-5 px-7  transition-all duration-300 border border-[1px] border-[#D9D9D9] hover:shadow-[0_0_40px_2px_#42abdf40] rounded-[24px]"
+    className="col-span-12 md:col-span-3 py-5 px-7 flex flex-col md:items-left items-center transition-all duration-300 border border-[1px] border-[#D9D9D9] hover:shadow-[0_0_40px_2px_#42abdf40] rounded-[24px]"
   >
     <img
       src={item.image}
