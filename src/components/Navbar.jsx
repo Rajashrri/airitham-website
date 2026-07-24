@@ -522,11 +522,13 @@ export default function Navbar({
           {/* <button className="absolute top-2 right-2 z-100 h-[20px] w-[20px]" onClick={() => setShowModal2(false)}><X /></button> */}
           <div className="px-10 py-9 overflow-scroll h-full no-scrollbar">
             <div className="flex justify-between mb-[30px]">
-              <img
+             <a href="/">
+               <img
                 src="/svg/airithm-logo.svg"
                 alt="Airithm Logo"
                 className="w-[120px] sm:w-[140px] lg:w-[150px]"
               />
+             </a>
               <button className=" h-[20px] w-[20px]" onClick={() => setShowModal2(false)}><X /></button>
             </div>
             {/* <h2 className="text-[#015190] font-[600] text-[24px]">Resources</h2> */}
