@@ -205,7 +205,7 @@ return (
       {item.name}
     </h2>
 
-    <h3 className="text-[#1E1E1E] text-[18px] font-secondary font-[500]">
+    <h3 className="text-[#1E1E1E] text-center text-[18px] font-secondary font-[500]">
       {item.designation}
     </h3>
   </div>
