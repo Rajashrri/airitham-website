@@ -127,7 +127,7 @@ const TcmPage = () => {
       <section>
         <div className="max-w-7xl mx-auto py-[100px] lg:px-0 px-5">
           <h2 className="text-center text-[#00273A] tracking-[0.02em] leading-none font-primary font-medium lg:text-[40px] text-[32px]">
-            Temporal context memory (TCM)
+            Temporal Context Memory (TCM)
           </h2>
 
       <div className="max-w-6xl mt-[40px]  gap-4 md:flex-row flex-col flex mx-auto ">

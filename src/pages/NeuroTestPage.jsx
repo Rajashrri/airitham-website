@@ -101,7 +101,7 @@ const NeuroTestPage = () => {
                                 <div className="bg-[#fff] py-4 px-6 rounded-[24px] ">
                                     <h3 className='text-[#015190] text-[24px] font-primary font-[500] text-center block'>FastAPI service layer</h3>
                                 </div>
-                                <div className="hidden top-[10px] left-1/2 sm:block flex-1 w-[2px] h-[70px] bg-[#fff] relative
+                                <div className="top-[10px] left-1/2 sm:block flex-1 w-[2px] h-[70px] bg-[#fff] relative
                                     after:content-[''] 
                                     after:absolute 
                                     after:rounded-[50%]
@@ -118,7 +118,7 @@ const NeuroTestPage = () => {
                                 <div className="bg-[#fff] py-4 px-6 rounded-[24px] mt-[20px]">
                                     <h3 className='text-[#015190] text-[24px] font-primary text-center  block'>Evaluation suite loader</h3>
                                 </div>
-                                <div className="hidden top-[10px] left-1/2 sm:block flex-1 w-[2px] h-[70px] bg-[#fff] relative
+                                <div className="top-[10px] left-1/2 sm:block flex-1 w-[2px] h-[70px] bg-[#fff] relative
                                     after:content-[''] 
                                     after:absolute 
                                     after:rounded-[50%]
@@ -167,7 +167,7 @@ const NeuroTestPage = () => {
                     titleClassName="sm:text-[40px] text-[32px] text-[#015190]"
                     subtitleClassName=" sm:text-[16px] text-[#626161]"
                 />
-                <div className="py-[40px] max-w-[891px] mx-auto lg:px-12 px-5 mt-9 grid grid-cols-1 md:grid-cols-2 gap-[40px] bg-[#F9F9F9] shadow-[0px_0px_8px_4px_#01519080] rounded-[24px]">
+                <div className="py-[40px] max-w-[891px] mx-auto lg:px-12 px-5 mt-9 grid grid-cols-1 md:grid-cols-2 md:gap-[40px] bg-[#F9F9F9] shadow-[0px_0px_8px_4px_#01519080] rounded-[24px]">
 
                     {/* Column 1 */}
                     <ul className=''>

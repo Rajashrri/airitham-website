@@ -4,7 +4,7 @@ import SectionHeading from "@/components/common/SectionHeading";
 const TimeLine2 = ({ data }) => {
     const { title, subtitle, cards } = data;
     return (
-        <section className="relative md:rounded-[100px] rounded-[50px] z-12 md:py-28 pt-[90px] bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] pb-[200px]">
+        <section className="relative md:rounded-[100px] rounded-[50px] z-12 md:py-28 pt-[90px] bg-[linear-gradient(180deg,#042539_0%,#000000_100%)] md:pb-[200px] pb-[80px]">
             <div className="relative max-w-[1200px] mx-auto">
 
                 <SectionHeading
@@ -18,7 +18,7 @@ const TimeLine2 = ({ data }) => {
                 {/* CENTER LINE */}
                 {/* <div className="absolute left-1/2 top-[260px] h-[calc(100%-260px)] w-px bg-white/20 -translate-x-1/2" /> */}
 
-                <div className="flex px-5 flex-col md:gap-[140px] gap-[100px] relative">
+                <div className="flex px-5 flex-col md:gap-[140px] gap-[30px] relative">
                     {cards.map((step, index) => (
                         <React.Fragment key={step.id}>
                             <div
@@ -51,15 +51,16 @@ const TimeLine2 = ({ data }) => {
                                 )}
 
                                 {/* CENTER NODE */}
-                                <div className="absolute md:block hidden  md:left-1/2 left-auto md:-translate-x-1/2 -translate-x-0 z-10">
-                                    <div className="w-[64px] h-[64px] rounded-full bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)] flex items-center justify-center text-[24px] font-semibold text-white">
+                                <div className="md:absolute relative order-1 md:w-fit w-full   md:left-1/2 left-auto md:-translate-x-1/2 -translate-x-0 z-10">
+                                    <div className="w-[64px] md:block hidden h-[64px] rounded-full bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)] flex items-center justify-center text-[24px] font-semibold text-white">
                                         {step.id}
                                     </div>
 
-                                    <div className={`${index === cards.length - 1 ? "hidden" : "md:flex hidden justify-center mt-4"} `}>
-                                        <svg width="12" height="209" viewBox="0 0 12 209" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                            <path d="M5.77344 209L11.5469 199H-6.53267e-05L5.77344 209ZM5.77344 0H4.77344V200H5.77344H6.77344V0H5.77344Z" fill="#D9D9D9" fill-opacity="0.5" />
-                                        </svg>
+                                    <div className={`${index === cards.length - 1 ? "hidden" : "flex justify-center mt-4"} `}>
+                                      <svg xmlns="http://www.w3.org/2000/svg" width="12" height="213" viewBox="0 0 12 213" fill="none">
+  <path d="M5.77344 1C4.10677 1 2.77344 2.33333 2.77344 4C2.77344 5.66667 4.10677 7 5.77344 7C7.4401 7 8.77344 5.66667 8.77344 4C8.77344 2.33333 7.4401 1 5.77344 1Z" fill="white"/>
+  <path d="M5.77344 213L11.5469 203H-6.50883e-05L5.77344 213ZM2.77344 4H3.77344C3.77344 2.88562 4.65906 2 5.77344 2V1V0C3.55449 0 1.77344 1.78105 1.77344 4H2.77344ZM5.77344 1V2C6.88782 2 7.77344 2.88562 7.77344 4H8.77344H9.77344C9.77344 1.78105 7.99239 0 5.77344 0V1ZM8.77344 4H7.77344C7.77344 5.11438 6.88782 6 5.77344 6V7V8C7.99239 8 9.77344 6.21895 9.77344 4H8.77344ZM5.77344 7V6C4.65906 6 3.77344 5.11438 3.77344 4H2.77344H1.77344C1.77344 6.21895 3.55449 8 5.77344 8V7ZM5.77344 7H4.77344V204H5.77344H6.77344V7H5.77344Z" fill="#6AC0E6"/>
+</svg>
 
                                     </div>
                                 </div>

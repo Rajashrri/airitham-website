@@ -916,7 +916,7 @@ export default function Navbar({
 
                 <div className=" p-px mt-[40px] w-[fit] rounded-lg bg-[#015190]">
                   <Button
-                    btnText="Start Now"
+                    btnText="Book A Demo"
                     href="/demo"
                     className="bg-white text-[#015190] px-6 py-4 rounded-lg !w-[100%]"
                     useCommonSvg

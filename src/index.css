@@ -348,13 +348,19 @@
   width: 300px;
 }
 
+
 @media (max-width:1230px) {
   .coretext {
     width: 260px;
   }
 }
+@media (max-width:1030px) {
+  .coretext {
+  width: 300px;
+}
+}
 
-@media (max-width:430px) {
+@media (max-width:530px) {
   .coretext {
     width: 100%;
   }

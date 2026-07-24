@@ -3,7 +3,7 @@
 export const HOME_FEATURED_CONFIG = {
   title: "The Airithm core",
   subtitle:
-    "A unified ai infrastructure that powers intelligent solutions with seamless <br/> integration, enterprise security, and limitless scalability",
+    "A unified AI infrastructure that powers intelligent solutions with seamless <br/> integration, enterprise security, and limitless scalability",
   cards: [
     {
       id: 1,

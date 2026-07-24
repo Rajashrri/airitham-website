@@ -53,11 +53,11 @@ export default function ArchitectureLayers() {
             {layer2.title}
           </h2>
 
-          <div className="flex flex-wrap justify-center gap-2 md:gap-10">
+          <div className="flex flex-wrap lg:justify-center gap-2 md:gap-10">
             {layer2.points?.labels?.map((point, index) => (
               <div
                 key={index}
-                className="flex items-center gap-3 text-[#015190]"
+                className="flex lg:items-center gap-3 text-[#015190]"
               >
                 <img
                   src={layer2.iconSrc}
@@ -81,11 +81,11 @@ export default function ArchitectureLayers() {
             {layer3.title}
           </h2>
 
-          <div className="flex flex-wrap max-w-[800px] mx-auto justify-center gap-4 md:gap-10">
+          <div className="flex flex-wrap max-w-[800px] mx-auto lg:justify-center gap-4 md:gap-10">
             {layer3.points?.labels?.map((point, index) => (
               <div
                 key={index}
-                className="flex items-center  gap-2 text-[#015190]"
+                className="flex lg:items-center  gap-2 text-[#015190]"
               >
                 <img
                   src={layer3?.iconSrc}

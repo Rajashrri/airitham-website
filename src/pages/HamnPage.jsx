@@ -16,6 +16,7 @@ import AttentionHeatmapCard from "../components/services/AttentionHeatmap";
 import FooterSection from "@/components/home/FooterSection";
 import SectionHeading from "../components/common/SectionHeading";
 import { icons } from "lucide-react";
+import arrow from "../../public/svg/arrow1.svg"
 
 const HamnPage = () => {
   const { steps } = ATTENTION_FLOW_CONFIG;
@@ -48,7 +49,7 @@ const HamnPage = () => {
           subtitleClassName="sm:text-[16px] text-[#626161]"
         />
 
-        <div className="mt-16 flex p-9 shadow-[0px_0px_8px_4px_#01519080] rounded-[24px]  justify-between gap-y-[20px] flex-wrap sm:flex-nowrap">
+        <div className="mt-16 flex md:flex-row  flex-col p-9 shadow-[0px_0px_8px_4px_#01519080] rounded-[24px]  justify-between gap-y-[20px] flex-wrap sm:flex-nowrap">
           {steps.map((step, index) => {
             const Icon = icons[step.icon.name];
 
@@ -67,19 +68,22 @@ const HamnPage = () => {
 
                 {/* Arrow */}
                 {index !== steps.length - 1 && (
-                  <div className="hidden top-[30px] sm:block flex-1 h-[2px] bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)] relative
-                    after:content-[''] 
-                    after:absolute 
-                    after:rounded
-                    after:left-[-8px]
-                    after:top-[-3px]
-                    after:border-[3px] 
-                    after:border-[#015190] 
-                    after:w-[9px] 
-                    after:h-[9px] 
-                    after:bg-[#fff]
-                  ">
-                    <span className="absolute right-0 top-1/2 -translate-y-1/2 w-3 h-3 border-r-3 border-b-3 border-[#015190] rotate-320" />
+                  // <div className="top-[30px] sm:block flex-1 h-[2px] bg-[linear-gradient(86.66deg,#015190_10.85%,#6AC0E6_84.93%)] relative
+                  //   after:content-[''] 
+                  //   after:absolute 
+                  //   after:rounded
+                  //   after:left-[-8px]
+                  //   after:top-[-3px]
+                  //   after:border-[3px] 
+                  //   after:border-[#015190] 
+                  //   after:w-[9px] 
+                  //   after:h-[9px] 
+                  //   after:bg-[#fff]
+                  // ">
+                  //   <span className="absolute right-0 top-1/2 -translate-y-1/2 w-3 h-3 border-r-3 border-b-3 border-[#015190] rotate-320" />
+                  // </div>
+                  <div className="flex m-auto md:rotate-0 items-center h-[100px] md:w-full w-[100px] rotate-90 justify-content-center">
+                  <img src={arrow} alt="" className="h-fit w-fit object-cover"/>
                   </div>
                 )}
               </React.Fragment>
