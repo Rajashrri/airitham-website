@@ -674,7 +674,7 @@ export default function Navbar({
                         <Rocket color="#015190" width="16px" className="" />
                       </div>
                       <div>
-                        <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]" >LumiQ Memoryy</h3>
+                        <h3 className="text-[16px] font-primary font-[500] mt-0 text-[#1E1E1E]" >LumiQ Memory</h3>
                         {/* <p className="text-[14px] text-[#797979] font-secondary font-[400]">Dual-tier storage enhances memory architecture
     for better contextual understanding and retrieval performance.</p> */}
                       </div>
