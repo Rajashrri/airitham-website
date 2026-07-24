@@ -522,7 +522,7 @@ export default function Navbar({
           {/* <button className="absolute top-2 right-2 z-100 h-[20px] w-[20px]" onClick={() => setShowModal2(false)}><X /></button> */}
           <div className="px-10 py-9 overflow-scroll h-full no-scrollbar">
             <div className="flex justify-between mb-[30px]">
-             <a href="/">
+             <a href="/" onClick={() => setShowModal2(false)}>
                <img
                 src="/svg/airithm-logo.svg"
                 alt="Airithm Logo"
